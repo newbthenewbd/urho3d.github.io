@@ -1,8 +1,18 @@
 {% comment %}<!--
-List navigation item from an array of hash with the following keys: title, subtitle, url.
+List navigation item from an array of hash with the following keys: title, subtitle, url, class.
 -->{% endcomment %}
 
 {% for nav in navs_list %}
-  <li class="{% if page.title == nav.title %}active{% endif %}{% if nav.class %} {{ nav.class }}{% endif %}"><a href={% if nav.url contains 'http' %}"{{ nav.url }}" target="_blank"{% else %}"{{ BASE_PATH }}{% if nav.url contains '_path' %}{{ site.JB[nav.url] }}{% else %}{{ nav.url |replace:'@last_release@',last_release }}{% endif %}"{% endif %}>{{ nav.title }}{% if nav.subtitle %}<small>{{ nav.subtitle }}</small>{% endif %}</a></li>
+  {% if nav.class and nav.class == 'dropdown' %}
+    <li class="dropdown{% if page.group == nav.title %} active{% endif %}">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="">{{ nav.title }}<span class="caret"></span>{% if nav.subtitle %}<small>{{ nav.subtitle }}</small>{% endif %}</a>
+      <ul class="dropdown-menu" role="menu">
+      {% assign dropdown_navs_list = site.data.header_navs[nav.url] %}
+      {% include custom/dropdown_navs_list %}
+      </ul>
+    </li>
+  {% else %}
+    <li class="{% if page.title == nav.title %}active{% endif %}{% if nav.class %} {{ nav.class }}{% endif %}"><a href={% if nav.url contains 'http' %}"{{ nav.url }}" target="_blank"{% else %}"{{ BASE_PATH }}{% if nav.url contains '_path' %}{{ site.JB[nav.url] }}{% else %}{{ nav.url |replace:'@last_release@',last_release }}{% endif %}"{% endif %}>{{ nav.title }}{% if nav.subtitle %}<small>{{ nav.subtitle }}</small>{% endif %}</a></li>
+  {% endif %}
 {% endfor %}
 {% assign navs_list = nil %}

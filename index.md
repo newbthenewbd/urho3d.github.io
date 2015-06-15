@@ -36,7 +36,7 @@ title: About
 - Scripting using [AngelScript](http://www.angelcode.com/angelscript/)
 - Alternative script interface using [Lua](http://www.lua.org/)<font color="olive"><sup>v1.3</sup></font> or [LuaJIT](http://luajit.org/)<font color="olive"><sup>v1.31</sup></font> (on Windows, Linux, Mac OS X, Android, and Raspberry Pi)
 - Networking using [kNet](https://github.com/juj/kNet/) + possibility to make HTTP requests<font color="olive"><sup>v1.3</sup></font>
-- Pathfinding using [Recast/Detour](https://code.google.com/p/recastnavigation/)<font color="olive"><sup>v1.23</sup></font>
+- Pathfinding<font color="olive"><sup>v1.23</sup></font> and crowd simulation<font color="green"><sup>v1.4</sup></font> using [Recast/Detour](https://code.google.com/p/recastnavigation/)
 - Image loading using [stb_image](http://nothings.org/) + DDS / KTX / PVR compressed texture support
 - 2D and "3D" audio playback, Ogg Vorbis support using [stb_vorbis](http://nothings.org/) + WAV format support
 - TrueType font rendering using [FreeType](http://www.freetype.org/), [AngelCode bitmap fonts](http://www.angelcode.com/products/bmfont/) are also supported

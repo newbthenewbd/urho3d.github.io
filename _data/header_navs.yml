@@ -1,8 +1,41 @@
-dropdowns:
+pills:
+
+  - title: About
+    subtitle: Urho3D
+    url: /
+
+  - title: News
+    subtitle: Annoucements and releases
+    url: news_dropdown
+    class: dropdown
+
+  - title: Documentation
+    subtitle: Manual and scripting APIs
+    url: /documentation/@last_release@/index.html
+
+#Wiki is temporarily unavailable
+#  - title: Wiki
+#    subtitle: Guides and Tutorials
+#    url: https://github.com/urho3d/Urho3D/wiki
+
+  - title: Discussion
+    subtitle: Forums
+    url: http://urho3d.prophpbb.com
+
+  - title: Download
+    subtitle: Source and binary packages
+    url: https://sourceforge.net/projects/urho3d/files/Urho3D/
+
+  - title: View on GitHub
+    subtitle: Source codes
+    url: https://github.com/urho3d/Urho3D
+    class: visible-xxs-block
+
+news_dropdown:
 
   - title: Latest news
     subtitle:
-    url: /
+    url: news_path
 
   - title: News archive
     subtitle:
@@ -15,35 +48,3 @@ dropdowns:
   - title: News tags
     subtitle:
     url: tags_path
-
-  - title: Pages
-    subtitle:
-    url: pages_path
-
-pills:
-
-  - title: About
-    subtitle: Urho3D
-    url: /about.html
-
-  - title: Documentation
-    subtitle: Manual and scripting APIs
-    url: /documentation/@last_release@/index.html
-
-#Wiki is temporarily unavailable
-#  - title: Wiki
-#    subtitle: Guides and Tutorials
-#    url: https://github.com/urho3d/Urho3D/wiki
-
-  - title: Discussion
-    subtitle: Forum
-    url: http://urho3d.prophpbb.com
-
-  - title: Downloads
-    subtitle: File releases
-    url: https://sourceforge.net/projects/urho3d/files/Urho3D/
-
-  - title: View on GitHub
-    subtitle: Source codes
-    url: https://github.com/urho3d/Urho3D
-    class: visible-xxs-block

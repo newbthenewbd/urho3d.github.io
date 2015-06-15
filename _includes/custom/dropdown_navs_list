@@ -1,0 +1,8 @@
+{% comment %}<!--
+List dropdown navigation item from an array of hash with the following keys: title, subtitle, url, class.
+-->{% endcomment %}
+
+{% for nav in dropdown_navs_list %}
+  <li class="{% if page.title == nav.title %}active{% endif %}{% if nav.class %} {{ nav.class }}{% endif %}"><a href={% if nav.url contains 'http' %}"{{ nav.url }}" target="_blank"{% else %}"{{ BASE_PATH }}{% if nav.url contains '_path' %}{{ site.JB[nav.url] }}{% else %}{{ nav.url |replace:'@last_release@',last_release }}{% endif %}"{% endif %}>{{ nav.title }}{% if nav.subtitle %}<small>{{ nav.subtitle }}</small>{% endif %}</a></li>
+{% endfor %}
+{% assign dropdown_navs_list = nil %}

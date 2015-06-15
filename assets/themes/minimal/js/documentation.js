@@ -23,14 +23,10 @@
 $(document).ready(function() {
   // Documentation page must have a document switcher
   var $documentSwitcher = $('#document-switcher');
-  // Read last user selected document group from cookie
-  var documentGroup = Cookies.get('documentGroup');
   // Verify the links in the document switcher
   $('+ .dropdown-menu [href]', $documentSwitcher).each(function(i, elem) {
-    // Make sure the active document group is the same as user last selected group
-    if (documentGroup && $(elem).text() === documentGroup && !$(elem).parent().hasClass('active')) window.location.href = $(elem).attr('href');
     // Store current user selected document group to cookie
-    $(elem).parent().on('click', function() { Cookies.set('documentGroup', $(elem).text(), { expires: 365, path: '/documentation' }); });
+    $(elem).parent().on('click', function() { Cookies.set('documentGroup', $(elem).text(), {expires: 365}); });
     // i == 0 is /HEAD/
     // Page is new when only exists in /HEAD/
     // Page is deprecated when not exists in /HEAD/ anymore
