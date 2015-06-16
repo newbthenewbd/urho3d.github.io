@@ -102,28 +102,25 @@
   // Toggles
   .icon-prev,
   .icon-next,
-  .glyphicon-chevron-left,
-  .glyphicon-chevron-right {
+  .fa-chevron-left,
+  .fa-chevron-right {
     position: absolute;
-    top: 50%;
+    top: 5%;
     z-index: 5;
     display: inline-block;
   }
   .icon-prev,
-  .glyphicon-chevron-left {
-    left: 50%;
-    margin-left: -10px;
+  .fa-chevron-left {
+    left: 5%;
   }
   .icon-next,
-  .glyphicon-chevron-right {
-    right: 50%;
-    margin-right: -10px;
+  .fa-chevron-right {
+    right: 5%;
   }
   .icon-prev,
   .icon-next {
     width:  20px;
     height: 20px;
-    margin-top: -10px;
     font-family: serif;
   }
 
@@ -147,7 +144,7 @@
 
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: -20px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -190,14 +187,12 @@
 // Hidden by default for smaller viewports
 .carousel-caption {
   position: absolute;
-  left: 15%;
-  right: 15%;
-  bottom: 20px;
+  right: 0;
+  bottom: 0;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px 20px;
   color: @carousel-caption-color;
-  text-align: center;
+  text-align: right;
   text-shadow: @carousel-text-shadow;
   & .btn {
     text-shadow: none; // No shadow for button elements in carousel-caption
@@ -207,37 +202,42 @@
 
 // Scale up controls for tablets and up
 @media screen and (min-width: @screen-sm-min) {
-
   // Scale up the controls a smidge
   .carousel-control {
-    .glyphicon-chevron-left,
-    .glyphicon-chevron-right,
+    .fa-chevron-left,
+    .fa-chevron-right,
     .icon-prev,
     .icon-next {
       width: 30px;
       height: 30px;
-      margin-top: -15px;
       font-size: 30px;
     }
-    .glyphicon-chevron-left,
-    .icon-prev {
-      margin-left: -15px;
-    }
-    .glyphicon-chevron-right,
-    .icon-next {
-      margin-right: -15px;
-    }
-  }
-
-  // Show and left align the captions
-  .carousel-caption {
-    left: 20%;
-    right: 20%;
-    padding-bottom: 30px;
   }
 
   // Move up the indicators
   .carousel-indicators {
-    bottom: 20px;
+    bottom: -10px;
+  }
+
+  // Increase padding for the captions
+  .carousel-caption {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (min-width: @screen-lg-min) {
+  // Increase padding for the captions
+  .carousel-caption {
+    padding: 20px 40px 40px 40px;
+  }
+}
+
+// Scale down controls for phone
+@media screen and (max-width: (@screen-xs-min - 1)) {
+  // Shift the indicators to the left
+  .carousel-indicators {
+    left: 5px;
+    margin-left: 0;
+    text-align: left;
   }
 }

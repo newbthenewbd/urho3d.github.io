@@ -4,10 +4,7 @@
 
 
 .jumbotron {
-  padding: @jumbotron-padding;
-  margin-bottom: @jumbotron-padding;
   color: @jumbotron-color;
-  background-color: @jumbotron-bg;
 
   h1,
   .h1 {
@@ -31,18 +28,34 @@
     max-width: 100%;
   }
 
-  @media screen and (min-width: @screen-sm-min) {
-    padding-top:    (@jumbotron-padding * 1.6);
-    padding-bottom: (@jumbotron-padding * 1.6);
-
-    .container & {
-      padding-left:  (@jumbotron-padding * 2);
-      padding-right: (@jumbotron-padding * 2);
-    }
-
+  // Scale down for small viewports
+  @media screen and (max-width: @screen-xs-max) {
     h1,
     .h1 {
-      font-size: (@font-size-base * 4.5);
+      font-size: @font-size-large;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: @font-size-small;
+    }
+  }
+  @media screen and (max-width: (@screen-xs-min - 1)) {
+    h1,
+    .h1 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+
+      a {
+        font-size: @font-size-base;
+        color: @btn-default-bg;
+
+        &:hover,
+        &:focus {
+          color: @btn-primary-bg;
+        }
+      }
     }
   }
 }

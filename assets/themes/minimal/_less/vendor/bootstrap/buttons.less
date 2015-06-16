@@ -60,6 +60,18 @@
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
 }
+.btn-hollow {
+  .button-variant(@btn-default-bg; @btn-default-color; @btn-default-bg);
+  background: none;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-color: hsla(0, 0, 90%, 0.2);
+  }
+}
 // Success appears as green
 .btn-success {
   .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);

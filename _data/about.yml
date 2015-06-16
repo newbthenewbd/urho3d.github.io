@@ -1,12 +1,4 @@
----
-layout: page
-title: About
----
-{% include JB/setup %}
-
-**Urho3D** is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by [OGRE](http://www.ogre3d.org/) and [Horde3D](http://www.horde3d.org/).
-
-## Features
+features:
 - Direct3D9, Direct3D11<font color="green"><sup>v1.4</sup></font>, OpenGL 2.0 or 3.2<font color="green"><sup>v1.4</sup></font>, OpenGL ES 2.0 or WebGL<font color="green"><sup>v1.4</sup></font> rendering
 - HLSL or GLSL shaders + caching of HLSL bytecode
 - Configurable rendering pipeline. Default implementations for forward, light pre-pass and deferred rendering
@@ -45,24 +37,23 @@ title: About
 - Scene editor and UI-layout editor implemented in script with undo & redo capabilities
 - Model/scene/animation/material import from formats supported by [Open Asset Import Library](http://assimp.sourceforge.net)
 - Alternative model/animation import from OGRE mesh.xml and skeleton.xml files
-- Supported build tools and IDEs: Visual Studio, Xcode, Eclipse, CodeBlocks, QtCreator, GCC, LLVM/Clang, MinGW
+- 'Supported build tools and IDEs: Visual Studio, Xcode, Eclipse, CodeBlocks, QtCreator, GCC, LLVM/Clang, MinGW'
 - Supports both 32-bit and 64-bit<font color="olive"><sup>v1.3</sup></font> build
 - Build as single external library<font color="olive"><sup>v1.3</sup></font> (can be linked against statically or dynamically)
 
-## Discussions, support and contributing
+misc_links:
 - Use the [Urho3D forum](http://urho3d.prophpbb.com/) for questions and discussion.
 - For bug reports and contributing, please use the GitHub [issue tracker](https://github.com/urho3d/Urho3D/issues/) and [pull requests](https://github.com/urho3d/Urho3D/pulls) pages.
 - When you contribute, you have to agree that your work will be released under the license as seen at the top of [License.txt](https://github.com/urho3d/Urho3D/blob/master/License.txt).
 
-## Limitations
-Though Urho3D already contains several useful features and implements a framework for 3D games and applications, it is not yet a complete out-of-the-box game creation toolkit. Some things you can expect having to work on, or to require skills for: (contributions to the project are naturally welcome)
+limitations:
 - C++ for performance-critical code and improving existing subsystems such as networking, physics and animation, depending on your needs
-- HLSL and GLSL shaders: the provided shaders give only basic examples of what is possible
+- 'HLSL and GLSL shaders: the provided shaders give only basic examples of what is possible'
 - Additional optimization for mobile devices
 - Editors and additional asset conversion functionality
 - Integration of additional 3rd party libraries, for example a more complete UI library, HTML rendering, or additional network protocols
 
-## Engine development, contributions and bugfixes by
+contributors:
 - Lasse Öörni (loorni@gmail.com, AgentC at GameDev.net)
 - Wei Tjong Yao
 - Aster Jian
@@ -120,9 +111,6 @@ Though Urho3D already contains several useful features and implements a framewor
 - szamq
 - thebluefish
 
-## Logos
-- [Large color]({{ BASE_PATH }}/assets/images/logo-big.jpg)
-- [Large BW]({{ BASE_PATH }}/assets/images/logo-big-bw.png)
-
-## Origin of the name
-**Urho** (Finnish for "hero" or "brave fighter") was a legendary, tyrannical king among the fish. He always hunted without mercy. Sadly, he passed away on 6th November 2009. This engine was originally called Bofh3D (hinting at the covert goal of reimplementing the game BOFH: Servers under Siege in 3D, which still stands) but was renamed to Urho3D in his honor. For more of Urho's legend, see also the music project [http://www.mikseri.net/Urho/](http://www.mikseri.net/Urho/).
+logo_links:
+- '[Large color]({{ BASE_PATH }}/assets/images/logo-big.jpg)'
+- '[Large BW]({{ BASE_PATH }}/assets/images/logo-big-bw.png)'

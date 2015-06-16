@@ -1,0 +1,74 @@
+---
+layout: page
+title: About
+---
+{% include JB/setup %}
+
+<p class='lead'><strong>Urho3D</strong> is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by <a href="http://www.ogre3d.org/">OGRE</a> and <a href="http://www.horde3d.org/">Horde3D</a>.</p>
+
+<div id="newsflash" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    {% for category in site.categories %}
+    <li data-target="#newsflash" data-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active"{% endif %}></li>
+    {% endfor %}
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    {% for category in site.categories %}
+    <div class="item{% if forloop.first %} active{% endif %}">
+      <img src="{{ BASE_PATH }}/assets/images/carousel-background-{{ forloop.index }}.jpg" alt="slide background image">
+      <div class="carousel-caption jumbotron">
+        <h1>{{ category[1][0].title }}</h1>
+        <p>{{ category[1][0].date |date_to_string }} - {{ category[0] }}<a class="visible-xxs-inline" href="{{ BASE_PATH }}{{ category[1][0].url }}" role="button">&nbsp;&nbsp;<span class="icon fa fa-arrow-circle-right"></span></a></p>
+        <a class="btn btn-hollow hidden-xxs" href="{{ BASE_PATH }}{{ category[1][0].url }}" role="button">Learn more&nbsp;&nbsp;<span class="icon fa fa-arrow-circle-right"></span></a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="{{ BASE_PATH }}/#newsflash" role="button" data-slide="prev">
+    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="{{ BASE_PATH }}/#newsflash" role="button" data-slide="next">
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<h2 id="features">Features</h2>
+<ul>
+  {% assign arbitrary_list = site.data.about.features %}
+  {% include custom/arbitrary_list %}
+</ul>
+
+<h2 id="discussions-support-and-contributing">Discussions, support and contributing</h2>
+<ul>
+  {% assign arbitrary_list = site.data.about.misc_links %}
+  {% include custom/arbitrary_list %}
+</ul>
+
+<h2 id="limitations">Limitations</h2>
+<p>Though Urho3D already contains several useful features and implements a framework for 3D games and applications, it is not yet a complete out-of-the-box game creation toolkit. Some things you can expect having to work on, or to require skills for: (contributions to the project are naturally welcome)</p>
+<ul>
+  {% assign arbitrary_list = site.data.about.limitations %}
+  {% include custom/arbitrary_list %}
+</ul>
+
+<h2 id="engine-development-contributions-and-bugfixes-by">Engine development, contributions and bugfixes by</h2>
+<ul>
+  {% assign arbitrary_list = site.data.about.contributors %}
+  {% include custom/arbitrary_list %}
+</ul>
+
+<h2 id="logos">Logos</h2>
+<ul>
+  {% assign arbitrary_list = site.data.about.logo_links %}
+  {% include custom/arbitrary_list %}
+</ul>
+
+<h2 id="origin-of-the-name">Origin of the name</h2>
+<p><strong>Urho</strong> (Finnish for “hero” or “brave fighter”) was a legendary, tyrannical king among the fish. He always hunted without mercy. Sadly, he passed away on 6th November 2009. This engine was originally called Bofh3D (hinting at the covert goal of reimplementing the game BOFH: Servers under Siege in 3D, which still stands) but was renamed to Urho3D in his honor. For more of Urho’s legend, see also the music project <a href="http://www.mikseri.net/Urho/">http://www.mikseri.net/Urho/</a>.</p>
