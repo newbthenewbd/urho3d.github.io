@@ -53,6 +53,8 @@ $(document).ready(function() {
 
   // Read last user selected document group from cookie and adjust the documentation link
   var documentGroup = Cookies.get('documentGroup');
-  var $documentationLink = $('nav a[href^="/documentation/"]');
-  $documentationLink.attr('href', $documentationLink.attr('href').replace(/\/documentation\/.+?\//, '/documentation/' + documentGroup + '/'));
+  if (documentGroup) {
+    var $documentationLink = $('nav a[href*="/documentation/"]');
+    $documentationLink.attr('href', $documentationLink.attr('href').replace(/\/documentation\/.+?\//, '/documentation/' + documentGroup + '/'));
+  }
 });
