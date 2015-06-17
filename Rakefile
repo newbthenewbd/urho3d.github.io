@@ -61,14 +61,15 @@ task :post do
   
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts 'description: ""'
-    post.puts "category: \"#{category.gsub(/-/,' ')}\""
+    post.puts '---'
+    post.puts 'layout: post'
+    post.puts "title: #{title.gsub(/-/,' ')}"
+    post.puts 'description:'
+    post.puts "category: #{category.gsub(/-/,' ')}"
+    post.puts 'carousel_background:'
     post.puts "tags: #{tags}"
-    post.puts "---"
-    post.puts "{% include JB/setup %}"
+    post.puts '---'
+    post.puts '{% include JB/setup %}'
   end
 end # task :post
 
@@ -88,12 +89,12 @@ task :page do
   mkdir_p File.dirname(filename)
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: page"
-    post.puts "title: \"#{title}\""
-    post.puts 'description: ""'
-    post.puts "---"
-    post.puts "{% include JB/setup %}"
+    post.puts '---'
+    post.puts 'layout: page'
+    post.puts "title: #{title}"
+    post.puts 'description:'
+    post.puts '---'
+    post.puts '{% include JB/setup %}'
   end
 end # task :page
 

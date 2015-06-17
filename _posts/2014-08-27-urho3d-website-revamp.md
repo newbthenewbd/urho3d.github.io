@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Urho3D website revamp"
-category: "announcements"
+title: Urho3D website revamp
+category: announcements
+carousel_background:
 tags: [website]
 ---
 {% include JB/setup %}

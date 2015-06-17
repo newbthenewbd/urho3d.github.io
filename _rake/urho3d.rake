@@ -20,18 +20,20 @@ task :release do
 
   puts "Creating new release: #{filename}"
   open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
+    post.puts '---'
+    post.puts 'layout: post'
     post.puts "title: Urho3D #{ENV['tag']} release"
-    post.puts "category: \"#{category}\""
+    post.puts "category: #{category}"
+    post.puts 'caroursel_background:'
     post.puts "tags: #{tags}"
-    post.puts "---"
-    post.puts "{% include JB/setup %}"
-    post.puts "{% include custom/release_artifacts %}"
-    post.puts ""
-    post.puts "### Changelog"
-    post.puts "- unodered list 1"
-    post.puts "- unodered list 2"
+    post.puts 'excluded_artifacts:'
+    post.puts '---'
+    post.puts '{% include JB/setup %}'
+    post.puts '{% include custom/release_artifacts %}'
+    post.puts ''
+    post.puts '### Changelog'
+    post.puts '- unodered list 1'
+    post.puts '- unodered list 2'
   end
 end # task :release
 
