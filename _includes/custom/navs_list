@@ -4,7 +4,7 @@ List navigation item from an array of hash with the following keys: title, subti
 
 {% for nav in navs_list %}
   {% if nav.class and nav.class == 'dropdown' %}
-    <li class="dropdown{% if page.group == nav.title %} active{% endif %}">
+    <li class="dropdown{% if page.nav_group == nav.title %} active{% endif %}">
       <a class="dropdown-toggle" data-toggle="dropdown" href="">{{ nav.title }}<span class="caret"></span>{% if nav.subtitle %}<small>{{ nav.subtitle }}</small>{% endif %}</a>
       <ul class="dropdown-menu" role="menu">
       {% assign dropdown_navs_list = site.data.header_navs[nav.url] %}

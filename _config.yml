@@ -74,6 +74,7 @@ JB:
   categories_path: /news-categories.html
   tags_path: /news-tags.html
   pages_path: /pages.html
+  demos_path: /HTML5-samples.html
   atom_path: /atom.xml
   rss_path: /rss.xml
 

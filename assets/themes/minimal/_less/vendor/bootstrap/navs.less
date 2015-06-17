@@ -121,11 +121,10 @@
     // Links rendered as pills
     > a {
       border-radius: @nav-pills-border-radius;
-
-      small {
-        padding-top: 2px;
-        padding-left: 5px;
-      }
+    }
+    a > small {
+      padding-top: 2px;
+      padding-left: 5px;
     }
     + li {
       margin-left: 2px;
@@ -139,6 +138,15 @@
         color: @nav-pills-active-link-hover-color;
         background-color: @nav-pills-active-link-hover-bg;
 
+        small {
+          color: darken(@nav-pills-active-link-hover-color, 15%);
+        }
+      }
+    }
+    &.active > ul > li.active > a {
+      &,
+      &:hover,
+      &:focus {
         small {
           color: darken(@nav-pills-active-link-hover-color, 15%);
         }

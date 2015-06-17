@@ -9,9 +9,10 @@ pills:
     url: news_dropdown
     class: dropdown
 
-  - title: Documentation
-    subtitle: Manual and scripting APIs
-    url: /documentation/@last_release@/index.html
+  - title: Resources
+    subtitle: Documentation and demos
+    url: resources_dropdown
+    class: dropdown
 
 #Wiki is temporarily unavailable
 #  - title: Wiki
@@ -48,3 +49,13 @@ news_dropdown:
   - title: News tags
     subtitle:
     url: tags_path
+
+resources_dropdown:
+
+  - title: Documentation
+    subtitle: Manual and scripting APIs
+    url: /documentation/@last_release@/index.html
+
+  - title: HTML5 samples
+    subtitle:
+    url: demos_path
