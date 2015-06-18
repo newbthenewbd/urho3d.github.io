@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lua autocompletion generator updated to Urho3D 1.4
+title: Lua autocompletion generator updated to 1.4
 description:
 category: tool integrations
 carousel_background:
