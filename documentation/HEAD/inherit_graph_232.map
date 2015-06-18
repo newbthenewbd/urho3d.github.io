@@ -156,7 +156,7 @@
 <area shape="rect" id="node248" href="$class_urho3_d_1_1_decal_set.html" title="Decal renderer component." alt="" coords="1568,1896,1704,1925"/>
 <area shape="rect" id="node250" href="$class_urho3_d_1_1_drawable2_d.html" title="Base class for 2D visible components." alt="" coords="1559,1949,1713,1979"/>
 <area shape="rect" id="node258" href="$class_urho3_d_1_1_light.html" title="Light component." alt="" coords="1581,2003,1691,2032"/>
-<area shape="rect" id="node260" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer components." alt="" coords="1559,2056,1713,2085"/>
+<area shape="rect" id="node260" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer component." alt="" coords="1559,2056,1713,2085"/>
 <area shape="rect" id="node262" href="$class_urho3_d_1_1_static_model.html" title="Static model component." alt="" coords="1559,2109,1713,2139"/>
 <area shape="rect" id="node270" href="$class_urho3_d_1_1_terrain_patch.html" title="Individually rendered part of a heightmap terrain." alt="" coords="1559,1629,1713,1659"/>
 <area shape="rect" id="node272" href="$class_urho3_d_1_1_text3_d.html" title="3D text component." alt="" coords="1575,1683,1697,1712"/>

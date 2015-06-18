@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$class_urho3_d_1_1_drawable.html" title="Base class for visible components." alt="" coords="1101,271,1240,300"/>
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_zone.html" title="Component that describes global rendering properties." alt="" coords="1469,184,1581,213"/>
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_light.html" title="Light component." alt="" coords="1471,597,1580,627"/>
-<area shape="rect" id="node67" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer components." alt="" coords="1448,5,1603,35"/>
+<area shape="rect" id="node67" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer component." alt="" coords="1448,5,1603,35"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="665,349,820,379"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="5,267,157,296"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="340,360,452,389"/>

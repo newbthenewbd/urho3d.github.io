@@ -3,7 +3,7 @@
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_drawable.html" title="Base class for visible components." alt="" coords="984,352,1123,381"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_zone.html" title="Component that describes global rendering properties." alt="" coords="1376,437,1488,467"/>
 <area shape="rect" id="node26" href="$class_urho3_d_1_1_light.html" title="Light component." alt="" coords="1377,305,1487,335"/>
-<area shape="rect" id="node40" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer components." alt="" coords="1355,491,1509,520"/>
+<area shape="rect" id="node40" href="$class_urho3_d_1_1_renderer2_d.html" title="2D renderer component." alt="" coords="1355,491,1509,520"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="583,215,737,244"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_bounding_box.html" title="Three&#45;dimensional axis&#45;aligned bounding box." alt="" coords="232,500,395,529"/>
 <area shape="rect" id="node30" href="$class_urho3_d_1_1_octant.html" title="Octree octant" alt="" coords="599,396,721,425"/>
