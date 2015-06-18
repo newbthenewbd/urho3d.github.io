@@ -29,14 +29,23 @@
   }
 
   // Scale down for small viewports
-  @media screen and (max-width: @screen-xs-max) {
+  @media screen and (max-width: @screen-md-max) {
     h1,
     .h1 {
       font-size: @font-size-large;
     }
     p {
-      margin-bottom: 10px;
       font-size: @font-size-small;
+    }
+  }
+  @media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    // Revert back the fonts to their original size for this viewport size range because both the header and footer are unfloated leaving main taking the full width
+    h1,
+    .h1 {
+      font-size: 2em;   // Normalized h1 font size
+    }
+    p {
+      font-size: @jumbotron-font-size;
     }
   }
   @media screen and (max-width: (@screen-xs-min - 1)) {

@@ -122,6 +122,16 @@ header {
 
 main {
   margin-left: (@side-width + @side-gutter);
+
+  // Ensure last child of the main tag does not have bottom margin so that the main's bottom aligns with footer's bottom when footer is at the side
+  > *:last-child {
+    &,
+    & > *:last-child,
+    & > *:last-child > *:last-child,
+    & > *:last-child > *:last-child > *:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 footer {
@@ -421,7 +431,7 @@ h4.platform {
   }
 }
 
-// About page
+// Index (About) page
 
 #newsflash {
   margin: 40px 0;
