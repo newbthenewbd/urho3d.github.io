@@ -173,6 +173,10 @@ footer {
     position: static;
     width: auto;
   }
+
+  #theme_filter_fix {
+    display: none;
+  }
 }
 
 // On smaller viewport - unfloat both header and footer but the col-sm-6 grid class should make header-nav (bottom part of header) floats to the right of its top part
@@ -207,6 +211,10 @@ footer {
     margin-left: 0;
     padding-bottom: @line-height-computed;
     margin-bottom: @line-height-computed;
+  }
+
+  #theme_filter_fix {
+    display: none;
   }
 }
 
@@ -245,6 +253,11 @@ footer {
   .navbar {
     margin-bottom: (@line-height-computed / 2);
   }
+}
+
+// Need a filler to fill the full window height to fix both Webkit and firefox bug when filter is being used for dark theme
+#theme_filter_fix {
+  background-color: white;
 }
 
 
@@ -430,6 +443,7 @@ h4.platform {
     white-space: normal;
   }
 }
+
 
 // Index (About) page
 

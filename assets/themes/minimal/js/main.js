@@ -45,6 +45,10 @@
 
 // Place any jQuery/helper plugins in here.
 
+function adjustFillerHeight($filler, $main, $body, $window) {
+  $filler.css('height', $window.height() - $main.height() - $body.outerHeight() + $body.height());
+};
+
 function applyFilter(enable) {
   var elem, filter;
   if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
@@ -92,4 +96,7 @@ $(document).ready(function() {
   });
   // Enable theme switcher functionality when only Javascript is enabled
   $themeSwitcher.removeClass('hidden');
+
+  // Ensure the filler fills the full window height
+  $(window).resize(adjustFillerHeight($('#theme_filter_fix'), $('main'), $('body'), $(window))).trigger('resize');
 });
