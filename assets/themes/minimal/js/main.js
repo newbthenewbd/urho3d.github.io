@@ -44,6 +44,24 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+function applyFilter(enable) {
+  var elem, filter;
+  if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
+    elem = $('html');
+    filter = '-webkit-filter';
+  } else {
+    elem = $('body');
+    filter = 'filter';
+    // Firefox does not invert body's background color as Webkit does, so workaround it
+    $(elem).css('background-color', enable ? '#131313' : 'white');
+  }
+  // Invert luminance for top-level element which should be inherited by all the descendant elements
+  $(elem).css(filter, enable ? 'invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%)' : 'none');
+  // Revert luminance just for image and embedded iframe usually used for youtube videos
+  $('img, .embed-responsive > iframe').css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
+};
+
 $(document).ready(function() {
   // Bust Travis CI build status image cache
   $('.build-status img').each(function() {
@@ -57,4 +75,16 @@ $(document).ready(function() {
     var $documentationLink = $('nav a[href*="/documentation/"]');
     $documentationLink.attr('href', $documentationLink.attr('href').replace(/\/documentation\/.+?\//, '/documentation/' + documentGroup + '/'));
   }
+
+  // Read last user selected theme and switch to the selected theme
+  var theme = Cookies.get('theme');
+  if (!theme) theme = 'light';
+  $('#theme-switcher input').each(function(i, elem) {
+    if ($(elem).attr('id') === theme) {
+      $(elem).parent().button('toggle');
+      if (theme === 'dark') applyFilter(true);
+    }
+    // Store current user selected theme to cookie
+    $(elem).change(function() { Cookies.set('theme', $(elem).attr('id'), {expires: 365}); applyFilter($(elem).attr('id') === 'dark') });
+  });
 });

@@ -4,8 +4,9 @@ nav_group: News
 scripts: [/js/vendor/masonry.min.js, /js/post.js]
 ---
 {% include JB/setup %}
-{% include themes/minimal/post.html %}
 {% assign category = page.category %}
+{% include themes/minimal/page.html %}
+{% include themes/minimal/post.html %}
 {% include custom/pager %}
 <div id="comments_disqus_thread">
 {% if site.safe %}

@@ -1,26 +1,31 @@
 <div class="page-header">
   <h1>
-    {{ page.title }}
-    {% if DOXYGEN_PATH %}
-    <small class="dropdown pull-right">
-      <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="document-switcher" data-toggle="dropdown">
-        {{ page.group }}
-        <span class="caret"></span>
-      </button>
-      {% capture current_group %}/{{ page.group }}/{% endcapture %}
-      <ul class="dropdown-menu" role="menu" aria-labelledby="document-switcher">
-        <li class="dropdown-header" role="presentation">Snapshots</li>
-        {% assign target_group = '/HEAD/' %}
-        <li{% if current_group == target_group %} class="active"{% endif %} role="presentation"><a role="menuitem" tabindex="-1" href="{{ BASE_PATH }}{{ page.url |replace_first:current_group,target_group }}">HEAD</a></li>
-        <li class="divider" role="presentation"></li>
-        <li class="dropdown-header" role="presentation">Releases</li>
-        {% for release in site.data.urho3d.releases reversed %}
-          {% capture target_group %}/{{ release }}/{% endcapture %}
-        <li{% if current_group == target_group %} class="active"{% endif %} role="presentation"><a role="menuitem" tabindex="-1" href="{{ BASE_PATH }}{{ page.url |replace_first:current_group,target_group }}">{{ release }}</a></li>
-        {% endfor %}
-      </ul>
-    </small>
-    {% endif %}
+    {% if category %}{{ category |capitalize }}{% else %}{{ page.title }}{% endif %}
+    <div class="btn-toolbar pull-right" role="toolbar" aria-label="user preferences">
+      <div class="btn-group" role="group" aria-label="theme switcher" id="theme-switcher" data-toggle="buttons">
+        <label class="btn btn-default btn-xs"><input type="radio" name="theme" id="dark" autocomplete="off">Dark</label>
+        <label class="btn btn-default btn-xs active"><input type="radio" name="theme" id="light" autocomplete="off">Light</label>
+      </div>
+      {% if DOXYGEN_PATH %}
+      <div class="btn-group dropdown pull-right">
+        <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="document-switcher" data-toggle="dropdown">
+          {{ page.group }}
+          <span class="caret"></span>
+        </button>
+        {% capture current_group %}/{{ page.group }}/{% endcapture %}
+        <ul class="dropdown-menu" role="menu" aria-labelledby="document-switcher">
+          <li class="dropdown-header" role="presentation">Snapshots</li>
+          {% assign target_group = '/HEAD/' %}
+          <li{% if current_group == target_group %} class="active"{% endif %} role="presentation"><a role="menuitem" tabindex="-1" href="{{ BASE_PATH }}{{ page.url |replace_first:current_group,target_group }}">HEAD</a></li>
+          <li class="divider" role="presentation"></li>
+          <li class="dropdown-header" role="presentation">Releases</li>
+          {% for release in site.data.urho3d.releases reversed %}
+            {% capture target_group %}/{{ release }}/{% endcapture %}
+          <li{% if current_group == target_group %} class="active"{% endif %} role="presentation"><a role="menuitem" tabindex="-1" href="{{ BASE_PATH }}{{ page.url |replace_first:current_group,target_group }}">{{ release }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
   </h1>
 </div>
-{{ content }}
