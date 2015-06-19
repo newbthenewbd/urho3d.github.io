@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/main-min.css">
     <!-- Modernizr -->
     <script src="{{ ASSET_PATH }}/js/vendor/modernizr.min.js"></script>
+    <!-- Theme switcher needs to init the body background color ASAP to avoid flicker -->
+    <script src="{{ ASSET_PATH }}/js/vendor/js.cookie.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/webkit-flicker-fix.js"></script>
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -105,7 +108,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="{{ ASSET_PATH }}/js/vendor/bootstrap.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/vendor/js.cookie.min.js"></script>
     {% if DOXYGEN_PATH %}
     <script src="{{ DOXYGEN_PATH }}/dynsections.js"></script>
     {% endif %}

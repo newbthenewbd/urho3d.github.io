@@ -2,7 +2,7 @@
   <h1>
     {% if category %}{{ category |capitalize }}{% else %}{{ page.title }}{% endif %}
     <div class="btn-toolbar pull-right" role="toolbar" aria-label="user preferences">
-      <div class="btn-group" role="group" aria-label="theme switcher" id="theme-switcher" data-toggle="buttons">
+      <div class="btn-group hidden" role="group" aria-label="theme switcher" id="theme-switcher" data-toggle="buttons">
         <label class="btn btn-default btn-xs"><input type="radio" name="theme" id="dark" autocomplete="off">Dark</label>
         <label class="btn btn-default btn-xs active"><input type="radio" name="theme" id="light" autocomplete="off">Light</label>
       </div>

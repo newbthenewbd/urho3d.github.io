@@ -50,6 +50,8 @@ function applyFilter(enable) {
   if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
     elem = $('html');
     filter = '-webkit-filter';
+    // Webkit requires flicker workaround (see js/webkit-flicker-fix.js), so need to revert the original bg color back before inverting
+    $('body').css('background-color', 'white');
   } else {
     elem = $('body');
     filter = 'filter';
@@ -79,12 +81,15 @@ $(document).ready(function() {
   // Read last user selected theme and switch to the selected theme
   var theme = Cookies.get('theme');
   if (!theme) theme = 'light';
-  $('#theme-switcher input').each(function(i, elem) {
+  var $themeSwitcher = $('#theme-switcher');
+  $('input', $themeSwitcher).each(function(i, elem) {
     if ($(elem).attr('id') === theme) {
       $(elem).parent().button('toggle');
       if (theme === 'dark') applyFilter(true);
     }
-    // Store current user selected theme to cookie
+    // Store current user selected theme to cookie before switching to the selected theme
     $(elem).change(function() { Cookies.set('theme', $(elem).attr('id'), {expires: 365}); applyFilter($(elem).attr('id') === 'dark') });
   });
+  // Enable theme switcher functionality when only Javascript is enabled
+  $themeSwitcher.removeClass('hidden');
 });
