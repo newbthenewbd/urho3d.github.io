@@ -45,29 +45,6 @@
 
 // Place any jQuery/helper plugins in here.
 
-function adjustFillerHeight($filler, $main, $body, $window) {
-  $filler.css('height', $window.height() - $main.height() - $body.outerHeight() + $body.height());
-};
-
-function applyFilter(enable) {
-  var elem, filter;
-  if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
-    elem = $('html');
-    filter = '-webkit-filter';
-    // Webkit requires flicker workaround (see js/webkit-flicker-fix.js), so need to revert the original bg color back before inverting
-    $('body').css('background-color', 'white');
-  } else {
-    elem = $('body');
-    filter = 'filter';
-    // Firefox does not invert body's background color as Webkit does, so workaround it
-    $(elem).css('background-color', enable ? '#131313' : 'white');
-  }
-  // Invert luminance for top-level element which should be inherited by all the descendant elements
-  $(elem).css(filter, enable ? 'invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%)' : 'none');
-  // Revert luminance just for image and embedded iframe usually used for youtube videos
-  $('img, .embed-responsive > iframe').css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
-};
-
 $(document).ready(function() {
   // Bust Travis CI build status image cache
   $('.build-status img').each(function() {
@@ -82,21 +59,47 @@ $(document).ready(function() {
     $documentationLink.attr('href', $documentationLink.attr('href').replace(/\/documentation\/.+?\//, '/documentation/' + documentGroup + '/'));
   }
 
-  // Read last user selected theme and switch to the selected theme
+  // Read last user selected theme, default to light theme
   var theme = Cookies.get('theme');
   if (!theme) theme = 'light';
-  var $themeSwitcher = $('#theme-switcher');
-  $('input', $themeSwitcher).each(function(i, elem) {
-    if ($(elem).attr('id') === theme) {
-      $(elem).parent().button('toggle');
-      if (theme === 'dark') applyFilter(true);
-    }
-    // Store current user selected theme to cookie before switching to the selected theme
-    $(elem).change(function() { Cookies.set('theme', $(elem).attr('id'), {expires: 365}); applyFilter($(elem).attr('id') === 'dark') });
-  });
   // Enable theme switcher functionality when only Javascript is enabled
+  var $themeSwitcher = $('#theme-switcher');
   $themeSwitcher.removeClass('hidden');
+  var $topElem, filter;
+  if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
+    $topElem = $('html');
+    filter = '-webkit-filter';
+    // Webkit requires flicker workaround (see js/webkit-flicker-fix.js), so need to revert the original bg color back before inverting
+    $('body').css('background-color', 'white');
+  } else {
+    $topElem = $('body');
+    filter = 'filter';
+  }
+  $('input', $themeSwitcher).each(function(i, elem) {
+    var $elem = $(elem);
+    var id = $elem.attr('id');
+    $elem.change(function() {
+      var enable = id === 'dark';
+      // Store current user selected theme to cookie before applying the filter for the selected theme
+      Cookies.set('theme', id, {expires: 365});
+      // Firefox does not invert body's background color as Webkit does, so workaround it
+      if (filter === 'filter') $topElem.css('background-color', enable ? '#131313' : 'white');
+      // Invert luminance for top-level element which should be inherited by all the descendant elements
+      $topElem.css(filter, enable ? 'invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%)' : 'none');
+      // Revert luminance just for image and embedded iframe usually used for youtube videos
+      $('img, .embed-responsive > iframe').css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
+    });
+    // Apply the filter now if neccessary by toggling the button and causing the change event to fire
+    if (id === theme) {
+      $elem.parent().button('toggle');
+    }
+  });
 
   // Ensure the filler fills the full window height
-  $(window).resize(adjustFillerHeight($('#theme_filter_fix'), $('main'), $('body'), $(window))).trigger('resize');
+  $(window).resize(function($filler, $main, $body, $window) {
+    return function() {
+      $filler.css('height', $window.height() - $main.height() - $body.outerHeight() + $body.height());
+    };
+  }($('#theme_filter_fix'), $('main'), $('body'), $(window)))
+    .trigger('resize');
 });
