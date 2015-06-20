@@ -1,4 +1,7 @@
 {% comment %}<!--
+
+Copyright (c) 2014-2015 Yao Wei Tjong
+
 Show content of top N posts consecutively.
 -->{% endcomment %}
 

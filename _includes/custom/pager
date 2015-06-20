@@ -1,6 +1,8 @@
 {% comment %}<!--
+
+Copyright (c) 2014-2015 Yao Wei Tjong
+
 Category-aware pager without using any Jekyll plugins.
-Created by: Yao Wei Tjong
 Usage:
   1) assign the 'category' variable to a valid post's category or leave it as nil for paging without taking category into consideration
   2) include custom/pager

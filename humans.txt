@@ -14,3 +14,4 @@
 
     CSS3, HTML5
     Jekyll, jQuery, Modernizr, Bootstrap, masonry, js-cookie
+    FontAwesome, Font Mfizz

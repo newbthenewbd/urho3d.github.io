@@ -1,4 +1,7 @@
 {% comment %}<!--
+
+Copyright (c) 2014-2015 Yao Wei Tjong
+
 List navigation item from an array of hash with the following keys: title, subtitle, url, class.
 -->{% endcomment %}
 

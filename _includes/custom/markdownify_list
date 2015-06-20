@@ -1,4 +1,7 @@
 {% comment %}<!--
+
+Copyright (c) 2014-2015 Yao Wei Tjong
+
 List items from an array after passing them to markdownify filter and removing the enclosing the <p> tag.
 -->{% endcomment %}
 
