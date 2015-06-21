@@ -44,9 +44,7 @@ $(document).ready(function() {
   // Read last user selected theme, default to light theme
   var theme = Cookies.get('theme');
   if (!theme) theme = 'light';
-  // Enable theme switcher functionality when only Javascript is enabled
   var $themeSwitcher = $('#theme-switcher');
-  $themeSwitcher.removeClass('hidden');
   var $topElem, filter;
   if (/(chrom(e|ium)|applewebkit)/.test(navigator.userAgent.toLowerCase())) {
     $topElem = $('html');
@@ -57,6 +55,8 @@ $(document).ready(function() {
     $topElem = $('body');
     filter = 'filter';
   }
+  var $mediaElem = $('img, .embed-responsive > iframe');
+  var $disqusElem = $('#comments_disqus_thread');
   $('input', $themeSwitcher).each(function(i, elem) {
     var $elem = $(elem);
     var id = $elem.attr('id');
@@ -69,13 +69,22 @@ $(document).ready(function() {
       // Invert luminance for top-level element which should be inherited by all the descendant elements
       $topElem.css(filter, enable ? 'invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%)' : 'none');
       // Revert luminance just for image and embedded iframe usually used for youtube videos
-      $('img, .embed-responsive > iframe').css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
+      $mediaElem.css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
+      // Revert luminance just for container of disqus thread div and adjust its color to influence Disqus own theme detector to choose the matching theme for Disqus
+      // Due to Disqus's own dark theme has too much brightness compared to our general brigtness, we have to apply different filter settings to counter it
+      if ($disqusElem.length) {
+        $disqusElem.css(filter, enable ? 'contrast(115%) brightness(75%) hue-rotate(180deg) invert(100%)' : 'none')
+          .css('color', enable ? 'white' : 'black');
+        disqusReset();  // Reload Disqus comments
+      }
     });
     // Apply the filter now if neccessary by toggling the button and causing the change event to fire
     if (id === theme) {
       $elem.parent().button('toggle');
     }
   });
+  // Enable theme switcher functionality when only Javascript is enabled
+  $themeSwitcher.removeClass('hidden');
 
   // Ensure the filler fills the full window height
   $(window).resize(function($filler, $main, $body, $window) {
