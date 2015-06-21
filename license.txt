@@ -1,6 +1,9 @@
-The design, layout, and look-and-feel of Urho3D website are not licensed for use and may not be used on any site, personal or commercial, without prior written consent from the web designer and author.
+The design, layout, and look-and-feel of Urho3D website are not licensed
+for use and may not be used on any site, personal or commercial, without
+prior written consent from the web designer and author.
 
-The content on Urho3D website is released under the terms of the license specified below if not explicitly specified, under the MIT license.
+The content on Urho3D website is released under the terms of the license
+specified below if not explicitly specified, under the MIT license.
 
 Urho3D content license
 ----------------------
