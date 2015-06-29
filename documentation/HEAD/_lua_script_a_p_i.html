@@ -1562,6 +1562,7 @@ Classes</h2>
 <li>char ReadUByte()</li>
 <li>bool ReadBool()</li>
 <li>float ReadFloat()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_rect.html" title="Two-dimensional bounding rectangle with integer values.">IntRect</a> ReadIntRect()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a> ReadIntVector2()</li>
 <li><a class="el" href="class_urho3_d_1_1_rect.html" title="Two-dimensional bounding rectangle.">Rect</a> ReadRect()</li>
@@ -1811,6 +1812,7 @@ Classes</h2>
 <li>char ReadUByte()</li>
 <li>bool ReadBool()</li>
 <li>float ReadFloat()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_rect.html" title="Two-dimensional bounding rectangle with integer values.">IntRect</a> ReadIntRect()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a> ReadIntVector2()</li>
 <li><a class="el" href="class_urho3_d_1_1_rect.html" title="Two-dimensional bounding rectangle.">Rect</a> ReadRect()</li>
@@ -1847,6 +1849,7 @@ Classes</h2>
 <li>bool WriteUByte(char value)</li>
 <li>bool WriteBool(bool value)</li>
 <li>bool WriteFloat(float value)</li>
+<li>bool WriteDouble(double value)</li>
 <li>bool WriteIntRect(const IntRect&amp; value)</li>
 <li>bool WriteIntVector2(const IntVector2&amp; value)</li>
 <li>bool WriteRect(const Rect&amp; value)</li>
@@ -2414,6 +2417,7 @@ Classes</h2>
 <li>void SetInt(const String name, int value)</li>
 <li>void SetBool(const String name, bool value)</li>
 <li>void SetFloat(const String name, float value)</li>
+<li>void SetDouble(const String name, double value)</li>
 <li>void SetVector2(const String name, const Vector2&amp; value)</li>
 <li>void SetVector3(const String name, const Vector3&amp; value)</li>
 <li>void SetVector4(const String name, const Vector4&amp; value)</li>
@@ -2436,6 +2440,7 @@ Classes</h2>
 <li>int GetInt(const String name) const</li>
 <li>bool GetBool(const String name) const</li>
 <li>float GetFloat(const String name) const</li>
+<li>double GetDouble(const String name) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector2.html" title="Two-dimensional vector.">Vector2</a> GetVector2(const String name) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetVector3(const String name) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector4.html" title="Four-dimensional vector.">Vector4</a> GetVector4(const String name) const</li>
@@ -2458,6 +2463,7 @@ Classes</h2>
 <li>void AddInt(int value)</li>
 <li>void AddBool(bool value)</li>
 <li>void AddFloat(float value)</li>
+<li>void AddDouble(double value)</li>
 <li>void AddVector2(const Vector2&amp; value)</li>
 <li>void AddVector3(const Vector3&amp; value)</li>
 <li>void AddVector4(const Vector4&amp; value)</li>
@@ -2479,6 +2485,7 @@ Classes</h2>
 <li>int GetInt(unsigned index) const</li>
 <li>bool GetBool(unsigned index) const</li>
 <li>float GetFloat(unsigned index) const</li>
+<li>double GetDouble(unsigned index) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector2.html" title="Two-dimensional vector.">Vector2</a> GetVector2(unsigned index) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetVector3(unsigned index) const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector4.html" title="Four-dimensional vector.">Vector4</a> GetVector4(unsigned index) const</li>
@@ -4724,6 +4731,7 @@ Classes</h2>
 <li>bool WriteUByte(char value)</li>
 <li>bool WriteBool(bool value)</li>
 <li>bool WriteFloat(float value)</li>
+<li>bool WriteDouble(double value)</li>
 <li>bool WriteIntRect(const IntRect&amp; value)</li>
 <li>bool WriteIntVector2(const IntVector2&amp; value)</li>
 <li>bool WriteRect(const Rect&amp; value)</li>
@@ -5970,6 +5978,8 @@ Classes</h2>
 <li>Variant* new(bool value)</li>
 <li>Variant(float value) (GC)</li>
 <li>Variant* new(float value)</li>
+<li>Variant(double value) (GC)</li>
+<li>Variant* new(double value)</li>
 <li>Variant(const Vector2&amp; value) (GC)</li>
 <li>Variant* new(const Vector2&amp; value)</li>
 <li>Variant(const Vector3&amp; value) (GC)</li>
@@ -6013,6 +6023,7 @@ Classes</h2>
 <li>bool operator==(unsigned rhs) const</li>
 <li>bool operator==(bool rhs) const</li>
 <li>bool operator==(float rhs) const</li>
+<li>bool operator==(double rhs) const</li>
 <li>bool operator==(const Vector2&amp; rhs)</li>
 <li>bool operator==(const Vector3&amp; rhs) const</li>
 <li>bool operator==(const Vector4&amp; rhs) const</li>
@@ -6032,6 +6043,7 @@ Classes</h2>
 <li>void SetStringHash(const StringHash&amp; value)</li>
 <li>void SetBool(bool value)</li>
 <li>void SetFloat(float value)</li>
+<li>void SetDouble(double value)</li>
 <li>void SetVector2(const Vector2&amp; value)</li>
 <li>void SetVector3(const Vector3&amp; value)</li>
 <li>void SetVector4(const Vector4&amp; value)</li>
@@ -6051,6 +6063,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_string_hash.html" title="32-bit hash value for a string.">StringHash</a> GetStringHash()</li>
 <li>bool GetBool() const</li>
 <li>float GetFloat() const</li>
+<li>double GetDouble() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector2.html" title="Two-dimensional vector.">Vector2</a>&amp; GetVector2() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a>&amp; GetVector3() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector4.html" title="Four-dimensional vector.">Vector4</a>&amp; GetVector4() const</li>
@@ -6090,6 +6103,7 @@ Classes</h2>
 <li>void SetStringHash(const String key, const StringHash&amp; value)</li>
 <li>void SetBool(const String key, bool value)</li>
 <li>void SetFloat(const String key, float value)</li>
+<li>void SetDouble(const String key, double value)</li>
 <li>void SetVector2(const String key, const Vector2 value)</li>
 <li>void SetVector3(const String key, const Vector3 value)</li>
 <li>void SetVector4(const String key, const Vector4 value)</li>
@@ -6110,6 +6124,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_string_hash.html" title="32-bit hash value for a string.">StringHash</a> GetStringHash(const String key)</li>
 <li>bool GetBool(const String key)</li>
 <li>float GetFloat(const String key)</li>
+<li>double GetDouble(const String key)</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector2.html" title="Two-dimensional vector.">Vector2</a>&amp; GetVector2(const String key)</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a>&amp; GetVector3(const String key)</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector4.html" title="Four-dimensional vector.">Vector4</a>&amp; GetVector4(const String key)</li>
@@ -6290,6 +6305,7 @@ Classes</h2>
 <li>char ReadUByte()</li>
 <li>bool ReadBool()</li>
 <li>float ReadFloat()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_rect.html" title="Two-dimensional bounding rectangle with integer values.">IntRect</a> ReadIntRect()</li>
 <li><a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a> ReadIntVector2()</li>
 <li><a class="el" href="class_urho3_d_1_1_rect.html" title="Two-dimensional bounding rectangle.">Rect</a> ReadRect()</li>
@@ -6326,6 +6342,7 @@ Classes</h2>
 <li>bool WriteUByte(char value)</li>
 <li>bool WriteBool(bool value)</li>
 <li>bool WriteFloat(float value)</li>
+<li>bool WriteDouble(double value)</li>
 <li>bool WriteIntRect(const IntRect&amp; value)</li>
 <li>bool WriteIntVector2(const IntVector2&amp; value)</li>
 <li>bool WriteRect(const Rect&amp; value)</li>
@@ -6503,6 +6520,7 @@ Classes</h2>
 <li>bool SetBoundingBox(const BoundingBox&amp; value)</li>
 <li>bool SetColor(const String name, const Color&amp; value)</li>
 <li>bool SetFloat(const String name, float value)</li>
+<li>bool SetDouble(const String name, double value)</li>
 <li>bool SetUInt(const String name, unsigned value)</li>
 <li>bool SetInt(const String name, int value)</li>
 <li>bool SetIntRect(const String name, const IntRect&amp; value)</li>
@@ -6540,6 +6558,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> GetBoundingBox() const</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> GetColor(const String name) const</li>
 <li>float GetFloat(const String name) const</li>
+<li>double GetDouble(const String name) const</li>
 <li>unsigned GetUInt(const String name) const</li>
 <li>int GetInt(const String name) const</li>
 <li><a class="el" href="class_urho3_d_1_1_int_rect.html" title="Two-dimensional bounding rectangle with integer values.">IntRect</a> GetIntRect(const String name) const</li>
@@ -7095,6 +7114,7 @@ Enumerations</h2>
 <li>int VAR_MATRIX3</li>
 <li>int VAR_MATRIX3X4</li>
 <li>int VAR_MATRIX4</li>
+<li>int VAR_DOUBLE</li>
 <li>int MAX_VAR_TYPES</li>
 </ul>
 <h4>VertexElement</h4>

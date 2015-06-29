@@ -1,26 +1,26 @@
 <map id="rapidjson::GenericValue::AddMember" name="rapidjson::GenericValue::AddMember">
 <area shape="rect" id="node3" href="$class_urho3_d_1_1_j_s_o_n_value.html#ac448c32a7fa9c8f3ef0dea3ba828f69b" title="Set JSON value for object type." alt="" coords="227,629,381,675"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_j_s_o_n_value.html#a35617f7fb889e765396a94c273e1429b" title="Create a child value." alt="" coords="429,74,584,121"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_j_s_o_n_value.html#a0d063f1c473c21818ffd0fab0b7a3c58" title="Set int." alt="" coords="429,490,584,537"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_j_s_o_n_value.html#a00d2af82b45c6a229e12d4662795a600" title="Set bool." alt="" coords="429,559,584,606"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_j_s_o_n_value.html#a907873dc911a952d409b2ed65aae4662" title="Set float." alt="" coords="429,629,584,675"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_j_s_o_n_value.html#a87bafa3b68d5257b003c7b41c2f90ddc" title="Set string." alt="" coords="429,421,584,467"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_j_s_o_n_value.html#a36eab39ab30881d46729a798da7a6e25" title="Add int." alt="" coords="429,698,584,745"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_j_s_o_n_value.html#ae8d748f79780f4497d172ba60d43ef37" title="Add bool." alt="" coords="429,767,584,814"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_j_s_o_n_value.html#a56f3815788ef4c93ff1dfa1ab3562f37" title="Add float." alt="" coords="429,837,584,883"/>
-<area shape="rect" id="node51" href="$class_urho3_d_1_1_j_s_o_n_value.html#ae1cfbf542453075e3d0db1058cf3f70e" title="Add string." alt="" coords="429,906,584,953"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_j_s_o_n_value.html#a0d063f1c473c21818ffd0fab0b7a3c58" title="Set int." alt="" coords="429,421,584,467"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_j_s_o_n_value.html#a00d2af82b45c6a229e12d4662795a600" title="Set bool." alt="" coords="429,490,584,537"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_j_s_o_n_value.html#a907873dc911a952d409b2ed65aae4662" title="Set float." alt="" coords="429,559,584,606"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_j_s_o_n_value.html#a66e27e05c0bb44af7b95e74d132ec8b3" title="Set double." alt="" coords="429,629,584,675"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_j_s_o_n_value.html#a87bafa3b68d5257b003c7b41c2f90ddc" title="Set string." alt="" coords="429,351,584,398"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_j_s_o_n_value.html#a36eab39ab30881d46729a798da7a6e25" title="Add int." alt="" coords="429,698,584,745"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_j_s_o_n_value.html#ae8d748f79780f4497d172ba60d43ef37" title="Add bool." alt="" coords="429,767,584,814"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_j_s_o_n_value.html#a56f3815788ef4c93ff1dfa1ab3562f37" title="Add float." alt="" coords="429,837,584,883"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_j_s_o_n_value.html#a0d3029f225cb8aa1c3a52e369cb5d0e9" title="Add float." alt="" coords="429,906,584,953"/>
+<area shape="rect" id="node51" href="$class_urho3_d_1_1_j_s_o_n_value.html#ae1cfbf542453075e3d0db1058cf3f70e" title="Add string." alt="" coords="429,975,584,1022"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8fb1a5e60adb25e2d72b5629f33645e4" title="Set variant (include type)." alt="" coords="632,5,787,51"/>
 <area shape="rect" id="node9" href="$class_urho3_d_1_1_j_s_o_n_value.html#a35d49592799512e0ca875e8470b0fc4f" title="Add variant." alt="" coords="632,74,787,121"/>
-<area shape="rect" id="node19" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8e29e8beac2590020ee29ada4b884539" title="Set vector2." alt="" coords="632,559,787,606"/>
-<area shape="rect" id="node21" href="$class_urho3_d_1_1_j_s_o_n_value.html#acc1719aba3368ce56f75d847b40e7196" title="Set vector3." alt="" coords="632,629,787,675"/>
-<area shape="rect" id="node23" href="$class_urho3_d_1_1_j_s_o_n_value.html#ac8c3c9e4dedde3b9fe9013088fc07d08" title="Set vector4." alt="" coords="632,698,787,745"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_j_s_o_n_value.html#abc35fcdea1ece4b1917d22029f1e3bf3" title="Set vector variant." alt="" coords="632,767,787,814"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_j_s_o_n_value.html#a6ff0002d670f7c919cd07265893df20b" title="Set quaternion." alt="" coords="632,837,787,883"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_j_s_o_n_value.html#a1df4413f17c785ab0db275ffd0fd5dac" title="Set color." alt="" coords="632,906,787,953"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_j_s_o_n_value.html#abd0bf6b86d69ab6615d1824c07db9315" title="Set buffer." alt="" coords="632,143,787,190"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8b50ef062d45a0499660830685d106c1" title="Set resource ref." alt="" coords="632,213,787,259"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_j_s_o_n_value.html#a155bc431979da99ab04bdf6e2f22218f" title="Set resource ref list." alt="" coords="632,282,787,329"/>
-<area shape="rect" id="node37" href="$class_urho3_d_1_1_j_s_o_n_value.html#a7b2cb60aac50a3ef6dda89c939f7f5c4" title="Set int rect." alt="" coords="632,351,787,398"/>
-<area shape="rect" id="node39" href="$class_urho3_d_1_1_j_s_o_n_value.html#a012f9f51b6e9e6a319352add65d570f0" title="Set int vector2." alt="" coords="632,421,787,467"/>
-<area shape="rect" id="node41" href="$class_urho3_d_1_1_j_s_o_n_value.html#ad4944fe1b7363d8509eb65f465076d4c" title="Set matrix3." alt="" coords="632,490,787,537"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8e29e8beac2590020ee29ada4b884539" title="Set vector2." alt="" coords="632,559,787,606"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_j_s_o_n_value.html#acc1719aba3368ce56f75d847b40e7196" title="Set vector3." alt="" coords="632,629,787,675"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_j_s_o_n_value.html#ac8c3c9e4dedde3b9fe9013088fc07d08" title="Set vector4." alt="" coords="632,698,787,745"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_j_s_o_n_value.html#abc35fcdea1ece4b1917d22029f1e3bf3" title="Set vector variant." alt="" coords="632,767,787,814"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_j_s_o_n_value.html#a6ff0002d670f7c919cd07265893df20b" title="Set quaternion." alt="" coords="632,143,787,190"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_j_s_o_n_value.html#a1df4413f17c785ab0db275ffd0fd5dac" title="Set color." alt="" coords="632,213,787,259"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_j_s_o_n_value.html#abd0bf6b86d69ab6615d1824c07db9315" title="Set buffer." alt="" coords="632,282,787,329"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8b50ef062d45a0499660830685d106c1" title="Set resource ref." alt="" coords="632,351,787,398"/>
+<area shape="rect" id="node37" href="$class_urho3_d_1_1_j_s_o_n_value.html#a155bc431979da99ab04bdf6e2f22218f" title="Set resource ref list." alt="" coords="632,421,787,467"/>
+<area shape="rect" id="node39" href="$class_urho3_d_1_1_j_s_o_n_value.html#a7b2cb60aac50a3ef6dda89c939f7f5c4" title="Set int rect." alt="" coords="632,490,787,537"/>
 </map>

@@ -3060,6 +3060,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> ReadBoundingBox()</li>
 <li>int8 ReadByte()</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> ReadColor()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ReadFileID()</li>
 <li>float ReadFloat()</li>
 <li>int ReadInt()</li>
@@ -3618,6 +3619,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> ReadBoundingBox()</li>
 <li>int8 ReadByte()</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> ReadColor()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ReadFileID()</li>
 <li>float ReadFloat()</li>
 <li>int ReadInt()</li>
@@ -3651,6 +3653,7 @@ Classes</h2>
 <li>bool WriteBoundingBox(const BoundingBox&amp;)</li>
 <li>bool WriteByte(int8)</li>
 <li>bool WriteColor(const Color&amp;)</li>
+<li>bool WriteDouble(float)</li>
 <li>bool WriteFileID(const String&amp;)</li>
 <li>bool WriteFloat(float)</li>
 <li>bool WriteInt(int)</li>
@@ -3916,6 +3919,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> ReadBoundingBox()</li>
 <li>int8 ReadByte()</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> ReadColor()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ReadFileID()</li>
 <li>float ReadFloat()</li>
 <li>int ReadInt()</li>
@@ -4159,6 +4163,7 @@ Classes</h2>
 <ul>
 <li>void AddBool(bool)</li>
 <li>void AddColor(const Color&amp;)</li>
+<li>void AddDouble(double)</li>
 <li>void AddFloat(float)</li>
 <li>void AddInt(int)</li>
 <li>void AddIntRect(const IntRect&amp;)</li>
@@ -4185,6 +4190,8 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a>[]@ GetChildNames() const</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> GetColor(const String&amp;) const</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> GetColor(uint) const</li>
+<li>double GetDouble(const String&amp;) const</li>
+<li>double GetDouble(uint) const</li>
 <li>float GetFloat(const String&amp;) const</li>
 <li>float GetFloat(uint) const</li>
 <li>int GetInt(const String&amp;) const</li>
@@ -4222,6 +4229,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_variant.html" title="Variable that supports a fixed set of types.">Variant</a> GetVectorVariant(uint) const</li>
 <li>void SetBool(const String&amp;, bool)</li>
 <li>void SetColor(const String&amp;, const Color&amp;)</li>
+<li>void SetDouble(const String&amp;, double)</li>
 <li>void SetFloat(const String&amp;, float)</li>
 <li>void SetInt(const String&amp;, int)</li>
 <li>void SetIntRect(const String&amp;, const IntRect&amp;)</li>
@@ -7369,6 +7377,7 @@ Classes</h2>
 <li>bool WriteBoundingBox(const BoundingBox&amp;)</li>
 <li>bool WriteByte(int8)</li>
 <li>bool WriteColor(const Color&amp;)</li>
+<li>bool WriteDouble(float)</li>
 <li>bool WriteFileID(const String&amp;)</li>
 <li>bool WriteFloat(float)</li>
 <li>bool WriteInt(int)</li>
@@ -8436,6 +8445,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> SubstringUTF8(uint, uint) const</li>
 <li>bool ToBool() const</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> ToColor() const</li>
+<li>double ToDouble() const</li>
 <li>float ToFloat() const</li>
 <li>int ToInt() const</li>
 <li><a class="el" href="class_urho3_d_1_1_int_rect.html" title="Two-dimensional bounding rectangle with integer values.">IntRect</a> ToIntRect() const</li>
@@ -9692,6 +9702,7 @@ Classes</h2>
 <li>void FromString(const String&amp;, const String&amp;)</li>
 <li>bool GetBool() const</li>
 <li><a class="el" href="class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream.">VectorBuffer</a> GetBuffer() const</li>
+<li>double GetDouble() const</li>
 <li>float GetFloat() const</li>
 <li>int GetInt() const</li>
 <li><a class="el" href="class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference-counted objects. These are noncopyable and non-assignable.">RefCounted</a>@ GetPtr() const</li>
@@ -9811,6 +9822,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> ReadBoundingBox()</li>
 <li>int8 ReadByte()</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> ReadColor()</li>
+<li>double ReadDouble()</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ReadFileID()</li>
 <li>float ReadFloat()</li>
 <li>int ReadInt()</li>
@@ -9845,6 +9857,7 @@ Classes</h2>
 <li>bool WriteBoundingBox(const BoundingBox&amp;)</li>
 <li>bool WriteByte(int8)</li>
 <li>bool WriteColor(const Color&amp;)</li>
+<li>bool WriteDouble(float)</li>
 <li>bool WriteFileID(const String&amp;)</li>
 <li>bool WriteFloat(float)</li>
 <li>bool WriteInt(int)</li>
@@ -10280,6 +10293,7 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_bounding_box.html" title="Three-dimensional axis-aligned bounding box.">BoundingBox</a> GetBoundingBox() const</li>
 <li><a class="el" href="class_urho3_d_1_1_x_m_l_element.html" title="Element in an XML file.">XMLElement</a> GetChild(const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a>&amp; = <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ( )) const</li>
 <li><a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a> GetColor(const String&amp;) const</li>
+<li>double GetDouble(const String&amp;) const</li>
 <li>float GetFloat(const String&amp;) const</li>
 <li>int GetInt(const String&amp;) const</li>
 <li><a class="el" href="class_urho3_d_1_1_matrix3.html" title="3x3 matrix for rotation and scaling.">Matrix3</a> GetMatrix3(const String&amp;) const</li>
@@ -10313,6 +10327,7 @@ Classes</h2>
 <li>bool SetBool(const String&amp;, bool)</li>
 <li>bool SetBoundingBox(const BoundingBox&amp;)</li>
 <li>bool SetColor(const String&amp;, const Color&amp;)</li>
+<li>bool SetDouble(const String&amp;, double)</li>
 <li>bool SetFloat(const String&amp;, float)</li>
 <li>bool SetInt(const String&amp;, int)</li>
 <li>bool SetMatrix3(const String&amp;, const Matrix3&amp;)</li>
@@ -10901,6 +10916,7 @@ Enumerations</h2>
 <li>VAR_MATRIX3</li>
 <li>VAR_MATRIX3X4</li>
 <li>VAR_MATRIX4</li>
+<li>VAR_DOUBLE</li>
 </ul>
 <h4>VerticalAlignment</h4>
 <ul>
