@@ -146,7 +146,7 @@
 </g>
 <!-- Node24 -->
 <g id="node49" class="node"><title>Node24</title>
-<a xlink:href="class_urho3_d_1_1_j_s_o_n_value.html#a0d3029f225cb8aa1c3a52e369cb5d0e9" target="_top" xlink:title="Add float.">
+<a xlink:href="class_urho3_d_1_1_j_s_o_n_value.html#a0d3029f225cb8aa1c3a52e369cb5d0e9" target="_top" xlink:title="Add double.">
 <polygon fill="none" stroke="black" points="318,-52 318,-86 434,-86 434,-52 318,-52"/>
 <text text-anchor="start" x="326" y="-73" font-family="FreeSans" font-size="10.00">Urho3D::JSONValue::</text>
 <text text-anchor="middle" x="376" y="-60" font-family="FreeSans" font-size="10.00">AddDouble</text>
