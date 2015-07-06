@@ -4,7 +4,7 @@ title: Lua autocompletion generator updated to 1.4
 description:
 category: tool integrations
 carousel_background:
-tags: [autocomplete, Lua, IDE]
+tags: [autocomplete, Lua, IDE, 1.4]
 ---
 {% include JB/setup %}
 
