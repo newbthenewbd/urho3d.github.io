@@ -408,7 +408,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node22 -->
 <g id="node55" class="node"><title>Node22</title>
-<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map infomation.">
+<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map information.">
 <polygon fill="none" stroke="black" points="419,-4.98427 419,-25.9843 545,-25.9843 545,-4.98427 419,-4.98427"/>
 <text text-anchor="middle" x="482" y="-12.9843" font-family="FreeSans" font-size="10.00">Urho3D::TileMapInfo2D</text>
 </a>

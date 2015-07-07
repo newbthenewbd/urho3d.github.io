@@ -326,7 +326,7 @@
 </g>
 <!-- Node21 -->
 <g id="node50" class="node"><title>Node21</title>
-<a xlink:href="class_urho3_d_1_1_button.html" target="_top" xlink:title="Pushbutton UI element.">
+<a xlink:href="class_urho3_d_1_1_button.html" target="_top" xlink:title="Push button UI element.">
 <polygon fill="none" stroke="black" points="1320,-4.39195 1320,-25.392 1412,-25.392 1412,-4.39195 1320,-4.39195"/>
 <text text-anchor="middle" x="1366" y="-12.392" font-family="FreeSans" font-size="10.00">Urho3D::Button</text>
 </a>

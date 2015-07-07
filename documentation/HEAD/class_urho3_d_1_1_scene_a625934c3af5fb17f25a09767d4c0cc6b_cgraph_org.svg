@@ -91,10 +91,10 @@
 </g>
 <!-- Node19 -->
 <g id="node43" class="node"><title>Node19</title>
-<a xlink:href="class_urho3_d_1_1_x_m_l_element.html#a3c721dad5590beb49a04e9d5108d68ff" target="_top" xlink:title="Return an integer attribute, or zero if missing.">
+<a xlink:href="class_urho3_d_1_1_x_m_l_element.html#a0f3cc1f4e6b77f356185789e7bcf431a" target="_top" xlink:title="Return an unsigned integer attribute, or zero if missing.">
 <polygon fill="none" stroke="black" points="438.5,-130 438.5,-164 557.5,-164 557.5,-130 438.5,-130"/>
 <text text-anchor="start" x="446.5" y="-151" font-family="FreeSans" font-size="10.00">Urho3D::XMLElement</text>
-<text text-anchor="middle" x="498" y="-138" font-family="FreeSans" font-size="10.00">::GetInt</text>
+<text text-anchor="middle" x="498" y="-138" font-family="FreeSans" font-size="10.00">::GetUInt</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node19 -->
@@ -318,10 +318,10 @@
 </g>
 <!-- Node18 -->
 <g id="node38" class="node"><title>Node18</title>
-<a xlink:href="class_urho3_d_1_1_deserializer.html#ac237484f24d551dd8ccd812b181b500b" target="_top" xlink:title="Read a 32&#45;bit integer.">
+<a xlink:href="class_urho3_d_1_1_deserializer.html#a1fcc8ffc3d0744f90616d0d4feacba10" target="_top" xlink:title="Read a 32&#45;bit unsigned integer.">
 <polygon fill="none" stroke="red" points="440,-274 440,-308 556,-308 556,-274 440,-274"/>
 <text text-anchor="start" x="448" y="-295" font-family="FreeSans" font-size="10.00">Urho3D::Deserializer</text>
-<text text-anchor="middle" x="498" y="-282" font-family="FreeSans" font-size="10.00">::ReadInt</text>
+<text text-anchor="middle" x="498" y="-282" font-family="FreeSans" font-size="10.00">::ReadUInt</text>
 </a>
 </g>
 <!-- Node17&#45;&gt;Node18 -->

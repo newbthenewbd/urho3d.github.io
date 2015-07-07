@@ -21,6 +21,6 @@
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TmxLayer2D * \&gt;" alt="" coords="1303,703,1487,750"/>
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="1035,764,1187,793"/>
 <area shape="rect" id="node48" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Texture2D \&gt; \&gt;" alt="" coords="1265,773,1524,819"/>
-<area shape="rect" id="node51" href="$struct_urho3_d_1_1_tile_map_info2_d.html" title="Tile map infomation." alt="" coords="1311,267,1479,296"/>
+<area shape="rect" id="node51" href="$struct_urho3_d_1_1_tile_map_info2_d.html" title="Tile map information." alt="" coords="1311,267,1479,296"/>
 <area shape="rect" id="node56" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="1317,583,1472,630"/>
 </map>

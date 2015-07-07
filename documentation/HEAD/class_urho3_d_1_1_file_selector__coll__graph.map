@@ -5,7 +5,7 @@
 <area shape="rect" id="node9" href="$class_urho3_d_1_1_linked_list.html" title="Urho3D::LinkedList\l\&lt; Urho3D::EventHandler \&gt;" alt="" coords="1781,5,1976,51"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_drop_down_list.html" title="Menu UI element that displays a popup list view." alt="" coords="2140,489,2305,519"/>
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_menu.html" title="Menu UI element that optionally shows a popup." alt="" coords="1156,435,1271,464"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="827,399,949,428"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="827,399,949,428"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="557,483,720,512"/>
 <area shape="rect" id="node37" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::BorderImage \&gt;" alt="" coords="797,553,979,599"/>
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_line_edit.html" title="Single&#45;line text editor UI element." alt="" coords="1149,776,1277,805"/>

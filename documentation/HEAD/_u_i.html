@@ -20,7 +20,7 @@ group: HEAD
 <div class="textblock"><p>Urho3D implements a simple, hierarchical user interface system based on rectangular elements. The elements provided are:</p>
 <ul>
 <li><a class="el" href="class_urho3_d_1_1_border_image.html" title="Image UI element with optional border.">BorderImage</a>: a texture image with an optional border</li>
-<li><a class="el" href="class_urho3_d_1_1_button.html" title="Pushbutton UI element.">Button</a>: a pushbutton</li>
+<li><a class="el" href="class_urho3_d_1_1_button.html" title="Push button UI element.">Button</a>: a pushbutton</li>
 <li><a class="el" href="class_urho3_d_1_1_check_box.html" title="UI element that can be toggled between unchecked and checked state.">CheckBox</a>: a button that can be toggled on/off</li>
 <li><a class="el" href="class_urho3_d_1_1_cursor.html" title="Mouse cursor UI element.">Cursor</a>: a mouse cursor</li>
 <li><a class="el" href="class_urho3_d_1_1_drop_down_list.html" title="Menu UI element that displays a popup list view.">DropDownList</a>: shows a vertical list of items (optionally scrollable) as a popup</li>
@@ -56,7 +56,7 @@ Defining UI elements in XML</h2>
 <p>See the elements' C++ code for all supported attributes, and look at the editor's user interface layouts in the bin/Data/UI directory for examples. You can also use the Editor application to create UI layouts. The serialization format is similar to scene XML serialization, with three important differences:</p>
 <p>1) The element type to instantiate, and the style to use for it can be set separately. For example the following element definition</p>
 <div class="fragment"><div class="line">&lt;element type=<span class="stringliteral">&quot;Button&quot;</span> style=<span class="stringliteral">&quot;CloseButton&quot;</span> /&gt;</div>
-</div><!-- fragment --><p>tells to instantiate a <a class="el" href="class_urho3_d_1_1_button.html" title="Pushbutton UI element.">Button</a> element, and that it should use the style "CloseButton" defined in the style XML file.</p>
+</div><!-- fragment --><p>tells to instantiate a <a class="el" href="class_urho3_d_1_1_button.html" title="Push button UI element.">Button</a> element, and that it should use the style "CloseButton" defined in the style XML file.</p>
 <p>2) Internal child elements, for example the scroll bars of a <a class="el" href="class_urho3_d_1_1_scroll_view.html" title="Scrollable UI element for showing a (possibly large) child element.">ScrollView</a>, need to be marked as such to avoid instantiating them as duplicates. This is done by adding the attribute internal="true" to the XML element, and is required in both layout and style XML files. Furthermore, the elements must be listed in the order they have been added as children of the parent element (if in doubt, see the element's C++ constructor code. Omitting elements in the middle is OK.) For example:</p>
 <div class="fragment"><div class="line">&lt;element type=<span class="stringliteral">&quot;ScrollView&quot;</span> /&gt;</div>
 <div class="line">    &lt;element type=<span class="stringliteral">&quot;ScrollBar&quot;</span> <span class="keyword">internal</span>=<span class="stringliteral">&quot;true&quot;</span> /&gt;</div>

@@ -1,6 +1,6 @@
 <map id="Urho3D::Menu" name="Urho3D::Menu">
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_drop_down_list.html" title="Menu UI element that displays a popup list view." alt="" coords="5,624,171,653"/>
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="27,469,149,499"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="27,469,149,499"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="7,392,169,421"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="16,315,160,344"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="12,237,164,267"/>

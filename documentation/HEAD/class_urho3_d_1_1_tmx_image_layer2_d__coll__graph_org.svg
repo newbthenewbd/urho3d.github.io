@@ -258,7 +258,7 @@
 </g>
 <!-- Node16 -->
 <g id="node32" class="node"><title>Node16</title>
-<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map infomation.">
+<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map information.">
 <polygon fill="none" stroke="black" points="223,-726.85 223,-747.85 349,-747.85 349,-726.85 223,-726.85"/>
 <text text-anchor="middle" x="286" y="-734.85" font-family="FreeSans" font-size="10.00">Urho3D::TileMapInfo2D</text>
 </a>

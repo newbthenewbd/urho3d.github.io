@@ -763,17 +763,13 @@ Private Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#ab0ca17f00837381a0866ec5a8ddbc758">HandleSceneSubsystemUpdate</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> eventType, <a class="el" href="class_urho3_d_1_1_hash_map.html">VariantMap</a> &amp;eventData)</td></tr>
 <tr class="memdesc:ab0ca17f00837381a0866ec5a8ddbc758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the scene subsystem update event, step simulation here. <br/></td></tr>
 <tr class="separator:ab0ca17f00837381a0866ec5a8ddbc758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a095cf8883d25738508536800d72e6b7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a095cf8883d25738508536800d72e6b7c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a095cf8883d25738508536800d72e6b7c">HandleModelReloadFinished</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> eventType, <a class="el" href="class_urho3_d_1_1_hash_map.html">VariantMap</a> &amp;eventData)</td></tr>
-<tr class="memdesc:a095cf8883d25738508536800d72e6b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle collision model reload finished. <br/></td></tr>
-<tr class="separator:a095cf8883d25738508536800d72e6b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94357d54aa72238c942ba3c780075dfd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94357d54aa72238c942ba3c780075dfd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a94357d54aa72238c942ba3c780075dfd">PreStep</a> (float timeStep)</td></tr>
 <tr class="memdesc:a94357d54aa72238c942ba3c780075dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger update before each physics simulation step. <br/></td></tr>
 <tr class="separator:a94357d54aa72238c942ba3c780075dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d42550d32c7f33394c2acede1e3a481"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d42550d32c7f33394c2acede1e3a481"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a4d42550d32c7f33394c2acede1e3a481">PostStep</a> (float timeStep)</td></tr>
-<tr class="memdesc:a4d42550d32c7f33394c2acede1e3a481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger update after ecah physics simulation step. <br/></td></tr>
+<tr class="memdesc:a4d42550d32c7f33394c2acede1e3a481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger update after each physics simulation step. <br/></td></tr>
 <tr class="separator:a4d42550d32c7f33394c2acede1e3a481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9506da0ff3e9fa5f0ceb26ac52bca06e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9506da0ff3e9fa5f0ceb26ac52bca06e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a9506da0ff3e9fa5f0ceb26ac52bca06e">SendCollisionEvents</a> ()</td></tr>
@@ -818,20 +814,20 @@ btDiscreteDynamicsWorld *&#160;</td><td class="memItemRight" valign="bottom"><a 
 <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; <a class="el" href="class_urho3_d_1_1_constraint.html">Constraint</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#aa2607c2b0a76d9ad431f5fb073f32122">constraints_</a></td></tr>
 <tr class="memdesc:aa2607c2b0a76d9ad431f5fb073f32122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constraints in the world. <br/></td></tr>
 <tr class="separator:aa2607c2b0a76d9ad431f5fb073f32122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dc43099e1ece0e854e88279f2803046"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3dc43099e1ece0e854e88279f2803046"></a>
+<tr class="memitem:a484c7175dbd153052f6fe63e80d3f6e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a484c7175dbd153052f6fe63e80d3f6e8"></a>
 <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_pair.html">Pair</a>&lt; <a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a><br class="typebreak"/>
 &lt; <a class="el" href="class_urho3_d_1_1_rigid_body.html">RigidBody</a> &gt;, <a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a><br class="typebreak"/>
 &lt; <a class="el" href="class_urho3_d_1_1_rigid_body.html">RigidBody</a> &gt;<br class="typebreak"/>
- &gt;, btPersistentManifold * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a3dc43099e1ece0e854e88279f2803046">currentCollisions_</a></td></tr>
-<tr class="memdesc:a3dc43099e1ece0e854e88279f2803046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision pairs on this frame. <br/></td></tr>
-<tr class="separator:a3dc43099e1ece0e854e88279f2803046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7066623acbafeec7058714ab46c4c745"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7066623acbafeec7058714ab46c4c745"></a>
+ &gt;, btPersistentManifold * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a484c7175dbd153052f6fe63e80d3f6e8">currentCollisions_</a></td></tr>
+<tr class="memdesc:a484c7175dbd153052f6fe63e80d3f6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision pairs on this frame. <br/></td></tr>
+<tr class="separator:a484c7175dbd153052f6fe63e80d3f6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada22e9ab74f08f4b948a7ba14346bb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aada22e9ab74f08f4b948a7ba14346bb2"></a>
 <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_pair.html">Pair</a>&lt; <a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a><br class="typebreak"/>
 &lt; <a class="el" href="class_urho3_d_1_1_rigid_body.html">RigidBody</a> &gt;, <a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a><br class="typebreak"/>
 &lt; <a class="el" href="class_urho3_d_1_1_rigid_body.html">RigidBody</a> &gt;<br class="typebreak"/>
- &gt;, btPersistentManifold * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#a7066623acbafeec7058714ab46c4c745">previousCollisions_</a></td></tr>
-<tr class="memdesc:a7066623acbafeec7058714ab46c4c745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision pairs on the previous frame. Used to check if a collision is "new." Manifolds are not guaranteed to exist anymore. <br/></td></tr>
-<tr class="separator:a7066623acbafeec7058714ab46c4c745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ &gt;, btPersistentManifold * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#aada22e9ab74f08f4b948a7ba14346bb2">previousCollisions_</a></td></tr>
+<tr class="memdesc:aada22e9ab74f08f4b948a7ba14346bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision pairs on the previous frame. Used to check if a collision is "new." Manifolds are not guaranteed to exist anymore. <br/></td></tr>
+<tr class="separator:aada22e9ab74f08f4b948a7ba14346bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7fb8c9e7cfa77fa9e29d4045d8ef8ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7fb8c9e7cfa77fa9e29d4045d8ef8ec"></a>
 <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_rigid_body.html">RigidBody</a> <br class="typebreak"/>
 *, <a class="el" href="struct_urho3_d_1_1_delayed_world_transform.html">DelayedWorldTransform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_physics_world.html#ab7fb8c9e7cfa77fa9e29d4045d8ef8ec">delayedWorldTransforms_</a></td></tr>

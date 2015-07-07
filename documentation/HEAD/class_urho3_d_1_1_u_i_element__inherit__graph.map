@@ -10,7 +10,7 @@
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="373,325,525,355"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="205,325,325,355"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="5,325,157,355"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="1229,5,1352,35"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="1229,5,1352,35"/>
 <area shape="rect" id="node19" href="$class_urho3_d_1_1_check_box.html" title="UI element that can be toggled between unchecked and checked state." alt="" coords="1220,59,1361,88"/>
 <area shape="rect" id="node21" href="$class_urho3_d_1_1_cursor.html" title="Mouse cursor UI element." alt="" coords="1231,112,1351,141"/>
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_line_edit.html" title="Single&#45;line text editor UI element." alt="" coords="1227,165,1355,195"/>

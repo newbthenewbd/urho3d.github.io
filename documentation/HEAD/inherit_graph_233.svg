@@ -10,7 +10,7 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map infomation.">
+<a xlink:href="struct_urho3_d_1_1_tile_map_info2_d.html" target="_top" xlink:title="Tile map information.">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-21.5 126,-21.5 126,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="63" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::TileMapInfo2D</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="Urho3D::Menu" name="Urho3D::Menu">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="2315,1089,2437,1119"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="2315,1089,2437,1119"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="1939,933,2101,963"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="1620,765,1764,795"/>
 <area shape="rect" id="node65" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::UIElement \&gt;" alt="" coords="2127,879,2289,926"/>

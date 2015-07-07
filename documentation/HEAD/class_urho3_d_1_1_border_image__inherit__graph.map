@@ -1,5 +1,5 @@
 <map id="Urho3D::BorderImage" name="Urho3D::BorderImage">
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="1189,5,1312,35"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="1189,5,1312,35"/>
 <area shape="rect" id="node19" href="$class_urho3_d_1_1_check_box.html" title="UI element that can be toggled between unchecked and checked state." alt="" coords="1180,59,1321,88"/>
 <area shape="rect" id="node21" href="$class_urho3_d_1_1_cursor.html" title="Mouse cursor UI element." alt="" coords="1191,112,1311,141"/>
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_line_edit.html" title="Single&#45;line text editor UI element." alt="" coords="1187,165,1315,195"/>

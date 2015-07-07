@@ -6,7 +6,7 @@
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_line_edit.html" title="Single&#45;line text editor UI element." alt="" coords="1093,404,1221,433"/>
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="493,516,656,545"/>
 <area shape="rect" id="node25" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::BorderImage \&gt;" alt="" coords="733,507,915,554"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="763,593,885,623"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="763,593,885,623"/>
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="297,516,441,545"/>
 <area shape="rect" id="node38" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::UIElement \&gt;" alt="" coords="743,699,905,746"/>
 <area shape="rect" id="node46" href="$class_urho3_d_1_1_scroll_view.html" title="Scrollable UI element for showing a (possibly large) child element." alt="" coords="1087,815,1228,844"/>

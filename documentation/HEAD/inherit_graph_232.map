@@ -177,7 +177,7 @@
 <area shape="rect" id="node351" href="$class_urho3_d_1_1_sprite.html" title="UI element which allows sub&#45;pixel positioning and size, as well as rotation. Only other Sprites shoul..." alt="" coords="1301,2496,1419,2525"/>
 <area shape="rect" id="node353" href="$class_urho3_d_1_1_text.html" title="Text UI element." alt="" coords="1308,2549,1412,2579"/>
 <area shape="rect" id="node355" href="$class_urho3_d_1_1_tool_tip.html" title="Tooltip UI element." alt="" coords="1300,2603,1420,2632"/>
-<area shape="rect" id="node327" href="$class_urho3_d_1_1_button.html" title="Pushbutton UI element." alt="" coords="1575,2256,1697,2285"/>
+<area shape="rect" id="node327" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="1575,2256,1697,2285"/>
 <area shape="rect" id="node333" href="$class_urho3_d_1_1_check_box.html" title="UI element that can be toggled between unchecked and checked state." alt="" coords="1565,2309,1707,2339"/>
 <area shape="rect" id="node335" href="$class_urho3_d_1_1_cursor.html" title="Mouse cursor UI element." alt="" coords="1576,2363,1696,2392"/>
 <area shape="rect" id="node337" href="$class_urho3_d_1_1_line_edit.html" title="Single&#45;line text editor UI element." alt="" coords="1572,2416,1700,2445"/>

@@ -59,7 +59,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
-<a xlink:href="class_urho3_d_1_1_button.html" target="_top" xlink:title="Pushbutton UI element.">
+<a xlink:href="class_urho3_d_1_1_button.html" target="_top" xlink:title="Push button UI element.">
 <polygon fill="none" stroke="black" points="1222,-729.5 1222,-750.5 1314,-750.5 1314,-729.5 1222,-729.5"/>
 <text text-anchor="middle" x="1268" y="-737.5" font-family="FreeSans" font-size="10.00">Urho3D::Button</text>
 </a>
