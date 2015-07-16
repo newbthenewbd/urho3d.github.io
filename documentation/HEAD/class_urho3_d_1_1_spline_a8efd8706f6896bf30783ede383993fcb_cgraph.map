@@ -1,0 +1,6 @@
+<map id="Urho3D::Spline::BezierInterpolation" name="Urho3D::Spline::BezierInterpolation">
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_vector.html#a06762e9e70b9851f54a845555f28cd4b" title="Return size of vector." alt="" coords="597,5,752,35"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_spline.html#aeecb9658c0ef3f5c6b31adfacefc8e97" title="Perform linear interpolation on the spline." alt="" coords="301,57,547,87"/>
+<area shape="rect" id="node10" href="$class_urho3_d_1_1_vector.html#a083b39861b996df82f811a9a4ebff109" title="Add an element at the end." alt="" coords="345,111,503,140"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_vector.html#a0d42dd722113dc655b16878841abe0f6" title="Return last element." alt="" coords="596,59,753,88"/>
+</map>

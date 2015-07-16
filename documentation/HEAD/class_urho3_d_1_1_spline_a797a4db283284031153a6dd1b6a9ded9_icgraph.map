@@ -1,0 +1,14 @@
+<map id="Urho3D::Spline::GetPoint" name="Urho3D::Spline::GetPoint">
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_spline_path.html#a4f238d19b9538149a3eb5ad89c4b8563" title="Draw the Debug Geometry." alt="" coords="235,5,403,51"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_spline_path.html#a30e120d56aaa3b5809ec94807b2f2bfd" title="Get a point on the SplinePath from 0.f to 1.f where 0 is the start and 1 is the end." alt="" coords="245,74,392,121"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_spline_path.html#a36d325ce97cc0e763e2feb1f62c3f606" title="Calculate the length of the SplinePath. Used for movement calculations." alt="" coords="245,247,392,294"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_spline_path.html#ae41c6741a56b4f3509acc433c64f93b7" title="Move the controlled Node to the next position along the SplinePath based off the Speed value..." alt="" coords="461,5,608,51"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_spline_path.html#a30c432c329069076cd6c46e833c63f76" title="Apply Attributes to the SplinePath." alt="" coords="461,74,608,121"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_spline_path.html#aeda8d385fe734579f66408158582ada0" title="Add a Node to the SplinePath as a Control Point." alt="" coords="461,143,608,190"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_spline_path.html#a0f115ec8c2245008faf5687aca256a4e" title="Remove a Node Control Point from the SplinePath." alt="" coords="456,213,613,259"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_spline_path.html#ae029f501c426c03362faf3f51678eefb" title="Clear the Control Points from the SplinePath." alt="" coords="461,282,608,329"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_spline_path.html#ae9a6a13c7f1d9f24065cd015265a469f" title="Set the Interpolation Mode." alt="" coords="452,351,617,398"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_spline_path.html#a208c4b09d5ea0b05b89b87f365806af4" title="Listener to manage Control Point movement." alt="" coords="461,421,608,467"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_spline_path.html#a8ed509044ec8da0efb529f9b1be25ba2" title="Listener to manage Control Point enabling." alt="" coords="457,490,612,537"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_spline_path.html#a0c940eaebcacf000d99883f747d03b1d" title="Register object factory." alt="" coords="667,351,813,398"/>
+</map>
