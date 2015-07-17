@@ -34,6 +34,7 @@ Controls</h2>
                      select components instead. Hold Ctrl to multiselect.
 Right mouse        - Hold down and move mouse to rotate camera
 Middle mouse       - Hold down orbits the camera around selected objects
+Shift+Right mouse   - Hold down pans the camera
 Shift+Middle mouse - Hold down pans the camera
 
 WSAD or arrows     - Move
@@ -42,6 +43,7 @@ E                  - Ascend
 Q                  - Descend
 Shift+E,Q          - Ascend or descend faster
 
+Home               - Center view on currently selected object
 Numpad5            - Toggle orthographic / perspective camera
 Numpad1            - Front view
 Numpad3            - Right hand view
@@ -84,7 +86,12 @@ F4                 - Toggle octree debug geometry
 F11                - Captures a screenshot
 F12                - Toggle UI
 </pre><p>Press right mouse button in the 3D view if you want to defocus the active window without changing the object selection.</p>
-<h2><a class="anchor" id="EditorInstructions_Workflow"></a>
+<p>An option in the settings (Pan using MMB) changes the default behavior of the MMB and RMB to pan the camera, and to require using Shift to use camera orbit and rotation.</p>
+<pre class="fragment">Right mouse        - Hold down pans the camera
+Middle mouse       - Hold down pans the camera
+Shift+Right mouse  - Hold down and move mouse to rotate camera
+Shift+Middle mouse - Hold down orbits the camera around selected objects
+</pre><h2><a class="anchor" id="EditorInstructions_Workflow"></a>
 Workflow</h2>
 <p>When you start with an empty scene, set the resource path first (File -&gt; Set resource path). This is the base directory, under which the subdirectories Models, Materials &amp; Textures will be created as you import assets.</p>
 <p>Scenes should be saved either into this base directory, or into its immediate subdirectory, named for example Scenes or Levels.</p>
