@@ -266,7 +266,8 @@
 <g id="edge62" class="edge"><title>Node11&#45;&gt;Node20</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M97.9726,-229.997C155.414,-221.63 249,-208.429 330,-199 365.797,-194.833 406.67,-190.967 435.877,-188.358"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="97.4164,-226.541 88.0274,-231.449 98.4284,-233.467 97.4164,-226.541"/>
-<text text-anchor="middle" x="252" y="-220" font-family="FreeSans" font-size="10.00"> text_</text>
+<text text-anchor="middle" x="252" y="-233" font-family="FreeSans" font-size="10.00"> stringId_</text>
+<text text-anchor="middle" x="252" y="-220" font-family="FreeSans" font-size="10.00">text_</text>
 </g>
 <!-- Node12&#45;&gt;Node6 -->
 <g id="edge32" class="edge"><title>Node12&#45;&gt;Node6</title>
@@ -345,21 +346,21 @@
 <!-- Node17 -->
 <g id="node41" class="node"><title>Node17</title>
 <a xlink:href="class_urho3_d_1_1_p_o_d_vector.html" target="_top" xlink:title="Urho3D::PODVector\&lt;\l unsigned \&gt;">
-<polygon fill="none" stroke="red" points="192.5,-248 192.5,-282 311.5,-282 311.5,-248 192.5,-248"/>
-<text text-anchor="start" x="200.5" y="-269" font-family="FreeSans" font-size="10.00">Urho3D::PODVector&lt;</text>
-<text text-anchor="middle" x="252" y="-256" font-family="FreeSans" font-size="10.00"> unsigned &gt;</text>
+<polygon fill="none" stroke="red" points="192.5,-255 192.5,-289 311.5,-289 311.5,-255 192.5,-255"/>
+<text text-anchor="start" x="200.5" y="-276" font-family="FreeSans" font-size="10.00">Urho3D::PODVector&lt;</text>
+<text text-anchor="middle" x="252" y="-263" font-family="FreeSans" font-size="10.00"> unsigned &gt;</text>
 </a>
 </g>
 <!-- Node17&#45;&gt;Node14 -->
 <g id="edge50" class="edge"><title>Node17&#45;&gt;Node14</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M321.788,-267.376C510.228,-274.006 1020.15,-293.441 1094,-312 1114.62,-317.183 1136.47,-328.071 1151.23,-336.335"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="321.835,-263.876 311.718,-267.023 321.59,-270.871 321.835,-263.876"/>
-<text text-anchor="middle" x="662" y="-287" font-family="FreeSans" font-size="10.00"> selections_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M321.784,-273.764C510.212,-278.747 1020.1,-293.755 1094,-312 1114.79,-317.132 1136.78,-328.146 1151.54,-336.458"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="321.803,-270.264 311.714,-273.499 321.619,-277.261 321.803,-270.264"/>
+<text text-anchor="middle" x="662" y="-290" font-family="FreeSans" font-size="10.00"> selections_</text>
 </g>
 <!-- Node17&#45;&gt;Node20 -->
 <g id="edge64" class="edge"><title>Node17&#45;&gt;Node20</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M285.095,-242.478C298.557,-234.129 314.56,-225.195 330,-219 364.555,-205.135 406.115,-196.11 435.865,-190.867"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="283.21,-239.529 276.646,-247.846 286.964,-245.437 283.21,-239.529"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M280.888,-248.615C294.983,-238.218 312.619,-226.628 330,-219 364.212,-203.985 406,-195.088 435.911,-190.186"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="278.462,-246.062 272.604,-254.89 282.689,-251.642 278.462,-246.062"/>
 <text text-anchor="middle" x="363" y="-249" font-family="FreeSans" font-size="10.00"> unicodeText_</text>
 <text text-anchor="middle" x="363" y="-236" font-family="FreeSans" font-size="10.00">printToText_</text>
 <text text-anchor="middle" x="363" y="-223" font-family="FreeSans" font-size="10.00">printText_</text>

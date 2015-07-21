@@ -104,6 +104,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#addc4ddd1a493d968d4747ee4cfa0b64c">SetWordwrap</a> (bool enable)</td></tr>
 <tr class="memdesc:addc4ddd1a493d968d4747ee4cfa0b64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set wordwrap. In wordwrap mode the text element will respect its current width. Otherwise it resizes itself freely. <br/></td></tr>
 <tr class="separator:addc4ddd1a493d968d4747ee4cfa0b64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39e310d7e375ccf06073ad17c4000e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac39e310d7e375ccf06073ad17c4000e8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#ac39e310d7e375ccf06073ad17c4000e8">SetAutoLocalizable</a> (bool enable)</td></tr>
+<tr class="memdesc:ac39e310d7e375ccf06073ad17c4000e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text will be automatically translated. The text value used as string identifier. <br/></td></tr>
+<tr class="separator:ac39e310d7e375ccf06073ad17c4000e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ecaaa3c42752425730dab51179f308"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78ecaaa3c42752425730dab51179f308"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a78ecaaa3c42752425730dab51179f308">SetSelection</a> (unsigned start, unsigned length=M_MAX_UNSIGNED)</td></tr>
 <tr class="memdesc:a78ecaaa3c42752425730dab51179f308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set selection. When length is not provided, select until the text ends. <br/></td></tr>
@@ -152,6 +156,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a11f4ecc474958385eddff156094120f3">GetWordwrap</a> () const </td></tr>
 <tr class="memdesc:a11f4ecc474958385eddff156094120f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return wordwrap mode. <br/></td></tr>
 <tr class="separator:a11f4ecc474958385eddff156094120f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258fd3317fc2f352065f00b19b90dc6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a258fd3317fc2f352065f00b19b90dc6c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a258fd3317fc2f352065f00b19b90dc6c">GetAutoLocalizable</a> () const </td></tr>
+<tr class="memdesc:a258fd3317fc2f352065f00b19b90dc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return auto localizable mode. <br/></td></tr>
+<tr class="separator:a258fd3317fc2f352065f00b19b90dc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e268a0046cd95e54ca3620d3075d25b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e268a0046cd95e54ca3620d3075d25b"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a6e268a0046cd95e54ca3620d3075d25b">GetSelectionStart</a> () const </td></tr>
 <tr class="memdesc:a6e268a0046cd95e54ca3620d3075d25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return selection start. <br/></td></tr>
@@ -1281,6 +1289,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a1e49f01c29207662ab47fa65b8d71396">ConstructBatch</a> (<a class="el" href="class_urho3_d_1_1_u_i_batch.html">UIBatch</a> &amp;pageBatch, const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; <a class="el" href="struct_urho3_d_1_1_glyph_location.html">GlyphLocation</a> &gt; &amp;pageGlyphLocation, int dx=0, int dy=0, <a class="el" href="class_urho3_d_1_1_color.html">Color</a> *color=0, float depthBias=0.0f)</td></tr>
 <tr class="memdesc:a1e49f01c29207662ab47fa65b8d71396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contruct batch. <br/></td></tr>
 <tr class="separator:a1e49f01c29207662ab47fa65b8d71396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ed7223fa22cf8e7c7ca5be8dd70416"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44ed7223fa22cf8e7c7ca5be8dd70416"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a44ed7223fa22cf8e7c7ca5be8dd70416">HandleChangeLanguage</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> eventType, <a class="el" href="class_urho3_d_1_1_hash_map.html">VariantMap</a> &amp;eventData)</td></tr>
+<tr class="memdesc:a44ed7223fa22cf8e7c7ca5be8dd70416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle change Language. <br/></td></tr>
+<tr class="separator:a44ed7223fa22cf8e7c7ca5be8dd70416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf8cee35ae07d806d55953f8e37bd99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="addf8cee35ae07d806d55953f8e37bd99"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#addf8cee35ae07d806d55953f8e37bd99">DecodeToUnicode</a> ()</td></tr>
+<tr class="memdesc:addf8cee35ae07d806d55953f8e37bd99"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTF8 to Unicode. <br/></td></tr>
+<tr class="separator:addf8cee35ae07d806d55953f8e37bd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_urho3_d_1_1_u_i_element"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_urho3_d_1_1_u_i_element')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_urho3_d_1_1_u_i_element.html">Urho3D::UIElement</a></td></tr>
 <tr class="memitem:aafa0713fdfcaceec51b5655d44f45e2d inherit pro_methods_class_urho3_d_1_1_u_i_element"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa0713fdfcaceec51b5655d44f45e2d"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_u_i_element.html#aafa0713fdfcaceec51b5655d44f45e2d">OnAttributeAnimationAdded</a> ()</td></tr>
@@ -1435,6 +1451,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; <a class="el" href="struct_urho3_d_1_1_char_location.html">CharLocation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a0bbe23622a6d4ec6167bdc3b7ab305b8">charLocations_</a></td></tr>
 <tr class="memdesc:a0bbe23622a6d4ec6167bdc3b7ab305b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached locations of each character in the text. <br/></td></tr>
 <tr class="separator:a0bbe23622a6d4ec6167bdc3b7ab305b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce14ea5350f2b3fad13d6a38b217d28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ce14ea5350f2b3fad13d6a38b217d28"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#a2ce14ea5350f2b3fad13d6a38b217d28">autoLocalizable_</a></td></tr>
+<tr class="memdesc:a2ce14ea5350f2b3fad13d6a38b217d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text will be automatically translated. <br/></td></tr>
+<tr class="separator:a2ce14ea5350f2b3fad13d6a38b217d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c78bac229402d0ac1c1129a185cc66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7c78bac229402d0ac1c1129a185cc66"></a>
+<a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_text.html#aa7c78bac229402d0ac1c1129a185cc66">stringId_</a></td></tr>
+<tr class="memdesc:aa7c78bac229402d0ac1c1129a185cc66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage string id. Used when enabled autoLocalizable. <br/></td></tr>
+<tr class="separator:aa7c78bac229402d0ac1c1129a185cc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_urho3_d_1_1_u_i_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_urho3_d_1_1_u_i_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_urho3_d_1_1_u_i_element.html">Urho3D::UIElement</a></td></tr>
 <tr class="memitem:a4964e64f3f1748db31c31e24ef6bf123 inherit pro_attribs_class_urho3_d_1_1_u_i_element"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4964e64f3f1748db31c31e24ef6bf123"></a>
 <a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_u_i_element.html#a4964e64f3f1748db31c31e24ef6bf123">name_</a></td></tr>

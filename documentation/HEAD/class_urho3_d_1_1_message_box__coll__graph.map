@@ -3,21 +3,21 @@
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_event_handler.html" title="Internal helper class for invoking event handler functions." alt="" coords="1237,91,1403,120"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="405,563,557,592"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="1684,296,1812,325"/>
-<area shape="rect" id="node6" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="32,629,168,659"/>
+<area shape="rect" id="node6" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="32,649,168,679"/>
 <area shape="rect" id="node51" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::FontFace \&gt;" alt="" coords="384,685,579,731"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Object * \&gt;" alt="" coords="1241,209,1399,255"/>
 <area shape="rect" id="node22" href="$class_urho3_d_1_1_linked_list.html" title="Urho3D::LinkedList\l\&lt; Urho3D::EventHandler \&gt;" alt="" coords="1651,27,1845,74"/>
 <area shape="rect" id="node16" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lHashSet\&lt; Urho3D::Object * \&gt; \&gt;" alt="" coords="1205,279,1435,343"/>
 <area shape="rect" id="node18" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::Object *, Urho3D::HashMap\l\&lt; Urho3D::StringHash, Urho3D\l::HashSet\&lt; Urho3D::Object * \&gt; \&gt; \&gt;" alt="" coords="1193,366,1447,447"/>
 <area shape="rect" id="node20" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lSharedPtr\&lt; Urho3D::Object \&gt; \&gt;" alt="" coords="1205,471,1435,535"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="1259,1339,1381,1368"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="816,1339,979,1368"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="409,1239,553,1268"/>
-<area shape="rect" id="node43" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::UIElement \&gt;" alt="" coords="1004,1178,1167,1225"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_button.html" title="Push button UI element." alt="" coords="1259,1356,1381,1385"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="816,1356,979,1385"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="409,1256,553,1285"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::UIElement \&gt;" alt="" coords="1004,1194,1167,1241"/>
 <area shape="rect" id="node46" href="$class_urho3_d_1_1_text.html" title="Text UI element." alt="" coords="845,960,949,989"/>
-<area shape="rect" id="node32" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="41,1163,159,1192"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="28,1385,172,1415"/>
-<area shape="rect" id="node38" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="44,985,156,1015"/>
+<area shape="rect" id="node32" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="41,1180,159,1209"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="28,1403,172,1432"/>
+<area shape="rect" id="node38" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="44,989,156,1019"/>
 <area shape="rect" id="node49" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l int \&gt;" alt="" coords="403,615,560,662"/>
 <area shape="rect" id="node54" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::CharLocation \&gt;" alt="" coords="391,754,572,801"/>
 <area shape="rect" id="node56" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::PODVector\&lt; Urho3D::GlyphLocation \&gt; \&gt;" alt="" coords="336,823,627,870"/>

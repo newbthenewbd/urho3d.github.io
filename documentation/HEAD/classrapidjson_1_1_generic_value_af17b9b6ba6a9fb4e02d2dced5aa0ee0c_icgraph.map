@@ -1,7 +1,9 @@
 <map id="rapidjson::GenericValue::HasMember" name="rapidjson::GenericValue::HasMember">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_j_s_o_n_value.html#ab66a989a8473f6a974a3e281ef1f8a1e" title="Return a child value by name. Return null if not exist." alt="" coords="227,74,381,121"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_j_s_o_n_value.html#ab66a989a8473f6a974a3e281ef1f8a1e" title="Return a child value by name. Return null if not exist." alt="" coords="227,109,381,155"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_j_s_o_n_value.html#a35617f7fb889e765396a94c273e1429b" title="Create a child value." alt="" coords="429,39,584,86"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_j_s_o_n_value.html#a33ecc2f7f60fa9097f2521ea6e887bdf" title="Return variant." alt="" coords="429,109,584,155"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_localization.html#a1cdb72266155e8403b1120d96c202ce5" title="Load strings from JSONValue." alt="" coords="429,178,584,225"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_j_s_o_n_value.html#a8fb1a5e60adb25e2d72b5629f33645e4" title="Set variant (include type)." alt="" coords="632,5,787,51"/>
 <area shape="rect" id="node9" href="$class_urho3_d_1_1_j_s_o_n_value.html#a35d49592799512e0ca875e8470b0fc4f" title="Add variant." alt="" coords="632,74,787,121"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_localization.html#a358bcf9a35c4c6e31425df41bbc10e9f" title="Load strings from JSONFile. The file should be UTF8 without BOM." alt="" coords="632,178,787,225"/>
 </map>

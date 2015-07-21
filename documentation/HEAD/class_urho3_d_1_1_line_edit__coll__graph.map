@@ -1,13 +1,13 @@
 <map id="Urho3D::LineEdit" name="Urho3D::LineEdit">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="1293,404,1456,433"/>
-<area shape="rect" id="node58" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::BorderImage \&gt;" alt="" coords="1659,335,1840,382"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="711,911,855,940"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_text.html" title="Text UI element." alt="" coords="1057,972,1161,1001"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="1293,400,1456,429"/>
+<area shape="rect" id="node58" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::BorderImage \&gt;" alt="" coords="1659,331,1840,378"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="711,912,855,941"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_text.html" title="Text UI element." alt="" coords="1057,973,1161,1003"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="312,909,464,939"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_int_rect.html" title="Two&#45;dimensional bounding rectangle with integer values." alt="" coords="327,588,449,617"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::UIElement \&gt; \&gt;" alt="" coords="257,1167,519,1214"/>
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_vector2.html" title="Two&#45;dimensional vector." alt="" coords="324,493,452,523"/>
-<area shape="rect" id="node62" href="$class_urho3_d_1_1_font.html" title="Font resource." alt="" coords="729,211,836,240"/>
+<area shape="rect" id="node62" href="$class_urho3_d_1_1_font.html" title="Font resource." alt="" coords="729,224,836,253"/>
 <area shape="rect" id="node16" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; StringHash,\l Variant \&gt;" alt="" coords="273,1237,503,1283"/>
 <area shape="rect" id="node19" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="5,1052,123,1081"/>
 <area shape="rect" id="node22" href="$class_urho3_d_1_1_x_path_query.html" title="XPath query." alt="" coords="312,1115,464,1144"/>
@@ -15,12 +15,12 @@
 <area shape="rect" id="node25" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="311,962,465,1009"/>
 <area shape="rect" id="node27" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="316,312,460,341"/>
 <area shape="rect" id="node30" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="332,856,444,885"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="720,377,845,407"/>
-<area shape="rect" id="node34" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="1032,395,1187,442"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="720,372,845,401"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="1032,391,1187,438"/>
 <area shape="rect" id="node45" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Text \&gt;" alt="" coords="1480,807,1635,854"/>
-<area shape="rect" id="node50" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l int \&gt;" alt="" coords="704,963,861,1010"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::FontFace \&gt;" alt="" coords="685,1033,880,1079"/>
-<area shape="rect" id="node54" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::CharLocation \&gt;" alt="" coords="692,1102,873,1149"/>
+<area shape="rect" id="node50" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l int \&gt;" alt="" coords="704,965,861,1011"/>
+<area shape="rect" id="node52" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::FontFace \&gt;" alt="" coords="685,1034,880,1081"/>
+<area shape="rect" id="node54" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::CharLocation \&gt;" alt="" coords="692,1103,873,1150"/>
 <area shape="rect" id="node65" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; int,\l Urho3D::SharedPtr\&lt; Urho3D\l::FontFace \&gt; \&gt;" alt="" coords="283,60,493,124"/>
 <area shape="rect" id="node67" href="$class_urho3_d_1_1_shared_array_ptr.html" title="Urho3D::SharedArrayPtr\l\&lt; unsigned char \&gt;" alt="" coords="300,147,476,194"/>
 </map>
