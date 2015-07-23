@@ -18,7 +18,8 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h4>Table of Contents</h4>
-<ul><li class="level1"><a href="#EditorInstructions_Controls">Controls</a></li>
+<ul><li class="level1"><a href="#EditorInstructions_Controls">Controls (standard style hotkeys)</a></li>
+<li class="level1"><a href="#EditorInstructions_Controls2">Controls (blender style hotkeys)</a></li>
 <li class="level1"><a href="#EditorInstructions_Workflow">Workflow</a></li>
 <li class="level1"><a href="#EditorInstructions_Editing">Editing</a></li>
 <li class="level1"><a href="#EditorInstructions_Importing">Importing</a></li>
@@ -29,7 +30,7 @@ group: HEAD
 <pre class="fragment">-scene &lt;/path/to/scene.xml&gt;     Load a scene after starting up
 </pre><p>Hint: to get more content to look at, run the Physics sample application (bin/Data/Scripts/11_Physics.as), and press F5. This saves a scene file called Physics.xml into the Data/Scenes subdirectory, which can be loaded in the editor. Scenes utilized by the NinjaSnowWar and SceneAndUILoad examples also exist in the Data/Scenes subdirectory, and the NinjaSnowWar object "prefabs" are in the Data/Objects subdirectory.</p>
 <h2><a class="anchor" id="EditorInstructions_Controls"></a>
-Controls</h2>
+Controls (standard style hotkeys)</h2>
 <pre class="fragment">Left mouse         - Select nodes or drag the node transform gizmo. Hold Shift to
                      select components instead. Hold Ctrl to multiselect.
 Right mouse        - Hold down and move mouse to rotate camera
@@ -85,6 +86,21 @@ F3                 - Toggle physics debug geometry
 F4                 - Toggle octree debug geometry
 F11                - Captures a screenshot
 F12                - Toggle UI
+</pre><h2><a class="anchor" id="EditorInstructions_Controls2"></a>
+Controls (blender style hotkeys)</h2>
+<p>Hotkeys list show only differences with standard style</p>
+<pre class="fragment">Shift+F            - Enter/Exit camera's flying mode
+G,R,S              - Object manipulation mode: move/rotate/scale ( note: camera flying mode must be off to do this manipulation)
+Cycle press G,R,S  - Toggle between world and local axes manipulation
+Shift+D            - Duplicate node or component
+H                  - Enable/disable node hierarchy or component
+Alt+H              - Enable all nodes hierarchy or component in scene
+Alt+P              - Unparent scene node
+Ctrl+P             - Parent all selected scene nodes to last selected node 
+Z                  - Cycle through solid, wireframe and point rendering
+M                  - Show/Hide LayerEditor
+F                  - Focus on selected object (LookAt)               
+X                  - Delete node or component
 </pre><p>Press right mouse button in the 3D view if you want to defocus the active window without changing the object selection.</p>
 <p>An option in the settings (Pan using MMB) changes the default behavior of the MMB and RMB to pan the camera, and to require using Shift to use camera orbit and rotation.</p>
 <pre class="fragment">Right mouse        - Hold down pans the camera
