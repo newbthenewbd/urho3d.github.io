@@ -110,6 +110,10 @@ unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#aa8f4b978c6f3f2c018393a2c92d0e2c5">IsCompleted</a> (unsigned priority) const </td></tr>
 <tr class="memdesc:aa8f4b978c6f3f2c018393a2c92d0e2c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether all work with at least the specified priority is finished. <br/></td></tr>
 <tr class="separator:aa8f4b978c6f3f2c018393a2c92d0e2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b7d8ae779fabaacf7ff1a1b446f58e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b7d8ae779fabaacf7ff1a1b446f58e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#a99b7d8ae779fabaacf7ff1a1b446f58e">IsCompleting</a> () const </td></tr>
+<tr class="memdesc:a99b7d8ae779fabaacf7ff1a1b446f58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the queue is currently completing work in the main thread. <br/></td></tr>
+<tr class="separator:a99b7d8ae779fabaacf7ff1a1b446f58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea81864a01133e65f9ca503286605e03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea81864a01133e65f9ca503286605e03"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#aea81864a01133e65f9ca503286605e03">GetTolerance</a> () const </td></tr>
 <tr class="memdesc:aea81864a01133e65f9ca503286605e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pool tolerance. <br/></td></tr>
@@ -309,6 +313,10 @@ volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#aef9f213bd32e658774120971666ddf6b">paused_</a></td></tr>
 <tr class="memdesc:aef9f213bd32e658774120971666ddf6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paused flag. Indicates the queue mutex being locked to prevent worker threads using up CPU time. <br/></td></tr>
 <tr class="separator:aef9f213bd32e658774120971666ddf6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12eb56f40710d5e33f4ae763997a2cee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12eb56f40710d5e33f4ae763997a2cee"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#a12eb56f40710d5e33f4ae763997a2cee">completing_</a></td></tr>
+<tr class="memdesc:a12eb56f40710d5e33f4ae763997a2cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completing work in the main thread flag. <br/></td></tr>
+<tr class="separator:a12eb56f40710d5e33f4ae763997a2cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1ecce51ec02c42f4c1bed751f0ebdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c1ecce51ec02c42f4c1bed751f0ebdf"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_work_queue.html#a1c1ecce51ec02c42f4c1bed751f0ebdf">tolerance_</a></td></tr>
 <tr class="memdesc:a1c1ecce51ec02c42f4c1bed751f0ebdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance for the shared pool before it begins to deallocate. <br/></td></tr>
