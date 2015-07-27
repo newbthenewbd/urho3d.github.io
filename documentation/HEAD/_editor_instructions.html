@@ -19,7 +19,7 @@ group: HEAD
 <div class="contents">
 <div class="toc"><h4>Table of Contents</h4>
 <ul><li class="level1"><a href="#EditorInstructions_Controls">Controls (standard style hotkeys)</a></li>
-<li class="level1"><a href="#EditorInstructions_Controls2">Controls (blender style hotkeys)</a></li>
+<li class="level1"><a href="#EditorInstructions_Controls2">Controls (Blender style hotkeys)</a></li>
 <li class="level1"><a href="#EditorInstructions_Workflow">Workflow</a></li>
 <li class="level1"><a href="#EditorInstructions_Editing">Editing</a></li>
 <li class="level1"><a href="#EditorInstructions_Importing">Importing</a></li>
@@ -35,9 +35,7 @@ Controls (standard style hotkeys)</h2>
                      select components instead. Hold Ctrl to multiselect.
 Right mouse        - Hold down and move mouse to rotate camera
 Middle mouse       - Hold down orbits the camera around selected objects
-Shift+Right mouse   - Hold down pans the camera
 Shift+Middle mouse - Hold down pans the camera
-
 WSAD or arrows     - Move
 Shift+WSAD         - Move faster
 E                  - Ascend
@@ -86,28 +84,33 @@ F3                 - Toggle physics debug geometry
 F4                 - Toggle octree debug geometry
 F11                - Captures a screenshot
 F12                - Toggle UI
+</pre><p>The editor setting "Pan using middle mouse button" switches the controls to the following:</p>
+<pre class="fragment">Middle mouse       - Hold down pans the camera
+Shift+Middle mouse - Hold down orbits the camera around selected objects
 </pre><h2><a class="anchor" id="EditorInstructions_Controls2"></a>
-Controls (blender style hotkeys)</h2>
+Controls (Blender style hotkeys)</h2>
 <p>Hotkeys list show only differences with standard style</p>
-<pre class="fragment">Shift+F            - Enter/Exit camera's flying mode
+<pre class="fragment">Left mouse         - Drag the node manipulator gizmo
+Middle mouse       - Hold down orbits the camera
+Shift+middle mouse - Hold down pans the camera
+Right mouse        - Select objects
+Shift+F            - Enter/Exit camera's flying mode
 G,R,S              - Object manipulation mode: move/rotate/scale ( note: camera flying mode must be off to do this manipulation)
 Cycle press G,R,S  - Toggle between world and local axes manipulation
 Shift+D            - Duplicate node or component
 H                  - Enable/disable node hierarchy or component
 Alt+H              - Enable all nodes hierarchy or component in scene
 Alt+P              - Unparent scene node
-Ctrl+P             - Parent all selected scene nodes to last selected node 
+Ctrl+P             - Parent all selected scene nodes to last selected node
 Z                  - Cycle through solid, wireframe and point rendering
 M                  - Show/Hide LayerEditor
 F                  - Focus on selected object (LookAt)               
 X                  - Delete node or component
+Alt+D              - Smart Duplicate (note: select one of axises on gizmo to show direction for next instance)
+Key "." or Del     - View Closer selected node(s)  
 </pre><p>Press right mouse button in the 3D view if you want to defocus the active window without changing the object selection.</p>
-<p>An option in the settings (Pan using MMB) changes the default behavior of the MMB and RMB to pan the camera, and to require using Shift to use camera orbit and rotation.</p>
-<pre class="fragment">Right mouse        - Hold down pans the camera
-Middle mouse       - Hold down pans the camera
-Shift+Right mouse  - Hold down and move mouse to rotate camera
-Shift+Middle mouse - Hold down orbits the camera around selected objects
-</pre><h2><a class="anchor" id="EditorInstructions_Workflow"></a>
+<p>The "Pan using middle mouse button" option has no effect in Blender hotkeys mode. </p>
+<h2><a class="anchor" id="EditorInstructions_Workflow"></a>
 Workflow</h2>
 <p>When you start with an empty scene, set the resource path first (File -&gt; Set resource path). This is the base directory, under which the subdirectories Models, Materials &amp; Textures will be created as you import assets.</p>
 <p>Scenes should be saved either into this base directory, or into its immediate subdirectory, named for example Scenes or Levels.</p>
