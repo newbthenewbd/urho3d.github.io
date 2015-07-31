@@ -19,7 +19,7 @@
 <area shape="rect" id="node39" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::IndexBuffer \&gt;" alt="" coords="1369,5,1540,51"/>
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_index_buffer.html" title="Hardware index buffer." alt="" coords="905,13,1055,43"/>
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Image \&gt;" alt="" coords="1377,773,1532,819"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_image.html" title="Image resource." alt="" coords="1720,805,1837,835"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_image.html" title="Image resource." alt="" coords="1720,813,1837,843"/>
 <area shape="rect" id="node51" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="1383,116,1527,145"/>
 <area shape="rect" id="node54" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Material \&gt;" alt="" coords="1377,169,1532,215"/>
 <area shape="rect" id="node56" href="$class_urho3_d_1_1_material.html" title="Describes how to render 3D geometries." alt="" coords="915,81,1045,111"/>

@@ -1,26 +1,26 @@
 <map id="Urho3D::Texture2D" name="Urho3D::Texture2D">
 <area shape="rect" id="node2" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="1655,341,1780,371"/>
 <area shape="rect" id="node29" href="$class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources." alt="" coords="2401,171,2535,200"/>
-<area shape="rect" id="node42" href="$class_urho3_d_1_1_render_surface.html" title="Color or depth&#45;stencil surface that can be rendered into." alt="" coords="1996,731,2167,760"/>
+<area shape="rect" id="node42" href="$class_urho3_d_1_1_render_surface.html" title="Color or depth&#45;stencil surface that can be rendered into." alt="" coords="1996,748,2167,777"/>
 <area shape="rect" id="node58" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="2004,261,2159,307"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="1293,341,1429,371"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_image.html" title="Image resource." alt="" coords="1659,579,1776,608"/>
-<area shape="rect" id="node71" href="$class_urho3_d_1_1_x_m_l_file.html" title="XML document resource." alt="" coords="1655,515,1780,544"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_image.html" title="Image resource." alt="" coords="1659,596,1776,625"/>
+<area shape="rect" id="node71" href="$class_urho3_d_1_1_x_m_l_file.html" title="XML document resource." alt="" coords="1655,519,1780,548"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="1000,152,1120,181"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="256,597,408,627"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="256,607,408,636"/>
 <area shape="rect" id="node12" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="668,204,796,233"/>
-<area shape="rect" id="node10" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="5,628,141,657"/>
+<area shape="rect" id="node10" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="5,637,141,667"/>
 <area shape="rect" id="node27" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::Graphics \&gt;" alt="" coords="2717,162,2912,209"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_shared_array_ptr.html" title="Urho3D::SharedArrayPtr\l\&lt; unsigned char \&gt;" alt="" coords="433,650,609,697"/>
-<area shape="rect" id="node46" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::RenderSurface \&gt;" alt="" coords="2371,806,2565,853"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_shared_array_ptr.html" title="Urho3D::SharedArrayPtr\l\&lt; unsigned char \&gt;" alt="" coords="433,661,609,707"/>
+<area shape="rect" id="node46" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::RenderSurface \&gt;" alt="" coords="2371,815,2565,862"/>
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_linked_list.html" title="Urho3D::LinkedList\l\&lt; Urho3D::EventHandler \&gt;" alt="" coords="635,257,829,303"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_timer.html" title="Low&#45;resolution operating system timer." alt="" coords="1003,395,1117,424"/>
 <area shape="rect" id="node19" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="1001,247,1119,276"/>
 <area shape="rect" id="node22" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="985,341,1135,371"/>
 <area shape="rect" id="node25" href="$class_urho3_d_1_1_g_p_u_object.html" title="Base class for GPU resources." alt="" coords="3028,341,3175,371"/>
-<area shape="rect" id="node39" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Image \&gt;" alt="" coords="2004,618,2159,665"/>
+<area shape="rect" id="node39" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Image \&gt;" alt="" coords="2004,635,2159,682"/>
 <area shape="rect" id="node66" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::RenderSurface \&gt;" alt="" coords="2373,706,2563,753"/>
-<area shape="rect" id="node51" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Viewport \&gt; \&gt;" alt="" coords="1592,790,1843,837"/>
+<area shape="rect" id="node51" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Viewport \&gt; \&gt;" alt="" coords="1592,799,1843,846"/>
 <area shape="rect" id="node61" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="1305,609,1417,639"/>
 <area shape="rect" id="node69" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="2192,527,2347,574"/>
 </map>

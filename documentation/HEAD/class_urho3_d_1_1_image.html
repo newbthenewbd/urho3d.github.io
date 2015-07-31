@@ -138,6 +138,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a6dcc835d6a8e6a838ba388d6f952e885">SaveJPG</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;fileName, int quality) const </td></tr>
 <tr class="memdesc:a6dcc835d6a8e6a838ba388d6f952e885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save in JPG format with compression quality. Return true if successful. <br/></td></tr>
 <tr class="separator:a6dcc835d6a8e6a838ba388d6f952e885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6e04c3e8b0b147c30dab3ebf774895"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb6e04c3e8b0b147c30dab3ebf774895"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#adb6e04c3e8b0b147c30dab3ebf774895">IsCubemap</a> () const </td></tr>
+<tr class="memdesc:adb6e04c3e8b0b147c30dab3ebf774895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this texture is detected as a cubemap, only relevant for DDS. <br/></td></tr>
+<tr class="separator:adb6e04c3e8b0b147c30dab3ebf774895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bc43e05e195b043b81f2bd1eb539a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25bc43e05e195b043b81f2bd1eb539a3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a25bc43e05e195b043b81f2bd1eb539a3">IsArray</a> () const </td></tr>
+<tr class="memdesc:a25bc43e05e195b043b81f2bd1eb539a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this texture has been detected as a volume, only relevant for DDS. <br/></td></tr>
+<tr class="separator:a25bc43e05e195b043b81f2bd1eb539a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d72650f34bc9a1f15c8fc3264468e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4d72650f34bc9a1f15c8fc3264468e8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#ad4d72650f34bc9a1f15c8fc3264468e8">IsSRGB</a> () const </td></tr>
+<tr class="memdesc:ad4d72650f34bc9a1f15c8fc3264468e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this texture is in sRGB, only relevant for DDS. <br/></td></tr>
+<tr class="separator:ad4d72650f34bc9a1f15c8fc3264468e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737c991eba0911bafa9f04ded078a40c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a737c991eba0911bafa9f04ded078a40c"></a>
 <a class="el" href="class_urho3_d_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a737c991eba0911bafa9f04ded078a40c">GetPixel</a> (int x, int y) const </td></tr>
 <tr class="memdesc:a737c991eba0911bafa9f04ded078a40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a 2D pixel color. <br/></td></tr>
@@ -198,6 +210,10 @@ unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#ae8c0f79ab5f89576a635ca3a5b266009">GetNextLevel</a> () const </td></tr>
 <tr class="memdesc:ae8c0f79ab5f89576a635ca3a5b266009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return next mip level by bilinear filtering. <br/></td></tr>
 <tr class="separator:ae8c0f79ab5f89576a635ca3a5b266009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe76fb884318bf99ce7d93571f0636f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fe76fb884318bf99ce7d93571f0636f"></a>
+<a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a0fe76fb884318bf99ce7d93571f0636f">GetNextSibling</a> () const </td></tr>
+<tr class="memdesc:a0fe76fb884318bf99ce7d93571f0636f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the next sibling image of an array or cubemap. <br/></td></tr>
+<tr class="separator:a0fe76fb884318bf99ce7d93571f0636f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af605ac4dbfeba3183bc5f36f2efd2d14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af605ac4dbfeba3183bc5f36f2efd2d14"></a>
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#af605ac4dbfeba3183bc5f36f2efd2d14">ConvertToRGBA</a> () const </td></tr>
 <tr class="memdesc:af605ac4dbfeba3183bc5f36f2efd2d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return image converted to 4-component (RGBA) to circumvent modern rendering API's not supporting e.g. the luminance-alpha format. <br/></td></tr>
@@ -444,6 +460,18 @@ unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a72affcce1087d62d3fe98fbcdc8a8c10">numCompressedLevels_</a></td></tr>
 <tr class="memdesc:a72affcce1087d62d3fe98fbcdc8a8c10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of compressed mip levels. <br/></td></tr>
 <tr class="separator:a72affcce1087d62d3fe98fbcdc8a8c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b75851b09fe51a1ad1d0f029980c853"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b75851b09fe51a1ad1d0f029980c853"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a4b75851b09fe51a1ad1d0f029980c853">cubemap_</a></td></tr>
+<tr class="memdesc:a4b75851b09fe51a1ad1d0f029980c853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cubemap status if DDS. <br/></td></tr>
+<tr class="separator:a4b75851b09fe51a1ad1d0f029980c853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d6f68569c11381b620fe8b103a836e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55d6f68569c11381b620fe8b103a836e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a55d6f68569c11381b620fe8b103a836e">array_</a></td></tr>
+<tr class="memdesc:a55d6f68569c11381b620fe8b103a836e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_texture.html" title="Base class for texture resources.">Texture</a> array status if DDS. <br/></td></tr>
+<tr class="separator:a55d6f68569c11381b620fe8b103a836e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535562c9194def9a8c82a816f64bd2ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a535562c9194def9a8c82a816f64bd2ab"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a535562c9194def9a8c82a816f64bd2ab">sRGB_</a></td></tr>
+<tr class="memdesc:a535562c9194def9a8c82a816f64bd2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data is sRGB. <br/></td></tr>
+<tr class="separator:a535562c9194def9a8c82a816f64bd2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e61ec34610227c008eb59a368eae04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31e61ec34610227c008eb59a368eae04"></a>
 CompressedFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a31e61ec34610227c008eb59a368eae04">compressedFormat_</a></td></tr>
 <tr class="memdesc:a31e61ec34610227c008eb59a368eae04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compressed format. <br/></td></tr>
@@ -456,6 +484,10 @@ CompressedFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#af9e43d35b9e6c394f730766d71ed9dd5">nextLevel_</a></td></tr>
 <tr class="memdesc:af9e43d35b9e6c394f730766d71ed9dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precalculated mip level image. <br/></td></tr>
 <tr class="separator:af9e43d35b9e6c394f730766d71ed9dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018e75cb14ab3b8bd28eaa21365c7538"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a018e75cb14ab3b8bd28eaa21365c7538"></a>
+<a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_image.html#a018e75cb14ab3b8bd28eaa21365c7538">nextSibling_</a></td></tr>
+<tr class="memdesc:a018e75cb14ab3b8bd28eaa21365c7538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next texture array or cube map image. <br/></td></tr>
+<tr class="separator:a018e75cb14ab3b8bd28eaa21365c7538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

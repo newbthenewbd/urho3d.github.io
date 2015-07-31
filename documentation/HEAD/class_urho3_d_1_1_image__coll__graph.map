@@ -1,5 +1,5 @@
 <map id="Urho3D::Image" name="Urho3D::Image">
-<area shape="rect" id="node63" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Image \&gt;" alt="" coords="1763,1089,1917,1135"/>
+<area shape="rect" id="node63" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Image \&gt;" alt="" coords="1765,1089,1920,1135"/>
 <area shape="rect" id="node2" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="1037,1023,1173,1052"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="689,817,809,847"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_event_handler.html" title="Internal helper class for invoking event handler functions." alt="" coords="1023,804,1188,833"/>
