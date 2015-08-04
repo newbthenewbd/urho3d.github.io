@@ -13,7 +13,7 @@
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_u_i_element.html#ad18ecc5e79b04d47079bdc979eed8240" title="Mark screen position as needing an update." alt="" coords="927,1010,1079,1057"/>
 <area shape="rect" id="node27" href="$class_urho3_d_1_1_u_i_element.html#a7e286d16e39b54282ca0d64666d26b67" title="Disable automatic layout update. Should only be used if there are performance problems." alt="" coords="924,127,1081,174"/>
 <area shape="rect" id="node29" href="$class_urho3_d_1_1_u_i_element.html#a07eef4aea58dbe71222c899f01b83f18" title="Return indent width in pixels." alt="" coords="927,197,1079,243"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_u_i_element.html#ac3426df12a6621a2fea7c6f18795501d" title="Return whether is visible." alt="" coords="927,266,1079,313"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_u_i_element.html#ac3426df12a6621a2fea7c6f18795501d" title="Return whether element itself should be visible. Elements can be also hidden due to the parent being ..." alt="" coords="927,266,1079,313"/>
 <area shape="rect" id="node33" href="$class_urho3_d_1_1_p_o_d_vector.html#a3eb78093c096ab9e9d68595facc56470" title="Add an element at the end." alt="" coords="1155,364,1341,393"/>
 <area shape="rect" id="node35" href="$class_urho3_d_1_1_u_i_element.html#a43fabb5ae4b41ab955ec7831efa5ad2a" title="Return width." alt="" coords="927,455,1079,502"/>
 <area shape="rect" id="node37" href="$class_urho3_d_1_1_u_i_element.html#af7f4c2cbd86ab701ce5c4ef2cb1ccff0" title="Return minimum width." alt="" coords="927,525,1079,571"/>

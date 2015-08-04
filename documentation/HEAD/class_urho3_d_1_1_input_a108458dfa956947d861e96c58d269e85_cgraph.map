@@ -11,7 +11,7 @@
 <area shape="rect" id="node29" href="$class_urho3_d_1_1_vector.html#af79ffb0683568b08fe130ee028bfd1ef" title="Return iterator to the end." alt="" coords="257,700,409,729"/>
 <area shape="rect" id="node31" href="$class_urho3_d_1_1_u_i_element.html#a784af86dd836d5257b7c807f8cb9b072" title="Return name." alt="" coords="257,753,409,799"/>
 <area shape="rect" id="node34" href="$class_urho3_d_1_1_u_i_element.html#a2de24717fe9c66ab2d15a3b37c037bd0" title="Return child element by index." alt="" coords="257,822,409,869"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_u_i_element.html#a8a0131dfc7f06ce10cdb77418ec830a9" title="Set whether is visible." alt="" coords="257,891,409,938"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_u_i_element.html#a8a0131dfc7f06ce10cdb77418ec830a9" title="Set whether is visible. Visibility propagates to child elements." alt="" coords="257,891,409,938"/>
 <area shape="rect" id="node38" href="$class_urho3_d_1_1_text.html#a0c97b8f60cad489151940e742be739ba" title="Return text." alt="" coords="253,961,413,991"/>
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_hash_map.html#a9dc4e5c0ad1feb3eec2d2f1f1714698d" title="Return iterator to the pair with key, or end iterator if not found." alt="" coords="248,1015,419,1044"/>
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_hash_map.html#a47eb201d8441d4e4be8626e615cb562d" title="Return iterator to the end." alt="" coords="248,1068,419,1097"/>

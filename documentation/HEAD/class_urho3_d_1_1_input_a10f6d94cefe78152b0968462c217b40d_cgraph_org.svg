@@ -207,7 +207,7 @@
 </g>
 <!-- Node16 -->
 <g id="node31" class="node"><title>Node16</title>
-<a xlink:href="class_urho3_d_1_1_u_i_element.html#ac3426df12a6621a2fea7c6f18795501d" target="_top" xlink:title="Return whether is visible.">
+<a xlink:href="class_urho3_d_1_1_u_i_element.html#ac3426df12a6621a2fea7c6f18795501d" target="_top" xlink:title="Return whether element itself should be visible. Elements can be also hidden due to the parent being ...">
 <polygon fill="none" stroke="black" points="690.5,-558 690.5,-592 805.5,-592 805.5,-558 690.5,-558"/>
 <text text-anchor="start" x="698.5" y="-579" font-family="FreeSans" font-size="10.00">Urho3D::UIElement::</text>
 <text text-anchor="middle" x="748" y="-566" font-family="FreeSans" font-size="10.00">IsVisible</text>

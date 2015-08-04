@@ -166,7 +166,7 @@
 </g>
 <!-- Node18 -->
 <g id="node36" class="node"><title>Node18</title>
-<a xlink:href="class_urho3_d_1_1_u_i_element.html#a8a0131dfc7f06ce10cdb77418ec830a9" target="_top" xlink:title="Set whether is visible.">
+<a xlink:href="class_urho3_d_1_1_u_i_element.html#a8a0131dfc7f06ce10cdb77418ec830a9" target="_top" xlink:title="Set whether is visible. Visibility propagates to child elements.">
 <polygon fill="none" stroke="red" points="188.5,-290 188.5,-324 303.5,-324 303.5,-290 188.5,-290"/>
 <text text-anchor="start" x="196.5" y="-311" font-family="FreeSans" font-size="10.00">Urho3D::UIElement::</text>
 <text text-anchor="middle" x="246" y="-298" font-family="FreeSans" font-size="10.00">SetVisible</text>
