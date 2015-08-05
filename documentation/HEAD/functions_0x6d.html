@@ -235,6 +235,9 @@ group: HEAD
 <li>maxLodGeometry_
 : <a class="el" href="class_urho3_d_1_1_terrain_patch.html#ad1f38f3d19558eefaeb2842df09c90b0">Urho3D::TerrainPatch</a>
 </li>
+<li>maxLodLevels_
+: <a class="el" href="class_urho3_d_1_1_terrain.html#a65b9abf900ba39b73afcb9f2bad80230">Urho3D::Terrain</a>
+</li>
 <li>maxNetworkAngularVelocity_
 : <a class="el" href="class_urho3_d_1_1_physics_world.html#a5bbcb368cf9479eb9f2c8cc3966acc97">Urho3D::PhysicsWorld</a>
 </li>
@@ -317,12 +320,12 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_menu.html#a6eccfca31d308c80483949f8791c68a4">Urho3D::Menu</a>
 </li>
 <li>Merge()
-: <a class="el" href="class_urho3_d_1_1_bounding_box.html#aed34ce73cc5ae9ec4af80f3966e37bb4">Urho3D::BoundingBox</a>
+: <a class="el" href="class_urho3_d_1_1_bounding_box.html#a11b58c6d30c540c0ca690a7d9d1ec680">Urho3D::BoundingBox</a>
 , <a class="el" href="class_urho3_d_1_1_rect.html#a31dd9880cc9d0dda98cb34976bb3bd80">Urho3D::Rect</a>
 , <a class="el" href="class_urho3_d_1_1_sphere.html#a7b5d4b9d99b9b4b158ca504a4e7a5b93">Urho3D::Sphere</a>
 , <a class="el" href="class_urho3_d_1_1_u_i_batch.html#a716bbd0567f4013b135ea1e132c79de7">Urho3D::UIBatch</a>
-, <a class="el" href="class_urho3_d_1_1_sphere.html#a86aa6ab6cbb630ebdf16ee8c4ac834f9">Urho3D::Sphere</a>
-, <a class="el" href="class_urho3_d_1_1_bounding_box.html#a11b58c6d30c540c0ca690a7d9d1ec680">Urho3D::BoundingBox</a>
+, <a class="el" href="class_urho3_d_1_1_sphere.html#a790a7e9c6d43465a1ed5f9115daf805d">Urho3D::Sphere</a>
+, <a class="el" href="class_urho3_d_1_1_bounding_box.html#ad68416179f8d538d4c27da8e58670b10">Urho3D::BoundingBox</a>
 </li>
 <li>meshInterface_
 : <a class="el" href="struct_urho3_d_1_1_triangle_mesh_data.html#aa07ccf349707eb3733277edae7befc1f">Urho3D::TriangleMeshData</a>
@@ -376,11 +379,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_input.html#aedd4856999490f53fd03f5c3c5ba4048">Urho3D::Input</a>
 </li>
 <li>minInstances_
-: <a class="el" href="class_urho3_d_1_1_view.html#a72e5e68d72d9846da73b7e6cc50843f0">Urho3D::View</a>
-, <a class="el" href="class_urho3_d_1_1_renderer.html#a15d05ab226e8813e64a65d0a5915f648">Urho3D::Renderer</a>
-</li>
-<li>minLodGeometry_
-: <a class="el" href="class_urho3_d_1_1_terrain_patch.html#a6007384d1c6acb1b882eec7a076133d0">Urho3D::TerrainPatch</a>
+: <a class="el" href="class_urho3_d_1_1_renderer.html#a15d05ab226e8813e64a65d0a5915f648">Urho3D::Renderer</a>
+, <a class="el" href="class_urho3_d_1_1_view.html#a72e5e68d72d9846da73b7e6cc50843f0">Urho3D::View</a>
 </li>
 <li>minPriority_
 : <a class="el" href="class_urho3_d_1_1_network_priority.html#a1e4c04cc08b13176ae4ac1d09d78e77e">Urho3D::NetworkPriority</a>
@@ -472,8 +472,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_window.html#a66033a3ee70b8dd4a3a094d6fc4add5d">Urho3D::Window</a>
 </li>
 <li>mode_
-: <a class="el" href="class_urho3_d_1_1_file.html#a4a49ec5f446393372091c828ebffaf8f">Urho3D::File</a>
-, <a class="el" href="struct_urho3_d_1_1_attribute_info.html#a7008072701a906f6db5442ceecf8eb52">Urho3D::AttributeInfo</a>
+: <a class="el" href="struct_urho3_d_1_1_attribute_info.html#a7008072701a906f6db5442ceecf8eb52">Urho3D::AttributeInfo</a>
+, <a class="el" href="class_urho3_d_1_1_file.html#a4a49ec5f446393372091c828ebffaf8f">Urho3D::File</a>
 , <a class="el" href="struct_urho3_d_1_1_async_progress.html#a18248334617ad7d1975869836f20d425">Urho3D::AsyncProgress</a>
 , <a class="el" href="class_urho3_d_1_1_debug_hud.html#a0aa88cd174ce43ffea8aa8b35a665152">Urho3D::DebugHud</a>
 </li>
@@ -550,9 +550,9 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#a98b0bbf578127e242a764b5cbc6f891a">Urho3D::NavigationMesh</a>
 </li>
 <li>MoveRange()
-: <a class="el" href="class_urho3_d_1_1_vector.html#a16513c59c4f36471f988f4564ee71c6e">Urho3D::Vector&lt; T &gt;</a>
+: <a class="el" href="class_urho3_d_1_1_string.html#a537ae31ab4fd07be1d5329a78222b5b5">Urho3D::String</a>
 , <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html#a6ea320cf619d0086ab16053b2e112fa2">Urho3D::PODVector&lt; T &gt;</a>
-, <a class="el" href="class_urho3_d_1_1_string.html#a537ae31ab4fd07be1d5329a78222b5b5">Urho3D::String</a>
+, <a class="el" href="class_urho3_d_1_1_vector.html#a16513c59c4f36471f988f4564ee71c6e">Urho3D::Vector&lt; T &gt;</a>
 </li>
 <li>msg_
 : <a class="el" href="class_urho3_d_1_1_connection.html#a545dd29bf40a20c0222f9ec2b8d62e93">Urho3D::Connection</a>

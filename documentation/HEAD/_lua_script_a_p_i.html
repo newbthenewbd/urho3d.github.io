@@ -5235,6 +5235,8 @@ Classes</h2>
 <ul>
 <li>void SetPatchSize(int size)</li>
 <li>void SetSpacing(const Vector3&amp; spacing)</li>
+<li>void SetMaxLodLevels(unsigned levels)</li>
+<li>void SetOcclusionLodLevel(unsigned level)</li>
 <li>void SetSmoothing(bool enable)</li>
 <li>bool SetHeightMap(Image* image)</li>
 <li>void SetMaterial(Material* material)</li>
@@ -5254,6 +5256,8 @@ Classes</h2>
 <li>const <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a>&amp; GetSpacing() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a>&amp; GetNumVertices() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a>&amp; GetNumPatches() const</li>
+<li>unsigned GetMaxLodLevels() const</li>
+<li>unsigned GetOcclusionLodLevel() const</li>
 <li>bool GetSmoothing() const</li>
 <li>Image* GetHeightMap() const</li>
 <li>Material* GetMaterial() const</li>
@@ -5282,6 +5286,8 @@ Classes</h2>
 <li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a>&amp; spacing</li>
 <li><a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a>&amp; numVertices (readonly)</li>
 <li><a class="el" href="class_urho3_d_1_1_int_vector2.html" title="Two-dimensional vector with integer values.">IntVector2</a>&amp; numPatches (readonly)</li>
+<li>unsigned maxLodLevels</li>
+<li>unsigned occlusionLodLevel</li>
 <li>bool smoothing</li>
 <li>Image* heightMap</li>
 <li>Material* material</li>
@@ -5310,7 +5316,7 @@ Classes</h2>
 <li>void ResetLod()</li>
 <li>Geometry* GetGeometry() const</li>
 <li>Geometry* GetMaxLodGeometry() const</li>
-<li>Geometry* GetMinLodGeometry() const</li>
+<li>Geometry* GetOcclusionGeometry() const</li>
 <li>VertexBuffer* GetVertexBuffer() const</li>
 <li>Terrain* GetOwner() const</li>
 <li>TerrainPatch* GetNorthPatch() const</li>
@@ -5324,7 +5330,7 @@ Classes</h2>
 <ul>
 <li>Geometry* geometry (readonly)</li>
 <li>Geometry* maxLodGeometry (readonly)</li>
-<li>Geometry* minLodGeometry (readonly)</li>
+<li>Geometry* occlusionGeometry (readonly)</li>
 <li>VertexBuffer* vertexBuffer (readonly)</li>
 <li>Terrain* owner</li>
 <li>TerrainPatch* northPatch (readonly)</li>

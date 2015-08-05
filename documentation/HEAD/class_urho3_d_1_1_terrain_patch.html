@@ -125,12 +125,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a01eaa2eb9491fb8726a32def0f161f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dfbf16bc7b0e9d48dc135e7da569882"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5dfbf16bc7b0e9d48dc135e7da569882"></a>
 <a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#a5dfbf16bc7b0e9d48dc135e7da569882">GetMaxLodGeometry</a> () const </td></tr>
-<tr class="memdesc:a5dfbf16bc7b0e9d48dc135e7da569882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return max LOD geometry. <br/></td></tr>
+<tr class="memdesc:a5dfbf16bc7b0e9d48dc135e7da569882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return max LOD geometry. Used for decals. <br/></td></tr>
 <tr class="separator:a5dfbf16bc7b0e9d48dc135e7da569882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff9a1e14f198fe13d7363a99661b2943"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff9a1e14f198fe13d7363a99661b2943"></a>
-<a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#aff9a1e14f198fe13d7363a99661b2943">GetMinLodGeometry</a> () const </td></tr>
-<tr class="memdesc:aff9a1e14f198fe13d7363a99661b2943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return min LOD geometry. <br/></td></tr>
-<tr class="separator:aff9a1e14f198fe13d7363a99661b2943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa06915e39eda60b1582c117fade070"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fa06915e39eda60b1582c117fade070"></a>
+<a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#a6fa06915e39eda60b1582c117fade070">GetOcclusionGeometry</a> () const </td></tr>
+<tr class="memdesc:a6fa06915e39eda60b1582c117fade070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return geometry used for occlusion. <br/></td></tr>
+<tr class="separator:a6fa06915e39eda60b1582c117fade070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad08ba2d8024229e30eb1d57ba57d1b97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad08ba2d8024229e30eb1d57ba57d1b97"></a>
 <a class="el" href="class_urho3_d_1_1_vertex_buffer.html">VertexBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#ad08ba2d8024229e30eb1d57ba57d1b97">GetVertexBuffer</a> () const </td></tr>
 <tr class="memdesc:ad08ba2d8024229e30eb1d57ba57d1b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vertex buffer. <br/></td></tr>
@@ -914,10 +914,10 @@ Private Attributes</h2></td></tr>
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#ad1f38f3d19558eefaeb2842df09c90b0">maxLodGeometry_</a></td></tr>
 <tr class="memdesc:ad1f38f3d19558eefaeb2842df09c90b0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_geometry.html" title="Defines one or more vertex buffers, an index buffer and a draw range.">Geometry</a> that is locked to the max LOD level. Used for decals. <br/></td></tr>
 <tr class="separator:ad1f38f3d19558eefaeb2842df09c90b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6007384d1c6acb1b882eec7a076133d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6007384d1c6acb1b882eec7a076133d0"></a>
-<a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#a6007384d1c6acb1b882eec7a076133d0">minLodGeometry_</a></td></tr>
-<tr class="memdesc:a6007384d1c6acb1b882eec7a076133d0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_geometry.html" title="Defines one or more vertex buffers, an index buffer and a draw range.">Geometry</a> that is locked to the minimum LOD level. Used for occlusion. <br/></td></tr>
-<tr class="separator:a6007384d1c6acb1b882eec7a076133d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebea381306f65f3045cc4854d90838c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebea381306f65f3045cc4854d90838c6"></a>
+<a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_geometry.html">Geometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#aebea381306f65f3045cc4854d90838c6">occlusionGeometry_</a></td></tr>
+<tr class="memdesc:aebea381306f65f3045cc4854d90838c6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_geometry.html" title="Defines one or more vertex buffers, an index buffer and a draw range.">Geometry</a> that is used for occlusion. <br/></td></tr>
+<tr class="separator:aebea381306f65f3045cc4854d90838c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d550df7be92a0f77f13577919d5c3b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d550df7be92a0f77f13577919d5c3b3"></a>
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_vertex_buffer.html">VertexBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_terrain_patch.html#a1d550df7be92a0f77f13577919d5c3b3">vertexBuffer_</a></td></tr>
 <tr class="memdesc:a1d550df7be92a0f77f13577919d5c3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex buffer. <br/></td></tr>
