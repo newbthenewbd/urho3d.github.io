@@ -30,6 +30,7 @@ group: HEAD
 <div class="line">    &lt;shadowcull value=<span class="stringliteral">&quot;cw|ccw|none&quot;</span> /&gt;</div>
 <div class="line">    &lt;fill value=<span class="stringliteral">&quot;solid|wireframe|point&quot;</span> /&gt;</div>
 <div class="line">    &lt;depthbias constant=<span class="stringliteral">&quot;x&quot;</span> slopescaled=<span class="stringliteral">&quot;y&quot;</span> /&gt;</div>
+<div class="line">    &lt;renderorder value=<span class="stringliteral">&quot;x&quot;</span> /&gt;</div>
 <div class="line">&lt;/material&gt;</div>
 </div><!-- fragment --><p>Several techniques can be defined for different quality levels and LOD distances. Technique quality levels are specified from 0 (low) to 2 (high). When rendering, the highest available technique that does not exceed the <a class="el" href="class_urho3_d_1_1_renderer.html" title="High-level rendering subsystem. Manages drawing of 3D views.">Renderer</a>'s material quality setting will be chosen, see <a class="el" href="class_urho3_d_1_1_renderer.html#aabb13682895a9c8f0cabec5ae55cb802">SetMaterialQuality()</a>. It is also possible for a technique to require Shader Model 3, in this case it will be skipped on SM2 hardware.</p>
 <p>The techniques for different LOD levels and quality settings must appear in a specific order:</p>
@@ -42,6 +43,7 @@ group: HEAD
 </ul>
 <p>Material shader parameters can be floats or vectors up to 4 components, or matrices.</p>
 <p>Default culling mode is counterclockwise. The shadowcull element specifies the culling mode to use in the shadow pass. Note that material's depth bias settings do not apply in the shadow pass; during shadow rendering the light's depth bias is used instead.</p>
+<p>Render order is a 8-bit unsigned value that can be used to affect rendering order within a pass, overriding the state or distance sorting. The default value is 128; smaller values will render earlier, and larger values later.</p>
 <h2><a class="anchor" id="Materials_Textures"></a>
 Material textures</h2>
 <p>Diffuse maps specify the surface color in the RGB channels. Optionally they can use the alpha channel for blending and alpha testing. They should preferably be compressed to DXT1 (no alpha or 1-bit alpha) or DXT5 (smooth alpha) format.</p>

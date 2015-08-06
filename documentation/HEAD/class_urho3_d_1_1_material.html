@@ -132,6 +132,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#a94e2635fff559ea248d0687505fb07a2">SetDepthBias</a> (const <a class="el" href="struct_urho3_d_1_1_bias_parameters.html">BiasParameters</a> &amp;parameters)</td></tr>
 <tr class="memdesc:a94e2635fff559ea248d0687505fb07a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set depth bias. <br/></td></tr>
 <tr class="separator:a94e2635fff559ea248d0687505fb07a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c107d0bc70408017c10b57fb1ce23e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60c107d0bc70408017c10b57fb1ce23e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#a60c107d0bc70408017c10b57fb1ce23e">SetRenderOrder</a> (unsigned char order)</td></tr>
+<tr class="memdesc:a60c107d0bc70408017c10b57fb1ce23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set 8-bit render order within pass. Default 128. Lower values will render earlier and higher values later, taking precedence over e.g. state and distance sorting. <br/></td></tr>
+<tr class="separator:a60c107d0bc70408017c10b57fb1ce23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acefba652015ea89aa6d99149e33e1257"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acefba652015ea89aa6d99149e33e1257"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#acefba652015ea89aa6d99149e33e1257">SetScene</a> (<a class="el" href="class_urho3_d_1_1_scene.html">Scene</a> *scene)</td></tr>
 <tr class="memdesc:acefba652015ea89aa6d99149e33e1257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associate the material with a scene to ensure that shader parameter animation happens in sync with scene update, respecting the scene time scale. If no scene is set, the global update events will be used. <br/></td></tr>
@@ -222,6 +226,10 @@ FillMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 const <a class="el" href="struct_urho3_d_1_1_bias_parameters.html">BiasParameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#af66138e39cc56d869d87416560f50d0a">GetDepthBias</a> () const </td></tr>
 <tr class="memdesc:af66138e39cc56d869d87416560f50d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return depth bias. <br/></td></tr>
 <tr class="separator:af66138e39cc56d869d87416560f50d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf437d662099d7d8ccdf299a98795528"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf437d662099d7d8ccdf299a98795528"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#adf437d662099d7d8ccdf299a98795528">GetRenderOrder</a> () const </td></tr>
+<tr class="memdesc:adf437d662099d7d8ccdf299a98795528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return render order. <br/></td></tr>
+<tr class="separator:adf437d662099d7d8ccdf299a98795528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb698a28a48d509f016b36a92dfe1e30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb698a28a48d509f016b36a92dfe1e30"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#abb698a28a48d509f016b36a92dfe1e30">GetAuxViewFrameNumber</a> () const </td></tr>
 <tr class="memdesc:abb698a28a48d509f016b36a92dfe1e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return last auxiliary view rendered frame number. <br/></td></tr>
@@ -504,6 +512,10 @@ FillMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a class="el" href="struct_urho3_d_1_1_bias_parameters.html">BiasParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#a2eb93a8934282a22cd021fc77f42cf25">depthBias_</a></td></tr>
 <tr class="memdesc:a2eb93a8934282a22cd021fc77f42cf25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Depth bias parameters. <br/></td></tr>
 <tr class="separator:a2eb93a8934282a22cd021fc77f42cf25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14a05ec4f4975a5fa4d0eeced3e89a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa14a05ec4f4975a5fa4d0eeced3e89a4"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#aa14a05ec4f4975a5fa4d0eeced3e89a4">renderOrder_</a></td></tr>
+<tr class="memdesc:aa14a05ec4f4975a5fa4d0eeced3e89a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render order value. <br/></td></tr>
+<tr class="separator:aa14a05ec4f4975a5fa4d0eeced3e89a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41148b9fef801f356ce9ad0bff5402c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41148b9fef801f356ce9ad0bff5402c6"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_material.html#a41148b9fef801f356ce9ad0bff5402c6">auxViewFrameNumber_</a></td></tr>
 <tr class="memdesc:a41148b9fef801f356ce9ad0bff5402c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last auxiliary view rendered frame number. <br/></td></tr>

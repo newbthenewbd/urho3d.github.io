@@ -18,9 +18,9 @@
 <area shape="rect" id="node38" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::Renderer \&gt;" alt="" coords="319,1220,513,1267"/>
 <area shape="rect" id="node40" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Light * \&gt;" alt="" coords="337,1290,495,1336"/>
 <area shape="rect" id="node42" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::PODVector\&lt; Urho3D::Drawable * \&gt; \&gt;" alt="" coords="281,1359,551,1406"/>
-<area shape="rect" id="node44" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::ScenePassInfo \&gt;" alt="" coords="324,1428,508,1475"/>
-<area shape="rect" id="node46" href="$class_urho3_d_1_1_camera.html" title="Camera component." alt="" coords="351,1498,481,1528"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::LightQueryResult \&gt;" alt="" coords="324,1551,508,1598"/>
-<area shape="rect" id="node51" href="$class_urho3_d_1_1_render_path.html" title="Rendering path definition." alt="" coords="341,1621,491,1650"/>
-<area shape="rect" id="node54" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::LightBatchQueue \&gt;" alt="" coords="324,1674,508,1720"/>
+<area shape="rect" id="node44" href="$class_urho3_d_1_1_camera.html" title="Camera component." alt="" coords="351,1429,481,1458"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::LightQueryResult \&gt;" alt="" coords="324,1482,508,1528"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_render_path.html" title="Rendering path definition." alt="" coords="341,1552,491,1581"/>
+<area shape="rect" id="node52" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::LightBatchQueue \&gt;" alt="" coords="324,1604,508,1651"/>
+<area shape="rect" id="node54" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::PerThreadSceneResult \&gt;" alt="" coords="323,1674,509,1720"/>
 </map>

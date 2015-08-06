@@ -1,26 +1,26 @@
 <map id="Urho3D::Material::Load" name="Urho3D::Material::Load">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_material.html#a2a6e0e7eae446f7c7513090852aeac21" title="Reset to defaults." alt="" coords="248,240,435,287"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_material.html#a5e79bcf19379d52c5057c8a97fdbb288" title="Recalculate the memory used by the material." alt="" coords="807,151,991,198"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_material.html#af0ba9351397f7db0c5ca24ca1452ba7b" title="Re&#45;evaluate occlusion rendering." alt="" coords="780,422,1017,452"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_material.html#a27f2b7dd5a1ab57e0be7f9a30be657ed" title="Set shader parameter." alt="" coords="516,300,721,347"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_material.html#a9c262eda9301a091165f9c1c26df060a" title="Recalculate shader parameter hash." alt="" coords="807,300,991,347"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_x_m_l_element.html#a641b94e5613b9df16e85c2ebf2b45a00" title="Return whether does not refer to an element or an XPath node." alt="" coords="263,524,420,571"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_x_m_l_element.html#a07b4b8753884e62d7ca8ab40d7b4a912" title="Return child element, or null if missing." alt="" coords="540,815,697,862"/>
-<area shape="rect" id="node26" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="813,764,984,793"/>
-<area shape="rect" id="node28" href="$class_urho3_d_1_1_resource_cache.html#aa1657db0fcf2a1578bcb4bd5a00146ca" title="Return a resource by type and name. Load if not loaded yet. Return null if not found or if fails..." alt="" coords="253,123,429,170"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_material.html#a0c25c6b8aba110ea626a8338fb36efc6" title="Ensure that material techniques are listed in correct order." alt="" coords="224,917,459,946"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_x_m_l_element.html#a1db521bcb4df83cfb5c0ad5a01023de8" title="Return whether has an attribute." alt="" coords="540,884,697,931"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_x_m_l_element.html#a0f9070917f31e8b8ef0755a787b4941a" title="Return attribute, or empty if missing." alt="" coords="540,626,697,672"/>
-<area shape="rect" id="node39" href="$class_urho3_d_1_1_material.html#a740b3f6f56769cb6e2414aedead579b4" title="Set texture." alt="" coords="239,970,444,1000"/>
-<area shape="rect" id="node41" href="$class_urho3_d_1_1_x_m_l_element.html#aa151f57fcb4eca0607acc2412a5eda5b" title="Return next sibling element." alt="" coords="540,695,697,742"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_material.html#a60888caa70b639e24af8c6581280ebca" title="Parse a shader parameter value from a string. Retunrs either a bool, a float, or a 2 to 4&#45;component v..." alt="" coords="232,1023,451,1070"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_x_m_l_element.html#a6c0ac4eb1982df0af0dbbe423af85c4f" title="Return a float attribute, or zero if missing." alt="" coords="263,594,420,640"/>
-<area shape="rect" id="node50" href="$class_urho3_d_1_1_material.html#af87458615722fd8505c8d21460910d68" title="Set shader parameter animation." alt="" coords="239,1092,444,1139"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_material.html#a0b424910345ba115deeba4d0a7d44d75" title="Set culling mode." alt="" coords="232,1162,451,1192"/>
-<area shape="rect" id="node55" href="$class_urho3_d_1_1_material.html#a7ad95f9f7e87ff744ec116863b414571" title="Set culling mode for shadows." alt="" coords="236,1215,447,1262"/>
-<area shape="rect" id="node57" href="$class_urho3_d_1_1_material.html#ad86e30cfd668bc741831a5c270a9de9f" title="Set polygon fill mode. Interacts with the camera&#39;s fill mode setting so that the &quot;least filled&quot; mode ..." alt="" coords="236,1285,447,1314"/>
-<area shape="rect" id="node59" href="$class_urho3_d_1_1_material.html#a94e2635fff559ea248d0687505fb07a2" title="Set depth bias." alt="" coords="228,1338,455,1368"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="512,77,725,106"/>
-<area shape="rect" id="node7" href="$class_urho3_d_1_1_material.html#a59dc96684e9d317ad4913880dd22bd9f" title="Set number of techniques." alt="" coords="524,180,713,227"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_material.html#a1d1c26ca3f9c016b1db2e2f105a2fa04" title="Set technique." alt="" coords="508,370,729,400"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_material.html#a2a6e0e7eae446f7c7513090852aeac21" title="Reset to defaults." alt="" coords="251,183,437,230"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_material.html#a27f2b7dd5a1ab57e0be7f9a30be657ed" title="Set shader parameter." alt="" coords="517,243,723,290"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_material.html#a9c262eda9301a091165f9c1c26df060a" title="Recalculate shader parameter hash." alt="" coords="777,133,961,179"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_material.html#a5e79bcf19379d52c5057c8a97fdbb288" title="Recalculate the memory used by the material." alt="" coords="777,243,961,290"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_x_m_l_element.html#a641b94e5613b9df16e85c2ebf2b45a00" title="Return whether does not refer to an element or an XPath node." alt="" coords="265,361,423,407"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_x_m_l_element.html#a07b4b8753884e62d7ca8ab40d7b4a912" title="Return child element, or null if missing." alt="" coords="541,771,699,818"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="784,660,955,689"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_resource_cache.html#aa1657db0fcf2a1578bcb4bd5a00146ca" title="Return a resource by type and name. Load if not loaded yet. Return null if not found or if fails..." alt="" coords="256,101,432,147"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_material.html#a0c25c6b8aba110ea626a8338fb36efc6" title="Ensure that material techniques are listed in correct order." alt="" coords="227,823,461,852"/>
+<area shape="rect" id="node26" href="$class_urho3_d_1_1_x_m_l_element.html#a1db521bcb4df83cfb5c0ad5a01023de8" title="Return whether has an attribute." alt="" coords="541,455,699,502"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_x_m_l_element.html#a0f9070917f31e8b8ef0755a787b4941a" title="Return attribute, or empty if missing." alt="" coords="541,561,699,607"/>
+<area shape="rect" id="node32" href="$class_urho3_d_1_1_material.html#a740b3f6f56769cb6e2414aedead579b4" title="Set texture." alt="" coords="241,876,447,905"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_x_m_l_element.html#aa151f57fcb4eca0607acc2412a5eda5b" title="Return next sibling element." alt="" coords="541,651,699,698"/>
+<area shape="rect" id="node38" href="$class_urho3_d_1_1_material.html#a60888caa70b639e24af8c6581280ebca" title="Parse a shader parameter value from a string. Retunrs either a bool, a float, or a 2 to 4&#45;component v..." alt="" coords="235,929,453,975"/>
+<area shape="rect" id="node40" href="$class_urho3_d_1_1_x_m_l_element.html#a6c0ac4eb1982df0af0dbbe423af85c4f" title="Return a float attribute, or zero if missing." alt="" coords="265,601,423,647"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_material.html#af87458615722fd8505c8d21460910d68" title="Set shader parameter animation." alt="" coords="241,998,447,1045"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_material.html#a0b424910345ba115deeba4d0a7d44d75" title="Set culling mode." alt="" coords="235,1068,453,1097"/>
+<area shape="rect" id="node48" href="$class_urho3_d_1_1_material.html#a7ad95f9f7e87ff744ec116863b414571" title="Set culling mode for shadows." alt="" coords="239,1121,449,1167"/>
+<area shape="rect" id="node50" href="$class_urho3_d_1_1_material.html#ad86e30cfd668bc741831a5c270a9de9f" title="Set polygon fill mode. Interacts with the camera&#39;s fill mode setting so that the &quot;least filled&quot; mode ..." alt="" coords="239,1191,449,1220"/>
+<area shape="rect" id="node52" href="$class_urho3_d_1_1_material.html#a94e2635fff559ea248d0687505fb07a2" title="Set depth bias." alt="" coords="231,1244,457,1273"/>
+<area shape="rect" id="node54" href="$class_urho3_d_1_1_material.html#a60c107d0bc70408017c10b57fb1ce23e" title="Set 8&#45;bit render order within pass. Default 128. Lower values will render earlier and higher values l..." alt="" coords="243,1297,445,1343"/>
+<area shape="rect" id="node56" href="$class_urho3_d_1_1_x_m_l_element.html#a0f3cc1f4e6b77f356185789e7bcf431a" title="Return an unsigned integer attribute, or zero if missing." alt="" coords="265,481,423,527"/>
+<area shape="rect" id="node61" href="$class_urho3_d_1_1_material.html#af0ba9351397f7db0c5ca24ca1452ba7b" title="Re&#45;evaluate occlusion rendering." alt="" coords="225,1367,463,1396"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="513,89,727,119"/>
 </map>

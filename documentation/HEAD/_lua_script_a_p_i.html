@@ -2806,6 +2806,7 @@ Classes</h2>
 <li>void SetShadowCullMode(CullMode mode)</li>
 <li>void SetFillMode(FillMode mode)</li>
 <li>void SetDepthBias(const BiasParameters&amp; parameters)</li>
+<li>void SetRenderOrder(char renderOrder)</li>
 <li>void SetScene(Scene* scene)</li>
 <li>void RemoveShaderParameter(const String name)</li>
 <li>void ReleaseShaders()</li>
@@ -2823,15 +2824,18 @@ Classes</h2>
 <li>CullMode GetShadowCullMode() const</li>
 <li>FillMode GetFillMode() const</li>
 <li>const <a class="el" href="struct_urho3_d_1_1_bias_parameters.html" title="Shadow depth bias parameters.">BiasParameters</a>&amp; GetDepthBias() const</li>
+<li>char GetRenderOrder() const</li>
 <li>bool GetOcclusion() const</li>
 <li>bool GetSpecular() const</li>
 <li>Scene* GetScene() const</li>
 </ul>
 <p>Properties:</p>
 <ul>
-<li>CullMode cullMode (readonly)</li>
-<li>CullMode shadowCullMode (readonly)</li>
-<li>FillMode fillMode (readonly)</li>
+<li>CullMode cullMode</li>
+<li>CullMode shadowCullMode</li>
+<li>FillMode fillMode</li>
+<li><a class="el" href="struct_urho3_d_1_1_bias_parameters.html" title="Shadow depth bias parameters.">BiasParameters</a> depthBias</li>
+<li>char renderOrder</li>
 <li>bool occlusion (readonly)</li>
 <li>bool specular (readonly)</li>
 <li>Scene* scene</li>
