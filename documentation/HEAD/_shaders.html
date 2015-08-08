@@ -83,7 +83,7 @@ Writing shaders</h2>
 <div class="fragment"><div class="line">mat4 modelMatrix = iModelMatrix;</div>
 <div class="line">vec3 worldPos = GetWorldPos(modelMatrix);</div>
 <div class="line">gl_Position = GetClipPos(worldPos);</div>
-</div><!-- fragment --><p>On both Direct3D and OpenGL the vertex and pixel shaders are written into the same file, and the entrypoint functions must be called VS() and PS(). In OpenGL mode one of these is transformed to the main() function required by GLSL behind the scenes. When compiling a vertex shader, the compilation define "COMPILEVS" is always present, and likewise "COMPILEPS" when compiling a pixel shader. These are heavily used in the shader include files to prevent constructs that are illegal for the "wrong" type of shader, and to reduce compilation time.</p>
+</div><!-- fragment --><p>On both Direct3D and OpenGL the vertex and pixel shaders are written into the same file, and the entrypoint functions must be called VS() and PS(). In OpenGL mode one of these is transformed behind the scenes to the main() function required by GLSL. When compiling a vertex shader, the compilation define "COMPILEVS" is always present, and likewise "COMPILEPS" when compiling a pixel shader. These are heavily used in the shader include files to prevent constructs that are illegal for the "wrong" type of shader, and to reduce compilation time.</p>
 <p>The uniforms must be prefixed in a certain way so that the engine understands them:</p>
 <ul>
 <li>c for uniform constants, for example cMatDiffColor. The c is stripped when referred to inside the engine, so it would be called "MatDiffColor" in eg. <a class="el" href="class_urho3_d_1_1_material.html#a27f2b7dd5a1ab57e0be7f9a30be657ed">SetShaderParameter()</a></li>
@@ -102,7 +102,9 @@ API differences</h2>
 <ul>
 <li>Uniforms are organized into constant buffers. See the file Uniforms.hlsl for the built-in uniforms. See TerrainBlend.hlsl for an example of defining your own uniforms into the "custom" constant buffer slot.</li>
 <li>Both textures and samplers are defined for each texture unit. The macros in Samplers.hlsl (Sample2D, SampleCube etc.) can be used to write code that works on both APIs. These take the texture unit name without the 's' prefix.</li>
-<li>Vertex shader output position and pixel shader output color need to use the SV_POSITION and SV_TARGET semantics. The macros OUTPOSITION and OUTCOLOR0-3 can be used to select the correct semantic on both APIs. In the vertex shader, the output position should be specified last, as otherwise other interpolator outputs may not function correctly.</li>
+<li>Vertex shader output position and pixel shader output color need to use the SV_POSITION and SV_TARGET semantics. The macros OUTPOSITION and OUTCOLOR0-3 can be used to select the correct semantic on both APIs. In the vertex shader, the output position should be specified last, as otherwise other output semantics may not function correctly. In general, it is necessary that the output semantics defined by the vertex shader are defined as pixel shader inputs in the same order. Otherwise the Direct3D shader compiler may assign the semantics wrong.</li>
+</ul>
+<ul>
 <li>On Direct3D11 the clip plane coordinate must be calculated manually. This is indicated by the CLIPPLANE compilation define, which is added automatically by the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> class. See for example the LitSolid.hlsl shader.</li>
 <li>Direct3D11 does not support luminance and luminance-alpha texture formats, but rather uses the R and RG channels. Therefore be prepared to perform swizzling in the texture reads as appropriate.</li>
 <li>Direct3D11 will fail to render if the vertex shader refers to vertex elements that don't exist in the vertex buffers.</li>
