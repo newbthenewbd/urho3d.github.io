@@ -1,11 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_urho3_d_1_1_list_base.html" title="Doubly&#45;linked list base class." alt="" coords="5,243,139,272"/>
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; AsyncExecRequest * \&gt;" alt="" coords="187,5,448,35"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; int \&gt;" alt="" coords="244,59,391,88"/>
-<area shape="rect" id="node7" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; Urho3D\l::Decal \&gt;" alt="" coords="235,111,400,158"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; Urho3D\l::Pair\&lt; Urho3D::SharedArray\lPtr\&lt; signed char \&gt;, unsigned \&gt; \&gt;" alt="" coords="197,181,437,245"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::\lWorkItem \&gt; \&gt;" alt="" coords="235,269,400,333"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; Urho3D\l::StoredLogMessage \&gt;" alt="" coords="233,357,401,403"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_list.html" title="Urho3D::List\&lt; Urho3D\l::WorkItem * \&gt;" alt="" coords="235,426,400,473"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_list.html" title="Doubly&#45;linked list template class." alt="" coords="248,496,387,525"/>
+<area shape="rect" id="node1" href="$struct_urho3_d_1_1_linked_list_node.html" title="Singly&#45;linked list node base class." alt="" coords="5,5,181,35"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_event_handler.html" title="Internal helper class for invoking event handler functions." alt="" coords="229,5,395,35"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_event_handler_impl.html" title="Template implementation of the event handler invoke helper (stores a function pointer of specific cla..." alt="" coords="443,5,672,35"/>
 </map>

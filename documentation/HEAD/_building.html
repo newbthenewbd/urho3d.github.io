@@ -99,6 +99,8 @@ Build options</h2>
 <tr>
 <td>WIN32 </td><td>0</td><td>Configure project using MinGW cross-compiler toolchain (cmake_generic.sh only); also applicable when cross-compiling 64-bit Windows platform </td></tr>
 <tr>
+<td>URHO3D_C++11 </td><td>0</td><td>Enable C++11 standard </td></tr>
+<tr>
 <td>IOS </td><td>0</td><td>Configure project for targeting iOS platform (cmake_generic.sh and cmake-gui only) </td></tr>
 <tr>
 <td>URHO3D_64BIT </td><td>*</td><td>Enable 64-bit build, on MSVC default to 0, on other compilers the default is set based on the 64-bit capability of the chosen toolchain on host system </td></tr>
@@ -134,6 +136,10 @@ Build options</h2>
 <td>URHO3D_DOCS_QUIET </td><td>0</td><td>Generate documentation as part of normal build, suppress generation process from sending anything to stdout </td></tr>
 <tr>
 <td>URHO3D_PCH </td><td>1</td><td>Enable PCH support </td></tr>
+<tr>
+<td>URHO3D_DATABASE_ODBC </td><td>0</td><td>Enable <a class="el" href="class_urho3_d_1_1_database.html" title="Database subsystem. Manage database connections.">Database</a> support with ODBC, requires vendor-specific ODBC driver </td></tr>
+<tr>
+<td>URHO3D_DATABASE_SQLITE</td><td>0</td><td>Enable <a class="el" href="class_urho3_d_1_1_database.html" title="Database subsystem. Manage database connections.">Database</a> support with SQLite embedded </td></tr>
 <tr>
 <td>URHO3D_SSE </td><td>1</td><td>Enable SSE instruction set </td></tr>
 <tr>

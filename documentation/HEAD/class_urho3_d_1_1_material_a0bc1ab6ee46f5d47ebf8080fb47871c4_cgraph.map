@@ -1,26 +1,26 @@
 <map id="Urho3D::Material::BeginLoad" name="Urho3D::Material::BeginLoad">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_resource.html#a6f155c38bc8a5d2965587d75e78b9636" title="Return the asynchronous loading state." alt="" coords="260,241,465,288"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_x_m_l_element.html#a07b4b8753884e62d7ca8ab40d7b4a912" title="Return child element, or null if missing." alt="" coords="284,380,441,427"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_resource_cache.html#a0950ea474a10169ba383c15ca1d8ff56" title="Background load a resource. An event will be sent when complete. Return true if successfully stored t..." alt="" coords="265,311,460,357"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_x_m_l_element.html#a0f9070917f31e8b8ef0755a787b4941a" title="Return attribute, or empty if missing." alt="" coords="284,449,441,496"/>
-<area shape="rect" id="node38" href="$class_urho3_d_1_1_x_m_l_element.html#a1db521bcb4df83cfb5c0ad5a01023de8" title="Return whether has an attribute." alt="" coords="284,525,441,572"/>
-<area shape="rect" id="node41" href="$class_urho3_d_1_1_material.html#a2a6e0e7eae446f7c7513090852aeac21" title="Reset to defaults." alt="" coords="269,699,456,745"/>
-<area shape="rect" id="node7" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="1045,405,1216,434"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_resource_cache.html#acaf617b205d693cd493febfc01c330a8" title="Remove unsupported constructs from the resource name to prevent ambiguity, and normalize absolute fil..." alt="" coords="536,177,717,224"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="1048,285,1213,314"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_resource_cache.html#ad0a8e0e3e308b6ccae0cfc1ca4fa9e84" title="Find a resource." alt="" coords="539,108,715,155"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="1044,186,1217,215"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_file_system.html#a5d93365af462341ea8029827581854a6" title="Return the program&#39;s directory. If it does not contain the Urho3D default CoreData and Data directori..." alt="" coords="815,207,961,253"/>
-<area shape="rect" id="node21" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="793,277,983,306"/>
-<area shape="rect" id="node23" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="1037,51,1224,81"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="804,50,972,79"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html#ad6a5f266f8164b6b1022f93a4e92eb92" title="Return string with whitespace trimmed from the beginning and the end." alt="" coords="799,103,977,133"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_x_m_l_element.html#ac4d343320eace4e61d92e2ad30b80bc1" title="Return attribute as C string, or null if missing." alt="" coords="548,481,705,528"/>
-<area shape="rect" id="node43" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="520,655,733,685"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_material.html#a59dc96684e9d317ad4913880dd22bd9f" title="Set number of techniques." alt="" coords="532,879,721,925"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_material.html#a5e79bcf19379d52c5057c8a97fdbb288" title="Recalculate the memory used by the material." alt="" coords="796,819,980,865"/>
-<area shape="rect" id="node51" href="$class_urho3_d_1_1_material.html#a1d1c26ca3f9c016b1db2e2f105a2fa04" title="Set technique." alt="" coords="516,602,737,631"/>
-<area shape="rect" id="node53" href="$class_urho3_d_1_1_material.html#a27f2b7dd5a1ab57e0be7f9a30be657ed" title="Set shader parameter." alt="" coords="524,759,729,805"/>
-<area shape="rect" id="node55" href="$class_urho3_d_1_1_material.html#a9c262eda9301a091165f9c1c26df060a" title="Recalculate shader parameter hash." alt="" coords="796,733,980,780"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_thread.html#a0f1bc30494bec12d878e356376b542ad" title="Return the current thread&#39;s ID." alt="" coords="787,647,989,693"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_resource.html#a6f155c38bc8a5d2965587d75e78b9636" title="Return the asynchronous loading state." alt="" coords="260,301,465,347"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_x_m_l_element.html#a07b4b8753884e62d7ca8ab40d7b4a912" title="Return child element, or null if missing." alt="" coords="284,585,441,631"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_resource_cache.html#a0950ea474a10169ba383c15ca1d8ff56" title="Background load a resource. An event will be sent when complete. Return true if successfully stored t..." alt="" coords="265,370,460,417"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_x_m_l_element.html#a0f9070917f31e8b8ef0755a787b4941a" title="Return attribute, or empty if missing." alt="" coords="284,509,441,555"/>
+<area shape="rect" id="node40" href="$class_urho3_d_1_1_x_m_l_element.html#a1db521bcb4df83cfb5c0ad5a01023de8" title="Return whether has an attribute." alt="" coords="284,439,441,486"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_material.html#a2a6e0e7eae446f7c7513090852aeac21" title="Reset to defaults." alt="" coords="269,767,456,814"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="1035,464,1205,493"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_resource_cache.html#acaf617b205d693cd493febfc01c330a8" title="Remove unsupported constructs from the resource name to prevent ambiguity, and normalize absolute fil..." alt="" coords="536,179,717,226"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="1037,359,1203,388"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_resource_cache.html#ad0a8e0e3e308b6ccae0cfc1ca4fa9e84" title="Find a resource." alt="" coords="539,319,715,366"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="1033,272,1207,301"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_vector.html#a06762e9e70b9851f54a845555f28cd4b" title="Return size of vector." alt="" coords="805,109,960,139"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_file_system.html#a5d93365af462341ea8029827581854a6" title="Return the program&#39;s directory. If it does not contain the Urho3D default CoreData and Data directori..." alt="" coords="809,319,956,366"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="788,163,977,192"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="1027,32,1213,61"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="799,267,967,296"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_string.html#ad6a5f266f8164b6b1022f93a4e92eb92" title="Return string with whitespace trimmed from the beginning and the end." alt="" coords="793,5,972,35"/>
+<area shape="rect" id="node37" href="$class_urho3_d_1_1_x_m_l_element.html#ac4d343320eace4e61d92e2ad30b80bc1" title="Return attribute as C string, or null if missing." alt="" coords="548,541,705,587"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="520,715,733,744"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_material.html#a59dc96684e9d317ad4913880dd22bd9f" title="Set number of techniques." alt="" coords="532,767,721,814"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_material.html#a5e79bcf19379d52c5057c8a97fdbb288" title="Recalculate the memory used by the material." alt="" coords="791,827,975,874"/>
+<area shape="rect" id="node51" href="$class_urho3_d_1_1_material.html#a1d1c26ca3f9c016b1db2e2f105a2fa04" title="Set technique." alt="" coords="516,661,737,691"/>
+<area shape="rect" id="node53" href="$class_urho3_d_1_1_material.html#a27f2b7dd5a1ab57e0be7f9a30be657ed" title="Set shader parameter." alt="" coords="524,887,729,934"/>
+<area shape="rect" id="node55" href="$class_urho3_d_1_1_material.html#a9c262eda9301a091165f9c1c26df060a" title="Recalculate shader parameter hash." alt="" coords="791,922,975,969"/>
 </map>

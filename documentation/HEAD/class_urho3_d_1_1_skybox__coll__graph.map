@@ -1,26 +1,26 @@
 <map id="Urho3D::Skybox" name="Urho3D::Skybox">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_static_model.html" title="Static model component." alt="" coords="1520,611,1675,640"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_static_model.html" title="Static model component." alt="" coords="1520,609,1675,639"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_drawable.html" title="Base class for visible components." alt="" coords="1187,265,1325,295"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_zone.html" title="Component that describes global rendering properties." alt="" coords="1541,312,1653,341"/>
 <area shape="rect" id="node37" href="$class_urho3_d_1_1_light.html" title="Light component." alt="" coords="1543,204,1652,233"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="740,5,895,35"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="5,37,157,67"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="5,43,157,72"/>
 <area shape="rect" id="node10" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="336,99,448,128"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="7,197,156,227"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="7,223,156,252"/>
 <area shape="rect" id="node46" href="$struct_urho3_d_1_1_resource_ref_list.html" title="List of typed resource references." alt="" coords="728,517,907,547"/>
 <area shape="rect" id="node20" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::Zone \&gt;" alt="" coords="1928,303,2123,350"/>
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="1179,127,1333,174"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_bounding_box.html" title="Three&#45;dimensional axis&#45;aligned bounding box." alt="" coords="311,384,473,413"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_bounding_box.html" title="Three&#45;dimensional axis&#45;aligned bounding box." alt="" coords="311,399,473,428"/>
 <area shape="rect" id="node42" href="$class_urho3_d_1_1_octant.html" title="Octree octant" alt="" coords="756,265,879,295"/>
 <area shape="rect" id="node54" href="$class_urho3_d_1_1_model.html" title="3D model resource." alt="" coords="759,571,876,600"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Light * \&gt;" alt="" coords="533,113,691,159"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,525,157,555"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Camera * \&gt;" alt="" coords="532,422,692,469"/>
-<area shape="rect" id="node34" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch \&gt;" alt="" coords="520,198,704,245"/>
-<area shape="rect" id="node48" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::String \&gt;" alt="" coords="300,553,484,599"/>
-<area shape="rect" id="node56" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector\&lt; Urho3D::SharedPtr\l\&lt; Urho3D::Geometry \&gt; \&gt; \&gt;" alt="" coords="289,673,495,737"/>
-<area shape="rect" id="node61" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::StaticModelGeometry\lData \&gt;" alt="" coords="932,621,1153,685"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Model \&gt;" alt="" coords="1179,566,1333,613"/>
-<area shape="rect" id="node64" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::Camera *, Urho3D::Matrix3x4 \&gt;" alt="" coords="1480,718,1715,765"/>
-<area shape="rect" id="node66" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="1184,755,1328,784"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Light * \&gt;" alt="" coords="533,107,691,154"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,537,157,567"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Camera * \&gt;" alt="" coords="532,433,692,479"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch \&gt;" alt="" coords="520,186,704,233"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; String \&gt;" alt="" coords="299,568,485,597"/>
+<area shape="rect" id="node56" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector\&lt; Urho3D::SharedPtr\l\&lt; Urho3D::Geometry \&gt; \&gt; \&gt;" alt="" coords="289,672,495,736"/>
+<area shape="rect" id="node61" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::StaticModelGeometry\lData \&gt;" alt="" coords="932,617,1153,681"/>
+<area shape="rect" id="node52" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Model \&gt;" alt="" coords="1179,565,1333,611"/>
+<area shape="rect" id="node64" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::Camera *, Urho3D::Matrix3x4 \&gt;" alt="" coords="1480,717,1715,763"/>
+<area shape="rect" id="node66" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="1184,753,1328,783"/>
 </map>

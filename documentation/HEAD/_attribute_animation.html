@@ -24,7 +24,7 @@ group: HEAD
 <div class="line">colorAnimation-&gt;SetKeyFrame(2.0f, <a class="code" href="class_urho3_d_1_1_color.html#af24903f33104585787cd4c3e88016234" title="Opaque yellow color.">Color::YELLOW</a>);</div>
 <div class="line">colorAnimation-&gt;SetKeyFrame(4.0f, <a class="code" href="class_urho3_d_1_1_color.html#a42aad3adf983cede243a815e0cccd76f" title="Opaque white color.">Color::WHITE</a>);</div>
 <div class="line"></div>
-<div class="line">light-&gt;SetAttributeAnimation(<span class="stringliteral">&quot;Color&quot;</span>, colorAnimation, WM_LOOP); </div>
+<div class="line">light-&gt;SetAttributeAnimation(<span class="stringliteral">&quot;Color&quot;</span>, colorAnimation, WM_LOOP);</div>
 </div><!-- fragment --><p>In the above code, we first create an <a class="el" href="class_urho3_d_1_1_value_animation.html" title="Value animation class.">ValueAnimation</a> object call colorAnimation, and set three key frame values to it, then assign it to light's color attribute. (Note here: in order to make animation look correct, the last key frame must equal to the first key frame for loop mode).</p>
 <p>Another way is to load an attribute animation resource, here is a simple example: </p>
 <div class="fragment"><div class="line">ValueAnimation* colorAnimation = cache-&gt;GetResource&lt;ValueAnimation&gt;(<span class="stringliteral">&quot;Scene/LightColorAnimation.xml&quot;</span>);</div>

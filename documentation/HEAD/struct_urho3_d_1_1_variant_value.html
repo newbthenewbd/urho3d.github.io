@@ -32,7 +32,7 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 
-<p>Union for the possible variant values. Also stores non-POD objects such as <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> which must not exceed 16 bytes in size.  
+<p>Union for the possible variant values. Also stores non-POD objects such as <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> and math objects (excluding Matrix) which must not exceed 16 bytes in size. Objects exceeding 16 bytes size are stored in the heap pointed by _ptr.  
  <a href="struct_urho3_d_1_1_variant_value.html#details">More...</a></p>
 
 <p><code>#include &lt;Variant.h&gt;</code></p>
@@ -83,7 +83,7 @@ union {</td></tr>
 <tr class="separator:a43300fa061cd8019fd129a28e93c8290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Union for the possible variant values. Also stores non-POD objects such as <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> which must not exceed 16 bytes in size. </p>
+<div class="textblock"><p>Union for the possible variant values. Also stores non-POD objects such as <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> and math objects (excluding Matrix) which must not exceed 16 bytes in size. Objects exceeding 16 bytes size are stored in the heap pointed by _ptr. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Core/Variant.h</li>
 </ul>

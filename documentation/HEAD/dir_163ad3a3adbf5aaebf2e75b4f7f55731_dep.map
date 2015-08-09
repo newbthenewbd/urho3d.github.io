@@ -1,21 +1,22 @@
 <map id="/home/travis/build/urho3d/Urho3D/Source/Urho3D" name="/home/travis/build/urho3d/Urho3D/Source/Urho3D">
-<area shape="rect" id="node4" href="dir_e93808d4870f1044e5b3ed95935d1b3b.html" title="Audio" alt="" coords="1629,65,1701,113"/>
-<area shape="rect" id="node5" href="dir_93a2e8aa934a227111ffcfa0c120615a.html" title="Container" alt="" coords="1523,65,1605,113"/>
-<area shape="rect" id="node6" href="dir_ec2a09b4251b9c5f65fb7f7487b8091f.html" title="Core" alt="" coords="1427,65,1499,113"/>
-<area shape="rect" id="node7" href="dir_3de084cecb8da4aa00cca0fb774f80e4.html" title="Engine" alt="" coords="1331,65,1403,113"/>
-<area shape="rect" id="node8" href="dir_6dfc98dac09835c9c06b66240d8cb40f.html" title="Graphics" alt="" coords="1229,65,1307,113"/>
-<area shape="rect" id="node9" href="dir_d6344385837a4eee2e456f72ffda02d0.html" title="Input" alt="" coords="1133,65,1205,113"/>
-<area shape="rect" id="node10" href="dir_e92b397fb08925a5e69311d9c2a48baf.html" title="IO" alt="" coords="1037,65,1109,113"/>
-<area shape="rect" id="node11" href="dir_005d61c54d826b0bc71f16cc91fab966.html" title="LuaScript" alt="" coords="931,65,1013,113"/>
-<area shape="rect" id="node12" href="dir_eddc12a9628639dafa9f6842b4e71313.html" title="Math" alt="" coords="835,65,907,113"/>
-<area shape="rect" id="node13" href="dir_a20b03cd7a3e51fc3ec87708a2914705.html" title="Navigation" alt="" coords="720,65,811,113"/>
-<area shape="rect" id="node14" href="dir_6b8cd1d1965913535f7f738a82dad6a0.html" title="Network" alt="" coords="621,65,696,113"/>
-<area shape="rect" id="node15" href="dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd.html" title="Physics" alt="" coords="525,65,597,113"/>
-<area shape="rect" id="node16" href="dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6.html" title="Resource" alt="" coords="421,65,501,113"/>
-<area shape="rect" id="node17" href="dir_b1bd8b3d7ce69022330e1487ffb78b3b.html" title="Scene" alt="" coords="325,65,397,113"/>
-<area shape="rect" id="node18" href="dir_ae1bbe1bfaa8b9914d1e21af1b13ed99.html" title="Script" alt="" coords="229,65,301,113"/>
-<area shape="rect" id="node19" href="dir_607f0d24434382d93ee3d3b372fa4c35.html" title="UI" alt="" coords="133,65,205,113"/>
-<area shape="rect" id="node20" href="dir_a289889cee022187aa1926d83aed1040.html" title="Urho2D" alt="" coords="37,65,109,113"/>
-<area shape="rect" id="graph3" href="dir_163ad3a3adbf5aaebf2e75b4f7f55731.html" alt="" coords="27,55,1808,124"/>
-<area shape="rect" id="graph2" href="dir_b4bebb5def136ba09a41e844ccb8c5a2.html" title="Source" alt="" coords="16,16,1819,135"/>
+<area shape="rect" id="node4" href="dir_e93808d4870f1044e5b3ed95935d1b3b.html" title="Audio" alt="" coords="1736,65,1808,113"/>
+<area shape="rect" id="node5" href="dir_93a2e8aa934a227111ffcfa0c120615a.html" title="Container" alt="" coords="1629,65,1712,113"/>
+<area shape="rect" id="node6" href="dir_ec2a09b4251b9c5f65fb7f7487b8091f.html" title="Core" alt="" coords="1533,65,1605,113"/>
+<area shape="rect" id="node7" href="dir_2d45557d578972b2140ac0169d416ebd.html" title="Database" alt="" coords="1427,65,1509,113"/>
+<area shape="rect" id="node8" href="dir_3de084cecb8da4aa00cca0fb774f80e4.html" title="Engine" alt="" coords="1331,65,1403,113"/>
+<area shape="rect" id="node9" href="dir_6dfc98dac09835c9c06b66240d8cb40f.html" title="Graphics" alt="" coords="1229,65,1307,113"/>
+<area shape="rect" id="node10" href="dir_d6344385837a4eee2e456f72ffda02d0.html" title="Input" alt="" coords="1133,65,1205,113"/>
+<area shape="rect" id="node11" href="dir_e92b397fb08925a5e69311d9c2a48baf.html" title="IO" alt="" coords="1037,65,1109,113"/>
+<area shape="rect" id="node12" href="dir_005d61c54d826b0bc71f16cc91fab966.html" title="LuaScript" alt="" coords="931,65,1013,113"/>
+<area shape="rect" id="node13" href="dir_eddc12a9628639dafa9f6842b4e71313.html" title="Math" alt="" coords="835,65,907,113"/>
+<area shape="rect" id="node14" href="dir_a20b03cd7a3e51fc3ec87708a2914705.html" title="Navigation" alt="" coords="720,65,811,113"/>
+<area shape="rect" id="node15" href="dir_6b8cd1d1965913535f7f738a82dad6a0.html" title="Network" alt="" coords="621,65,696,113"/>
+<area shape="rect" id="node16" href="dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd.html" title="Physics" alt="" coords="525,65,597,113"/>
+<area shape="rect" id="node17" href="dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6.html" title="Resource" alt="" coords="421,65,501,113"/>
+<area shape="rect" id="node18" href="dir_b1bd8b3d7ce69022330e1487ffb78b3b.html" title="Scene" alt="" coords="325,65,397,113"/>
+<area shape="rect" id="node19" href="dir_ae1bbe1bfaa8b9914d1e21af1b13ed99.html" title="Script" alt="" coords="229,65,301,113"/>
+<area shape="rect" id="node20" href="dir_607f0d24434382d93ee3d3b372fa4c35.html" title="UI" alt="" coords="133,65,205,113"/>
+<area shape="rect" id="node21" href="dir_a289889cee022187aa1926d83aed1040.html" title="Urho2D" alt="" coords="37,65,109,113"/>
+<area shape="rect" id="graph3" href="dir_163ad3a3adbf5aaebf2e75b4f7f55731.html" alt="" coords="27,55,1915,124"/>
+<area shape="rect" id="graph2" href="dir_b4bebb5def136ba09a41e844ccb8c5a2.html" title="Source" alt="" coords="16,16,1925,135"/>
 </map>

@@ -1,17 +1,17 @@
 <map id="Urho3D::MaterialShaderParameter" name="Urho3D::MaterialShaderParameter">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_variant.html" title="Variable that supports a fixed set of types." alt="" coords="1337,329,1460,359"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_vector.html" title="Vector template class." alt="" coords="764,433,921,463"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="275,273,427,303"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned char \&gt;" alt="" coords="764,205,921,251"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::String \&gt;" alt="" coords="555,265,739,311"/>
-<area shape="rect" id="node12" href="$struct_urho3_d_1_1_resource_ref.html" title="Typed resource reference." alt="" coords="967,383,1121,412"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="588,521,705,551"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="572,376,721,405"/>
-<area shape="rect" id="node20" href="$struct_urho3_d_1_1_resource_ref_list.html" title="List of typed resource references." alt="" coords="955,329,1133,359"/>
-<area shape="rect" id="node26" href="$class_urho3_d_1_1_hash_map.html" title="Hash map template class." alt="" coords="947,157,1141,187"/>
-<area shape="rect" id="node28" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="575,157,719,187"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_variant.html" title="Variable that supports a fixed set of types." alt="" coords="1343,284,1465,313"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_vector.html" title="Vector template class." alt="" coords="769,383,927,412"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="275,232,427,261"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned char \&gt;" alt="" coords="769,165,927,211"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; String \&gt;" alt="" coords="556,232,743,261"/>
+<area shape="rect" id="node12" href="$struct_urho3_d_1_1_resource_ref.html" title="Typed resource reference." alt="" coords="972,337,1127,367"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="591,472,708,501"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="575,327,724,356"/>
+<area shape="rect" id="node20" href="$struct_urho3_d_1_1_resource_ref_list.html" title="List of typed resource references." alt="" coords="960,284,1139,313"/>
+<area shape="rect" id="node26" href="$class_urho3_d_1_1_hash_map.html" title="Hash map template class." alt="" coords="952,112,1147,141"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="577,112,721,141"/>
 <area shape="rect" id="node30" href="$struct_urho3_d_1_1_hash_node_base.html" title="Hash set/map node base class." alt="" coords="261,176,440,205"/>
 <area shape="rect" id="node33" href="$struct_urho3_d_1_1_allocator_block.html" title="Allocator memory block." alt="" coords="267,47,435,76"/>
 <area shape="rect" id="node36" href="$struct_urho3_d_1_1_allocator_node.html" title="Allocator node." alt="" coords="7,47,175,76"/>
-<area shape="rect" id="node39" href="$struct_urho3_d_1_1_variant_value.html" title="Union for the possible variant values. Also stores non&#45;POD objects such as String which must not exce..." alt="" coords="965,276,1123,305"/>
+<area shape="rect" id="node39" href="$struct_urho3_d_1_1_variant_value.html" title="Union for the possible variant values. Also stores non&#45;POD objects such as String and math objects (e..." alt="" coords="971,231,1128,260"/>
 </map>

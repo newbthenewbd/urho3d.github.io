@@ -40,6 +40,18 @@ group: HEAD
 <li>TimeStep : float</li>
 </ul>
 <h4>EndFrame</h4>
+<h3>Database events</h3>
+<h4>DbCursor</h4>
+<ul>
+<li>DbConnection : <a class="el" href="class_urho3_d_1_1_db_connection.html" title="Database connection.">DbConnection</a> pointer</li>
+<li>ResultImpl : Underlying result object pointer (cannot be used in scripting)</li>
+<li>SQL : <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a></li>
+<li>NumCols : unsigned</li>
+<li>ColValues : VariantVector</li>
+<li>ColHeaders : StringVector</li>
+<li>Filter : bool [in]</li>
+<li>Abort : bool [in]</li>
+</ul>
 <h3>Drawable events</h3>
 <h4>BoneHierarchyCreated</h4>
 <ul>

@@ -1,17 +1,17 @@
 <map id="Urho3D::VAnimKeyFrame" name="Urho3D::VAnimKeyFrame">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_variant.html" title="Variable that supports a fixed set of types." alt="" coords="1337,189,1460,219"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_vector.html" title="Vector template class." alt="" coords="764,5,921,35"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="275,52,427,81"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned char \&gt;" alt="" coords="764,53,921,99"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::String \&gt;" alt="" coords="555,103,739,150"/>
-<area shape="rect" id="node12" href="$struct_urho3_d_1_1_resource_ref.html" title="Typed resource reference." alt="" coords="967,215,1121,244"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="588,309,705,339"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="572,215,721,244"/>
-<area shape="rect" id="node20" href="$struct_urho3_d_1_1_resource_ref_list.html" title="List of typed resource references." alt="" coords="955,161,1133,191"/>
-<area shape="rect" id="node26" href="$class_urho3_d_1_1_hash_map.html" title="Hash map template class." alt="" coords="947,268,1141,297"/>
-<area shape="rect" id="node28" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="575,363,719,392"/>
-<area shape="rect" id="node30" href="$struct_urho3_d_1_1_hash_node_base.html" title="Hash set/map node base class." alt="" coords="261,327,440,356"/>
-<area shape="rect" id="node33" href="$struct_urho3_d_1_1_allocator_block.html" title="Allocator memory block." alt="" coords="267,421,435,451"/>
-<area shape="rect" id="node36" href="$struct_urho3_d_1_1_allocator_node.html" title="Allocator node." alt="" coords="7,421,175,451"/>
-<area shape="rect" id="node39" href="$struct_urho3_d_1_1_variant_value.html" title="Union for the possible variant values. Also stores non&#45;POD objects such as String which must not exce..." alt="" coords="965,321,1123,351"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_variant.html" title="Variable that supports a fixed set of types." alt="" coords="1343,192,1465,221"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_vector.html" title="Vector template class." alt="" coords="769,23,927,52"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="275,69,427,99"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned char \&gt;" alt="" coords="769,63,927,110"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; String \&gt;" alt="" coords="556,121,743,151"/>
+<area shape="rect" id="node12" href="$struct_urho3_d_1_1_resource_ref.html" title="Typed resource reference." alt="" coords="972,217,1127,247"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="591,311,708,340"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="575,216,724,245"/>
+<area shape="rect" id="node20" href="$struct_urho3_d_1_1_resource_ref_list.html" title="List of typed resource references." alt="" coords="960,164,1139,193"/>
+<area shape="rect" id="node26" href="$class_urho3_d_1_1_hash_map.html" title="Hash map template class." alt="" coords="952,271,1147,300"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="577,364,721,393"/>
+<area shape="rect" id="node30" href="$struct_urho3_d_1_1_hash_node_base.html" title="Hash set/map node base class." alt="" coords="261,328,440,357"/>
+<area shape="rect" id="node33" href="$struct_urho3_d_1_1_allocator_block.html" title="Allocator memory block." alt="" coords="267,423,435,452"/>
+<area shape="rect" id="node36" href="$struct_urho3_d_1_1_allocator_node.html" title="Allocator node." alt="" coords="7,423,175,452"/>
+<area shape="rect" id="node39" href="$struct_urho3_d_1_1_variant_value.html" title="Union for the possible variant values. Also stores non&#45;POD objects such as String and math objects (e..." alt="" coords="971,324,1128,353"/>
 </map>
