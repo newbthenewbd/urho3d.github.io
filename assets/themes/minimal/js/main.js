@@ -71,9 +71,8 @@ $(document).ready(function() {
       // Revert luminance just for image and embedded iframe usually used for youtube videos
       $mediaElem.css(filter, enable ? 'contrast(95%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none');
       // Revert luminance just for container of disqus thread div and adjust its color to influence Disqus own theme detector to choose the matching theme for Disqus
-      // Due to Disqus's own dark theme has too much brightness compared to our general brigtness, we have to apply different filter settings to counter it
       if ($disqusElem.length) {
-        $disqusElem.css(filter, enable ? 'contrast(115%) brightness(75%) hue-rotate(180deg) invert(100%)' : 'none')
+        $disqusElem.css(filter, enable ? 'contrast(115%) brightness(95%) hue-rotate(180deg) invert(100%)' : 'none')
           .css('color', enable ? 'white' : 'black');
         disqusReset();  // Reload Disqus comments
       }
