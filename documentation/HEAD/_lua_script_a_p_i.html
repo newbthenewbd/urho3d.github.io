@@ -6098,6 +6098,8 @@ Classes</h2>
 <li>Variant* new(const String value)</li>
 <li>Variant(const char* value) (GC)</li>
 <li>Variant* new(const char* value)</li>
+<li>Variant(const PODVector&lt;unsigned char&gt;&amp; value) (GC)</li>
+<li>Variant* new(const PODVector&lt;unsigned char&gt;&amp; value)</li>
 <li>Variant(const VectorBuffer&amp; value) (GC)</li>
 <li>Variant* new(const VectorBuffer&amp; value)</li>
 <li>Variant(const ResourceRef&amp; value) (GC)</li>
@@ -6142,6 +6144,7 @@ Classes</h2>
 <li>bool operator==(const Quaternion&amp; rhs) const</li>
 <li>bool operator==(const Color&amp; rhs) const</li>
 <li>bool operator==(const String rhs) const</li>
+<li>bool operator==(const PODVector&lt;unsigned char&gt;&amp; rhs) const</li>
 <li>bool operator==(const VectorBuffer&amp; rhs) const</li>
 <li>bool operator==(const ResourceRef&amp; rhs) const</li>
 <li>bool operator==(const ResourceRefList&amp; rhs) const</li>
@@ -6166,6 +6169,7 @@ Classes</h2>
 <li>const <a class="el" href="class_urho3_d_1_1_quaternion.html" title="Rotation represented as a four-dimensional normalized vector.">Quaternion</a>&amp; GetQuaternion() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_color.html" title="RGBA color.">Color</a>&amp; GetColor() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> GetString() const</li>
+<li>const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector&lt;unsigned char&gt;</a>&amp; GetRawBuffer() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream.">VectorBuffer</a> GetBuffer() const</li>
 <li>void* GetVoidPtr(const char* type) const</li>
 <li>const <a class="el" href="struct_urho3_d_1_1_resource_ref.html" title="Typed resource reference.">ResourceRef</a>&amp; GetResourceRef() const</li>
