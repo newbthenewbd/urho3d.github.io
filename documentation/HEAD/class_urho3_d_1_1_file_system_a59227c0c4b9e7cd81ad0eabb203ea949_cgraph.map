@@ -2,7 +2,7 @@
 <area shape="rect" id="node3" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="448,155,616,184"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="205,23,392,52"/>
 <area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="457,418,607,447"/>
-<area shape="rect" id="node16" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurence of a string." alt="" coords="208,180,389,210"/>
+<area shape="rect" id="node16" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="208,180,389,210"/>
 <area shape="rect" id="node18" href="$class_urho3_d_1_1_string.html#ac6f0b2fb0bce5afbeb088c7cb15abbe1" title="Clear the string." alt="" coords="220,76,377,106"/>
 <area shape="rect" id="node21" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="216,287,381,316"/>
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_vector.html#a083b39861b996df82f811a9a4ebff109" title="Add an element at the end." alt="" coords="220,340,377,370"/>

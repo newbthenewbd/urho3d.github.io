@@ -17,7 +17,7 @@
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_hash_map.html#a47eb201d8441d4e4be8626e615cb562d" title="Return iterator to the end." alt="" coords="248,1068,419,1097"/>
 <area shape="rect" id="node45" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="495,1145,665,1175"/>
 <area shape="rect" id="node47" href="$class_urho3_d_1_1_u_i_element.html#a7a085bb6b90aad996999804bd7e8a3e7" title="Set a user variable." alt="" coords="257,1225,409,1271"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurence of a string." alt="" coords="243,1295,424,1324"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="243,1295,424,1324"/>
 <area shape="rect" id="node51" href="$class_urho3_d_1_1_string.html#a69ff43bd8ef88af73c3fa6eb8a55d6f6" title="Return substrings split by a separator char." alt="" coords="257,1172,409,1201"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_resource_cache.html#acaf617b205d693cd493febfc01c330a8" title="Remove unsupported constructs from the resource name to prevent ambiguity, and normalize absolute fil..." alt="" coords="489,35,671,82"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="473,105,687,135"/>

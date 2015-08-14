@@ -240,7 +240,7 @@
 </g>
 <!-- Node24 -->
 <g id="node49" class="node"><title>Node24</title>
-<a xlink:href="class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" target="_top" xlink:title="Return whether contains a specific occurence of a string.">
+<a xlink:href="class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" target="_top" xlink:title="Return whether contains a specific occurrence of a string.">
 <polygon fill="none" stroke="black" points="178,-0.5 178,-21.5 314,-21.5 314,-0.5 178,-0.5"/>
 <text text-anchor="middle" x="246" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Contains</text>
 </a>

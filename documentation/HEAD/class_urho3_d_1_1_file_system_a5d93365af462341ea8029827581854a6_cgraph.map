@@ -6,6 +6,6 @@
 <area shape="rect" id="node21" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="204,248,377,277"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_file_system.html#a1e3cbbed618e7f98ce56c5fa8de9ac43" title="Check if a path is allowed to be accessed. If no paths are registered, all are allowed." alt="" coords="449,161,596,207"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="428,231,617,260"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurence of a string." alt="" coords="667,169,848,199"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="667,169,848,199"/>
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="683,227,832,256"/>
 </map>

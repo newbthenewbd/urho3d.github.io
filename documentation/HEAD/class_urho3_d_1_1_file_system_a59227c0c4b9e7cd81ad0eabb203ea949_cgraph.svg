@@ -84,7 +84,7 @@ var sectionId = 'dynsection-6';
 </g>
 <!-- Node8 -->
 <g id="node16" class="node"><title>Node8</title>
-<a xlink:href="class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" target="_top" xlink:title="Return whether contains a specific occurence of a string.">
+<a xlink:href="class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" target="_top" xlink:title="Return whether contains a specific occurrence of a string.">
 <polygon fill="none" stroke="black" points="152,-238.5 152,-259.5 288,-259.5 288,-238.5 152,-238.5"/>
 <text text-anchor="middle" x="220" y="-246.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Contains</text>
 </a>
