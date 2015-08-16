@@ -52,7 +52,7 @@
 <polygon fill="midnightblue" stroke="midnightblue" points="211.541,-251.711 222.132,-251.982 214.022,-245.165 211.541,-251.711"/>
 </g>
 <!-- Node6 -->
-<g id="node11" class="node"><title>Node6</title>
+<g id="node12" class="node"><title>Node6</title>
 <a xlink:href="class_urho3_d_1_1_component.html#a73cc05aee9060f5618ea1ef72668ba01" target="_top" xlink:title="Return whether is effectively enabled (node is also enabled.)">
 <polygon fill="none" stroke="black" points="219,-200 219,-234 341,-234 341,-200 219,-200"/>
 <text text-anchor="start" x="227" y="-221" font-family="FreeSans" font-size="10.00">Urho3D::Component::</text>
@@ -60,91 +60,96 @@
 </a>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node6</title>
+<g id="edge12" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M155.447,-188.063C172.927,-192.124 191.547,-196.45 208.919,-200.486"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="208.453,-203.971 218.985,-202.825 210.037,-197.153 208.453,-203.971"/>
 </g>
 <!-- Node8 -->
-<g id="node15" class="node"><title>Node8</title>
+<g id="node16" class="node"><title>Node8</title>
 <a xlink:href="class_urho3_d_1_1_view.html#a8c4b1ba744386a5fcd5e2e8ab5ae962f" target="_top" xlink:title="Return geometry objects.">
 <polygon fill="none" stroke="black" points="200,-160.5 200,-181.5 360,-181.5 360,-160.5 200,-160.5"/>
 <text text-anchor="middle" x="280" y="-168.5" font-family="FreeSans" font-size="10.00">Urho3D::View::GetGeometries</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge14" class="edge"><title>Node1&#45;&gt;Node8</title>
+<g id="edge16" class="edge"><title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M164.25,-171C172.634,-171 181.184,-171 189.649,-171"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="189.915,-174.5 199.915,-171 189.915,-167.5 189.915,-174.5"/>
 </g>
 <!-- Node9 -->
-<g id="node17" class="node"><title>Node9</title>
+<g id="node18" class="node"><title>Node9</title>
 <a xlink:href="class_urho3_d_1_1_view.html#a27895634818c436e70e8779b6d2621c0" target="_top" xlink:title="Return lights.">
 <polygon fill="none" stroke="black" points="214,-120.5 214,-141.5 346,-141.5 346,-120.5 214,-120.5"/>
 <text text-anchor="middle" x="280" y="-128.5" font-family="FreeSans" font-size="10.00">Urho3D::View::GetLights</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node9</title>
+<g id="edge18" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M164.25,-154.384C182.28,-150.741 201.074,-146.945 218.144,-143.496"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="218.868,-146.921 227.977,-141.51 217.482,-140.059 218.868,-146.921"/>
 </g>
 <!-- Node10 -->
-<g id="node19" class="node"><title>Node10</title>
+<g id="node20" class="node"><title>Node10</title>
 <a xlink:href="class_urho3_d_1_1_p_o_d_vector.html#a4fe0251ca70afca844721a4a44717c83" target="_top" xlink:title="Return number of elements.">
 <polygon fill="none" stroke="black" points="211.5,-80.5 211.5,-101.5 348.5,-101.5 348.5,-80.5 211.5,-80.5"/>
 <text text-anchor="middle" x="280" y="-88.5" font-family="FreeSans" font-size="10.00">Urho3D::PODVector::Size</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge18" class="edge"><title>Node1&#45;&gt;Node10</title>
+<g id="edge20" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M111.228,-153.793C134.609,-140.611 168.57,-122.748 200,-111 206.487,-108.575 213.379,-106.353 220.292,-104.343"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="221.683,-107.589 230.389,-101.551 219.818,-100.842 221.683,-107.589"/>
 </g>
 <!-- Node11 -->
-<g id="node21" class="node"><title>Node11</title>
+<g id="node22" class="node"><title>Node11</title>
 <a xlink:href="class_urho3_d_1_1_hash_set.html#a2f418238fbfa023388fb141c2759534a" target="_top" xlink:title="Return whether contains a key.">
 <polygon fill="none" stroke="black" points="205.5,-40.5 205.5,-61.5 354.5,-61.5 354.5,-40.5 205.5,-40.5"/>
 <text text-anchor="middle" x="280" y="-48.5" font-family="FreeSans" font-size="10.00">Urho3D::HashSet::Contains</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
-<g id="edge20" class="edge"><title>Node1&#45;&gt;Node11</title>
+<g id="edge22" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M97.4066,-153.744C118.399,-131.304 158.188,-92.4498 200,-71 204.502,-68.6904 209.286,-66.6373 214.188,-64.814"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="215.37,-68.1088 223.717,-61.5836 213.123,-61.4794 215.37,-68.1088"/>
 </g>
 <!-- Node12 -->
-<g id="node23" class="node"><title>Node12</title>
+<g id="node24" class="node"><title>Node12</title>
 <a xlink:href="class_urho3_d_1_1_hash_set.html#a14064ab8bc6c6c6782961cb95295a2ee" target="_top" xlink:title="Insert a key. Return an iterator to it.">
 <polygon fill="none" stroke="black" points="213,-0.5 213,-21.5 347,-21.5 347,-0.5 213,-0.5"/>
 <text text-anchor="middle" x="280" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::HashSet::Insert</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node12 -->
-<g id="edge22" class="edge"><title>Node1&#45;&gt;Node12</title>
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M91.5424,-153.785C109.001,-123.952 149.026,-62.7967 200,-31 203.388,-28.8867 206.987,-26.9965 210.711,-25.3059"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="212.204,-28.4781 220.178,-21.5011 209.594,-21.9831 212.204,-28.4781"/>
 </g>
 <!-- Node5 -->
 <g id="node9" class="node"><title>Node5</title>
-<a xlink:href="class_urho3_d_1_1_node.html#a1e2d2d68e02bc517f3471a07d80351b8" target="_top" xlink:title="Return component by type. If there are several, returns the first.">
+<a xlink:href="class_urho3_d_1_1_node.html#a96978345db2ceb1a473bb43f0024dbe7" target="_top" xlink:title="Return component by type. If there are several, returns the first.">
 <polygon fill="none" stroke="black" points="396,-258.5 396,-279.5 560,-279.5 560,-258.5 396,-258.5"/>
 <text text-anchor="middle" x="478" y="-266.5" font-family="FreeSans" font-size="10.00">Urho3D::Node::GetComponent</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge8" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M341.022,-269C355.055,-269 370.288,-269 385.325,-269"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="385.688,-272.5 395.688,-269 385.688,-265.5 385.688,-272.5"/>
+<path fill="none" stroke="midnightblue" d="M341.022,-262.712C355.055,-262.354 370.288,-262.204 385.325,-262.262"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="385.663,-265.765 395.688,-262.336 385.713,-258.765 385.663,-265.765"/>
+</g>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge10" class="edge"><title>Node5&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M395.688,-275.664C380.958,-275.817 365.72,-275.766 351.331,-275.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="351.095,-272.004 341.022,-275.288 350.944,-279.003 351.095,-272.004"/>
 </g>
 <!-- Node7 -->
-<g id="node13" class="node"><title>Node7</title>
+<g id="node14" class="node"><title>Node7</title>
 <a xlink:href="class_urho3_d_1_1_node.html#a8becd372b2db8397831009114dee147f" target="_top" xlink:title="Return whether is enabled. Disables nodes effectively disable all their components.">
 <polygon fill="none" stroke="black" points="409.5,-206.5 409.5,-227.5 546.5,-227.5 546.5,-206.5 409.5,-206.5"/>
 <text text-anchor="middle" x="478" y="-214.5" font-family="FreeSans" font-size="10.00">Urho3D::Node::IsEnabled</text>
 </a>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
-<g id="edge12" class="edge"><title>Node6&#45;&gt;Node7</title>
+<g id="edge14" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M341.022,-217C359.407,-217 379.851,-217 399.217,-217"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="399.229,-220.5 409.229,-217 399.229,-213.5 399.229,-220.5"/>
 </g>

@@ -5,7 +5,7 @@
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_node.html#ab23d77af7fe3350c1dcfec8281849ed3" title="Create a component to this node (with specified ID if provided)." alt="" coords="223,144,460,173"/>
 <area shape="rect" id="node19" href="$class_urho3_d_1_1_serializable.html#aca892470b457612c0e96c57c134a616b" title="Read and apply a network delta update. Return true if attributes were changed." alt="" coords="265,266,417,313"/>
 <area shape="rect" id="node22" href="$class_urho3_d_1_1_deserializer.html#a4f7070a0dd21b4627e5603e1557efb0a" title="Read a variant." alt="" coords="543,326,697,373"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_node.html#a1e2d2d68e02bc517f3471a07d80351b8" title="Return component by type. If there are several, returns the first." alt="" coords="232,387,451,416"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_node.html#a96978345db2ceb1a473bb43f0024dbe7" title="Return component by type. If there are several, returns the first." alt="" coords="232,387,451,416"/>
 <area shape="rect" id="node26" href="$class_urho3_d_1_1_smoothed_transform.html#a35445b17dfcabb0deba9f1f697653296" title="Update smoothing." alt="" coords="237,439,445,486"/>
 <area shape="rect" id="node28" href="$class_urho3_d_1_1_deserializer.html#a1798cf3925097557803752554b7b519f" title="Read a variable&#45;length encoded unsigned integer, which can use 29 bits maximum." alt="" coords="264,509,419,555"/>
 <area shape="rect" id="node30" href="$class_urho3_d_1_1_deserializer.html#a98b32d12ab5e2226b897521c4ddcfa45" title="Read a 32&#45;bit StringHash." alt="" coords="264,578,419,625"/>

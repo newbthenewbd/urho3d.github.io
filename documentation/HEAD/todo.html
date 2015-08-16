@@ -18,19 +18,19 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000039"></a>Member <a class="el" href="classrapidjson_1_1_writer.html#a8fe5c53c08936c0f061f69c6eb286dcb">rapidjson::Writer&lt; OutputStream, SourceEncoding, TargetEncoding, Allocator &gt;::WriteDouble</a>  (double d)</dt>
+<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="classrapidjson_1_1_writer.html#a8fe5c53c08936c0f061f69c6eb286dcb">rapidjson::Writer&lt; OutputStream, SourceEncoding, TargetEncoding, Allocator &gt;::WriteDouble</a>  (double d)</dt>
 <dd>Optimization with custom double-to-string converter.  </dd>
 <dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="class_urho3_d_1_1_animated_model.html#aee70c95d29604511d3e2964bff967284">Urho3D::AnimatedModel::OnWorldBoundingBoxUpdate</a>  ()</dt>
 <dd>If it's a skinned attachment that does not cover the whole body, it will have unnecessarily large bounds  </dd>
 <dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_urho3_d_1_1_animated_model.html#ab6505918614fd80f5621e2a36abd2cf2">Urho3D::AnimatedModel::UpdateBoneBoundingBox</a>  ()</dt>
 <dd>The sphere radius should be multiplied with bone scale  </dd>
-<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#af799dc6ad5c207c8debd07b190e80657">Urho3D::Connection::Connection</a>  (Context *context, bool isClient, kNet::SharedPtr&lt; kNet::MessageConnection &gt; connection)</dt>
+<dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#af799dc6ad5c207c8debd07b190e80657">Urho3D::Connection::Connection</a>  (Context *context, bool isClient, kNet::SharedPtr&lt; kNet::MessageConnection &gt; connection)</dt>
 <dd>Not IPv6-capable.  </dd>
-<dt><a class="anchor" id="_todo000033"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#a373c8b228b0225e949c3a5a1683be28a">Urho3D::Connection::ProcessExistingNode</a>  (Node *node, NodeReplicationState &amp;nodeState)</dt>
+<dt><a class="anchor" id="_todo000032"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#a373c8b228b0225e949c3a5a1683be28a">Urho3D::Connection::ProcessExistingNode</a>  (Node *node, NodeReplicationState &amp;nodeState)</dt>
 <dd>Searching for the component is a potential CPU hotspot. It should be cached  </dd>
-<dt><a class="anchor" id="_todo000032"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#a0a9e39346bc1f85b9186d3258a178ac1">Urho3D::Connection::ProcessSceneUpdate</a>  (int msgID, MemoryBuffer &amp;msg)</dt>
+<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="class_urho3_d_1_1_connection.html#a0a9e39346bc1f85b9186d3258a178ac1">Urho3D::Connection::ProcessSceneUpdate</a>  (int msgID, MemoryBuffer &amp;msg)</dt>
 <dd>On mobile devices processing this message may potentially cause a crash if it attempts to load new GPU resources while the application is minimized  </dd>
-<dt><a class="anchor" id="_todo000035"></a>Member <a class="el" href="class_urho3_d_1_1_constraint.html#a27ad73e394c74db3eafa12ca51cd6400">Urho3D::Constraint::OnMarkedDirty</a>  (Node *node)</dt>
+<dt><a class="anchor" id="_todo000034"></a>Member <a class="el" href="class_urho3_d_1_1_constraint.html#a27ad73e394c74db3eafa12ca51cd6400">Urho3D::Constraint::OnMarkedDirty</a>  (Node *node)</dt>
 <dd>This does not catch the connected body node's scale changing  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="class_urho3_d_1_1_context.html#a68ab6cd5113c02ec67e04bbe11504090">Urho3D::Context::~Context</a>  ()</dt>
 <dd>Context should not need to know about subsystems  </dd>
@@ -40,8 +40,6 @@ group: HEAD
 <dd>target transform is not right if adding a decal to StaticModelGroup  </dd>
 <dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="class_urho3_d_1_1_decal_set.html#a6ad99bf1fab63be297e4104444589cfd">Urho3D::DecalSet::OnWorldBoundingBoxUpdate</a>  ()</dt>
 <dd>The sphere radius should be multiplied with bone scale  </dd>
-<dt><a class="anchor" id="_todo000028"></a>Class <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html">Urho3D::DetourCrowdManager</a>  </dt>
-<dd>support multiple agent's radii and heights.  </dd>
 <dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="class_urho3_d_1_1_file.html#ac9ad6d7a55a6f03848f3bb77b8e6890c">Urho3D::File::Read</a>  (void *dest, unsigned size)</dt>
 <dd>Handle errors  </dd>
 <dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="class_urho3_d_1_1_file_system.html#a5d93365af462341ea8029827581854a6">Urho3D::FileSystem::GetProgramDir</a>  () const </dt>
@@ -54,9 +52,9 @@ group: HEAD
 <dd>Implement properly, if possible  </dd>
 <dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="class_urho3_d_1_1_graphics.html#a1f9ba79f344a68937947b6416685fe3a">Urho3D::Graphics::SetShaders</a>  (ShaderVariation *vs, ShaderVariation *ps)</dt>
 <dd>Causes overhead and string manipulation per drawcall  </dd>
-<dt><a class="anchor" id="_todo000034"></a>Member <a class="el" href="class_urho3_d_1_1_http_request.html#a119d79e4e4dfb87db35fc9d5d4be762b">Urho3D::HttpRequest::ThreadFunction</a>  ()</dt>
+<dt><a class="anchor" id="_todo000033"></a>Member <a class="el" href="class_urho3_d_1_1_http_request.html#a119d79e4e4dfb87db35fc9d5d4be762b">Urho3D::HttpRequest::ThreadFunction</a>  ()</dt>
 <dd>SSL mode will not actually work unless Civetweb's SSL mode is initialized with an external SSL DLL  </dd>
-<dt><a class="anchor" id="_todo000036"></a>Member <a class="el" href="class_urho3_d_1_1_image.html#a5be924efa3bb0f85f2d812d0149aedda">Urho3D::Image::Resize</a>  (int width, int height)</dt>
+<dt><a class="anchor" id="_todo000035"></a>Member <a class="el" href="class_urho3_d_1_1_image.html#a5be924efa3bb0f85f2d812d0149aedda">Urho3D::Image::Resize</a>  (int width, int height)</dt>
 <dd>Reducing image size does not sample all needed pixels  </dd>
 <dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="class_urho3_d_1_1_input.html#a108458dfa956947d861e96c58d269e85">Urho3D::Input::AddScreenJoystick</a>  (XMLFile *layoutFile=0, XMLFile *styleFile=0)</dt>
 <dd><p class="startdd">After a real joystick has been plugged in 1073741824 times, the ranges will overlap </p>
@@ -72,9 +70,9 @@ group: HEAD
 <dd>Differentiate with 3D textures by actually reading the XML content  </dd>
 <dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="class_urho3_d_1_1_material.html#a843c233ee44a1b2d1aaea55d989782fe">Urho3D::Material::Load</a>  (const XMLElement &amp;source)</dt>
 <dd>Differentiate with 3D textures by actually reading the XML content  </dd>
-<dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#a602be9b482a0a9b7917bb13fd3b02cbf">Urho3D::NavigationMesh::BuildTile</a>  (Vector&lt; NavigationGeometryInfo &gt; &amp;geometryList, int x, int z)</dt>
+<dt><a class="anchor" id="_todo000029"></a>Member <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#a602be9b482a0a9b7917bb13fd3b02cbf">Urho3D::NavigationMesh::BuildTile</a>  (Vector&lt; NavigationGeometryInfo &gt; &amp;geometryList, int x, int z)</dt>
 <dd>Assignment of flags from navigation areas?  </dd>
-<dt><a class="anchor" id="_todo000029"></a>Member <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#a9975760e63efcb66d129fbaada30a5a9">Urho3D::NavigationMesh::CollectGeometries</a>  (Vector&lt; NavigationGeometryInfo &gt; &amp;geometryList, Node *node, HashSet&lt; Node * &gt; &amp;processedNodes, bool recursive)</dt>
+<dt><a class="anchor" id="_todo000028"></a>Member <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#a9975760e63efcb66d129fbaada30a5a9">Urho3D::NavigationMesh::CollectGeometries</a>  (Vector&lt; NavigationGeometryInfo &gt; &amp;geometryList, Node *node, HashSet&lt; Node * &gt; &amp;processedNodes, bool recursive)</dt>
 <dd>Evaluate whether should handle other types. Now StaticModel &amp; TerrainPatch are supported, others skipped  </dd>
 <dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="class_urho3_d_1_1_object.html#af8f8bd3f7e2f51ecca7199e737f53364">Urho3D::Object::SendEvent</a>  (StringHash eventType, VariantMap &amp;eventData)</dt>
 <dd>This is not entirely foolproof, as a subscriber could have been added to make up for the removed one  </dd>
@@ -84,7 +82,7 @@ group: HEAD
 <dd>Allow to specify maximum shadow maps per resolution, as smaller shadow maps take less memory  </dd>
 <dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="class_urho3_d_1_1_renderer.html#a993f63f35d27a9ea6df861962018f354">Urho3D::Renderer::Update</a>  (float timeStep)</dt>
 <dd>May result in incorrect debug geometry culling if the same scene is drawn from multiple viewports  </dd>
-<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="class_urho3_d_1_1_scene.html#a625934c3af5fb17f25a09767d4c0cc6b">Urho3D::Scene::UpdateAsyncLoading</a>  ()</dt>
+<dt><a class="anchor" id="_todo000036"></a>Member <a class="el" href="class_urho3_d_1_1_scene.html#a625934c3af5fb17f25a09767d4c0cc6b">Urho3D::Scene::UpdateAsyncLoading</a>  ()</dt>
 <dd>Works poorly in scenes where one root-level child node contains all content  </dd>
 <dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="class_urho3_d_1_1_shader_variation.html#a521f1e28728cc83e54757f91131a8d07">Urho3D::ShaderVariation::LoadByteCode</a>  (const String &amp;binaryShaderName)</dt>
 <dd>Check that shader type and model match  </dd>
@@ -92,7 +90,7 @@ group: HEAD
 <dd>Do not allocate a new vector each time  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="class_urho3_d_1_1_spline.html#a797a4db283284031153a6dd1b6a9ded9">Urho3D::Spline::GetPoint</a>  (float f) const </dt>
 <dd>Do not allocate a new vector each time  </dd>
-<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="class_urho3_d_1_1_sprite.html#a0330f3057cc51c09cb5f6e97497646e6">Urho3D::Sprite::IsWithinScissor</a>  (const IntRect &amp;currentScissor)</dt>
+<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="class_urho3_d_1_1_sprite.html#a0330f3057cc51c09cb5f6e97497646e6">Urho3D::Sprite::IsWithinScissor</a>  (const IntRect &amp;currentScissor)</dt>
 <dd>Implement properly, for now just checks visibility flag  </dd>
 <dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="class_urho3_d_1_1_terrain.html#a700824d66feab6400aa4f93c667fb76c">Urho3D::Terrain::GetHeight</a>  (const Vector3 &amp;worldPosition) const </dt>
 <dd>This assumes that the terrain scene node is upright </dd>

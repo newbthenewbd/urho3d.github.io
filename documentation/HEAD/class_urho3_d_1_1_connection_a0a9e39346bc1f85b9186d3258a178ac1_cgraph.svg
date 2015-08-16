@@ -125,8 +125,8 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node12 -->
 <g id="node24" class="node"><title>Node12</title>
-<a xlink:href="class_urho3_d_1_1_node.html#a1e2d2d68e02bc517f3471a07d80351b8" target="_top" xlink:title="Return component by type. If there are several, returns the first.">
-<polygon fill="none" stroke="black" points="170,-640.5 170,-661.5 334,-661.5 334,-640.5 170,-640.5"/>
+<a xlink:href="class_urho3_d_1_1_node.html#a96978345db2ceb1a473bb43f0024dbe7" target="_top" xlink:title="Return component by type. If there are several, returns the first.">
+<polygon fill="none" stroke="red" points="170,-640.5 170,-661.5 334,-661.5 334,-640.5 170,-640.5"/>
 <text text-anchor="middle" x="252" y="-648.5" font-family="FreeSans" font-size="10.00">Urho3D::Node::GetComponent</text>
 </a>
 </g>

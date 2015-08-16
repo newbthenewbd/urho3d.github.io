@@ -1,7 +1,0 @@
-<map id="Urho3D::DetourCrowdManager" name="Urho3D::DetourCrowdManager">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="37,315,192,344"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="39,237,191,267"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="39,160,191,189"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="55,83,175,112"/>
-<area shape="rect" id="node10" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="39,5,191,35"/>
-</map>

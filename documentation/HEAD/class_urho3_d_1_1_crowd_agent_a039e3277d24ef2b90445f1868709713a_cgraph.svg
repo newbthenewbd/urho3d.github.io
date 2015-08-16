@@ -72,27 +72,27 @@ var sectionId = 'dynsection-2';
 <path fill="none" stroke="midnightblue" d="M117.766,-81.4674C132.584,-83.3504 148.702,-85.3986 164.226,-87.3712"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="163.96,-90.8656 174.322,-88.6542 164.843,-83.9214 163.96,-90.8656"/>
 </g>
-<!-- Node5 -->
-<g id="node9" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node11" class="node"><title>Node6</title>
 <a xlink:href="class_urho3_d_1_1_node.html#a92372a305fa427e9ce58df7f37a684ba" target="_top" xlink:title="Return position in world space.">
 <polygon fill="none" stroke="black" points="154.5,-40.5 154.5,-61.5 325.5,-61.5 325.5,-40.5 154.5,-40.5"/>
 <text text-anchor="middle" x="240" y="-48.5" font-family="FreeSans" font-size="10.00">Urho3D::Node::GetWorldPosition</text>
 </a>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M117.766,-66.5326C127.211,-65.3324 137.184,-64.0651 147.194,-62.793"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="147.72,-66.2544 157.199,-61.5216 146.838,-59.3102 147.72,-66.2544"/>
 </g>
-<!-- Node6 -->
-<g id="node11" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node13" class="node"><title>Node7</title>
 <a xlink:href="class_urho3_d_1_1_vector3.html#abb3ae12236657e1e2ffc2a8631ffe2fd" target="_top" xlink:title="Return float data.">
 <polygon fill="none" stroke="black" points="177.5,-0.5 177.5,-21.5 302.5,-21.5 302.5,-0.5 177.5,-0.5"/>
 <text text-anchor="middle" x="240" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::Vector3::Data</text>
 </a>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node6</title>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge12" class="edge"><title>Node1&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M92.6436,-56.8167C110.526,-48.1876 133.082,-38.0895 154,-31 161.535,-28.4464 169.549,-26.1062 177.538,-23.9978"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="178.402,-27.3895 187.238,-21.5423 176.684,-20.6036 178.402,-27.3895"/>
 </g>
@@ -107,6 +107,19 @@ var sectionId = 'dynsection-2';
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M301.222,-149C317.306,-149 334.886,-149 351.767,-149"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="352.168,-152.5 362.168,-149 352.168,-145.5 352.168,-152.5"/>
+</g>
+<!-- Node5 -->
+<g id="node9" class="node"><title>Node5</title>
+<a xlink:href="class_urho3_d_1_1_crowd_agent.html#a2c9a79822d39b99de321baced03c9543" target="_top" xlink:title="Return true when the agent is in crowd (being managed by a crowd manager).">
+<polygon fill="none" stroke="black" points="372.5,-80 372.5,-114 489.5,-114 489.5,-80 372.5,-80"/>
+<text text-anchor="start" x="380.5" y="-101" font-family="FreeSans" font-size="10.00">Urho3D::CrowdAgent</text>
+<text text-anchor="middle" x="431" y="-88" font-family="FreeSans" font-size="10.00">::IsInCrowd</text>
+</a>
+</g>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge8" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M305.731,-97C324.032,-97 343.953,-97 362.414,-97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="362.499,-100.5 372.499,-97 362.499,-93.5001 362.499,-100.5"/>
 </g>
 </g>
 </svg>

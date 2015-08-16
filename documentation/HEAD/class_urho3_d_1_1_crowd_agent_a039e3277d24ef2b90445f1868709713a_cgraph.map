@@ -1,7 +1,8 @@
 <map id="Urho3D::CrowdAgent::OnMarkedDirty" name="Urho3D::CrowdAgent::OnMarkedDirty">
 <area shape="rect" id="node3" href="$class_urho3_d_1_1_component.html#a73cc05aee9060f5618ea1ef72668ba01" title="Return whether is effectively enabled (node is also enabled.)" alt="" coords="244,5,407,51"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_crowd_agent.html#a581928673bb47f4292c2dc06caebd13f" title="Get internal Detour crowd agent." alt="" coords="239,74,412,121"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_node.html#a92372a305fa427e9ce58df7f37a684ba" title="Return position in world space." alt="" coords="212,144,439,173"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_vector3.html#abb3ae12236657e1e2ffc2a8631ffe2fd" title="Return float data." alt="" coords="243,197,408,227"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_node.html#a92372a305fa427e9ce58df7f37a684ba" title="Return position in world space." alt="" coords="212,144,439,173"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_vector3.html#abb3ae12236657e1e2ffc2a8631ffe2fd" title="Return float data." alt="" coords="243,197,408,227"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_node.html#a8becd372b2db8397831009114dee147f" title="Return whether is enabled. Disables nodes effectively disable all their components." alt="" coords="489,13,671,43"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_crowd_agent.html#a2c9a79822d39b99de321baced03c9543" title="Return true when the agent is in crowd (being managed by a crowd manager)." alt="" coords="503,74,657,121"/>
 </map>

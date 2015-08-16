@@ -290,18 +290,27 @@ group: HEAD
 <li>BoundsMin : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>BoundsMax : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 </ul>
+<h4>CrowdAgentFormation</h4>
+<ul>
+<li>Node : <a class="el" href="class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes.">Node</a> pointer</li>
+<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="Crowd agent component, requires a CrowdManager component in the scene. When not set explicitly...">CrowdAgent</a> pointer</li>
+<li>Index : unsigned</li>
+<li>Size : unsigned</li>
+<li>Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> [in/out]</li>
+</ul>
 <h4>CrowdAgentReposition</h4>
 <ul>
 <li>Node : <a class="el" href="class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes.">Node</a> pointer</li>
-<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="DetourCrowd Agent, requires a DetourCrowdManager in the scene. Agent&#39;s radius and height is set throu...">CrowdAgent</a> pointer</li>
+<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="Crowd agent component, requires a CrowdManager component in the scene. When not set explicitly...">CrowdAgent</a> pointer</li>
 <li>Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>Velocity : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>Arrived : bool</li>
+<li>TimeStep : float</li>
 </ul>
 <h4>CrowdAgentFailure</h4>
 <ul>
 <li>Node : <a class="el" href="class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes.">Node</a> pointer</li>
-<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="DetourCrowd Agent, requires a DetourCrowdManager in the scene. Agent&#39;s radius and height is set throu...">CrowdAgent</a> pointer</li>
+<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="Crowd agent component, requires a CrowdManager component in the scene. When not set explicitly...">CrowdAgent</a> pointer</li>
 <li>Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>Velocity : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>CrowdAgentState : int</li>
@@ -310,7 +319,7 @@ group: HEAD
 <h4>CrowdAgentStateChanged</h4>
 <ul>
 <li>Node : <a class="el" href="class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes.">Node</a> pointer</li>
-<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="DetourCrowd Agent, requires a DetourCrowdManager in the scene. Agent&#39;s radius and height is set throu...">CrowdAgent</a> pointer</li>
+<li>CrowdAgent : <a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="Crowd agent component, requires a CrowdManager component in the scene. When not set explicitly...">CrowdAgent</a> pointer</li>
 <li>Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>Velocity : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
 <li>CrowdAgentState : int</li>

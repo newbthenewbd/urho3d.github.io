@@ -83,6 +83,9 @@ group: HEAD
 <li>objectTypes_
 : <a class="el" href="class_urho3_d_1_1_script.html#a7faf2ec880654c476a16c44ab81753b6">Urho3D::Script</a>
 </li>
+<li>obstacleAvoidanceType_
+: <a class="el" href="class_urho3_d_1_1_crowd_agent.html#a66f73415acd8ca43b52275fa094e83f5">Urho3D::CrowdAgent</a>
+</li>
 <li>obstacleId_
 : <a class="el" href="class_urho3_d_1_1_obstacle.html#a2e45924edeaf73c66d367848ee2cf05b">Urho3D::Obstacle</a>
 </li>
@@ -211,13 +214,13 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_cursor.html#a625b36f8639782578ce66612de40b5ec">Urho3D::Cursor</a>
 </li>
 <li>otherBody_
-: <a class="el" href="class_urho3_d_1_1_constraint.html#ac7aed79ba30c9a1522ef98d30cf9c877">Urho3D::Constraint</a>
-, <a class="el" href="class_urho3_d_1_1_constraint2_d.html#a24bdd2001dd0dac7b2680a2517f48c0d">Urho3D::Constraint2D</a>
+: <a class="el" href="class_urho3_d_1_1_constraint2_d.html#a24bdd2001dd0dac7b2680a2517f48c0d">Urho3D::Constraint2D</a>
+, <a class="el" href="class_urho3_d_1_1_constraint.html#ac7aed79ba30c9a1522ef98d30cf9c877">Urho3D::Constraint</a>
 </li>
 <li>otherBodyAnchor_
-: <a class="el" href="class_urho3_d_1_1_constraint_pulley2_d.html#ab907a3eb1f1be3ac91a01661eee0f8a4">Urho3D::ConstraintPulley2D</a>
+: <a class="el" href="class_urho3_d_1_1_constraint_distance2_d.html#a47b4c21e50099eab5b1e8228ecfb02c6">Urho3D::ConstraintDistance2D</a>
+, <a class="el" href="class_urho3_d_1_1_constraint_pulley2_d.html#ab907a3eb1f1be3ac91a01661eee0f8a4">Urho3D::ConstraintPulley2D</a>
 , <a class="el" href="class_urho3_d_1_1_constraint_rope2_d.html#a977ff005c83abcb2393053d762e32bbe">Urho3D::ConstraintRope2D</a>
-, <a class="el" href="class_urho3_d_1_1_constraint_distance2_d.html#a47b4c21e50099eab5b1e8228ecfb02c6">Urho3D::ConstraintDistance2D</a>
 </li>
 <li>otherBodyGroundAnchor_
 : <a class="el" href="class_urho3_d_1_1_constraint_pulley2_d.html#a84ea4b2092fb7b2a3753eb1346b76fe6">Urho3D::ConstraintPulley2D</a>
@@ -256,8 +259,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_constraint.html#a5ec84894ccf27503aca97d110491abc0">Urho3D::Constraint</a>
 </li>
 <li>owner_
-: <a class="el" href="class_urho3_d_1_1_value_animation.html#a83726f4a6d826ba8033ce5b32035ffbf">Urho3D::ValueAnimation</a>
-, <a class="el" href="class_urho3_d_1_1_node.html#ad077d36076140467125bf96c05b25c99">Urho3D::Node</a>
+: <a class="el" href="class_urho3_d_1_1_node.html#ad077d36076140467125bf96c05b25c99">Urho3D::Node</a>
+, <a class="el" href="class_urho3_d_1_1_value_animation.html#a83726f4a6d826ba8033ce5b32035ffbf">Urho3D::ValueAnimation</a>
 , <a class="el" href="class_urho3_d_1_1_terrain_patch.html#a387a63e922f28ba8db356127063fb3d4">Urho3D::TerrainPatch</a>
 , <a class="el" href="class_urho3_d_1_1_background_loader.html#a0902e461ebd1ac791f257f3cc9d886e9">Urho3D::BackgroundLoader</a>
 , <a class="el" href="class_urho3_d_1_1_shader_variation.html#a13c714bf45d0d3dfca30cbd3a47aa866">Urho3D::ShaderVariation</a>
@@ -266,9 +269,9 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_constraint2_d.html#a9652ea695f92da7f427ceceb9b8cb629">Urho3D::Constraint2D</a>
 </li>
 <li>ownerBodyAnchor_
-: <a class="el" href="class_urho3_d_1_1_constraint_distance2_d.html#ae114d8de1cba01427ce45a8cada85be5">Urho3D::ConstraintDistance2D</a>
-, <a class="el" href="class_urho3_d_1_1_constraint_rope2_d.html#a72c99511725bb22c812dd1eee1fc480f">Urho3D::ConstraintRope2D</a>
+: <a class="el" href="class_urho3_d_1_1_constraint_rope2_d.html#a72c99511725bb22c812dd1eee1fc480f">Urho3D::ConstraintRope2D</a>
 , <a class="el" href="class_urho3_d_1_1_constraint_pulley2_d.html#ad0894f2b28d0963ffe9c55f573598990">Urho3D::ConstraintPulley2D</a>
+, <a class="el" href="class_urho3_d_1_1_constraint_distance2_d.html#ae114d8de1cba01427ce45a8cada85be5">Urho3D::ConstraintDistance2D</a>
 </li>
 <li>ownerBodyGroundAnchor_
 : <a class="el" href="class_urho3_d_1_1_constraint_pulley2_d.html#accb7dd27fd63facad8af222fcacae89b">Urho3D::ConstraintPulley2D</a>

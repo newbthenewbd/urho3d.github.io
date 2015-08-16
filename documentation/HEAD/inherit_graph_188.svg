@@ -10,10 +10,10 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="class_urho3_d_1_1_shared_ptr.html" target="_top" xlink:title="Urho3D::SharedPtr\&lt;\l Urho3D::Model \&gt;">
+<a xlink:href="class_urho3_d_1_1_shared_ptr.html" target="_top" xlink:title="Urho3D::SharedPtr\&lt;\l Urho3D::Material \&gt;">
 <polygon fill="none" stroke="black" points="0,-0 0,-34 116,-34 116,-0 0,-0"/>
 <text text-anchor="start" x="8" y="-21" font-family="FreeSans" font-size="10.00">Urho3D::SharedPtr&lt;</text>
-<text text-anchor="middle" x="58" y="-8" font-family="FreeSans" font-size="10.00"> Urho3D::Model &gt;</text>
+<text text-anchor="middle" x="58" y="-8" font-family="FreeSans" font-size="10.00"> Urho3D::Material &gt;</text>
 </a>
 </g>
 </g>

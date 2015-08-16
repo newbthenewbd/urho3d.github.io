@@ -15,7 +15,7 @@
 <area shape="rect" id="node31" href="$class_urho3_d_1_1_collision_shape.html#a6968b6da91828a07b6ed36453c0e6e89" title="Return world&#45;space bounding box." alt="" coords="260,165,431,211"/>
 <area shape="rect" id="node36" href="$class_urho3_d_1_1_bounding_box.html#aa75dc3b9cce0c3c6ea4e34e4f8f125c2" title="Return transformed by a 3x3 matrix." alt="" coords="544,482,707,529"/>
 <area shape="rect" id="node38" href="$class_urho3_d_1_1_vector.html#a083b39861b996df82f811a9a4ebff109" title="Add an element at the end." alt="" coords="547,555,704,584"/>
-<area shape="rect" id="node40" href="$class_urho3_d_1_1_node.html#a9b53b7e58abe451870b5199e87b9835b" title="Return components derived from class." alt="" coords="249,1007,441,1054"/>
+<area shape="rect" id="node40" href="$class_urho3_d_1_1_node.html#ab4e6e26c370d143d455df9b5e8d1f2fc" title="Return components derived from class." alt="" coords="249,1007,441,1054"/>
 <area shape="rect" id="node42" href="$class_urho3_d_1_1_object.html#a5901d73f26add4bf6f5728e09848ca02" title="Return type hash." alt="" coords="256,1077,435,1107"/>
 <area shape="rect" id="node44" href="$class_urho3_d_1_1_drawable.html#a3930dc9342c0aefcfd4c94eb8079e365" title="Return world&#45;space bounding box." alt="" coords="244,1130,447,1177"/>
 <area shape="rect" id="node46" href="$class_urho3_d_1_1_node.html#a4ef6ab6cc51590e85a20f8f851659916" title="Return immediate child scene nodes." alt="" coords="248,1200,443,1229"/>

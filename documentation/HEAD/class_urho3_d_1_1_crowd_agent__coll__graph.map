@@ -1,26 +1,26 @@
 <map id="Urho3D::CrowdAgent" name="Urho3D::CrowdAgent">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="1192,668,1347,697"/>
-<area shape="rect" id="node60" href="$class_urho3_d_1_1_detour_crowd_manager.html" title="Detour Crowd Simulation Scene Component. Should be added only to the root scene node. Agent&#39;s radius and height is set through the navigation mesh." alt="" coords="1467,757,1685,787"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="572,148,724,177"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="964,716,1076,745"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="64,75,216,104"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="7,128,273,192"/>
-<area shape="rect" id="node10" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="39,215,241,262"/>
-<area shape="rect" id="node12" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="47,5,233,51"/>
-<area shape="rect" id="node19" href="$class_urho3_d_1_1_scene.html" title="Root scene node, represents the whole scene." alt="" coords="1211,721,1328,751"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Node * \&gt;" alt="" coords="569,831,727,878"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; StringHash,\l Variant \&gt;" alt="" coords="25,447,255,494"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_connection.html" title="Connection to a remote network host." alt="" coords="573,779,723,808"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="81,1176,199,1205"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_quaternion.html" title="Rotation represented as a four&#45;dimensional normalized vector." alt="" coords="65,728,215,757"/>
-<area shape="rect" id="node30" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="519,983,777,1030"/>
-<area shape="rect" id="node32" href="$class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream." alt="" coords="61,633,219,663"/>
-<area shape="rect" id="node34" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="513,1053,783,1099"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_vector3.html" title="Three&#45;dimensional vector." alt="" coords="76,944,204,973"/>
-<area shape="rect" id="node42" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="573,331,723,360"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Node \&gt; \&gt;" alt="" coords="533,383,763,430"/>
-<area shape="rect" id="node54" href="$class_urho3_d_1_1_matrix3x4.html" title="3x4 matrix for scene node transform calculations." alt="" coords="577,577,719,607"/>
-<area shape="rect" id="node58" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::DetourCrowdManager \&gt;" alt="" coords="1800,775,1995,822"/>
-<area shape="rect" id="node63" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::CrowdAgent * \&gt;" alt="" coords="1176,774,1363,821"/>
-<area shape="rect" id="node65" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="1508,811,1644,840"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="1176,740,1331,769"/>
+<area shape="rect" id="node60" href="$class_urho3_d_1_1_crowd_manager.html" title="Crowd manager scene component. Should be added only to the root scene node." alt="" coords="1833,493,2007,523"/>
+<area shape="rect" id="node63" href="$class_urho3_d_1_1_navigation_mesh.html" title="Navigation mesh component. Collects the navigation geometry from child nodes with the Navigable compo..." alt="" coords="1491,309,1672,339"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="572,1264,724,1293"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="964,724,1076,753"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="64,1264,216,1293"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="7,1317,273,1381"/>
+<area shape="rect" id="node10" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="39,1405,241,1451"/>
+<area shape="rect" id="node12" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="47,1194,233,1241"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_scene.html" title="Root scene node, represents the whole scene." alt="" coords="1195,687,1312,716"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Node * \&gt;" alt="" coords="569,367,727,414"/>
+<area shape="rect" id="node22" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; StringHash,\l Variant \&gt;" alt="" coords="25,1001,255,1047"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_connection.html" title="Connection to a remote network host." alt="" coords="573,724,723,753"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="81,413,199,443"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_quaternion.html" title="Rotation represented as a four&#45;dimensional normalized vector." alt="" coords="65,685,215,715"/>
+<area shape="rect" id="node30" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="519,437,777,483"/>
+<area shape="rect" id="node32" href="$class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream." alt="" coords="61,877,219,907"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="513,571,783,618"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_vector3.html" title="Three&#45;dimensional vector." alt="" coords="76,168,204,197"/>
+<area shape="rect" id="node42" href="$class_urho3_d_1_1_string_hash.html" title="32&#45;bit hash value for a string." alt="" coords="573,819,723,848"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Node \&gt; \&gt;" alt="" coords="533,871,763,918"/>
+<area shape="rect" id="node54" href="$class_urho3_d_1_1_matrix3x4.html" title="3x4 matrix for scene node transform calculations." alt="" coords="577,1131,719,1160"/>
+<area shape="rect" id="node58" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::CrowdManager \&gt;" alt="" coords="2123,534,2317,581"/>
+<area shape="rect" id="node68" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="1852,547,1988,576"/>
 </map>

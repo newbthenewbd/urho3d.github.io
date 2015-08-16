@@ -37,7 +37,7 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 
-<p>DetourCrowd Agent, requires a <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html" title="Detour Crowd Simulation Scene Component. Should be added only to the root scene node. Agent&#39;s radius and height is set through the navigation mesh.">DetourCrowdManager</a> in the scene. Agent's radius and height is set through the navigation mesh.  
+<p>Crowd agent component, requires a <a class="el" href="class_urho3_d_1_1_crowd_manager.html" title="Crowd manager scene component. Should be added only to the root scene node.">CrowdManager</a> component in the scene. When not set explicitly, agent's radius and height are defaulted to navigation mesh's agent radius and height, respectively.  
  <a href="class_urho3_d_1_1_crowd_agent.html#details">More...</a></p>
 
 <p><code>#include &lt;CrowdAgent.h&gt;</code></p>
@@ -64,6 +64,10 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aebee29850ae1670d09d13f8850af7e8e">~CrowdAgent</a> ()</td></tr>
 <tr class="memdesc:aebee29850ae1670d09d13f8850af7e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
 <tr class="separator:aebee29850ae1670d09d13f8850af7e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3423dc8c711f8e70d7c58104df1197a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3423dc8c711f8e70d7c58104df1197a9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a3423dc8c711f8e70d7c58104df1197a9">ApplyAttributes</a> ()</td></tr>
+<tr class="memdesc:a3423dc8c711f8e70d7c58104df1197a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply attribute changes that can not be applied immediately. Called after scene load or a network update. <br/></td></tr>
+<tr class="separator:a3423dc8c711f8e70d7c58104df1197a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb6b241c870de8018f06a64fd493251a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb6b241c870de8018f06a64fd493251a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#acb6b241c870de8018f06a64fd493251a">OnSetEnabled</a> ()</td></tr>
 <tr class="memdesc:acb6b241c870de8018f06a64fd493251a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle enabled/disabled state change. <br/></td></tr>
@@ -76,42 +80,46 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5a413e142f234e25f40e0c69ef806f95">DrawDebugGeometry</a> (<a class="el" href="class_urho3_d_1_1_debug_renderer.html">DebugRenderer</a> *debug, bool depthTest)</td></tr>
 <tr class="memdesc:a5a413e142f234e25f40e0c69ef806f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw debug feelers. <br/></td></tr>
 <tr class="separator:a5a413e142f234e25f40e0c69ef806f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf6121325950945f6ae2032bd35001b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf6121325950945f6ae2032bd35001b0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aaf6121325950945f6ae2032bd35001b0">SetNavigationFilterType</a> (unsigned filterTypeID)</td></tr>
-<tr class="memdesc:aaf6121325950945f6ae2032bd35001b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the navigation filter type the agent will use. <br/></td></tr>
-<tr class="separator:aaf6121325950945f6ae2032bd35001b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078bd5121dd294728e99d5ba64371e9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a078bd5121dd294728e99d5ba64371e9f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a078bd5121dd294728e99d5ba64371e9f">SetMoveTarget</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;position)</td></tr>
-<tr class="memdesc:a078bd5121dd294728e99d5ba64371e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a new move request for this agent. <br/></td></tr>
-<tr class="separator:a078bd5121dd294728e99d5ba64371e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5843a46af0f130c221ca0363a98e53e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5843a46af0f130c221ca0363a98e53e3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5843a46af0f130c221ca0363a98e53e3">ResetMoveTarget</a> ()</td></tr>
-<tr class="memdesc:a5843a46af0f130c221ca0363a98e53e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset any request for the specified agent. <br/></td></tr>
-<tr class="separator:a5843a46af0f130c221ca0363a98e53e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb6b4699617ec755e3c9787979428598"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb6b4699617ec755e3c9787979428598"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#abb6b4699617ec755e3c9787979428598">SetMoveVelocity</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;velocity)</td></tr>
-<tr class="memdesc:abb6b4699617ec755e3c9787979428598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a new move velocity request for this agent. <br/></td></tr>
-<tr class="separator:abb6b4699617ec755e3c9787979428598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ada3350dd622792e0447102c993819"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54ada3350dd622792e0447102c993819"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a54ada3350dd622792e0447102c993819">SetTargetPosition</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;position)</td></tr>
+<tr class="memdesc:a54ada3350dd622792e0447102c993819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a new target position request for this agent. <br/></td></tr>
+<tr class="separator:a54ada3350dd622792e0447102c993819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2055fa49b9a4d10d6668ecafedf24d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe2055fa49b9a4d10d6668ecafedf24d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#afe2055fa49b9a4d10d6668ecafedf24d">SetTargetVelocity</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;velocity)</td></tr>
+<tr class="memdesc:afe2055fa49b9a4d10d6668ecafedf24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a new target velocity request for this agent. <br/></td></tr>
+<tr class="separator:afe2055fa49b9a4d10d6668ecafedf24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f4e3378a2a6ef1679f1e94b409d286"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72f4e3378a2a6ef1679f1e94b409d286"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a72f4e3378a2a6ef1679f1e94b409d286">ResetTarget</a> ()</td></tr>
+<tr class="memdesc:a72f4e3378a2a6ef1679f1e94b409d286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset any target request for the specified agent. <br/></td></tr>
+<tr class="separator:a72f4e3378a2a6ef1679f1e94b409d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5975f317bdc1d689a945408e3e049083"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5975f317bdc1d689a945408e3e049083"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5975f317bdc1d689a945408e3e049083">SetUpdateNodePosition</a> (bool unodepos)</td></tr>
 <tr class="memdesc:a5975f317bdc1d689a945408e3e049083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the node position. When set to false, the node position should be updated by other means (e.g. using Physics) in response to the E_CROWD_AGENT_REPOSITION event. <br/></td></tr>
 <tr class="separator:a5975f317bdc1d689a945408e3e049083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add2938fb9c84d22ba3515a026d6feec9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add2938fb9c84d22ba3515a026d6feec9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#add2938fb9c84d22ba3515a026d6feec9">SetMaxAccel</a> (float val)</td></tr>
-<tr class="memdesc:add2938fb9c84d22ba3515a026d6feec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's max acceleration. <br/></td></tr>
-<tr class="separator:add2938fb9c84d22ba3515a026d6feec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f241ab44165657a3fc075ad43146c63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f241ab44165657a3fc075ad43146c63"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a0f241ab44165657a3fc075ad43146c63">SetMaxSpeed</a> (float val)</td></tr>
-<tr class="memdesc:a0f241ab44165657a3fc075ad43146c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's max velocity. <br/></td></tr>
-<tr class="separator:a0f241ab44165657a3fc075ad43146c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fe5aec5ac43b789b112d55d3a94b612"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fe5aec5ac43b789b112d55d3a94b612"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a1fe5aec5ac43b789b112d55d3a94b612">SetRadius</a> (float val)</td></tr>
-<tr class="memdesc:a1fe5aec5ac43b789b112d55d3a94b612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's radius. <br/></td></tr>
-<tr class="separator:a1fe5aec5ac43b789b112d55d3a94b612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e77d74b73920f3b26df0648d566d05a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e77d74b73920f3b26df0648d566d05a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a8e77d74b73920f3b26df0648d566d05a">SetHeight</a> (float val)</td></tr>
-<tr class="memdesc:a8e77d74b73920f3b26df0648d566d05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's height. <br/></td></tr>
-<tr class="separator:a8e77d74b73920f3b26df0648d566d05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6615a972655b7544b36fe4b4665da6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d6615a972655b7544b36fe4b4665da6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a3d6615a972655b7544b36fe4b4665da6">SetMaxAccel</a> (float maxAccel)</td></tr>
+<tr class="memdesc:a3d6615a972655b7544b36fe4b4665da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's max acceleration. <br/></td></tr>
+<tr class="separator:a3d6615a972655b7544b36fe4b4665da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543b7224d786125b9ea1028d8f55db05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a543b7224d786125b9ea1028d8f55db05"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a543b7224d786125b9ea1028d8f55db05">SetMaxSpeed</a> (float maxSpeed)</td></tr>
+<tr class="memdesc:a543b7224d786125b9ea1028d8f55db05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's max velocity. <br/></td></tr>
+<tr class="separator:a543b7224d786125b9ea1028d8f55db05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d3a23292d2721ed286181779391d0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51d3a23292d2721ed286181779391d0d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a51d3a23292d2721ed286181779391d0d">SetRadius</a> (float radius)</td></tr>
+<tr class="memdesc:a51d3a23292d2721ed286181779391d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's radius. <br/></td></tr>
+<tr class="separator:a51d3a23292d2721ed286181779391d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b4de25074c8dd6c0e97bdcd6e03a23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46b4de25074c8dd6c0e97bdcd6e03a23"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a46b4de25074c8dd6c0e97bdcd6e03a23">SetHeight</a> (float height)</td></tr>
+<tr class="memdesc:a46b4de25074c8dd6c0e97bdcd6e03a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's height. <br/></td></tr>
+<tr class="separator:a46b4de25074c8dd6c0e97bdcd6e03a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ce3979c7fc59098bb91f4c0314e534"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14ce3979c7fc59098bb91f4c0314e534"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a14ce3979c7fc59098bb91f4c0314e534">SetQueryFilterType</a> (unsigned queryFilterType)</td></tr>
+<tr class="memdesc:a14ce3979c7fc59098bb91f4c0314e534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's query filter type. <br/></td></tr>
+<tr class="separator:a14ce3979c7fc59098bb91f4c0314e534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9f04ca295d5fc1351ff106b6867d97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d9f04ca295d5fc1351ff106b6867d97"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a2d9f04ca295d5fc1351ff106b6867d97">SetObstacleAvoidanceType</a> (unsigned obstacleAvoidanceType)</td></tr>
+<tr class="memdesc:a2d9f04ca295d5fc1351ff106b6867d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's obstacle avoidance type. <br/></td></tr>
+<tr class="separator:a2d9f04ca295d5fc1351ff106b6867d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1136ecd8745f04f6d841b6d47ce74803"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1136ecd8745f04f6d841b6d47ce74803"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a1136ecd8745f04f6d841b6d47ce74803">SetNavigationQuality</a> (NavigationQuality val)</td></tr>
 <tr class="memdesc:a1136ecd8745f04f6d841b6d47ce74803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's navigation quality. <br/></td></tr>
@@ -120,10 +128,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ae7055208fb4cce7c2cbd15a1471a6e07">SetNavigationPushiness</a> (NavigationPushiness val)</td></tr>
 <tr class="memdesc:ae7055208fb4cce7c2cbd15a1471a6e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the agent's navigation pushiness. <br/></td></tr>
 <tr class="separator:ae7055208fb4cce7c2cbd15a1471a6e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e69c2062a941d60c46674d9ab877881"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e69c2062a941d60c46674d9ab877881"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a4e69c2062a941d60c46674d9ab877881">GetNavigationFilterType</a> () const </td></tr>
-<tr class="memdesc:a4e69c2062a941d60c46674d9ab877881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the navigation filter type this agent is using. <br/></td></tr>
-<tr class="separator:a4e69c2062a941d60c46674d9ab877881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaae538c1bb42d75c76a2e7847287de0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaae538c1bb42d75c76a2e7847287de0"></a>
 <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#afaae538c1bb42d75c76a2e7847287de0">GetPosition</a> () const </td></tr>
 <tr class="memdesc:afaae538c1bb42d75c76a2e7847287de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's position. <br/></td></tr>
@@ -138,32 +142,40 @@ unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <tr class="separator:a0b4801d78413333722e76cfe1866479c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa96913f5408864bdb310d6a6c9e013f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa96913f5408864bdb310d6a6c9e013f5"></a>
 const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aa96913f5408864bdb310d6a6c9e013f5">GetTargetPosition</a> () const </td></tr>
-<tr class="memdesc:aa96913f5408864bdb310d6a6c9e013f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's target position. <br/></td></tr>
+<tr class="memdesc:aa96913f5408864bdb310d6a6c9e013f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's requested target position. <br/></td></tr>
 <tr class="separator:aa96913f5408864bdb310d6a6c9e013f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe8eb9a0dc8d943d240e17b8f6199ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfe8eb9a0dc8d943d240e17b8f6199ea"></a>
-CrowdAgentState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#abfe8eb9a0dc8d943d240e17b8f6199ea">GetAgentState</a> () const </td></tr>
-<tr class="memdesc:abfe8eb9a0dc8d943d240e17b8f6199ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's state. <br/></td></tr>
-<tr class="separator:abfe8eb9a0dc8d943d240e17b8f6199ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5eddcc67502547d86d2475cbfd389bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5eddcc67502547d86d2475cbfd389bc"></a>
-CrowdTargetState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ae5eddcc67502547d86d2475cbfd389bc">GetTargetState</a> () const </td></tr>
-<tr class="memdesc:ae5eddcc67502547d86d2475cbfd389bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's target state. <br/></td></tr>
-<tr class="separator:ae5eddcc67502547d86d2475cbfd389bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978cc2ba9f0e0fc318206eef20caa4cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a978cc2ba9f0e0fc318206eef20caa4cc"></a>
+const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a978cc2ba9f0e0fc318206eef20caa4cc">GetTargetVelocity</a> () const </td></tr>
+<tr class="memdesc:a978cc2ba9f0e0fc318206eef20caa4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's requested target velocity. <br/></td></tr>
+<tr class="separator:a978cc2ba9f0e0fc318206eef20caa4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8c02172e06ba4088d7c17c6bd6a158"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add8c02172e06ba4088d7c17c6bd6a158"></a>
+CrowdAgentRequestedTarget&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#add8c02172e06ba4088d7c17c6bd6a158">GetRequestedTargetType</a> () const </td></tr>
+<tr class="memdesc:add8c02172e06ba4088d7c17c6bd6a158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's requested target type, if any. <br/></td></tr>
+<tr class="separator:add8c02172e06ba4088d7c17c6bd6a158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c46d13323c5bb25ca078f0acb50a2e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c46d13323c5bb25ca078f0acb50a2e6"></a>
+CrowdAgentState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a8c46d13323c5bb25ca078f0acb50a2e6">GetAgentState</a> () const </td></tr>
+<tr class="memdesc:a8c46d13323c5bb25ca078f0acb50a2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's state. <br/></td></tr>
+<tr class="separator:a8c46d13323c5bb25ca078f0acb50a2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a5d0237289ca06a0862c061d4344a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54a5d0237289ca06a0862c061d4344a6"></a>
+CrowdAgentTargetState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a54a5d0237289ca06a0862c061d4344a6">GetTargetState</a> () const </td></tr>
+<tr class="memdesc:a54a5d0237289ca06a0862c061d4344a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent's target state. <br/></td></tr>
+<tr class="separator:a54a5d0237289ca06a0862c061d4344a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f6b435346ba5b8daf4e876368eab264"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f6b435346ba5b8daf4e876368eab264"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a8f6b435346ba5b8daf4e876368eab264">GetUpdateNodePosition</a> () const </td></tr>
-<tr class="memdesc:a8f6b435346ba5b8daf4e876368eab264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when the node's position should be updated by the CrowdManager. <br/></td></tr>
+<tr class="memdesc:a8f6b435346ba5b8daf4e876368eab264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when the node's position should be updated by the <a class="el" href="class_urho3_d_1_1_crowd_manager.html" title="Crowd manager scene component. Should be added only to the root scene node.">CrowdManager</a>. <br/></td></tr>
 <tr class="separator:a8f6b435346ba5b8daf4e876368eab264"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b42daa91411f7cb9de965a93388027c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b42daa91411f7cb9de965a93388027c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5b42daa91411f7cb9de965a93388027c">GetAgentCrowdId</a> () const </td></tr>
 <tr class="memdesc:a5b42daa91411f7cb9de965a93388027c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the agent id. <br/></td></tr>
 <tr class="separator:a5b42daa91411f7cb9de965a93388027c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec4e00e059832bc40f737443c1d5568f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec4e00e059832bc40f737443c1d5568f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aec4e00e059832bc40f737443c1d5568f">GetMaxSpeed</a> () const </td></tr>
-<tr class="memdesc:aec4e00e059832bc40f737443c1d5568f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's max velocity. <br/></td></tr>
-<tr class="separator:aec4e00e059832bc40f737443c1d5568f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c6b00f1fc2c7e9003337abc9d13e03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74c6b00f1fc2c7e9003337abc9d13e03"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a74c6b00f1fc2c7e9003337abc9d13e03">GetMaxAccel</a> () const </td></tr>
 <tr class="memdesc:a74c6b00f1fc2c7e9003337abc9d13e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's max acceleration. <br/></td></tr>
 <tr class="separator:a74c6b00f1fc2c7e9003337abc9d13e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4e00e059832bc40f737443c1d5568f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec4e00e059832bc40f737443c1d5568f"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aec4e00e059832bc40f737443c1d5568f">GetMaxSpeed</a> () const </td></tr>
+<tr class="memdesc:aec4e00e059832bc40f737443c1d5568f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's max velocity. <br/></td></tr>
+<tr class="separator:aec4e00e059832bc40f737443c1d5568f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b32949657db99413fd767066d7ea00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16b32949657db99413fd767066d7ea00"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a16b32949657db99413fd767066d7ea00">GetRadius</a> () const </td></tr>
 <tr class="memdesc:a16b32949657db99413fd767066d7ea00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's radius. <br/></td></tr>
@@ -172,6 +184,14 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a2df549b4c594c156102b2785cc08cc92">GetHeight</a> () const </td></tr>
 <tr class="memdesc:a2df549b4c594c156102b2785cc08cc92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's height. <br/></td></tr>
 <tr class="separator:a2df549b4c594c156102b2785cc08cc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11a02265fcbf0cc7ee5f9966a0b0d65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af11a02265fcbf0cc7ee5f9966a0b0d65"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#af11a02265fcbf0cc7ee5f9966a0b0d65">GetQueryFilterType</a> () const </td></tr>
+<tr class="memdesc:af11a02265fcbf0cc7ee5f9966a0b0d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's query filter type. <br/></td></tr>
+<tr class="separator:af11a02265fcbf0cc7ee5f9966a0b0d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4422a59cdcc3ed2b3bb1e94b839e35b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4422a59cdcc3ed2b3bb1e94b839e35b4"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a4422a59cdcc3ed2b3bb1e94b839e35b4">GetObstacleAvoidanceType</a> () const </td></tr>
+<tr class="memdesc:a4422a59cdcc3ed2b3bb1e94b839e35b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's obstacle avoidance type. <br/></td></tr>
+<tr class="separator:a4422a59cdcc3ed2b3bb1e94b839e35b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d8dae4c9aaf145737b574e4bbddffa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d8dae4c9aaf145737b574e4bbddffa5"></a>
 NavigationQuality&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a8d8dae4c9aaf145737b574e4bbddffa5">GetNavigationQuality</a> () const </td></tr>
 <tr class="memdesc:a8d8dae4c9aaf145737b574e4bbddffa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's navigation quality. <br/></td></tr>
@@ -180,18 +200,18 @@ NavigationQuality&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 NavigationPushiness&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#af0bda91dfa5c3add31d4667c4ce5a682">GetNavigationPushiness</a> () const </td></tr>
 <tr class="memdesc:af0bda91dfa5c3add31d4667c4ce5a682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the agent's navigation pushiness. <br/></td></tr>
 <tr class="separator:af0bda91dfa5c3add31d4667c4ce5a682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b818b465006d6bf5bd1ae902142a189"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b818b465006d6bf5bd1ae902142a189"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a8b818b465006d6bf5bd1ae902142a189">HasRequestedTarget</a> () const </td></tr>
+<tr class="memdesc:a8b818b465006d6bf5bd1ae902142a189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when the agent has a target. <br/></td></tr>
+<tr class="separator:a8b818b465006d6bf5bd1ae902142a189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6781544044d3de1bbf0551a673172804"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6781544044d3de1bbf0551a673172804"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a6781544044d3de1bbf0551a673172804">HasArrived</a> () const </td></tr>
 <tr class="memdesc:a6781544044d3de1bbf0551a673172804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when the agent has arrived at its target. <br/></td></tr>
 <tr class="separator:a6781544044d3de1bbf0551a673172804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87590bcfcfafb45f6f1e54620d73829"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac87590bcfcfafb45f6f1e54620d73829"></a>
-<a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ac87590bcfcfafb45f6f1e54620d73829">GetAgentDataAttr</a> () const </td></tr>
-<tr class="memdesc:ac87590bcfcfafb45f6f1e54620d73829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get serialized data of internal state. <br/></td></tr>
-<tr class="separator:ac87590bcfcfafb45f6f1e54620d73829"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213795ef79ee0a6ec15c851b9f06bafe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a213795ef79ee0a6ec15c851b9f06bafe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a213795ef79ee0a6ec15c851b9f06bafe">SetAgentDataAttr</a> (const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt; &amp;value)</td></tr>
-<tr class="memdesc:a213795ef79ee0a6ec15c851b9f06bafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set serialized data of internal state. <br/></td></tr>
-<tr class="separator:a213795ef79ee0a6ec15c851b9f06bafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9a79822d39b99de321baced03c9543"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c9a79822d39b99de321baced03c9543"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a2c9a79822d39b99de321baced03c9543">IsInCrowd</a> () const </td></tr>
+<tr class="memdesc:a2c9a79822d39b99de321baced03c9543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when the agent is in crowd (being managed by a crowd manager). <br/></td></tr>
+<tr class="separator:a2c9a79822d39b99de321baced03c9543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_urho3_d_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_urho3_d_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_urho3_d_1_1_component.html">Urho3D::Component</a></td></tr>
 <tr class="memitem:a8fcb1334e846b73e7825777e0ffbd2d5 inherit pub_methods_class_urho3_d_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fcb1334e846b73e7825777e0ffbd2d5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_component.html#a8fcb1334e846b73e7825777e0ffbd2d5">Component</a> (<a class="el" href="class_urho3_d_1_1_context.html">Context</a> *context)</td></tr>
@@ -367,10 +387,6 @@ virtual const <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a><br c
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_serializable.html#adf236a970d61b56c78e2c95ae53839d4">Load</a> (<a class="el" href="class_urho3_d_1_1_deserializer.html">Deserializer</a> &amp;source, bool setInstanceDefault=false)</td></tr>
 <tr class="memdesc:adf236a970d61b56c78e2c95ae53839d4 inherit pub_methods_class_urho3_d_1_1_serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load from binary data. When setInstanceDefault is set to true, after setting the attribute value, store the value as instance's default value. Return true if successful. <br/></td></tr>
 <tr class="separator:adf236a970d61b56c78e2c95ae53839d4 inherit pub_methods_class_urho3_d_1_1_serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58f03d097b05420b50a9017f44a24593 inherit pub_methods_class_urho3_d_1_1_serializable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58f03d097b05420b50a9017f44a24593"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_serializable.html#a58f03d097b05420b50a9017f44a24593">ApplyAttributes</a> ()</td></tr>
-<tr class="memdesc:a58f03d097b05420b50a9017f44a24593 inherit pub_methods_class_urho3_d_1_1_serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply attribute changes that can not be applied immediately. Called after scene load or a network update. <br/></td></tr>
-<tr class="separator:a58f03d097b05420b50a9017f44a24593 inherit pub_methods_class_urho3_d_1_1_serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e4b0717513e3cd6d2fcc1a90b09d70c inherit pub_methods_class_urho3_d_1_1_serializable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e4b0717513e3cd6d2fcc1a90b09d70c"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_serializable.html#a1e4b0717513e3cd6d2fcc1a90b09d70c">SaveDefaultAttributes</a> () const </td></tr>
 <tr class="memdesc:a1e4b0717513e3cd6d2fcc1a90b09d70c inherit pub_methods_class_urho3_d_1_1_serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether should save default-valued attributes into XML. Default false. <br/></td></tr>
@@ -599,10 +615,10 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab96c4672a4715f55932de8197fb571ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab96c4672a4715f55932de8197fb571ad"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ab96c4672a4715f55932de8197fb571ad">OnCrowdAgentReposition</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;newPos, const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;newVel)</td></tr>
-<tr class="memdesc:ab96c4672a4715f55932de8197fb571ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the nodes position if updateNodePosition is set. Is called in <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html#a40f8c9efe2fa6409539d188d8ff13722" title="Update the crowd simulation.">DetourCrowdManager::Update()</a>. <br/></td></tr>
-<tr class="separator:ab96c4672a4715f55932de8197fb571ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39becd24ec87e0fa35ab313c31feda4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39becd24ec87e0fa35ab313c31feda4a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a39becd24ec87e0fa35ab313c31feda4a">OnCrowdUpdate</a> (dtCrowdAgent *ag, float dt)</td></tr>
+<tr class="memdesc:a39becd24ec87e0fa35ab313c31feda4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle crowd agent being updated. It is called by <a class="el" href="class_urho3_d_1_1_crowd_manager.html#aebb15dfdba49db0d5ae19fa101491318" title="Update the crowd simulation.">CrowdManager::Update()</a> via callback. <br/></td></tr>
+<tr class="separator:a39becd24ec87e0fa35ab313c31feda4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5af71ef5825bb9a3e4f64cecc3904558"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5af71ef5825bb9a3e4f64cecc3904558"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5af71ef5825bb9a3e4f64cecc3904558">OnNodeSet</a> (<a class="el" href="class_urho3_d_1_1_node.html">Node</a> *node)</td></tr>
 <tr class="memdesc:a5af71ef5825bb9a3e4f64cecc3904558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle node being assigned. <br/></td></tr>
@@ -681,37 +697,41 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ade34540cf22c20822e92c54feee3ac4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade34540cf22c20822e92c54feee3ac4e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OBJECT</b> (<a class="el" href="class_urho3_d_1_1_crowd_agent.html">CrowdAgent</a>)</td></tr>
 <tr class="separator:ade34540cf22c20822e92c54feee3ac4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2379480422db8c7b92bac190b1cd4824"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2379480422db8c7b92bac190b1cd4824"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a2379480422db8c7b92bac190b1cd4824">AddAgentToCrowd</a> ()</td></tr>
-<tr class="memdesc:a2379480422db8c7b92bac190b1cd4824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create or re-add. <br/></td></tr>
-<tr class="separator:a2379480422db8c7b92bac190b1cd4824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bd90820dbf00df2aa763f606663f38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7bd90820dbf00df2aa763f606663f38"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#af7bd90820dbf00df2aa763f606663f38">UpdateParameters</a> (unsigned scope=M_MAX_UNSIGNED)</td></tr>
+<tr class="memdesc:af7bd90820dbf00df2aa763f606663f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Detour crowd agent parameter. <br/></td></tr>
+<tr class="separator:af7bd90820dbf00df2aa763f606663f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8ee77ec07f0b2337f5396b09f1230b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f8ee77ec07f0b2337f5396b09f1230b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5f8ee77ec07f0b2337f5396b09f1230b">AddAgentToCrowd</a> (bool force=false)</td></tr>
+<tr class="memdesc:a5f8ee77ec07f0b2337f5396b09f1230b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add agent into crowd. <br/></td></tr>
+<tr class="separator:a5f8ee77ec07f0b2337f5396b09f1230b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaece7e290f7941476f7ceeb2676e2fa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaece7e290f7941476f7ceeb2676e2fa1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aaece7e290f7941476f7ceeb2676e2fa1">RemoveAgentFromCrowd</a> ()</td></tr>
-<tr class="memdesc:aaece7e290f7941476f7ceeb2676e2fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove. <br/></td></tr>
+<tr class="memdesc:aaece7e290f7941476f7ceeb2676e2fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove agent from crowd. <br/></td></tr>
 <tr class="separator:aaece7e290f7941476f7ceeb2676e2fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a46c2898b6304ad30a5eb2bc2825c0681"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46c2898b6304ad30a5eb2bc2825c0681"></a>
-<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html">DetourCrowdManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a46c2898b6304ad30a5eb2bc2825c0681">crowdManager_</a></td></tr>
-<tr class="memdesc:a46c2898b6304ad30a5eb2bc2825c0681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detour crowd manager. <br/></td></tr>
-<tr class="separator:a46c2898b6304ad30a5eb2bc2825c0681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8d37bb8c31572d9382ee84a1e1d236"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add8d37bb8c31572d9382ee84a1e1d236"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#add8d37bb8c31572d9382ee84a1e1d236">inCrowd_</a></td></tr>
-<tr class="memdesc:add8d37bb8c31572d9382ee84a1e1d236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating agent is in DetourCrowd. <br/></td></tr>
-<tr class="separator:add8d37bb8c31572d9382ee84a1e1d236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fc6870bae1d8863067b68bda1c5783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28fc6870bae1d8863067b68bda1c5783"></a>
+<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_crowd_manager.html">CrowdManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a28fc6870bae1d8863067b68bda1c5783">crowdManager_</a></td></tr>
+<tr class="memdesc:a28fc6870bae1d8863067b68bda1c5783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crowd manager. <br/></td></tr>
+<tr class="separator:a28fc6870bae1d8863067b68bda1c5783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89016d267e63ac135a17cabf3ba81390"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89016d267e63ac135a17cabf3ba81390"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a89016d267e63ac135a17cabf3ba81390">agentCrowdId_</a></td></tr>
-<tr class="memdesc:a89016d267e63ac135a17cabf3ba81390"><td class="mdescLeft">&#160;</td><td class="mdescRight">DetourCrowd reference to this agent. <br/></td></tr>
+<tr class="memdesc:a89016d267e63ac135a17cabf3ba81390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crowd manager reference to this agent. <br/></td></tr>
 <tr class="separator:a89016d267e63ac135a17cabf3ba81390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a424c8f68a17d977d315a9457b51688cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a424c8f68a17d977d315a9457b51688cf"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a424c8f68a17d977d315a9457b51688cf">targetRef_</a></td></tr>
-<tr class="memdesc:a424c8f68a17d977d315a9457b51688cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to poly closest to requested target position. <br/></td></tr>
-<tr class="separator:a424c8f68a17d977d315a9457b51688cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeaa0cdfa17bd6dc71ea7d33fec6d10f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaeaa0cdfa17bd6dc71ea7d33fec6d10f"></a>
 <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aaeaa0cdfa17bd6dc71ea7d33fec6d10f">targetPosition_</a></td></tr>
-<tr class="memdesc:aaeaa0cdfa17bd6dc71ea7d33fec6d10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual target position, closest to that requested. <br/></td></tr>
+<tr class="memdesc:aaeaa0cdfa17bd6dc71ea7d33fec6d10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requested target position. <br/></td></tr>
 <tr class="separator:aaeaa0cdfa17bd6dc71ea7d33fec6d10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfb4d8a52ce6ba979e23cae40520684"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacfb4d8a52ce6ba979e23cae40520684"></a>
+<a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#aacfb4d8a52ce6ba979e23cae40520684">targetVelocity_</a></td></tr>
+<tr class="memdesc:aacfb4d8a52ce6ba979e23cae40520684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requested target velocity. <br/></td></tr>
+<tr class="separator:aacfb4d8a52ce6ba979e23cae40520684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4075d8da7d84a8737675e32e07f8a18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4075d8da7d84a8737675e32e07f8a18"></a>
+CrowdAgentRequestedTarget&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ae4075d8da7d84a8737675e32e07f8a18">requestedTargetType_</a></td></tr>
+<tr class="memdesc:ae4075d8da7d84a8737675e32e07f8a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requested target type. <br/></td></tr>
+<tr class="separator:ae4075d8da7d84a8737675e32e07f8a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2243e61a859f16b7b1901916b9216416"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2243e61a859f16b7b1901916b9216416"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a2243e61a859f16b7b1901916b9216416">updateNodePosition_</a></td></tr>
 <tr class="memdesc:a2243e61a859f16b7b1901916b9216416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating the node's position should be updated by Detour crowd manager. <br/></td></tr>
@@ -732,40 +752,47 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ac0002d9b40abc9b0b3ac481b966370cf">height_</a></td></tr>
 <tr class="memdesc:ac0002d9b40abc9b0b3ac481b966370cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's height, if 0 the navigation mesh's setting will be used. <br/></td></tr>
 <tr class="separator:ac0002d9b40abc9b0b3ac481b966370cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c9c331da42e76f87ce25e330d5a5d5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c9c331da42e76f87ce25e330d5a5d5e"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a1c9c331da42e76f87ce25e330d5a5d5e">filterType_</a></td></tr>
-<tr class="memdesc:a1c9c331da42e76f87ce25e330d5a5d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's assigned navigation filter type, the actual filter is owned by the <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html" title="Detour Crowd Simulation Scene Component. Should be added only to the root scene node. Agent&#39;s radius and height is set through the navigation mesh.">DetourCrowdManager</a> the agent belongs to. <br/></td></tr>
-<tr class="separator:a1c9c331da42e76f87ce25e330d5a5d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9cb564b5571d914cf03fca9a434209"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d9cb564b5571d914cf03fca9a434209"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a3d9cb564b5571d914cf03fca9a434209">queryFilterType_</a></td></tr>
+<tr class="memdesc:a3d9cb564b5571d914cf03fca9a434209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's query filter type, it is an index to the query filter buffer configured in Detour crowd manager. <br/></td></tr>
+<tr class="separator:a3d9cb564b5571d914cf03fca9a434209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f73415acd8ca43b52275fa094e83f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66f73415acd8ca43b52275fa094e83f5"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a66f73415acd8ca43b52275fa094e83f5">obstacleAvoidanceType_</a></td></tr>
+<tr class="memdesc:a66f73415acd8ca43b52275fa094e83f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's obstacle avoidance type, it is an index to the obstacle avoidance array configured in Detour crowd manager. It is ignored when agent's navigation quality is not set to "NAVIGATIONQUALITY_HIGH". <br/></td></tr>
+<tr class="separator:a66f73415acd8ca43b52275fa094e83f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2683f62f7119519c76cf76693dcdc1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add2683f62f7119519c76cf76693dcdc1"></a>
 NavigationQuality&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#add2683f62f7119519c76cf76693dcdc1">navQuality_</a></td></tr>
-<tr class="memdesc:add2683f62f7119519c76cf76693dcdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's NavigationAvoidanceQuality. <br/></td></tr>
+<tr class="memdesc:add2683f62f7119519c76cf76693dcdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's navigation quality. The higher the setting, the higher the CPU usage during crowd simulation. <br/></td></tr>
 <tr class="separator:add2683f62f7119519c76cf76693dcdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51c21b648e07f94e9e3fe7bc8f5d825"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac51c21b648e07f94e9e3fe7bc8f5d825"></a>
 NavigationPushiness&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#ac51c21b648e07f94e9e3fe7bc8f5d825">navPushiness_</a></td></tr>
-<tr class="memdesc:ac51c21b648e07f94e9e3fe7bc8f5d825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's Navigation Pushiness. <br/></td></tr>
+<tr class="memdesc:ac51c21b648e07f94e9e3fe7bc8f5d825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's navigation pushiness. The higher the setting, the stronger the agent pushes its colliding neighbours around. <br/></td></tr>
 <tr class="separator:ac51c21b648e07f94e9e3fe7bc8f5d825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fa9d6673733efa5c8c0f260e7a54c19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fa9d6673733efa5c8c0f260e7a54c19"></a>
 <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a9fa9d6673733efa5c8c0f260e7a54c19">previousPosition_</a></td></tr>
 <tr class="memdesc:a9fa9d6673733efa5c8c0f260e7a54c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's previous position used to check for position changes. <br/></td></tr>
 <tr class="separator:a9fa9d6673733efa5c8c0f260e7a54c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f060948cce392cbc29fed15102c4b45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f060948cce392cbc29fed15102c4b45"></a>
-CrowdTargetState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a9f060948cce392cbc29fed15102c4b45">previousTargetState_</a></td></tr>
-<tr class="memdesc:a9f060948cce392cbc29fed15102c4b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's previous target state used to check for state changes. <br/></td></tr>
-<tr class="separator:a9f060948cce392cbc29fed15102c4b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f288342343201d10ca1b0be18c50eb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f288342343201d10ca1b0be18c50eb2"></a>
+CrowdAgentTargetState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a5f288342343201d10ca1b0be18c50eb2">previousTargetState_</a></td></tr>
+<tr class="memdesc:a5f288342343201d10ca1b0be18c50eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's previous target state used to check for state changes. <br/></td></tr>
+<tr class="separator:a5f288342343201d10ca1b0be18c50eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16ce5a7f5a5f9e76dab68f4507af42bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16ce5a7f5a5f9e76dab68f4507af42bf"></a>
 CrowdAgentState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a16ce5a7f5a5f9e76dab68f4507af42bf">previousAgentState_</a></td></tr>
 <tr class="memdesc:a16ce5a7f5a5f9e76dab68f4507af42bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agent's previous agent state used to check for state changes. <br/></td></tr>
 <tr class="separator:a16ce5a7f5a5f9e76dab68f4507af42bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25956990e09ab457549604042c9a101d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25956990e09ab457549604042c9a101d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_crowd_agent.html#a25956990e09ab457549604042c9a101d">ignoreTransformChanges_</a></td></tr>
-<tr class="memdesc:a25956990e09ab457549604042c9a101d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal flag to ignore transform changes because it came from us, used in <a class="el" href="class_urho3_d_1_1_crowd_agent.html#ab96c4672a4715f55932de8197fb571ad" title="Update the nodes position if updateNodePosition is set. Is called in DetourCrowdManager::Update().">OnCrowdAgentReposition()</a>. <br/></td></tr>
+<tr class="memdesc:a25956990e09ab457549604042c9a101d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal flag to ignore transform changes because it came from us, used in OnCrowdAgentReposition(). <br/></td></tr>
 <tr class="separator:a25956990e09ab457549604042c9a101d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:aaca05b021b5dd5b7163b06d5d4d6e354"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaca05b021b5dd5b7163b06d5d4d6e354"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>DetourCrowdManager</b></td></tr>
-<tr class="separator:aaca05b021b5dd5b7163b06d5d4d6e354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea4ff3dadb2fc834509fb67f477bb36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acea4ff3dadb2fc834509fb67f477bb36"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>CrowdManager</b></td></tr>
+<tr class="separator:acea4ff3dadb2fc834509fb67f477bb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ce05503be854a9f080f87fc80bcad5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20ce05503be854a9f080f87fc80bcad5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CrowdAgentUpdateCallback</b> (dtCrowdAgent *ag, float dt)</td></tr>
+<tr class="separator:a20ce05503be854a9f080f87fc80bcad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -788,7 +815,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:ae52f352027bee0fa8d538591364b554a inherit pro_attribs_class_urho3_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>DetourCrowd Agent, requires a <a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html" title="Detour Crowd Simulation Scene Component. Should be added only to the root scene node. Agent&#39;s radius and height is set through the navigation mesh.">DetourCrowdManager</a> in the scene. Agent's radius and height is set through the navigation mesh. </p>
+<div class="textblock"><p>Crowd agent component, requires a <a class="el" href="class_urho3_d_1_1_crowd_manager.html" title="Crowd manager scene component. Should be added only to the root scene node.">CrowdManager</a> component in the scene. When not set explicitly, agent's radius and height are defaulted to navigation mesh's agent radius and height, respectively. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a039e3277d24ef2b90445f1868709713a"></a>
 <div class="memitem">

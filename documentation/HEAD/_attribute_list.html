@@ -427,16 +427,28 @@ group: HEAD
 <li>Damping Ratio : float</li>
 <li>Collide Connected : bool</li>
 </ul>
-<h4><a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="DetourCrowd Agent, requires a DetourCrowdManager in the scene. Agent&#39;s radius and height is set throu...">CrowdAgent</a></h4>
+<h4><a class="el" href="class_urho3_d_1_1_crowd_agent.html" title="Crowd agent component, requires a CrowdManager component in the scene. When not set explicitly...">CrowdAgent</a></h4>
 <ul>
+<li>Target Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
+<li>Target Velocity : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
+<li>Requested Target Type : int</li>
+<li>Update Node Position : bool</li>
 <li>Max Accel : float</li>
 <li>Max Speed : float</li>
 <li>Radius : float</li>
 <li>Height : float</li>
-<li>Target Position : <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a></li>
-<li>Navigation Filter : int</li>
+<li>Query Filter Type : int</li>
+<li>Obstacle Avoidance Type : int</li>
 <li>Navigation Pushiness : int</li>
 <li>Navigation Quality : int</li>
+</ul>
+<h4><a class="el" href="class_urho3_d_1_1_crowd_manager.html" title="Crowd manager scene component. Should be added only to the root scene node.">CrowdManager</a></h4>
+<ul>
+<li>Max Agents : int</li>
+<li>Max Agent Radius : float</li>
+<li>Navigation Mesh : int</li>
+<li>Filter Types : VariantVector</li>
+<li>Obstacle Avoidance Types : VariantVector</li>
 </ul>
 <h4><a class="el" href="class_urho3_d_1_1_cursor.html" title="Mouse cursor UI element.">Cursor</a></h4>
 <ul>
@@ -512,10 +524,6 @@ group: HEAD
 <li>Light Mask : int</li>
 <li>Shadow Mask : int</li>
 <li>Zone Mask : int</li>
-</ul>
-<h4><a class="el" href="class_urho3_d_1_1_detour_crowd_manager.html" title="Detour Crowd Simulation Scene Component. Should be added only to the root scene node. Agent&#39;s radius and height is set through the navigation mesh.">DetourCrowdManager</a></h4>
-<ul>
-<li>Max Agents : int</li>
 </ul>
 <h4><a class="el" href="class_urho3_d_1_1_drop_down_list.html" title="Menu UI element that displays a popup list view.">DropDownList</a></h4>
 <ul>
