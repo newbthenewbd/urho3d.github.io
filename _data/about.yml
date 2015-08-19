@@ -140,5 +140,5 @@ contributors:
 - thebluefish
 
 logo_links:
-- '[Large color]({{ BASE_PATH }}/assets/images/logo-big.jpg)'
-- '[Large BW]({{ BASE_PATH }}/assets/images/logo-big-bw.png)'
+- '[Large color](assets/images/logo-big.jpg)'
+- '[Large BW](assets/images/logo-big-bw.png)'
