@@ -2523,6 +2523,14 @@ Classes</h2>
 <li>JSONValue* new(const JSONValue&amp; value)</li>
 <li>void delete()</li>
 <li>void SetType(JSONValueType valueType)</li>
+<li>void SetBool(bool value)</li>
+<li>void SetInt(int value)</li>
+<li>void SetUint(unsigned value)</li>
+<li>void SetFloat(float value)</li>
+<li>void SetDouble(double value)</li>
+<li>void SetString(const String value)</li>
+<li>void SetArray(const JSONArray&amp; value)</li>
+<li>void SetObject(const JSONObject&amp; value)</li>
 <li>JSONValueType GetType() const</li>
 <li>bool IsNull() const</li>
 <li>bool IsBool() const</li>
@@ -2536,14 +2544,11 @@ Classes</h2>
 <li>float GetFloat() const</li>
 <li>double GetDouble() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> GetString() const</li>
-<li>const char* GetCString() const</li>
 <li>const JSONArray&amp; GetArray() const</li>
 <li>const JSONObject&amp; GetObject() const</li>
 <li><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a> operator&amp;[](unsigned index, <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a> tolua_value)</li>
 <li><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a> operator[](unsigned index)</li>
 <li>const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a> operator[](unsigned index) const</li>
-<li><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a>&amp; At(unsigned index)</li>
-<li>const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a>&amp; At(unsigned index) const</li>
 <li>void Push(const JSONValue&amp; value)</li>
 <li>void Pop()</li>
 <li>void Insert(unsigned pos, const JSONValue&amp; value)</li>
