@@ -7237,6 +7237,17 @@ Enumerations</h2>
 <li>int WM_ONCE</li>
 <li>int WM_CLAMP</li>
 </ul>
+<h2><a class="anchor" id="LuaScriptAPI_toluaFunctions"></a>
+tolua functions</h2>
+<ul>
+<li>lua_usertype cast(lua_usertype object, const char* typename)</li>
+<li>lua_table getpeer(lua_userdata object)</li>
+<li>void inherit(lua_table table, lua_usertype c_instance)</li>
+<li>bool releaseownership(lua_usertype object)</li>
+<li>void setpeer(lua_userdata object, lua_table table)</li>
+<li>bool takeownership(lua_usertype object)</li>
+<li>const char* type(lua_object object)</li>
+</ul>
 <h2><a class="anchor" id="LuaScriptAPI_GlobalFunctions"></a>
 Global functions</h2>
 <ul>
@@ -7353,9 +7364,12 @@ Global properties</h2>
 <li>Audio* audio (readonly)</li>
 <li>ResourceCache* cache (readonly)</li>
 <li>Console* console (readonly)</li>
+<li>Context* context (readonly)</li>
 <li>Database* database (readonly)</li>
 <li>DebugHud* debugHud (readonly)</li>
 <li>Engine* engine (readonly)</li>
+<li>EventHandler* eventHandler (readonly)</li>
+<li>EventSender* eventSender (readonly)</li>
 <li>FileSystem* fileSystem (readonly)</li>
 <li>Graphics* graphics (readonly)</li>
 <li>Input* input (readonly)</li>

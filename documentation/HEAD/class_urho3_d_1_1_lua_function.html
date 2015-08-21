@@ -64,14 +64,10 @@ Public Member Functions</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a65dedcdd8936666c31010a3c784b3da6">IsValid</a> () const </td></tr>
 <tr class="memdesc:a65dedcdd8936666c31010a3c784b3da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that function is valid. <br/></td></tr>
 <tr class="separator:a65dedcdd8936666c31010a3c784b3da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360d10b43236de8f922477866e80fed9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a360d10b43236de8f922477866e80fed9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a360d10b43236de8f922477866e80fed9">BeginCall</a> ()</td></tr>
-<tr class="memdesc:a360d10b43236de8f922477866e80fed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin function call. <br/></td></tr>
-<tr class="separator:a360d10b43236de8f922477866e80fed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a517bc0b050506b5c153f94db8d0e2bc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a517bc0b050506b5c153f94db8d0e2bc2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a517bc0b050506b5c153f94db8d0e2bc2">BeginCall</a> (const <a class="el" href="class_urho3_d_1_1_lua_script_instance.html">LuaScriptInstance</a> *instance)</td></tr>
-<tr class="memdesc:a517bc0b050506b5c153f94db8d0e2bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin script object's function call. <br/></td></tr>
-<tr class="separator:a517bc0b050506b5c153f94db8d0e2bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b8e1ca07e9b47c8f9cae28a7f9a9f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03b8e1ca07e9b47c8f9cae28a7f9a9f9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a03b8e1ca07e9b47c8f9cae28a7f9a9f9">BeginCall</a> (const <a class="el" href="class_urho3_d_1_1_lua_script_instance.html">LuaScriptInstance</a> *instance=0)</td></tr>
+<tr class="memdesc:a03b8e1ca07e9b47c8f9cae28a7f9a9f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin function call. When a script object is given then pass it as self argument (first parameter) to the function call. <br/></td></tr>
+<tr class="separator:a03b8e1ca07e9b47c8f9cae28a7f9a9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10c1b2a030d1763e524b5fd50e4afd8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10c1b2a030d1763e524b5fd50e4afd8b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a10c1b2a030d1763e524b5fd50e4afd8b">EndCall</a> (int numReturns=0)</td></tr>
 <tr class="memdesc:a10c1b2a030d1763e524b5fd50e4afd8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">End call and actually execute the function. <br/></td></tr>
@@ -88,6 +84,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aa9dfc1e87eecc78c929b3a280560fb31">PushFloat</a> (float value)</td></tr>
 <tr class="memdesc:aa9dfc1e87eecc78c929b3a280560fb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push float to stack. <br/></td></tr>
 <tr class="separator:aa9dfc1e87eecc78c929b3a280560fb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003c3a85eb7a212fb246e90bda3b48e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a003c3a85eb7a212fb246e90bda3b48e4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a003c3a85eb7a212fb246e90bda3b48e4">PushDouble</a> (double value)</td></tr>
+<tr class="memdesc:a003c3a85eb7a212fb246e90bda3b48e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push double to stack. <br/></td></tr>
+<tr class="separator:a003c3a85eb7a212fb246e90bda3b48e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3cc6fa4a0f434a13bf81783729fa095"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3cc6fa4a0f434a13bf81783729fa095"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#af3cc6fa4a0f434a13bf81783729fa095">PushString</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;string)</td></tr>
 <tr class="memdesc:af3cc6fa4a0f434a13bf81783729fa095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push string to stack. <br/></td></tr>
@@ -116,14 +116,14 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a54a8e6d527dd2167b02301ea61262167"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a54a8e6d527dd2167b02301ea61262167">PushUserType</a> (const T &amp;userType, const char *typeName)</td></tr>
 <tr class="memdesc:a54a8e6d527dd2167b02301ea61262167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push user type to stack. <br/></td></tr>
 <tr class="separator:a54a8e6d527dd2167b02301ea61262167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75a441d7e4bdefa234924d7d60734d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa75a441d7e4bdefa234924d7d60734d7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aa75a441d7e4bdefa234924d7d60734d7">PushVariant</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;variant)</td></tr>
-<tr class="memdesc:aa75a441d7e4bdefa234924d7d60734d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push variant to stack. <br/></td></tr>
-<tr class="separator:aa75a441d7e4bdefa234924d7d60734d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a376f4b86c55c537b2a096576553ec46c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a376f4b86c55c537b2a096576553ec46c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a376f4b86c55c537b2a096576553ec46c">PushLuaTable</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;tableName)</td></tr>
-<tr class="memdesc:a376f4b86c55c537b2a096576553ec46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push Lua table to stack. <br/></td></tr>
-<tr class="separator:a376f4b86c55c537b2a096576553ec46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab907e8f599cf78b1f50900de498695ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab907e8f599cf78b1f50900de498695ea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ab907e8f599cf78b1f50900de498695ea">PushVariant</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;variant, const char *asType=0)</td></tr>
+<tr class="memdesc:ab907e8f599cf78b1f50900de498695ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push variant to stack. <br/></td></tr>
+<tr class="separator:ab907e8f599cf78b1f50900de498695ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a1ca5f64ab9b320dc06b0022d70cb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4a1ca5f64ab9b320dc06b0022d70cb4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ac4a1ca5f64ab9b320dc06b0022d70cb4">PushLuaTable</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;tableName)</td></tr>
+<tr class="memdesc:ac4a1ca5f64ab9b320dc06b0022d70cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push Lua table to stack. When the specified table is not found then a nil is pushed instead. <br/></td></tr>
+<tr class="separator:ac4a1ca5f64ab9b320dc06b0022d70cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac07cf41ea76b99c923e925b53194fff9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac07cf41ea76b99c923e925b53194fff9"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ac07cf41ea76b99c923e925b53194fff9">GetFunctionRef</a> () const </td></tr>
 <tr class="memdesc:ac07cf41ea76b99c923e925b53194fff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return function ref. <br/></td></tr>
@@ -172,13 +172,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a6129e7cbb35dbd3801a65a70a5ab5508">needUnref_</a></td></tr>
 <tr class="memdesc:a6129e7cbb35dbd3801a65a70a5ab5508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Need unref. <br/></td></tr>
 <tr class="separator:a6129e7cbb35dbd3801a65a70a5ab5508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33c70e894e4d1a25b29c8989af06b5cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33c70e894e4d1a25b29c8989af06b5cc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a33c70e894e4d1a25b29c8989af06b5cc">stackTop_</a></td></tr>
-<tr class="memdesc:a33c70e894e4d1a25b29c8989af06b5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua stack top. <br/></td></tr>
-<tr class="separator:a33c70e894e4d1a25b29c8989af06b5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad116a56a179397125e7588972daeac54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad116a56a179397125e7588972daeac54"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ad116a56a179397125e7588972daeac54">numArguments_</a></td></tr>
-<tr class="memdesc:ad116a56a179397125e7588972daeac54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of arguments. <br/></td></tr>
+<tr class="memdesc:ad116a56a179397125e7588972daeac54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of arguments being pushed so far. For internal use only. <br/></td></tr>
 <tr class="separator:ad116a56a179397125e7588972daeac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
