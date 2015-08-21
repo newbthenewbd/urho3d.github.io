@@ -27,7 +27,6 @@ group: HEAD
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_urho3_d_1_1_j_s_o_n_value-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -52,467 +51,283 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae7e2baa627c3ec56811e98227d5ab819">JSONValue</a> ()</td></tr>
 <tr class="memdesc:ae7e2baa627c3ec56811e98227d5ab819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct null value. <br/></td></tr>
 <tr class="separator:ae7e2baa627c3ec56811e98227d5ab819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a222ee92fd01cd3bc46734255a5c53221"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a222ee92fd01cd3bc46734255a5c53221"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a222ee92fd01cd3bc46734255a5c53221">JSONValue</a> (<a class="el" href="class_urho3_d_1_1_j_s_o_n_file.html">JSONFile</a> *file, <a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> *value)</td></tr>
-<tr class="memdesc:a222ee92fd01cd3bc46734255a5c53221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with document and JSON value pointers. <br/></td></tr>
-<tr class="separator:a222ee92fd01cd3bc46734255a5c53221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56d812946dfad56e9529cde93fedba83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56d812946dfad56e9529cde93fedba83"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a56d812946dfad56e9529cde93fedba83">JSONValue</a> (const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;rhs)</td></tr>
-<tr class="memdesc:a56d812946dfad56e9529cde93fedba83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy-construct from another value. <br/></td></tr>
-<tr class="separator:a56d812946dfad56e9529cde93fedba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e080305d4641ef8834316728b5fdfd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58e080305d4641ef8834316728b5fdfd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a58e080305d4641ef8834316728b5fdfd">JSONValue</a> (bool value)</td></tr>
+<tr class="memdesc:a58e080305d4641ef8834316728b5fdfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a boolean. <br/></td></tr>
+<tr class="separator:a58e080305d4641ef8834316728b5fdfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b4d340c0190fb27469817f0317d51e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b4d340c0190fb27469817f0317d51e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a87b4d340c0190fb27469817f0317d51e">JSONValue</a> (int value)</td></tr>
+<tr class="memdesc:a87b4d340c0190fb27469817f0317d51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a integer. <br/></td></tr>
+<tr class="separator:a87b4d340c0190fb27469817f0317d51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7453be120dd35d08f428e391b3fbec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c7453be120dd35d08f428e391b3fbec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a8c7453be120dd35d08f428e391b3fbec">JSONValue</a> (unsigned value)</td></tr>
+<tr class="memdesc:a8c7453be120dd35d08f428e391b3fbec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a unsigned integer. <br/></td></tr>
+<tr class="separator:a8c7453be120dd35d08f428e391b3fbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76f277a388ff7aa5aa1370ca498d3a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae76f277a388ff7aa5aa1370ca498d3a7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae76f277a388ff7aa5aa1370ca498d3a7">JSONValue</a> (float value)</td></tr>
+<tr class="memdesc:ae76f277a388ff7aa5aa1370ca498d3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a float. <br/></td></tr>
+<tr class="separator:ae76f277a388ff7aa5aa1370ca498d3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f1dfdc5189420c0ab2925545408035"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51f1dfdc5189420c0ab2925545408035"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a51f1dfdc5189420c0ab2925545408035">JSONValue</a> (double value)</td></tr>
+<tr class="memdesc:a51f1dfdc5189420c0ab2925545408035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a double. <br/></td></tr>
+<tr class="separator:a51f1dfdc5189420c0ab2925545408035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc73ad0380b5f50b7177d32cf45c22be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc73ad0380b5f50b7177d32cf45c22be"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#acc73ad0380b5f50b7177d32cf45c22be">JSONValue</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;value)</td></tr>
+<tr class="memdesc:acc73ad0380b5f50b7177d32cf45c22be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a string. <br/></td></tr>
+<tr class="separator:acc73ad0380b5f50b7177d32cf45c22be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d694cc97200e37a8667c96062d3f19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9d694cc97200e37a8667c96062d3f19"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af9d694cc97200e37a8667c96062d3f19">JSONValue</a> (const char *value)</td></tr>
+<tr class="memdesc:af9d694cc97200e37a8667c96062d3f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a C string. <br/></td></tr>
+<tr class="separator:af9d694cc97200e37a8667c96062d3f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672f55075e694b161ea9e83687e458db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a672f55075e694b161ea9e83687e458db"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a672f55075e694b161ea9e83687e458db">JSONValue</a> (const <a class="el" href="class_urho3_d_1_1_vector.html">JSONArray</a> &amp;value)</td></tr>
+<tr class="memdesc:a672f55075e694b161ea9e83687e458db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a JSON array. <br/></td></tr>
+<tr class="separator:a672f55075e694b161ea9e83687e458db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46a007adcb3a38734ec6380088ff107"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac46a007adcb3a38734ec6380088ff107"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac46a007adcb3a38734ec6380088ff107">JSONValue</a> (const <a class="el" href="class_urho3_d_1_1_hash_map.html">JSONObject</a> &amp;value)</td></tr>
+<tr class="memdesc:ac46a007adcb3a38734ec6380088ff107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a JSON object. <br/></td></tr>
+<tr class="separator:ac46a007adcb3a38734ec6380088ff107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884c6076d7040249d7e5c26a9ee471bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a884c6076d7040249d7e5c26a9ee471bc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a884c6076d7040249d7e5c26a9ee471bc">JSONValue</a> (const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;value)</td></tr>
+<tr class="memdesc:a884c6076d7040249d7e5c26a9ee471bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy-construct from another JSON value. <br/></td></tr>
+<tr class="separator:a884c6076d7040249d7e5c26a9ee471bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9ce53dc534f083eb12159ef04a603b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d9ce53dc534f083eb12159ef04a603b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1d9ce53dc534f083eb12159ef04a603b">~JSONValue</a> ()</td></tr>
 <tr class="memdesc:a1d9ce53dc534f083eb12159ef04a603b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
 <tr class="separator:a1d9ce53dc534f083eb12159ef04a603b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af607a8f4efbc9fe814f82b64522370be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af607a8f4efbc9fe814f82b64522370be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af607a8f4efbc9fe814f82b64522370be">SetType</a> (JSONValueType valueType)</td></tr>
+<tr class="memdesc:af607a8f4efbc9fe814f82b64522370be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set value type. <br/></td></tr>
+<tr class="separator:af607a8f4efbc9fe814f82b64522370be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455c9b41ca8b927872f5c0d6b2d7bfe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a455c9b41ca8b927872f5c0d6b2d7bfe1"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a455c9b41ca8b927872f5c0d6b2d7bfe1">operator=</a> (bool rhs)</td></tr>
+<tr class="memdesc:a455c9b41ca8b927872f5c0d6b2d7bfe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a boolean. <br/></td></tr>
+<tr class="separator:a455c9b41ca8b927872f5c0d6b2d7bfe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37852ed4040a445acad23f75ea0e9872"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37852ed4040a445acad23f75ea0e9872"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a37852ed4040a445acad23f75ea0e9872">operator=</a> (int rhs)</td></tr>
+<tr class="memdesc:a37852ed4040a445acad23f75ea0e9872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from an integer. <br/></td></tr>
+<tr class="separator:a37852ed4040a445acad23f75ea0e9872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b84214503320e1e706327a99a64e55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58b84214503320e1e706327a99a64e55"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a58b84214503320e1e706327a99a64e55">operator=</a> (unsigned rhs)</td></tr>
+<tr class="memdesc:a58b84214503320e1e706327a99a64e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from an unsigned integer. <br/></td></tr>
+<tr class="separator:a58b84214503320e1e706327a99a64e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2413c84a0b2b6d6bd88ccdcbd4093149"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2413c84a0b2b6d6bd88ccdcbd4093149"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2413c84a0b2b6d6bd88ccdcbd4093149">operator=</a> (float rhs)</td></tr>
+<tr class="memdesc:a2413c84a0b2b6d6bd88ccdcbd4093149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a float. <br/></td></tr>
+<tr class="separator:a2413c84a0b2b6d6bd88ccdcbd4093149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d3e7850a55cc9bdd8317fadeb4eeaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14d3e7850a55cc9bdd8317fadeb4eeaa"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a14d3e7850a55cc9bdd8317fadeb4eeaa">operator=</a> (double rhs)</td></tr>
+<tr class="memdesc:a14d3e7850a55cc9bdd8317fadeb4eeaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a double. <br/></td></tr>
+<tr class="separator:a14d3e7850a55cc9bdd8317fadeb4eeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fd7eef0b706a1fefcbbdada1592ee0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9fd7eef0b706a1fefcbbdada1592ee0"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa9fd7eef0b706a1fefcbbdada1592ee0">operator=</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;rhs)</td></tr>
+<tr class="memdesc:aa9fd7eef0b706a1fefcbbdada1592ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a string. <br/></td></tr>
+<tr class="separator:aa9fd7eef0b706a1fefcbbdada1592ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7a565dca5f0ddb017dbe8eec24a6e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d7a565dca5f0ddb017dbe8eec24a6e8"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2d7a565dca5f0ddb017dbe8eec24a6e8">operator=</a> (const char *rhs)</td></tr>
+<tr class="memdesc:a2d7a565dca5f0ddb017dbe8eec24a6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a C string. <br/></td></tr>
+<tr class="separator:a2d7a565dca5f0ddb017dbe8eec24a6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73b80d8ebc75e24b8265e2b490f7732"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa73b80d8ebc75e24b8265e2b490f7732"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa73b80d8ebc75e24b8265e2b490f7732">operator=</a> (const <a class="el" href="class_urho3_d_1_1_vector.html">JSONArray</a> &amp;rhs)</td></tr>
+<tr class="memdesc:aa73b80d8ebc75e24b8265e2b490f7732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a JSON array. <br/></td></tr>
+<tr class="separator:aa73b80d8ebc75e24b8265e2b490f7732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621e48c5ca1aeddc3ffeee2a21bc4dad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a621e48c5ca1aeddc3ffeee2a21bc4dad"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a621e48c5ca1aeddc3ffeee2a21bc4dad">operator=</a> (const <a class="el" href="class_urho3_d_1_1_hash_map.html">JSONObject</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a621e48c5ca1aeddc3ffeee2a21bc4dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from a JSON object. <br/></td></tr>
+<tr class="separator:a621e48c5ca1aeddc3ffeee2a21bc4dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8bd29e781182940397d0de67c9d60e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8bd29e781182940397d0de67c9d60e0"></a>
 <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac8bd29e781182940397d0de67c9d60e0">operator=</a> (const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;rhs)</td></tr>
-<tr class="memdesc:ac8bd29e781182940397d0de67c9d60e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. <br/></td></tr>
+<tr class="memdesc:ac8bd29e781182940397d0de67c9d60e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign from another JSON value. <br/></td></tr>
 <tr class="separator:ac8bd29e781182940397d0de67c9d60e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7845f8da45bf5094e540031aecc2cec4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7845f8da45bf5094e540031aecc2cec4"></a>
+JSONValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7845f8da45bf5094e540031aecc2cec4">GetType</a> () const </td></tr>
+<tr class="memdesc:a7845f8da45bf5094e540031aecc2cec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return value type. <br/></td></tr>
+<tr class="separator:a7845f8da45bf5094e540031aecc2cec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3981ccc2fb280abcecba238ee4414bfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3981ccc2fb280abcecba238ee4414bfc"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3981ccc2fb280abcecba238ee4414bfc">IsNull</a> () const </td></tr>
-<tr class="memdesc:a3981ccc2fb280abcecba238ee4414bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether does not refer to JSON value. <br/></td></tr>
+<tr class="memdesc:a3981ccc2fb280abcecba238ee4414bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is null. <br/></td></tr>
 <tr class="separator:a3981ccc2fb280abcecba238ee4414bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2842acd17d21c037c48b0e856c6108"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f2842acd17d21c037c48b0e856c6108"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1f2842acd17d21c037c48b0e856c6108">NotNull</a> () const </td></tr>
-<tr class="memdesc:a1f2842acd17d21c037c48b0e856c6108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether refers to JSON value. <br/></td></tr>
-<tr class="separator:a1f2842acd17d21c037c48b0e856c6108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb0575894cf66fe832941264e86d61b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb0575894cf66fe832941264e86d61b4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abb0575894cf66fe832941264e86d61b4">operator bool</a> () const </td></tr>
-<tr class="memdesc:abb0575894cf66fe832941264e86d61b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if refers to JSON value. <br/></td></tr>
-<tr class="separator:abb0575894cf66fe832941264e86d61b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35617f7fb889e765396a94c273e1429b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35617f7fb889e765396a94c273e1429b"></a>
-<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a35617f7fb889e765396a94c273e1429b">CreateChild</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, JSONValueType valueType=JSON_OBJECT)</td></tr>
-<tr class="memdesc:a35617f7fb889e765396a94c273e1429b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a child value. <br/></td></tr>
-<tr class="separator:a35617f7fb889e765396a94c273e1429b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab66a989a8473f6a974a3e281ef1f8a1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab66a989a8473f6a974a3e281ef1f8a1e"></a>
-<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ab66a989a8473f6a974a3e281ef1f8a1e">GetChild</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, JSONValueType valueType=JSON_ANY) const </td></tr>
-<tr class="memdesc:ab66a989a8473f6a974a3e281ef1f8a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a child value by name. Return null if not exist. <br/></td></tr>
-<tr class="separator:ab66a989a8473f6a974a3e281ef1f8a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d063f1c473c21818ffd0fab0b7a3c58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d063f1c473c21818ffd0fab0b7a3c58"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a0d063f1c473c21818ffd0fab0b7a3c58">SetInt</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, int value)</td></tr>
-<tr class="memdesc:a0d063f1c473c21818ffd0fab0b7a3c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set int. <br/></td></tr>
-<tr class="separator:a0d063f1c473c21818ffd0fab0b7a3c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00d2af82b45c6a229e12d4662795a600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00d2af82b45c6a229e12d4662795a600"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a00d2af82b45c6a229e12d4662795a600">SetBool</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, bool value)</td></tr>
-<tr class="memdesc:a00d2af82b45c6a229e12d4662795a600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set bool. <br/></td></tr>
-<tr class="separator:a00d2af82b45c6a229e12d4662795a600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a907873dc911a952d409b2ed65aae4662"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a907873dc911a952d409b2ed65aae4662"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a907873dc911a952d409b2ed65aae4662">SetFloat</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, float value)</td></tr>
-<tr class="memdesc:a907873dc911a952d409b2ed65aae4662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set float. <br/></td></tr>
-<tr class="separator:a907873dc911a952d409b2ed65aae4662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e27e05c0bb44af7b95e74d132ec8b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66e27e05c0bb44af7b95e74d132ec8b3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a66e27e05c0bb44af7b95e74d132ec8b3">SetDouble</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, double value)</td></tr>
-<tr class="memdesc:a66e27e05c0bb44af7b95e74d132ec8b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set double. <br/></td></tr>
-<tr class="separator:a66e27e05c0bb44af7b95e74d132ec8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e29e8beac2590020ee29ada4b884539"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e29e8beac2590020ee29ada4b884539"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a8e29e8beac2590020ee29ada4b884539">SetVector2</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_vector2.html">Vector2</a> &amp;value)</td></tr>
-<tr class="memdesc:a8e29e8beac2590020ee29ada4b884539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector2. <br/></td></tr>
-<tr class="separator:a8e29e8beac2590020ee29ada4b884539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc1719aba3368ce56f75d847b40e7196"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc1719aba3368ce56f75d847b40e7196"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#acc1719aba3368ce56f75d847b40e7196">SetVector3</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;value)</td></tr>
-<tr class="memdesc:acc1719aba3368ce56f75d847b40e7196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector3. <br/></td></tr>
-<tr class="separator:acc1719aba3368ce56f75d847b40e7196"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8c3c9e4dedde3b9fe9013088fc07d08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8c3c9e4dedde3b9fe9013088fc07d08"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac8c3c9e4dedde3b9fe9013088fc07d08">SetVector4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_vector4.html">Vector4</a> &amp;value)</td></tr>
-<tr class="memdesc:ac8c3c9e4dedde3b9fe9013088fc07d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector4. <br/></td></tr>
-<tr class="separator:ac8c3c9e4dedde3b9fe9013088fc07d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc35fcdea1ece4b1917d22029f1e3bf3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc35fcdea1ece4b1917d22029f1e3bf3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abc35fcdea1ece4b1917d22029f1e3bf3">SetVectorVariant</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:abc35fcdea1ece4b1917d22029f1e3bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector variant. <br/></td></tr>
-<tr class="separator:abc35fcdea1ece4b1917d22029f1e3bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff0002d670f7c919cd07265893df20b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ff0002d670f7c919cd07265893df20b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a6ff0002d670f7c919cd07265893df20b">SetQuaternion</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_quaternion.html">Quaternion</a> &amp;value)</td></tr>
-<tr class="memdesc:a6ff0002d670f7c919cd07265893df20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set quaternion. <br/></td></tr>
-<tr class="separator:a6ff0002d670f7c919cd07265893df20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1df4413f17c785ab0db275ffd0fd5dac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1df4413f17c785ab0db275ffd0fd5dac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1df4413f17c785ab0db275ffd0fd5dac">SetColor</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_color.html">Color</a> &amp;value)</td></tr>
-<tr class="memdesc:a1df4413f17c785ab0db275ffd0fd5dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set color. <br/></td></tr>
-<tr class="separator:a1df4413f17c785ab0db275ffd0fd5dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87bafa3b68d5257b003c7b41c2f90ddc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87bafa3b68d5257b003c7b41c2f90ddc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a87bafa3b68d5257b003c7b41c2f90ddc">SetString</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;value)</td></tr>
-<tr class="memdesc:a87bafa3b68d5257b003c7b41c2f90ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set string. <br/></td></tr>
-<tr class="separator:a87bafa3b68d5257b003c7b41c2f90ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0bf6b86d69ab6615d1824c07db9315"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd0bf6b86d69ab6615d1824c07db9315"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abd0bf6b86d69ab6615d1824c07db9315">SetBuffer</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const void *data, unsigned size)</td></tr>
-<tr class="memdesc:abd0bf6b86d69ab6615d1824c07db9315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set buffer. <br/></td></tr>
-<tr class="separator:abd0bf6b86d69ab6615d1824c07db9315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e907a0475a9da3caf3f9d76b789ebe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8e907a0475a9da3caf3f9d76b789ebe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ad8e907a0475a9da3caf3f9d76b789ebe">SetBuffer</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt; &amp;value)</td></tr>
-<tr class="memdesc:ad8e907a0475a9da3caf3f9d76b789ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set buffer. <br/></td></tr>
-<tr class="separator:ad8e907a0475a9da3caf3f9d76b789ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b50ef062d45a0499660830685d106c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b50ef062d45a0499660830685d106c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a8b50ef062d45a0499660830685d106c1">SetResourceRef</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="struct_urho3_d_1_1_resource_ref.html">ResourceRef</a> &amp;value)</td></tr>
-<tr class="memdesc:a8b50ef062d45a0499660830685d106c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set resource ref. <br/></td></tr>
-<tr class="separator:a8b50ef062d45a0499660830685d106c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a155bc431979da99ab04bdf6e2f22218f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a155bc431979da99ab04bdf6e2f22218f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a155bc431979da99ab04bdf6e2f22218f">SetResourceRefList</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="struct_urho3_d_1_1_resource_ref_list.html">ResourceRefList</a> &amp;value)</td></tr>
-<tr class="memdesc:a155bc431979da99ab04bdf6e2f22218f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set resource ref list. <br/></td></tr>
-<tr class="separator:a155bc431979da99ab04bdf6e2f22218f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b2cb60aac50a3ef6dda89c939f7f5c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b2cb60aac50a3ef6dda89c939f7f5c4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7b2cb60aac50a3ef6dda89c939f7f5c4">SetIntRect</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a> &amp;value)</td></tr>
-<tr class="memdesc:a7b2cb60aac50a3ef6dda89c939f7f5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set int rect. <br/></td></tr>
-<tr class="separator:a7b2cb60aac50a3ef6dda89c939f7f5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a012f9f51b6e9e6a319352add65d570f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a012f9f51b6e9e6a319352add65d570f0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a012f9f51b6e9e6a319352add65d570f0">SetIntVector2</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_int_vector2.html">IntVector2</a> &amp;value)</td></tr>
-<tr class="memdesc:a012f9f51b6e9e6a319352add65d570f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set int vector2. <br/></td></tr>
-<tr class="separator:a012f9f51b6e9e6a319352add65d570f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4944fe1b7363d8509eb65f465076d4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4944fe1b7363d8509eb65f465076d4c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ad4944fe1b7363d8509eb65f465076d4c">SetMatrix3</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_matrix3.html">Matrix3</a> &amp;value)</td></tr>
-<tr class="memdesc:ad4944fe1b7363d8509eb65f465076d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set matrix3. <br/></td></tr>
-<tr class="separator:ad4944fe1b7363d8509eb65f465076d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8904f31a7f361ddf3a9e218d322724b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8904f31a7f361ddf3a9e218d322724b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ab8904f31a7f361ddf3a9e218d322724b">SetMatrix3x4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_matrix3x4.html">Matrix3x4</a> &amp;value)</td></tr>
-<tr class="memdesc:ab8904f31a7f361ddf3a9e218d322724b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set matrix3x4. <br/></td></tr>
-<tr class="separator:ab8904f31a7f361ddf3a9e218d322724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4785b38c40f5eea32b0f18f8bc0b2eeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4785b38c40f5eea32b0f18f8bc0b2eeb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a4785b38c40f5eea32b0f18f8bc0b2eeb">SetMatrix4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_matrix4.html">Matrix4</a> &amp;value)</td></tr>
-<tr class="memdesc:a4785b38c40f5eea32b0f18f8bc0b2eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set matrix4. <br/></td></tr>
-<tr class="separator:a4785b38c40f5eea32b0f18f8bc0b2eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fb1a5e60adb25e2d72b5629f33645e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fb1a5e60adb25e2d72b5629f33645e4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a8fb1a5e60adb25e2d72b5629f33645e4">SetVariant</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:a8fb1a5e60adb25e2d72b5629f33645e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set variant (include type). <br/></td></tr>
-<tr class="separator:a8fb1a5e60adb25e2d72b5629f33645e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e93ba41b7aec6146df47d19bf278258"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e93ba41b7aec6146df47d19bf278258"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3e93ba41b7aec6146df47d19bf278258">SetVariantValue</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:a3e93ba41b7aec6146df47d19bf278258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set variant value. <br/></td></tr>
-<tr class="separator:a3e93ba41b7aec6146df47d19bf278258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c2c8660e28e108a2d637d4f94cc362"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4c2c8660e28e108a2d637d4f94cc362"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af4c2c8660e28e108a2d637d4f94cc362">IsObject</a> () const </td></tr>
-<tr class="memdesc:af4c2c8660e28e108a2d637d4f94cc362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is object type. <br/></td></tr>
-<tr class="separator:af4c2c8660e28e108a2d637d4f94cc362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb2cccffe3ccd09a6efa7fa892c606d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefb2cccffe3ccd09a6efa7fa892c606d"></a>
-<a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_urho3_d_1_1_string.html">String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aefb2cccffe3ccd09a6efa7fa892c606d">GetChildNames</a> () const </td></tr>
-<tr class="memdesc:aefb2cccffe3ccd09a6efa7fa892c606d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return child names (only object and array child name). <br/></td></tr>
-<tr class="separator:aefb2cccffe3ccd09a6efa7fa892c606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41ad41a668abddbef902966ceb9fda65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41ad41a668abddbef902966ceb9fda65"></a>
-<a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_urho3_d_1_1_string.html">String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a41ad41a668abddbef902966ceb9fda65">GetValueNames</a> () const </td></tr>
-<tr class="memdesc:a41ad41a668abddbef902966ceb9fda65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return member value names. <br/></td></tr>
-<tr class="separator:a41ad41a668abddbef902966ceb9fda65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5306b43a76c3f01575e92b09b6a4324d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5306b43a76c3f01575e92b09b6a4324d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a5306b43a76c3f01575e92b09b6a4324d">GetInt</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a5306b43a76c3f01575e92b09b6a4324d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int. <br/></td></tr>
-<tr class="separator:a5306b43a76c3f01575e92b09b6a4324d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0839638ffb230a6bab9a7fb69a95c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a0839638ffb230a6bab9a7fb69a95c0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a4a0839638ffb230a6bab9a7fb69a95c0">GetBool</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a4a0839638ffb230a6bab9a7fb69a95c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return bool. <br/></td></tr>
-<tr class="separator:a4a0839638ffb230a6bab9a7fb69a95c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a781b5c0c7d121ec67c9d258bed328846"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a781b5c0c7d121ec67c9d258bed328846"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a781b5c0c7d121ec67c9d258bed328846">GetFloat</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a781b5c0c7d121ec67c9d258bed328846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return float. <br/></td></tr>
-<tr class="separator:a781b5c0c7d121ec67c9d258bed328846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1ea6645c495418d066c730bc3a8ad44"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1ea6645c495418d066c730bc3a8ad44"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ad1ea6645c495418d066c730bc3a8ad44">GetDouble</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:ad1ea6645c495418d066c730bc3a8ad44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return double. <br/></td></tr>
-<tr class="separator:ad1ea6645c495418d066c730bc3a8ad44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa6964f201183c54c157e9e776346709"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa6964f201183c54c157e9e776346709"></a>
-<a class="el" href="class_urho3_d_1_1_vector2.html">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#afa6964f201183c54c157e9e776346709">GetVector2</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:afa6964f201183c54c157e9e776346709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector2. <br/></td></tr>
-<tr class="separator:afa6964f201183c54c157e9e776346709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa42d689eea321d02eef837f925d778ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa42d689eea321d02eef837f925d778ec"></a>
-<a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa42d689eea321d02eef837f925d778ec">GetVector3</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:aa42d689eea321d02eef837f925d778ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector3. <br/></td></tr>
-<tr class="separator:aa42d689eea321d02eef837f925d778ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da2679022ffaadb3beb3130136a97e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2da2679022ffaadb3beb3130136a97e5"></a>
-<a class="el" href="class_urho3_d_1_1_vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2da2679022ffaadb3beb3130136a97e5">GetVector4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a2da2679022ffaadb3beb3130136a97e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector4. <br/></td></tr>
-<tr class="separator:a2da2679022ffaadb3beb3130136a97e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79a69d2114990a3c740dace1beccb28c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79a69d2114990a3c740dace1beccb28c"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a79a69d2114990a3c740dace1beccb28c">GetVectorVariant</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a79a69d2114990a3c740dace1beccb28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector variant. <br/></td></tr>
-<tr class="separator:a79a69d2114990a3c740dace1beccb28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b0a94e0209c068ee06ac29a900b1f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43b0a94e0209c068ee06ac29a900b1f0"></a>
-<a class="el" href="class_urho3_d_1_1_quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a43b0a94e0209c068ee06ac29a900b1f0">GetQuaternion</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a43b0a94e0209c068ee06ac29a900b1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return quaternion. <br/></td></tr>
-<tr class="separator:a43b0a94e0209c068ee06ac29a900b1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9aeb2c63cefd52d47d790adefd35ac7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9aeb2c63cefd52d47d790adefd35ac7"></a>
-<a class="el" href="class_urho3_d_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac9aeb2c63cefd52d47d790adefd35ac7">GetColor</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:ac9aeb2c63cefd52d47d790adefd35ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return color. <br/></td></tr>
-<tr class="separator:ac9aeb2c63cefd52d47d790adefd35ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5d1e1d474d12f4484fafc27823dddd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f5d1e1d474d12f4484fafc27823dddd"></a>
-<a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a9f5d1e1d474d12f4484fafc27823dddd">GetString</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a9f5d1e1d474d12f4484fafc27823dddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return string. <br/></td></tr>
-<tr class="separator:a9f5d1e1d474d12f4484fafc27823dddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b35ce6d2b5f10b5495b4d54a7046ede"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b35ce6d2b5f10b5495b4d54a7046ede"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7b35ce6d2b5f10b5495b4d54a7046ede">GetCString</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a7b35ce6d2b5f10b5495b4d54a7046ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return C string. <br/></td></tr>
-<tr class="separator:a7b35ce6d2b5f10b5495b4d54a7046ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a512aa275a26bed8e86e79ec960e03a34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a512aa275a26bed8e86e79ec960e03a34"></a>
-<a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a512aa275a26bed8e86e79ec960e03a34">GetBuffer</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a512aa275a26bed8e86e79ec960e03a34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer. <br/></td></tr>
-<tr class="separator:a512aa275a26bed8e86e79ec960e03a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff89a9a1f7ed993d48b350bb61483332"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff89a9a1f7ed993d48b350bb61483332"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aff89a9a1f7ed993d48b350bb61483332">GetBuffer</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, void *dest, unsigned size) const </td></tr>
-<tr class="memdesc:aff89a9a1f7ed993d48b350bb61483332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer. <br/></td></tr>
-<tr class="separator:aff89a9a1f7ed993d48b350bb61483332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc421ffed1fbafe9e06ebd926c600a2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc421ffed1fbafe9e06ebd926c600a2a"></a>
-<a class="el" href="struct_urho3_d_1_1_resource_ref.html">ResourceRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#adc421ffed1fbafe9e06ebd926c600a2a">GetResourceRef</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:adc421ffed1fbafe9e06ebd926c600a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return resource ref. <br/></td></tr>
-<tr class="separator:adc421ffed1fbafe9e06ebd926c600a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a030570f6bc5ff118e624953345271f52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a030570f6bc5ff118e624953345271f52"></a>
-<a class="el" href="struct_urho3_d_1_1_resource_ref_list.html">ResourceRefList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a030570f6bc5ff118e624953345271f52">GetResourceRefList</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a030570f6bc5ff118e624953345271f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return resource ref list. <br/></td></tr>
-<tr class="separator:a030570f6bc5ff118e624953345271f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac22e392fdfd6c9ba1259bb074d89751d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac22e392fdfd6c9ba1259bb074d89751d"></a>
-<a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac22e392fdfd6c9ba1259bb074d89751d">GetIntRect</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:ac22e392fdfd6c9ba1259bb074d89751d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int rect. <br/></td></tr>
-<tr class="separator:ac22e392fdfd6c9ba1259bb074d89751d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a810c99a1761eb6f872aec2369102c6cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a810c99a1761eb6f872aec2369102c6cf"></a>
-<a class="el" href="class_urho3_d_1_1_int_vector2.html">IntVector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a810c99a1761eb6f872aec2369102c6cf">GetIntVector2</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a810c99a1761eb6f872aec2369102c6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int vector2. <br/></td></tr>
-<tr class="separator:a810c99a1761eb6f872aec2369102c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a922f516af1ddfa9ad76b85ff7d1adeb5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a922f516af1ddfa9ad76b85ff7d1adeb5"></a>
-<a class="el" href="class_urho3_d_1_1_matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a922f516af1ddfa9ad76b85ff7d1adeb5">GetMatrix3</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a922f516af1ddfa9ad76b85ff7d1adeb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix3. <br/></td></tr>
-<tr class="separator:a922f516af1ddfa9ad76b85ff7d1adeb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa5dc3b3e7d1d5641bd0ecaf5ee30fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7aa5dc3b3e7d1d5641bd0ecaf5ee30fd"></a>
-<a class="el" href="class_urho3_d_1_1_matrix3x4.html">Matrix3x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7aa5dc3b3e7d1d5641bd0ecaf5ee30fd">GetMatrix3x4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a7aa5dc3b3e7d1d5641bd0ecaf5ee30fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix3x4. <br/></td></tr>
-<tr class="separator:a7aa5dc3b3e7d1d5641bd0ecaf5ee30fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f534c1f4c3e510e5f1835c18d31c7e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f534c1f4c3e510e5f1835c18d31c7e3"></a>
-<a class="el" href="class_urho3_d_1_1_matrix4.html">Matrix4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a6f534c1f4c3e510e5f1835c18d31c7e3">GetMatrix4</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a6f534c1f4c3e510e5f1835c18d31c7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix4. <br/></td></tr>
-<tr class="separator:a6f534c1f4c3e510e5f1835c18d31c7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ecc2f7f60fa9097f2521ea6e887bdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33ecc2f7f60fa9097f2521ea6e887bdf"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a33ecc2f7f60fa9097f2521ea6e887bdf">GetVariant</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a33ecc2f7f60fa9097f2521ea6e887bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return variant. <br/></td></tr>
-<tr class="separator:a33ecc2f7f60fa9097f2521ea6e887bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59b5d52810ba4fd7457ce45fd5258a36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59b5d52810ba4fd7457ce45fd5258a36"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a59b5d52810ba4fd7457ce45fd5258a36">GetVariantValue</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, VariantType type) const </td></tr>
-<tr class="memdesc:a59b5d52810ba4fd7457ce45fd5258a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return variant value. <br/></td></tr>
-<tr class="separator:a59b5d52810ba4fd7457ce45fd5258a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ed41f405452177549ce95b87eda2c81"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ed41f405452177549ce95b87eda2c81"></a>
-<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a9ed41f405452177549ce95b87eda2c81">CreateChild</a> (JSONValueType valueType=JSON_OBJECT)</td></tr>
-<tr class="memdesc:a9ed41f405452177549ce95b87eda2c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a child value in array. <br/></td></tr>
-<tr class="separator:a9ed41f405452177549ce95b87eda2c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51ec5f4f5183d6705a09f93e3eeb548e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51ec5f4f5183d6705a09f93e3eeb548e"></a>
-<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a51ec5f4f5183d6705a09f93e3eeb548e">GetChild</a> (unsigned index, JSONValueType valueType=JSON_ANY) const </td></tr>
-<tr class="memdesc:a51ec5f4f5183d6705a09f93e3eeb548e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a child value in array. Return null if not exist. <br/></td></tr>
-<tr class="separator:a51ec5f4f5183d6705a09f93e3eeb548e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36eab39ab30881d46729a798da7a6e25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36eab39ab30881d46729a798da7a6e25"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a36eab39ab30881d46729a798da7a6e25">AddInt</a> (int value)</td></tr>
-<tr class="memdesc:a36eab39ab30881d46729a798da7a6e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add int. <br/></td></tr>
-<tr class="separator:a36eab39ab30881d46729a798da7a6e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d748f79780f4497d172ba60d43ef37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8d748f79780f4497d172ba60d43ef37"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae8d748f79780f4497d172ba60d43ef37">AddBool</a> (bool value)</td></tr>
-<tr class="memdesc:ae8d748f79780f4497d172ba60d43ef37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add bool. <br/></td></tr>
-<tr class="separator:ae8d748f79780f4497d172ba60d43ef37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56f3815788ef4c93ff1dfa1ab3562f37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f3815788ef4c93ff1dfa1ab3562f37"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a56f3815788ef4c93ff1dfa1ab3562f37">AddFloat</a> (float value)</td></tr>
-<tr class="memdesc:a56f3815788ef4c93ff1dfa1ab3562f37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add float. <br/></td></tr>
-<tr class="separator:a56f3815788ef4c93ff1dfa1ab3562f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3029f225cb8aa1c3a52e369cb5d0e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d3029f225cb8aa1c3a52e369cb5d0e9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a0d3029f225cb8aa1c3a52e369cb5d0e9">AddDouble</a> (double value)</td></tr>
-<tr class="memdesc:a0d3029f225cb8aa1c3a52e369cb5d0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add double. <br/></td></tr>
-<tr class="separator:a0d3029f225cb8aa1c3a52e369cb5d0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ff97589a58fbfbc796c301c386871d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9ff97589a58fbfbc796c301c386871d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae9ff97589a58fbfbc796c301c386871d">AddVector2</a> (const <a class="el" href="class_urho3_d_1_1_vector2.html">Vector2</a> &amp;value)</td></tr>
-<tr class="memdesc:ae9ff97589a58fbfbc796c301c386871d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add vector2. <br/></td></tr>
-<tr class="separator:ae9ff97589a58fbfbc796c301c386871d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace389ef6bf033f8655ca344dd3e6484d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace389ef6bf033f8655ca344dd3e6484d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ace389ef6bf033f8655ca344dd3e6484d">AddVector3</a> (const <a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a> &amp;value)</td></tr>
-<tr class="memdesc:ace389ef6bf033f8655ca344dd3e6484d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add vector3. <br/></td></tr>
-<tr class="separator:ace389ef6bf033f8655ca344dd3e6484d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8955eb0b7650d4e1c93fefd412ded279"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8955eb0b7650d4e1c93fefd412ded279"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a8955eb0b7650d4e1c93fefd412ded279">AddVector4</a> (const <a class="el" href="class_urho3_d_1_1_vector4.html">Vector4</a> &amp;value)</td></tr>
-<tr class="memdesc:a8955eb0b7650d4e1c93fefd412ded279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add vector4. <br/></td></tr>
-<tr class="separator:a8955eb0b7650d4e1c93fefd412ded279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f8330040aee6dbd9943ba715c6478f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f8330040aee6dbd9943ba715c6478f0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1f8330040aee6dbd9943ba715c6478f0">AddVectorVariant</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:a1f8330040aee6dbd9943ba715c6478f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add vector variant. <br/></td></tr>
-<tr class="separator:a1f8330040aee6dbd9943ba715c6478f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49327fbd3c5f28d2754f9bcb99d8878b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49327fbd3c5f28d2754f9bcb99d8878b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a49327fbd3c5f28d2754f9bcb99d8878b">AddQuaternion</a> (const <a class="el" href="class_urho3_d_1_1_quaternion.html">Quaternion</a> &amp;value)</td></tr>
-<tr class="memdesc:a49327fbd3c5f28d2754f9bcb99d8878b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add quaternion. <br/></td></tr>
-<tr class="separator:a49327fbd3c5f28d2754f9bcb99d8878b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adccf3554811a2f4660b815131740fffc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adccf3554811a2f4660b815131740fffc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#adccf3554811a2f4660b815131740fffc">AddColor</a> (const <a class="el" href="class_urho3_d_1_1_color.html">Color</a> &amp;value)</td></tr>
-<tr class="memdesc:adccf3554811a2f4660b815131740fffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add color. <br/></td></tr>
-<tr class="separator:adccf3554811a2f4660b815131740fffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1cfbf542453075e3d0db1058cf3f70e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1cfbf542453075e3d0db1058cf3f70e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae1cfbf542453075e3d0db1058cf3f70e">AddString</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;value)</td></tr>
-<tr class="memdesc:ae1cfbf542453075e3d0db1058cf3f70e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add string. <br/></td></tr>
-<tr class="separator:ae1cfbf542453075e3d0db1058cf3f70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d74a59d248e359db63d0dd6c08f07b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6d74a59d248e359db63d0dd6c08f07b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af6d74a59d248e359db63d0dd6c08f07b">AddBuffer</a> (const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt; &amp;value)</td></tr>
-<tr class="memdesc:af6d74a59d248e359db63d0dd6c08f07b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add buffer. <br/></td></tr>
-<tr class="separator:af6d74a59d248e359db63d0dd6c08f07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9a596639ec07e38433e6d4835be51d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf9a596639ec07e38433e6d4835be51d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aaf9a596639ec07e38433e6d4835be51d">AddBuffer</a> (const void *data, unsigned size)</td></tr>
-<tr class="memdesc:aaf9a596639ec07e38433e6d4835be51d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add buffer. <br/></td></tr>
-<tr class="separator:aaf9a596639ec07e38433e6d4835be51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b82d2311dfe2cb924a6c35688d4b06e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b82d2311dfe2cb924a6c35688d4b06e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7b82d2311dfe2cb924a6c35688d4b06e">AddResourceRef</a> (const <a class="el" href="struct_urho3_d_1_1_resource_ref.html">ResourceRef</a> &amp;value)</td></tr>
-<tr class="memdesc:a7b82d2311dfe2cb924a6c35688d4b06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add resource ref. <br/></td></tr>
-<tr class="separator:a7b82d2311dfe2cb924a6c35688d4b06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a668f65cf0d9e2477cc7ea9bd431aadce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a668f65cf0d9e2477cc7ea9bd431aadce"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a668f65cf0d9e2477cc7ea9bd431aadce">AddResourceRefList</a> (const <a class="el" href="struct_urho3_d_1_1_resource_ref_list.html">ResourceRefList</a> &amp;value)</td></tr>
-<tr class="memdesc:a668f65cf0d9e2477cc7ea9bd431aadce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add resource ref list. <br/></td></tr>
-<tr class="separator:a668f65cf0d9e2477cc7ea9bd431aadce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e5182b86f079ed34169d6e18bc45988"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e5182b86f079ed34169d6e18bc45988"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a4e5182b86f079ed34169d6e18bc45988">AddIntRect</a> (const <a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a> &amp;value)</td></tr>
-<tr class="memdesc:a4e5182b86f079ed34169d6e18bc45988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add int rect. <br/></td></tr>
-<tr class="separator:a4e5182b86f079ed34169d6e18bc45988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ba4b0ce168532991d56b3bc4447b3a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91ba4b0ce168532991d56b3bc4447b3a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a91ba4b0ce168532991d56b3bc4447b3a">AddIntVector2</a> (const <a class="el" href="class_urho3_d_1_1_int_vector2.html">IntVector2</a> &amp;value)</td></tr>
-<tr class="memdesc:a91ba4b0ce168532991d56b3bc4447b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add int vector2. <br/></td></tr>
-<tr class="separator:a91ba4b0ce168532991d56b3bc4447b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae506624adbb62ffe616473d659bf6c7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae506624adbb62ffe616473d659bf6c7f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae506624adbb62ffe616473d659bf6c7f">AddMatrix3</a> (const <a class="el" href="class_urho3_d_1_1_matrix3.html">Matrix3</a> &amp;value)</td></tr>
-<tr class="memdesc:ae506624adbb62ffe616473d659bf6c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add matrix3. <br/></td></tr>
-<tr class="separator:ae506624adbb62ffe616473d659bf6c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae238ca1446351a82ed1fab0a3239d9e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae238ca1446351a82ed1fab0a3239d9e7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae238ca1446351a82ed1fab0a3239d9e7">AddMatrix3x4</a> (const <a class="el" href="class_urho3_d_1_1_matrix3x4.html">Matrix3x4</a> &amp;value)</td></tr>
-<tr class="memdesc:ae238ca1446351a82ed1fab0a3239d9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add matrix3x4. <br/></td></tr>
-<tr class="separator:ae238ca1446351a82ed1fab0a3239d9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53692cddb090aaa1d216b4f343a46922"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53692cddb090aaa1d216b4f343a46922"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a53692cddb090aaa1d216b4f343a46922">AddMatrix4</a> (const <a class="el" href="class_urho3_d_1_1_matrix4.html">Matrix4</a> &amp;value)</td></tr>
-<tr class="memdesc:a53692cddb090aaa1d216b4f343a46922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add matrix4. <br/></td></tr>
-<tr class="separator:a53692cddb090aaa1d216b4f343a46922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d49592799512e0ca875e8470b0fc4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35d49592799512e0ca875e8470b0fc4f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a35d49592799512e0ca875e8470b0fc4f">AddVariant</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:a35d49592799512e0ca875e8470b0fc4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add variant. <br/></td></tr>
-<tr class="separator:a35d49592799512e0ca875e8470b0fc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca5c6aa8a7e390f162da1ae8abdbd0d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca5c6aa8a7e390f162da1ae8abdbd0d9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aca5c6aa8a7e390f162da1ae8abdbd0d9">AddVariantValue</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;value)</td></tr>
-<tr class="memdesc:aca5c6aa8a7e390f162da1ae8abdbd0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add variant value. <br/></td></tr>
-<tr class="separator:aca5c6aa8a7e390f162da1ae8abdbd0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec05fc75c564df92a42b668fddf178b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ec05fc75c564df92a42b668fddf178b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3ec05fc75c564df92a42b668fddf178b">IsBool</a> () const </td></tr>
+<tr class="memdesc:a3ec05fc75c564df92a42b668fddf178b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is boolean. <br/></td></tr>
+<tr class="separator:a3ec05fc75c564df92a42b668fddf178b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1140aeb753bb75c32ae89ab15e68663a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1140aeb753bb75c32ae89ab15e68663a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1140aeb753bb75c32ae89ab15e68663a">IsNumber</a> () const </td></tr>
+<tr class="memdesc:a1140aeb753bb75c32ae89ab15e68663a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is number. <br/></td></tr>
+<tr class="separator:a1140aeb753bb75c32ae89ab15e68663a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993129d5f9280f0f5261870346fc3205"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a993129d5f9280f0f5261870346fc3205"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a993129d5f9280f0f5261870346fc3205">IsString</a> () const </td></tr>
+<tr class="memdesc:a993129d5f9280f0f5261870346fc3205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is string. <br/></td></tr>
+<tr class="separator:a993129d5f9280f0f5261870346fc3205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d41eb628d964c131f15d9141620e73a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d41eb628d964c131f15d9141620e73a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a6d41eb628d964c131f15d9141620e73a">IsArray</a> () const </td></tr>
-<tr class="memdesc:a6d41eb628d964c131f15d9141620e73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is array type. <br/></td></tr>
+<tr class="memdesc:a6d41eb628d964c131f15d9141620e73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is array. <br/></td></tr>
 <tr class="separator:a6d41eb628d964c131f15d9141620e73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e7152522e7f9ea37939bab922fdd81"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22e7152522e7f9ea37939bab922fdd81"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a22e7152522e7f9ea37939bab922fdd81">GetSize</a> () const </td></tr>
-<tr class="memdesc:a22e7152522e7f9ea37939bab922fdd81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return array size. <br/></td></tr>
-<tr class="separator:a22e7152522e7f9ea37939bab922fdd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af93c4fbc961b3e4689c7ac6e8d847b96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af93c4fbc961b3e4689c7ac6e8d847b96"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af93c4fbc961b3e4689c7ac6e8d847b96">GetInt</a> (unsigned index) const </td></tr>
-<tr class="memdesc:af93c4fbc961b3e4689c7ac6e8d847b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int. <br/></td></tr>
-<tr class="separator:af93c4fbc961b3e4689c7ac6e8d847b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45fcb9b59f9cba139000ee096b9562bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45fcb9b59f9cba139000ee096b9562bc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a45fcb9b59f9cba139000ee096b9562bc">GetBool</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a45fcb9b59f9cba139000ee096b9562bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return bool. <br/></td></tr>
-<tr class="separator:a45fcb9b59f9cba139000ee096b9562bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa688de6fbdc437ee7b8ada2084c3ae54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa688de6fbdc437ee7b8ada2084c3ae54"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa688de6fbdc437ee7b8ada2084c3ae54">GetFloat</a> (unsigned index) const </td></tr>
-<tr class="memdesc:aa688de6fbdc437ee7b8ada2084c3ae54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return float. <br/></td></tr>
-<tr class="separator:aa688de6fbdc437ee7b8ada2084c3ae54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f6a5d4af6ea0f1778a35a62c1633c7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6a5d4af6ea0f1778a35a62c1633c7c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a4f6a5d4af6ea0f1778a35a62c1633c7c">GetDouble</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a4f6a5d4af6ea0f1778a35a62c1633c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return double. <br/></td></tr>
-<tr class="separator:a4f6a5d4af6ea0f1778a35a62c1633c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd455390edc5ee70392d6a3bbb311192"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd455390edc5ee70392d6a3bbb311192"></a>
-<a class="el" href="class_urho3_d_1_1_vector2.html">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abd455390edc5ee70392d6a3bbb311192">GetVector2</a> (unsigned index) const </td></tr>
-<tr class="memdesc:abd455390edc5ee70392d6a3bbb311192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector2. <br/></td></tr>
-<tr class="separator:abd455390edc5ee70392d6a3bbb311192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd04cef31fe97c38d13d224e991f18ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd04cef31fe97c38d13d224e991f18ee"></a>
-<a class="el" href="class_urho3_d_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#acd04cef31fe97c38d13d224e991f18ee">GetVector3</a> (unsigned index) const </td></tr>
-<tr class="memdesc:acd04cef31fe97c38d13d224e991f18ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector3. <br/></td></tr>
-<tr class="separator:acd04cef31fe97c38d13d224e991f18ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0411f5e3c832540ed4f8163c71f97466"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0411f5e3c832540ed4f8163c71f97466"></a>
-<a class="el" href="class_urho3_d_1_1_vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a0411f5e3c832540ed4f8163c71f97466">GetVector4</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a0411f5e3c832540ed4f8163c71f97466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector4. <br/></td></tr>
-<tr class="separator:a0411f5e3c832540ed4f8163c71f97466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abffaa218ab307eae65ba9053b6a699f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abffaa218ab307eae65ba9053b6a699f3"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abffaa218ab307eae65ba9053b6a699f3">GetVectorVariant</a> (unsigned index) const </td></tr>
-<tr class="memdesc:abffaa218ab307eae65ba9053b6a699f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector variant. <br/></td></tr>
-<tr class="separator:abffaa218ab307eae65ba9053b6a699f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3d5471ec10e0fcf15bd58eace9c4554"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3d5471ec10e0fcf15bd58eace9c4554"></a>
-<a class="el" href="class_urho3_d_1_1_quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae3d5471ec10e0fcf15bd58eace9c4554">GetQuaternion</a> (unsigned index) const </td></tr>
-<tr class="memdesc:ae3d5471ec10e0fcf15bd58eace9c4554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return quaternion. <br/></td></tr>
-<tr class="separator:ae3d5471ec10e0fcf15bd58eace9c4554"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f9b0292535fa15fefac4a76df03762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15f9b0292535fa15fefac4a76df03762"></a>
-<a class="el" href="class_urho3_d_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a15f9b0292535fa15fefac4a76df03762">GetColor</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a15f9b0292535fa15fefac4a76df03762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return color. <br/></td></tr>
-<tr class="separator:a15f9b0292535fa15fefac4a76df03762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9384cec7346b222bbcce38c82f460a7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9384cec7346b222bbcce38c82f460a7f"></a>
-<a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a9384cec7346b222bbcce38c82f460a7f">GetString</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a9384cec7346b222bbcce38c82f460a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return string. <br/></td></tr>
-<tr class="separator:a9384cec7346b222bbcce38c82f460a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7856ed1a251b3de1d45762de6a01c879"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7856ed1a251b3de1d45762de6a01c879"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7856ed1a251b3de1d45762de6a01c879">GetCString</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a7856ed1a251b3de1d45762de6a01c879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return C string. <br/></td></tr>
-<tr class="separator:a7856ed1a251b3de1d45762de6a01c879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac91c35df7f77f4c910b77b59b648b3f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac91c35df7f77f4c910b77b59b648b3f6"></a>
-<a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac91c35df7f77f4c910b77b59b648b3f6">GetBuffer</a> (unsigned index) const </td></tr>
-<tr class="memdesc:ac91c35df7f77f4c910b77b59b648b3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer. <br/></td></tr>
-<tr class="separator:ac91c35df7f77f4c910b77b59b648b3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56bdc039a5e6e141dbb8fdf8ce65c45c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56bdc039a5e6e141dbb8fdf8ce65c45c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a56bdc039a5e6e141dbb8fdf8ce65c45c">GetBuffer</a> (unsigned index, void *dest, unsigned size) const </td></tr>
-<tr class="memdesc:a56bdc039a5e6e141dbb8fdf8ce65c45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer. <br/></td></tr>
-<tr class="separator:a56bdc039a5e6e141dbb8fdf8ce65c45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa936e9450efbe01657250f274cdfc42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa936e9450efbe01657250f274cdfc42"></a>
-<a class="el" href="struct_urho3_d_1_1_resource_ref.html">ResourceRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aaa936e9450efbe01657250f274cdfc42">GetResourceRef</a> (unsigned index) const </td></tr>
-<tr class="memdesc:aaa936e9450efbe01657250f274cdfc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return resource ref. <br/></td></tr>
-<tr class="separator:aaa936e9450efbe01657250f274cdfc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22dfcf559d962f085f7344e719c8c951"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22dfcf559d962f085f7344e719c8c951"></a>
-<a class="el" href="struct_urho3_d_1_1_resource_ref_list.html">ResourceRefList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a22dfcf559d962f085f7344e719c8c951">GetResourceRefList</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a22dfcf559d962f085f7344e719c8c951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return resource ref list. <br/></td></tr>
-<tr class="separator:a22dfcf559d962f085f7344e719c8c951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa564d04d7665bbff0ed56590cf224dda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa564d04d7665bbff0ed56590cf224dda"></a>
-<a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa564d04d7665bbff0ed56590cf224dda">GetIntRect</a> (unsigned index) const </td></tr>
-<tr class="memdesc:aa564d04d7665bbff0ed56590cf224dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int rect. <br/></td></tr>
-<tr class="separator:aa564d04d7665bbff0ed56590cf224dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ff7ab13359c9f3e19b93eaeb9a9658"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19ff7ab13359c9f3e19b93eaeb9a9658"></a>
-<a class="el" href="class_urho3_d_1_1_int_vector2.html">IntVector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a19ff7ab13359c9f3e19b93eaeb9a9658">GetIntVector2</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a19ff7ab13359c9f3e19b93eaeb9a9658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return int vector2. <br/></td></tr>
-<tr class="separator:a19ff7ab13359c9f3e19b93eaeb9a9658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9267664a60e2f46e251fdc8ce42c7916"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9267664a60e2f46e251fdc8ce42c7916"></a>
-<a class="el" href="class_urho3_d_1_1_matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a9267664a60e2f46e251fdc8ce42c7916">GetMatrix3</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a9267664a60e2f46e251fdc8ce42c7916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix3. <br/></td></tr>
-<tr class="separator:a9267664a60e2f46e251fdc8ce42c7916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57b8e7b24d39524edb72072c8b69dde7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57b8e7b24d39524edb72072c8b69dde7"></a>
-<a class="el" href="class_urho3_d_1_1_matrix3x4.html">Matrix3x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a57b8e7b24d39524edb72072c8b69dde7">GetMatrix3x4</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a57b8e7b24d39524edb72072c8b69dde7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix3x4. <br/></td></tr>
-<tr class="separator:a57b8e7b24d39524edb72072c8b69dde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fc4b572449f476d3c4ff66b311c660c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fc4b572449f476d3c4ff66b311c660c"></a>
-<a class="el" href="class_urho3_d_1_1_matrix4.html">Matrix4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3fc4b572449f476d3c4ff66b311c660c">GetMatrix4</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a3fc4b572449f476d3c4ff66b311c660c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return matrix4. <br/></td></tr>
-<tr class="separator:a3fc4b572449f476d3c4ff66b311c660c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade93efe0384913d9d2097f1189f696c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade93efe0384913d9d2097f1189f696c7"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ade93efe0384913d9d2097f1189f696c7">GetVariant</a> (unsigned index) const </td></tr>
-<tr class="memdesc:ade93efe0384913d9d2097f1189f696c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return variant. <br/></td></tr>
-<tr class="separator:ade93efe0384913d9d2097f1189f696c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9886041ec94168a49c47108a88994a67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9886041ec94168a49c47108a88994a67"></a>
-<a class="el" href="class_urho3_d_1_1_variant.html">Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a9886041ec94168a49c47108a88994a67">GetVariantValue</a> (unsigned index, VariantType type) const </td></tr>
-<tr class="memdesc:a9886041ec94168a49c47108a88994a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return variant. <br/></td></tr>
-<tr class="separator:a9886041ec94168a49c47108a88994a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4c2c8660e28e108a2d637d4f94cc362"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4c2c8660e28e108a2d637d4f94cc362"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#af4c2c8660e28e108a2d637d4f94cc362">IsObject</a> () const </td></tr>
+<tr class="memdesc:af4c2c8660e28e108a2d637d4f94cc362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is object. <br/></td></tr>
+<tr class="separator:af4c2c8660e28e108a2d637d4f94cc362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacb79b940bbfdf279e08258359d60c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adacb79b940bbfdf279e08258359d60c6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#adacb79b940bbfdf279e08258359d60c6">GetBool</a> () const </td></tr>
+<tr class="memdesc:adacb79b940bbfdf279e08258359d60c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return boolean value. <br/></td></tr>
+<tr class="separator:adacb79b940bbfdf279e08258359d60c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6767eaeaaa478b79187efd4bcbddf185"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6767eaeaaa478b79187efd4bcbddf185"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a6767eaeaaa478b79187efd4bcbddf185">GetInt</a> () const </td></tr>
+<tr class="memdesc:a6767eaeaaa478b79187efd4bcbddf185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return integer value. <br/></td></tr>
+<tr class="separator:a6767eaeaaa478b79187efd4bcbddf185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67622741018be78aa967f8a20710128e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67622741018be78aa967f8a20710128e"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a67622741018be78aa967f8a20710128e">GetUint</a> () const </td></tr>
+<tr class="memdesc:a67622741018be78aa967f8a20710128e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return unsigned integer value. <br/></td></tr>
+<tr class="separator:a67622741018be78aa967f8a20710128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246a716262c41441005c252a32bc75bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a246a716262c41441005c252a32bc75bb"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a246a716262c41441005c252a32bc75bb">GetFloat</a> () const </td></tr>
+<tr class="memdesc:a246a716262c41441005c252a32bc75bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return float value. <br/></td></tr>
+<tr class="separator:a246a716262c41441005c252a32bc75bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad700db4532a737ab5a24c759b51436"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ad700db4532a737ab5a24c759b51436"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1ad700db4532a737ab5a24c759b51436">GetDouble</a> () const </td></tr>
+<tr class="memdesc:a1ad700db4532a737ab5a24c759b51436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return double value. <br/></td></tr>
+<tr class="separator:a1ad700db4532a737ab5a24c759b51436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a1ff49258caaefc02fb5f34861953a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0a1ff49258caaefc02fb5f34861953a"></a>
+const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac0a1ff49258caaefc02fb5f34861953a">GetString</a> () const </td></tr>
+<tr class="memdesc:ac0a1ff49258caaefc02fb5f34861953a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return string value. <br/></td></tr>
+<tr class="separator:ac0a1ff49258caaefc02fb5f34861953a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac6438834fe69196c81d4bda7efd2a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ac6438834fe69196c81d4bda7efd2a3"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2ac6438834fe69196c81d4bda7efd2a3">GetCString</a> () const </td></tr>
+<tr class="memdesc:a2ac6438834fe69196c81d4bda7efd2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return C string value. <br/></td></tr>
+<tr class="separator:a2ac6438834fe69196c81d4bda7efd2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78d6b9e5353eacf7fb0e7e234acc2f17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78d6b9e5353eacf7fb0e7e234acc2f17"></a>
+const <a class="el" href="class_urho3_d_1_1_vector.html">JSONArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a78d6b9e5353eacf7fb0e7e234acc2f17">GetArray</a> () const </td></tr>
+<tr class="memdesc:a78d6b9e5353eacf7fb0e7e234acc2f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON array value. <br/></td></tr>
+<tr class="separator:a78d6b9e5353eacf7fb0e7e234acc2f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a4563e9593a31e460b950f53cda3cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29a4563e9593a31e460b950f53cda3cd"></a>
+const <a class="el" href="class_urho3_d_1_1_hash_map.html">JSONObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a29a4563e9593a31e460b950f53cda3cd">GetObject</a> () const </td></tr>
+<tr class="memdesc:a29a4563e9593a31e460b950f53cda3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON object value. <br/></td></tr>
+<tr class="separator:a29a4563e9593a31e460b950f53cda3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617500dbfc81ecca61269df2250b6db6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a617500dbfc81ecca61269df2250b6db6"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a617500dbfc81ecca61269df2250b6db6">operator[]</a> (unsigned index)</td></tr>
+<tr class="memdesc:a617500dbfc81ecca61269df2250b6db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value at index. <br/></td></tr>
+<tr class="separator:a617500dbfc81ecca61269df2250b6db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2479f50cf238f0f72c8163b7b8a7709"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2479f50cf238f0f72c8163b7b8a7709"></a>
+const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae2479f50cf238f0f72c8163b7b8a7709">operator[]</a> (unsigned index) const </td></tr>
+<tr class="memdesc:ae2479f50cf238f0f72c8163b7b8a7709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value at index. <br/></td></tr>
+<tr class="separator:ae2479f50cf238f0f72c8163b7b8a7709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a825564cf0b5778bfee501a7c7a83132d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a825564cf0b5778bfee501a7c7a83132d"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a825564cf0b5778bfee501a7c7a83132d">At</a> (unsigned index)</td></tr>
+<tr class="memdesc:a825564cf0b5778bfee501a7c7a83132d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value at index. <br/></td></tr>
+<tr class="separator:a825564cf0b5778bfee501a7c7a83132d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d050347e076ebf0c359aad9ab1f013e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d050347e076ebf0c359aad9ab1f013e"></a>
+const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2d050347e076ebf0c359aad9ab1f013e">At</a> (unsigned index) const </td></tr>
+<tr class="memdesc:a2d050347e076ebf0c359aad9ab1f013e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value at index. <br/></td></tr>
+<tr class="separator:a2d050347e076ebf0c359aad9ab1f013e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe92b8260770f57d43ef0686db075e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefe92b8260770f57d43ef0686db075e8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aefe92b8260770f57d43ef0686db075e8">Push</a> (const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;value)</td></tr>
+<tr class="memdesc:aefe92b8260770f57d43ef0686db075e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add JSON value at end. <br/></td></tr>
+<tr class="separator:aefe92b8260770f57d43ef0686db075e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ea500b15c728aea30078a1a5d75b6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3ea500b15c728aea30078a1a5d75b6a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac3ea500b15c728aea30078a1a5d75b6a">Pop</a> ()</td></tr>
+<tr class="memdesc:ac3ea500b15c728aea30078a1a5d75b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the last JSON value. <br/></td></tr>
+<tr class="separator:ac3ea500b15c728aea30078a1a5d75b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2783dbe89ba7d558ca49b848a5e734d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2783dbe89ba7d558ca49b848a5e734d0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2783dbe89ba7d558ca49b848a5e734d0">Insert</a> (unsigned pos, const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;value)</td></tr>
+<tr class="memdesc:a2783dbe89ba7d558ca49b848a5e734d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert an JSON value at position. <br/></td></tr>
+<tr class="separator:a2783dbe89ba7d558ca49b848a5e734d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454ee7b38116a1838b124b65aed859f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a454ee7b38116a1838b124b65aed859f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a454ee7b38116a1838b124b65aed859f3">Erase</a> (unsigned pos, unsigned length=1)</td></tr>
+<tr class="memdesc:a454ee7b38116a1838b124b65aed859f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase a range of JSON values. <br/></td></tr>
+<tr class="separator:a454ee7b38116a1838b124b65aed859f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebc810578b6792c7af450fb56725f21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ebc810578b6792c7af450fb56725f21"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2ebc810578b6792c7af450fb56725f21">Resize</a> (unsigned newSize)</td></tr>
+<tr class="memdesc:a2ebc810578b6792c7af450fb56725f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize array. <br/></td></tr>
+<tr class="separator:a2ebc810578b6792c7af450fb56725f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3daf545723ac9f0490a0154b7c0e3c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3daf545723ac9f0490a0154b7c0e3c7"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac3daf545723ac9f0490a0154b7c0e3c7">Size</a> () const </td></tr>
+<tr class="memdesc:ac3daf545723ac9f0490a0154b7c0e3c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return size of array. <br/></td></tr>
+<tr class="separator:ac3daf545723ac9f0490a0154b7c0e3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2ff438ac5332485adb8c2d0a85050d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe2ff438ac5332485adb8c2d0a85050d"></a>
+<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abe2ff438ac5332485adb8c2d0a85050d">operator[]</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key)</td></tr>
+<tr class="memdesc:abe2ff438ac5332485adb8c2d0a85050d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value with key. <br/></td></tr>
+<tr class="separator:abe2ff438ac5332485adb8c2d0a85050d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d17b0b454cba448b01f0649422919b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d17b0b454cba448b01f0649422919b6"></a>
+const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3d17b0b454cba448b01f0649422919b6">operator[]</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key) const </td></tr>
+<tr class="memdesc:a3d17b0b454cba448b01f0649422919b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value with key. <br/></td></tr>
+<tr class="separator:a3d17b0b454cba448b01f0649422919b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa12eb8d43333b563bdb559774c8365"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaa12eb8d43333b563bdb559774c8365"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#abaa12eb8d43333b563bdb559774c8365">Set</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key, const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;value)</td></tr>
+<tr class="memdesc:abaa12eb8d43333b563bdb559774c8365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set JSON value with key. <br/></td></tr>
+<tr class="separator:abaa12eb8d43333b563bdb559774c8365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e25b80f65553d9c65b2aeb0981dbdd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68e25b80f65553d9c65b2aeb0981dbdd"></a>
+const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a68e25b80f65553d9c65b2aeb0981dbdd">Get</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key) const </td></tr>
+<tr class="memdesc:a68e25b80f65553d9c65b2aeb0981dbdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value with key. <br/></td></tr>
+<tr class="separator:a68e25b80f65553d9c65b2aeb0981dbdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1baf60201e4fd7d9e09d53255c4e0083"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1baf60201e4fd7d9e09d53255c4e0083"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1baf60201e4fd7d9e09d53255c4e0083">Erase</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key)</td></tr>
+<tr class="memdesc:a1baf60201e4fd7d9e09d53255c4e0083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase a pair by key. <br/></td></tr>
+<tr class="separator:a1baf60201e4fd7d9e09d53255c4e0083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896a8565ea6b67eb02edd674e4a7dce7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a896a8565ea6b67eb02edd674e4a7dce7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a896a8565ea6b67eb02edd674e4a7dce7">Contains</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;key) const </td></tr>
+<tr class="memdesc:a896a8565ea6b67eb02edd674e4a7dce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether contains a pair with key. <br/></td></tr>
+<tr class="separator:a896a8565ea6b67eb02edd674e4a7dce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ce1dc95c91bc7529a2f98d46e9a7e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae7ce1dc95c91bc7529a2f98d46e9a7e4"></a>
+<a class="el" href="struct_urho3_d_1_1_hash_map_1_1_iterator.html">JSONObjectIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae7ce1dc95c91bc7529a2f98d46e9a7e4">Begin</a> ()</td></tr>
+<tr class="memdesc:ae7ce1dc95c91bc7529a2f98d46e9a7e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the beginning. <br/></td></tr>
+<tr class="separator:ae7ce1dc95c91bc7529a2f98d46e9a7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954b9063a64dd5317cd5c779cad12fbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a954b9063a64dd5317cd5c779cad12fbc"></a>
+<a class="el" href="struct_urho3_d_1_1_hash_map_1_1_const_iterator.html">ConstJSONObjectIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a954b9063a64dd5317cd5c779cad12fbc">Begin</a> () const </td></tr>
+<tr class="memdesc:a954b9063a64dd5317cd5c779cad12fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the beginning. <br/></td></tr>
+<tr class="separator:a954b9063a64dd5317cd5c779cad12fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cca7579f50e0cb6eb630b4ca47586ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cca7579f50e0cb6eb630b4ca47586ce"></a>
+<a class="el" href="struct_urho3_d_1_1_hash_map_1_1_iterator.html">JSONObjectIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1cca7579f50e0cb6eb630b4ca47586ce">End</a> ()</td></tr>
+<tr class="memdesc:a1cca7579f50e0cb6eb630b4ca47586ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the end. <br/></td></tr>
+<tr class="separator:a1cca7579f50e0cb6eb630b4ca47586ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3dc105d44e4a7ad2ff2cd2ccd59eef9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3dc105d44e4a7ad2ff2cd2ccd59eef9"></a>
+<a class="el" href="struct_urho3_d_1_1_hash_map_1_1_const_iterator.html">ConstJSONObjectIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aa3dc105d44e4a7ad2ff2cd2ccd59eef9">End</a> () const </td></tr>
+<tr class="memdesc:aa3dc105d44e4a7ad2ff2cd2ccd59eef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the beginning. <br/></td></tr>
+<tr class="separator:aa3dc105d44e4a7ad2ff2cd2ccd59eef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc9ca81f8840109329e4e644cf94bbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cc9ca81f8840109329e4e644cf94bbd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3cc9ca81f8840109329e4e644cf94bbd">Clear</a> ()</td></tr>
+<tr class="memdesc:a3cc9ca81f8840109329e4e644cf94bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear array or object. <br/></td></tr>
+<tr class="separator:a3cc9ca81f8840109329e4e644cf94bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6e37f0e626a54a2e21b5c2a240578c1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e37f0e626a54a2e21b5c2a240578c1f"></a>
 static const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html">JSONValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a6e37f0e626a54a2e21b5c2a240578c1f">EMPTY</a></td></tr>
-<tr class="memdesc:a6e37f0e626a54a2e21b5c2a240578c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a>. <br/></td></tr>
+<tr class="memdesc:a6e37f0e626a54a2e21b5c2a240578c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty JSON value. <br/></td></tr>
 <tr class="separator:a6e37f0e626a54a2e21b5c2a240578c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ac448c32a7fa9c8f3ef0dea3ba828f69b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac448c32a7fa9c8f3ef0dea3ba828f69b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac448c32a7fa9c8f3ef0dea3ba828f69b">AddMember</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, <a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> &amp;jsonValue)</td></tr>
-<tr class="memdesc:ac448c32a7fa9c8f3ef0dea3ba828f69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set JSON value for object type. <br/></td></tr>
-<tr class="separator:ac448c32a7fa9c8f3ef0dea3ba828f69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f78b633b98ebfcb1e81af5dd74bbd9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f78b633b98ebfcb1e81af5dd74bbd9e"></a>
-<a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a1f78b633b98ebfcb1e81af5dd74bbd9e">GetMember</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a1f78b633b98ebfcb1e81af5dd74bbd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value by name for object type. <br/></td></tr>
-<tr class="separator:a1f78b633b98ebfcb1e81af5dd74bbd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c0ca099d84643eefcd02a43f1469bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27c0ca099d84643eefcd02a43f1469bd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a27c0ca099d84643eefcd02a43f1469bd">AddMember</a> (<a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> &amp;jsonValue)</td></tr>
-<tr class="memdesc:a27c0ca099d84643eefcd02a43f1469bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add JSON value to array type. <br/></td></tr>
-<tr class="separator:a27c0ca099d84643eefcd02a43f1469bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679fe62a26950b0851f73568bd7e6143"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a679fe62a26950b0851f73568bd7e6143"></a>
-<a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a679fe62a26950b0851f73568bd7e6143">GetMember</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a679fe62a26950b0851f73568bd7e6143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return JSON value by index for array type. <br/></td></tr>
-<tr class="separator:a679fe62a26950b0851f73568bd7e6143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f7968b06bd6e9852637a46738fcb10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35f7968b06bd6e9852637a46738fcb10"></a>
+static const <a class="el" href="class_urho3_d_1_1_vector.html">JSONArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a35f7968b06bd6e9852637a46738fcb10">emptyArray</a></td></tr>
+<tr class="memdesc:a35f7968b06bd6e9852637a46738fcb10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty JSON array. <br/></td></tr>
+<tr class="separator:a35f7968b06bd6e9852637a46738fcb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3279bb63e5bc9234f04eed791887f3af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3279bb63e5bc9234f04eed791887f3af"></a>
+static const <a class="el" href="class_urho3_d_1_1_hash_map.html">JSONObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a3279bb63e5bc9234f04eed791887f3af">emptyObject</a></td></tr>
+<tr class="memdesc:a3279bb63e5bc9234f04eed791887f3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty JSON object. <br/></td></tr>
+<tr class="separator:a3279bb63e5bc9234f04eed791887f3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a81219d73650353b3553961be9f861b82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81219d73650353b3553961be9f861b82"></a>
-<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_j_s_o_n_file.html">JSONFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a81219d73650353b3553961be9f861b82">file_</a></td></tr>
-<tr class="memdesc:a81219d73650353b3553961be9f861b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON file. <br/></td></tr>
-<tr class="separator:a81219d73650353b3553961be9f861b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220933a3bae703394a6b2d84b0b93ca0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a220933a3bae703394a6b2d84b0b93ca0"></a>
-<a class="el" href="classrapidjson_1_1_generic_value.html">rapidjson::Value</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a220933a3bae703394a6b2d84b0b93ca0">value_</a></td></tr>
-<tr class="memdesc:a220933a3bae703394a6b2d84b0b93ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rapid JSON value. <br/></td></tr>
-<tr class="separator:a220933a3bae703394a6b2d84b0b93ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a466a50d6528ea2e495fb266cd2495b15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a466a50d6528ea2e495fb266cd2495b15"></a>
+JSONValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a466a50d6528ea2e495fb266cd2495b15">valueType_</a></td></tr>
+<tr class="memdesc:a466a50d6528ea2e495fb266cd2495b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type. <br/></td></tr>
+<tr class="separator:a466a50d6528ea2e495fb266cd2495b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66e8c5fa21540616f869128b74ded3a"><td class="memItemLeft" ><a class="anchor" id="ab66e8c5fa21540616f869128b74ded3a"></a>
+union {</td></tr>
+<tr class="memitem:a88eb616c4b016e6cd9998da81a025dac"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a7d6f4b68da78d1ba88385e725f9d3af0">boolValue_</a></td></tr>
+<tr class="memdesc:a88eb616c4b016e6cd9998da81a025dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean value. <br/></td></tr>
+<tr class="separator:a88eb616c4b016e6cd9998da81a025dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64258551e82d03e0c2e5e533f713bf02"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ae940b2949bb09d3f57672cd7e36b1107">numberValue_</a></td></tr>
+<tr class="memdesc:a64258551e82d03e0c2e5e533f713bf02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number value. <br/></td></tr>
+<tr class="separator:a64258551e82d03e0c2e5e533f713bf02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fc13545dcfed8b700a953d7b4d2d9b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_string.html">String</a> *&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#a2262fd742a38c36e24394c7bf309492d">stringValue_</a></td></tr>
+<tr class="memdesc:ae2fc13545dcfed8b700a953d7b4d2d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> value. <br/></td></tr>
+<tr class="separator:ae2fc13545dcfed8b700a953d7b4d2d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a4930a32656b96145fbd7a7392703e"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_vector.html">JSONArray</a> *&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#ac937b2796b300bc1633e9d22974d2cdc">arrayValue_</a></td></tr>
+<tr class="memdesc:a10a4930a32656b96145fbd7a7392703e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array value. <br/></td></tr>
+<tr class="separator:a10a4930a32656b96145fbd7a7392703e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47fb1001d30b1e8bb48a4d3d919e442e"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_hash_map.html">JSONObject</a> *&#160;&#160;&#160;<a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html#aacf7c97e325dc247142f8803cd9fa117">objectValue_</a></td></tr>
+<tr class="memdesc:a47fb1001d30b1e8bb48a4d3d919e442e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil...">Object</a> value. <br/></td></tr>
+<tr class="separator:a47fb1001d30b1e8bb48a4d3d919e442e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66e8c5fa21540616f869128b74ded3a"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab66e8c5fa21540616f869128b74ded3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>JSON value class. </p>

@@ -10,10 +10,10 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="class_urho3_d_1_1_weak_ptr.html" target="_top" xlink:title="Urho3D::WeakPtr\&lt; Urho3D\l::Renderer2D \&gt;">
+<a xlink:href="class_urho3_d_1_1_weak_ptr.html" target="_top" xlink:title="Urho3D::WeakPtr\&lt; Urho3D\l::RenderSurface \&gt;">
 <polygon fill="none" stroke="black" points="0,-0 0,-34 146,-34 146,-0 0,-0"/>
 <text text-anchor="start" x="8" y="-21" font-family="FreeSans" font-size="10.00">Urho3D::WeakPtr&lt; Urho3D</text>
-<text text-anchor="middle" x="73" y="-8" font-family="FreeSans" font-size="10.00">::Renderer2D &gt;</text>
+<text text-anchor="middle" x="73" y="-8" font-family="FreeSans" font-size="10.00">::RenderSurface &gt;</text>
 </a>
 </g>
 </g>
