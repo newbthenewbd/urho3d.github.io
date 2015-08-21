@@ -136,7 +136,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node23 -->
 <g id="node50" class="node"><title>Node23</title>
-<a xlink:href="class_urho3_d_1_1_variant.html#a2d73f7198b96f572db4d81a013899bc3" target="_top" xlink:title="Return unsigned int or zero on type mismatch.">
+<a xlink:href="class_urho3_d_1_1_variant.html#a2d73f7198b96f572db4d81a013899bc3" target="_top" xlink:title="Return unsigned int or zero on type mismatch. Floats and doubles are converted.">
 <polygon fill="none" stroke="black" points="197,-158.5 197,-179.5 333,-179.5 333,-158.5 197,-158.5"/>
 <text text-anchor="middle" x="265" y="-166.5" font-family="FreeSans" font-size="10.00">Urho3D::Variant::GetUInt</text>
 </a>

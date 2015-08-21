@@ -6,7 +6,7 @@
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_u_i_element.html#a716e59972776da716fb58ccdbb67aece" title="Set parent element. Same as parent&#45;&gt;InsertChild(index, this)." alt="" coords="283,202,435,249"/>
 <area shape="rect" id="node42" href="$class_urho3_d_1_1_u_i_element.html#af38060567b61019a94906437c4269566" title="Return a user variable." alt="" coords="283,410,435,457"/>
 <area shape="rect" id="node48" href="$class_urho3_d_1_1_variant.html#a8302f19491f67c841b450961246d1dea" title="Return a RefCounted pointer or null on type mismatch. Will return null if holding a void pointer..." alt="" coords="272,480,445,509"/>
-<area shape="rect" id="node50" href="$class_urho3_d_1_1_variant.html#a2d73f7198b96f572db4d81a013899bc3" title="Return unsigned int or zero on type mismatch." alt="" coords="268,533,449,563"/>
+<area shape="rect" id="node50" href="$class_urho3_d_1_1_variant.html#a2d73f7198b96f572db4d81a013899bc3" title="Return unsigned int or zero on type mismatch. Floats and doubles are converted." alt="" coords="268,533,449,563"/>
 <area shape="rect" id="node52" href="$class_urho3_d_1_1_u_i_element.html#a18cc52d320a11084881c887ea9db9727" title="Return all user variables." alt="" coords="283,586,435,633"/>
 <area shape="rect" id="node54" href="$class_urho3_d_1_1_hash_map.html#a3add264fee0501af663e1689968f9993" title="Erase a pair by key. Return true if was found." alt="" coords="268,656,449,685"/>
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_u_i_element.html#afca95d8f1971fbbdcf725f715cc8c7a9" title="Insert a child element into a specific position in the child list." alt="" coords="509,349,661,395"/>
