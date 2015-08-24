@@ -6061,99 +6061,17 @@ Classes</h2>
 <ul>
 <li>Variant() (GC)</li>
 <li>Variant* new()</li>
-<li>Variant(const Vector&lt;Variant&gt;&amp; value) (GC)</li>
-<li>Variant* new(const Vector&lt;Variant&gt;&amp; value)</li>
-<li>Variant(const Vector&lt;String&gt;&amp; value) (GC)</li>
-<li>Variant* new(const Vector&lt;String&gt;&amp; value)</li>
-<li>Variant(void* value) (GC)</li>
-<li>Variant* new(void* value)</li>
-<li>Variant(RefCounted* value) (GC)</li>
-<li>Variant* new(RefCounted* value)</li>
-<li>Variant(int value) (GC)</li>
-<li>Variant* new(int value)</li>
-<li>Variant(unsigned value) (GC)</li>
-<li>Variant* new(unsigned value)</li>
-<li>Variant(const StringHash&amp; value) (GC)</li>
-<li>Variant* new(const StringHash&amp; value)</li>
-<li>Variant(bool value) (GC)</li>
-<li>Variant* new(bool value)</li>
-<li>Variant(float value) (GC)</li>
-<li>Variant* new(float value)</li>
-<li>Variant(double value) (GC)</li>
-<li>Variant* new(double value)</li>
-<li>Variant(const Vector2&amp; value) (GC)</li>
-<li>Variant* new(const Vector2&amp; value)</li>
-<li>Variant(const Vector3&amp; value) (GC)</li>
-<li>Variant* new(const Vector3&amp; value)</li>
-<li>Variant(const Vector4&amp; value) (GC)</li>
-<li>Variant* new(const Vector4&amp; value)</li>
-<li>Variant(const Quaternion&amp; value) (GC)</li>
-<li>Variant* new(const Quaternion&amp; value)</li>
-<li>Variant(const Color&amp; value) (GC)</li>
-<li>Variant* new(const Color&amp; value)</li>
-<li>Variant(const String value) (GC)</li>
-<li>Variant* new(const String value)</li>
-<li>Variant(const char* value) (GC)</li>
-<li>Variant* new(const char* value)</li>
-<li>Variant(const PODVector&lt;unsigned char&gt;&amp; value) (GC)</li>
-<li>Variant* new(const PODVector&lt;unsigned char&gt;&amp; value)</li>
-<li>Variant(const VectorBuffer&amp; value) (GC)</li>
-<li>Variant* new(const VectorBuffer&amp; value)</li>
-<li>Variant(const ResourceRef&amp; value) (GC)</li>
-<li>Variant* new(const ResourceRef&amp; value)</li>
-<li>Variant(const ResourceRefList&amp; value) (GC)</li>
-<li>Variant* new(const ResourceRefList&amp; value)</li>
-<li>Variant(const VariantMap&amp; value) (GC)</li>
-<li>Variant* new(const VariantMap&amp; value)</li>
-<li>Variant(const IntRect&amp; value) (GC)</li>
-<li>Variant* new(const IntRect&amp; value)</li>
-<li>Variant(const IntVector2&amp; value) (GC)</li>
-<li>Variant* new(const IntVector2&amp; value)</li>
-<li>Variant(const Matrix3&amp; value) (GC)</li>
-<li>Variant* new(const Matrix3&amp; value)</li>
-<li>Variant(const Matrix3x4&amp; value) (GC)</li>
-<li>Variant* new(const Matrix3x4&amp; value)</li>
-<li>Variant(const Matrix4&amp; value) (GC)</li>
-<li>Variant* new(const Matrix4&amp; value)</li>
-<li>Variant(const String type, const String value) (GC)</li>
-<li>Variant* new(const String type, const String value)</li>
-<li>Variant(VariantType type, const String value) (GC)</li>
-<li>Variant* new(VariantType type, const String value)</li>
+<li>Variant(const Variant&amp; value) (GC)</li>
+<li>Variant* new(const Variant&amp; value)</li>
 <li>Variant(const char* type, const char* value) (GC)</li>
 <li>Variant* new(const char* type, const char* value)</li>
 <li>Variant(VariantType type, const char* value) (GC)</li>
 <li>Variant* new(VariantType type, const char* value)</li>
-<li>Variant(const Variant&amp; value) (GC)</li>
-<li>Variant* new(const Variant&amp; value)</li>
 <li>void delete()</li>
 <li>void Clear()</li>
-<li>bool operator==(void* rhs) const</li>
-<li>bool operator==(RefCounted* rhs) const</li>
 <li>bool operator==(const Variant&amp; rhs) const</li>
-<li>bool operator==(int rhs) const</li>
-<li>bool operator==(unsigned rhs) const</li>
-<li>bool operator==(bool rhs) const</li>
-<li>bool operator==(float rhs) const</li>
-<li>bool operator==(double rhs) const</li>
-<li>bool operator==(const Vector2&amp; rhs)</li>
-<li>bool operator==(const Vector3&amp; rhs) const</li>
-<li>bool operator==(const Vector4&amp; rhs) const</li>
-<li>bool operator==(const Quaternion&amp; rhs) const</li>
-<li>bool operator==(const Color&amp; rhs) const</li>
-<li>bool operator==(const String rhs) const</li>
-<li>bool operator==(const PODVector&lt;unsigned char&gt;&amp; rhs) const</li>
-<li>bool operator==(const VectorBuffer&amp; rhs) const</li>
-<li>bool operator==(const ResourceRef&amp; rhs) const</li>
-<li>bool operator==(const ResourceRefList&amp; rhs) const</li>
-<li>bool operator==(const Vector&lt;Variant&gt;&amp; rhs) const</li>
-<li>bool operator==(const Vector&lt;String&gt;&amp; rhs) const</li>
-<li>bool operator==(const VariantMap&amp; rhs) const</li>
-<li>bool operator==(const IntRect&amp; rhs) const</li>
-<li>bool operator==(const IntVector2&amp; rhs) const</li>
-<li>bool operator==(const StringHash&amp; rhs) const</li>
-<li>bool operator==(const Matrix3&amp; rhs) const</li>
-<li>bool operator==(const Matrix3x4&amp; rhs) const</li>
-<li>bool operator==(const Matrix4&amp; rhs) const</li>
+<li>void Set(const Variant&amp; rhs)</li>
+<li>void* Get(const char* type = 0) const</li>
 <li>int GetInt() const</li>
 <li>unsigned GetUInt() const</li>
 <li><a class="el" href="class_urho3_d_1_1_string_hash.html" title="32-bit hash value for a string.">StringHash</a> GetStringHash() const</li>
@@ -6180,7 +6098,6 @@ Classes</h2>
 <li>const <a class="el" href="class_urho3_d_1_1_matrix3.html" title="3x3 matrix for rotation and scaling.">Matrix3</a>&amp; GetMatrix3() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_matrix3x4.html" title="3x4 matrix for scene node transform calculations.">Matrix3x4</a>&amp; GetMatrix3x4() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_matrix4.html" title="4x4 matrix for arbitrary linear transforms including projection.">Matrix4</a>&amp; GetMatrix4() const</li>
-<li>void* Get(const char* type = 0) const</li>
 <li>VariantType GetType() const</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> GetTypeName() const</li>
 <li><a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> ToString() const</li>

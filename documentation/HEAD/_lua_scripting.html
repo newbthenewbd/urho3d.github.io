@@ -34,9 +34,9 @@ Debugging script files</h3>
 <p>For a single script that you wish to step through, you can use <a class="el" href="class_urho3_d_1_1_lua_script.html#a6bf75eda0da2b24b8bf73b761d83626e">ExecuteRawFile()</a>, which will load the script from the file system directly into the Lua interpreter, making the source available to debuggers that rely on it. There are a couple of caveats with this:</p>
 <ul>
 <li>The file has has to be on the file system, within a resource directory, and not packaged.</li>
-<li>If the script uses <code>require()</code> to import a second script, then that second script will not be available for the debugger in the same way, since internally the second script is passed to Lua via the resource cache.</li>
+<li>If the script uses require() to import a second script, then that second script will not be available for the debugger in the same way, since internally the second script is passed to Lua via the resource cache.</li>
 </ul>
-<p>To get around the second caveat, and avoid changing method calls, use the CMake flag <code>URHO3D_LUA_RAW_SCRIPT_LOADER</code>. This will force Urho3D to attempt to load scripts from the file system by default, before falling back on the resource cache. You can then use <a class="el" href="class_urho3_d_1_1_lua_script.html#a4417f265c050cc2e1aa8746d6ddca161">ExecuteFile()</a>, as above, and disable the CMake option for production if required.</p>
+<p>To get around the second caveat, and avoid changing method calls, use the URHO3D_LUA_RAW_SCRIPT_LOADER build option. This will force Urho3D to attempt to load scripts from the file system by default, before falling back on the resource cache. You can then use <a class="el" href="class_urho3_d_1_1_lua_script.html#a4417f265c050cc2e1aa8746d6ddca161">ExecuteFile()</a>, as above, and disable the CMake option for production if required.</p>
 <h2><a class="anchor" id="LuaScripting_ScriptObjects"></a>
 Script objects</h2>
 <p>By using the <a class="el" href="class_urho3_d_1_1_lua_script_instance.html" title="Lua script object component.">LuaScriptInstance</a> component, Lua script objects can be added to scene nodes. After the component has been created, there are two ways to specify the object to instantiate: either specifying both the script file name and the object class name, in which case the script file is loaded and executed first, or specifying only the class name, in which case the Lua code containing the class definition must already have been executed. An example of creating a script object in C++ from the LuaIntegration sample, where a class called Rotator is instantiated from the script file Rotator.lua:</p>
@@ -108,7 +108,8 @@ The script API</h2>
 <div class="line">print(myMap[&quot;I am a table&quot;]:Get(&quot;VectorBuffer&quot;):ReadByte())</div>
 <div class="line">print(myMap[&quot;I am a table&quot;]:Get()[2])</div>
 <div class="line">print(myMap[hash]:Get():Length())</div>
-</div><!-- fragment --><p>For the rest of the functions and classes, see the generated <a class="el" href="_lua_script_a_p_i.html">Lua script API reference</a>. Also, look at the Lua counterparts of the sample applications in the bin/Data/LuaScripts directory and compare them to the C++ and AngelScript versions to familiarize yourself with how things are done on the Lua side.</p>
+</div><!-- fragment --><p>There is also a generic Set() method for Variant class to cope with Lua does not support assignment operator overload. The Set() method takes a single parameter which can be anything in Lua that is convertible into a Variant, including nil value which is stored as an empty Variant. Use this method when you need to assign a value into an existing Variant object.</p>
+<p>For the rest of the functions and classes, see the generated <a class="el" href="_lua_script_a_p_i.html">Lua script API reference</a>. Also, look at the Lua counterparts of the sample applications in the bin/Data/LuaScripts directory and compare them to the C++ and AngelScript versions to familiarize yourself with how things are done on the Lua side.</p>
 <h2><a class="anchor" id="LuaScripting_Allocation"></a>
 Object allocation &amp; Lua garbage collection</h2>
 <p>There are two ways to allocate a C++ object in Lua scripting, which behave differently with respect to Lua's automatic garbage collection:</p>
