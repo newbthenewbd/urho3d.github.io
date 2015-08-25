@@ -2503,18 +2503,10 @@ Classes</h2>
 <li>JSONValue* new()</li>
 <li>JSONValue(bool value) (GC)</li>
 <li>JSONValue* new(bool value)</li>
-<li>JSONValue(int value) (GC)</li>
-<li>JSONValue* new(int value)</li>
-<li>JSONValue(unsigned value) (GC)</li>
-<li>JSONValue* new(unsigned value)</li>
-<li>JSONValue(float value) (GC)</li>
-<li>JSONValue* new(float value)</li>
-<li>JSONValue(double value) (GC)</li>
-<li>JSONValue* new(double value)</li>
-<li>JSONValue(const String value) (GC)</li>
-<li>JSONValue* new(const String value)</li>
 <li>JSONValue(const char* value) (GC)</li>
 <li>JSONValue* new(const char* value)</li>
+<li>JSONValue(double value) (GC)</li>
+<li>JSONValue* new(double value)</li>
 <li>JSONValue(const JSONArray&amp; value) (GC)</li>
 <li>JSONValue* new(const JSONArray&amp; value)</li>
 <li>JSONValue(const JSONObject&amp; value) (GC)</li>
@@ -5234,10 +5226,10 @@ Classes</h2>
 <li>StringHash* new()</li>
 <li>StringHash(const StringHash&amp; rhs) (GC)</li>
 <li>StringHash* new(const StringHash&amp; rhs)</li>
+<li>StringHash(const char* str) (GC)</li>
+<li>StringHash* new(const char* str)</li>
 <li>StringHash(unsigned value) (GC)</li>
 <li>StringHash* new(unsigned value)</li>
-<li>StringHash(const String str) (GC)</li>
-<li>StringHash* new(const String str)</li>
 <li>void delete()</li>
 <li><a class="el" href="class_urho3_d_1_1_string_hash.html" title="32-bit hash value for a string.">StringHash</a> operator+(const StringHash&amp; rhs) const</li>
 <li>bool operator==(const StringHash&amp; rhs) const</li>
