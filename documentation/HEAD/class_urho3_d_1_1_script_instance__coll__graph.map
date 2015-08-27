@@ -1,26 +1,26 @@
 <map id="Urho3D::ScriptInstance" name="Urho3D::ScriptInstance">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="1989,392,2144,421"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="1216,380,1368,409"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="1624,240,1736,269"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="677,443,829,472"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="620,216,887,280"/>
-<area shape="rect" id="node10" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="237,312,381,341"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="660,303,847,350"/>
-<area shape="rect" id="node57" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::AttributeInfo *, unsigned \&gt;" alt="" coords="1763,481,1965,527"/>
-<area shape="rect" id="node12" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="652,373,855,419"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_scene.html" title="Root scene node, represents the whole scene." alt="" coords="2008,196,2125,225"/>
-<area shape="rect" id="node20" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Node * \&gt;" alt="" coords="436,105,593,151"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,297,157,327"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="912,167,1171,214"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::DelayedCall \&gt;" alt="" coords="217,651,401,698"/>
-<area shape="rect" id="node61" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::AttributeInfo \&gt;" alt="" coords="1413,795,1597,842"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="1233,47,1351,76"/>
-<area shape="rect" id="node30" href="$class_urho3_d_1_1_quaternion.html" title="Rotation represented as a four&#45;dimensional normalized vector." alt="" coords="1217,207,1367,236"/>
-<area shape="rect" id="node36" href="$class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream." alt="" coords="1213,325,1371,355"/>
-<area shape="rect" id="node40" href="$class_urho3_d_1_1_script_event_listener.html" title="Interface class for allowing script objects or functions to subscribe to events." alt="" coords="208,572,411,601"/>
-<area shape="rect" id="node48" href="$class_urho3_d_1_1_script_file.html" title="Script file resource." alt="" coords="685,660,821,689"/>
-<area shape="rect" id="node42" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Script \&gt;" alt="" coords="1989,647,2144,694"/>
-<area shape="rect" id="node44" href="$class_urho3_d_1_1_script.html" title="Scripting subsystem. Allows execution of AngelScript." alt="" coords="1623,648,1737,677"/>
-<area shape="rect" id="node46" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::ScriptFile \&gt;" alt="" coords="1195,614,1389,661"/>
-<area shape="rect" id="node55" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="685,607,821,636"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_component.html" title="Base class for components. Components can be created to scene nodes." alt="" coords="1527,348,1681,377"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="780,83,932,112"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_node.html" title="Scene node that may contain components and child nodes." alt="" coords="1236,369,1348,399"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="259,144,411,173"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="201,197,468,261"/>
+<area shape="rect" id="node10" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="5,215,149,244"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="241,74,428,121"/>
+<area shape="rect" id="node48" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::AttributeInfo *, unsigned \&gt;" alt="" coords="493,981,696,1027"/>
+<area shape="rect" id="node12" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="233,5,436,51"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_scene.html" title="Root scene node, represents the whole scene." alt="" coords="1545,429,1663,459"/>
+<area shape="rect" id="node20" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Node * \&gt;" alt="" coords="777,135,935,182"/>
+<area shape="rect" id="node22" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="259,431,411,460"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="727,299,985,346"/>
+<area shape="rect" id="node38" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="721,422,991,469"/>
+<area shape="rect" id="node51" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::DelayedCall \&gt;" alt="" coords="764,855,948,902"/>
+<area shape="rect" id="node54" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::AttributeInfo \&gt;" alt="" coords="1016,939,1200,986"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="797,749,915,779"/>
+<area shape="rect" id="node30" href="$class_urho3_d_1_1_quaternion.html" title="Rotation represented as a four&#45;dimensional normalized vector." alt="" coords="781,247,931,276"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_vector_buffer.html" title="Dynamically sized buffer that can be read and written to as a stream." alt="" coords="777,369,935,399"/>
+<area shape="rect" id="node41" href="$class_urho3_d_1_1_vector3.html" title="Three&#45;dimensional vector." alt="" coords="792,655,920,684"/>
+<area shape="rect" id="node46" href="$class_urho3_d_1_1_script_event_listener.html" title="Interface class for allowing script objects or functions to subscribe to events." alt="" coords="755,803,957,832"/>
+<area shape="rect" id="node60" href="$class_urho3_d_1_1_script_file.html" title="Script file resource." alt="" coords="1224,796,1360,825"/>
+<area shape="rect" id="node58" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::ScriptFile \&gt;" alt="" coords="1507,814,1701,861"/>
+<area shape="rect" id="node64" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="1224,849,1360,879"/>
 </map>

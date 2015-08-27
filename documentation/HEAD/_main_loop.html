@@ -104,9 +104,7 @@ Main loop and the application activation state</h2>
 <h2><a class="anchor" id="MainLoop_ApplicationFramework"></a>
 Application framework</h2>
 <p>The <a class="el" href="class_urho3_d_1_1_application.html" title="Base class for creating applications which initialize the Urho3D engine and run a main loop until exi...">Application</a> class provides a minimal framework for a Urho3D C++ application with a main loop. It has virtual functions Setup(), Start() and Stop() which can be defined by the application subclass. The header file also provides a macro for defining a program entry point, which will instantiate the <a class="el" href="class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers.">Context</a> object and then the user-specified application class. A minimal example, which would just display a blank rendering window and exit by pressing ESC:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;Urho3D/Urho3D.h&gt;</span></div>
-<div class="line"></div>
-<div class="line"><span class="preprocessor">#include &lt;Urho3D/Engine/Application.h&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;Urho3D/Engine/Application.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;Urho3D/Engine/Engine.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;Urho3D/Input/InputEvents.h&gt;</span></div>
 <div class="line"></div>
