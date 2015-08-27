@@ -2491,7 +2491,6 @@ Classes</h2>
 <li>JSONFile() (GC)</li>
 <li>JSONFile* new()</li>
 <li>void delete()</li>
-<li>void SetRoot(const JSONValue&amp; root)</li>
 <li>const <a class="el" href="class_urho3_d_1_1_j_s_o_n_value.html" title="JSON value class.">JSONValue</a>&amp; GetRoot() const</li>
 <li>bool Save(const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> fileName, const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> indentation = "\t") const</li>
 </ul>
@@ -2514,7 +2513,6 @@ Classes</h2>
 <li>JSONValue(const JSONValue&amp; value) (GC)</li>
 <li>JSONValue* new(const JSONValue&amp; value)</li>
 <li>void delete()</li>
-<li>void SetType(JSONValueType valueType)</li>
 <li>void SetBool(bool value)</li>
 <li>void SetInt(int value)</li>
 <li>void SetUint(unsigned value)</li>
@@ -2523,7 +2521,7 @@ Classes</h2>
 <li>void SetString(const String value)</li>
 <li>void SetArray(const JSONArray&amp; value)</li>
 <li>void SetObject(const JSONObject&amp; value)</li>
-<li>JSONValueType GetType() const</li>
+<li>JSONValueType GetValueType() const</li>
 <li>bool IsNull() const</li>
 <li>bool IsBool() const</li>
 <li>bool IsNumber() const</li>
@@ -2532,7 +2530,7 @@ Classes</h2>
 <li>bool IsObject() const</li>
 <li>bool GetBool() const</li>
 <li>int GetInt() const</li>
-<li>unsigned GetUint() const</li>
+<li>unsigned GetUInt() const</li>
 <li>float GetFloat() const</li>
 <li>double GetDouble() const</li>
 <li>const <a class="el" href="class_urho3_d_1_1_string.html" title="String class.">String</a> GetString() const</li>
