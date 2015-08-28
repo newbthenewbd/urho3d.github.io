@@ -7,7 +7,7 @@
 <area shape="rect" id="node38" href="$class_urho3_d_1_1_lua_script.html" title="Lua script subsystem." alt="" coords="1808,629,1947,659"/>
 <area shape="rect" id="node44" href="$class_urho3_d_1_1_lua_script_event_invoker.html" title="Lua script event invoker." alt="" coords="672,601,893,631"/>
 <area shape="rect" id="node10" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="5,765,157,795"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_lua_function.html" title="Lua function." alt="" coords="1352,797,1507,827"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_lua_function.html" title="C++ representation of Lua function object." alt="" coords="1352,797,1507,827"/>
 <area shape="rect" id="node12" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="380,59,647,123"/>
 <area shape="rect" id="node14" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="412,146,615,193"/>
 <area shape="rect" id="node16" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="420,215,607,262"/>

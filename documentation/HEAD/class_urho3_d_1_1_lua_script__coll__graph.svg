@@ -109,7 +109,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node24 -->
 <g id="node59" class="node"><title>Node24</title>
-<a xlink:href="class_urho3_d_1_1_lua_function.html" target="_top" xlink:title="Lua function.">
+<a xlink:href="class_urho3_d_1_1_lua_function.html" target="_top" xlink:title="C++ representation of Lua function object.">
 <polygon fill="none" stroke="black" points="630,-647.5 630,-668.5 746,-668.5 746,-647.5 630,-647.5"/>
 <text text-anchor="middle" x="688" y="-655.5" font-family="FreeSans" font-size="10.00">Urho3D::LuaFunction</text>
 </a>

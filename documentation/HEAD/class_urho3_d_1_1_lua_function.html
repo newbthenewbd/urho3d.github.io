@@ -33,7 +33,7 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 
-<p>Lua function.  
+<p>C++ representation of Lua function object.  
  <a href="class_urho3_d_1_1_lua_function.html#details">More...</a></p>
 
 <p><code>#include &lt;LuaFunction.h&gt;</code></p>
@@ -52,10 +52,14 @@ Collaboration diagram for Urho3D::LuaFunction:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae8423f81aa42fe5735dbc6b5ca3c529"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae8423f81aa42fe5735dbc6b5ca3c529"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aae8423f81aa42fe5735dbc6b5ca3c529">LuaFunction</a> (lua_State *lusState, int functionRef, bool needUnref=true)</td></tr>
-<tr class="memdesc:aae8423f81aa42fe5735dbc6b5ca3c529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct. <br/></td></tr>
-<tr class="separator:aae8423f81aa42fe5735dbc6b5ca3c529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecacb8a3c5a955f70015ed9010dff187"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecacb8a3c5a955f70015ed9010dff187"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aecacb8a3c5a955f70015ed9010dff187">LuaFunction</a> (lua_State *L, int index)</td></tr>
+<tr class="memdesc:aecacb8a3c5a955f70015ed9010dff187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a Lua function object at the specified stack index. <br/></td></tr>
+<tr class="separator:aecacb8a3c5a955f70015ed9010dff187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fa8c953788935074af1d39e00bbd35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6fa8c953788935074af1d39e00bbd35"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ae6fa8c953788935074af1d39e00bbd35">LuaFunction</a> (lua_State *L, lua_CFunction func)</td></tr>
+<tr class="memdesc:ae6fa8c953788935074af1d39e00bbd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a C function. <br/></td></tr>
+<tr class="separator:ae6fa8c953788935074af1d39e00bbd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af871eea523693ea5cd3f7074847b4009"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af871eea523693ea5cd3f7074847b4009"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#af871eea523693ea5cd3f7074847b4009">~LuaFunction</a> ()</td></tr>
 <tr class="memdesc:af871eea523693ea5cd3f7074847b4009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
@@ -120,6 +124,10 @@ template&lt;typename T &gt; </td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ab907e8f599cf78b1f50900de498695ea">PushVariant</a> (const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;variant, const char *asType=0)</td></tr>
 <tr class="memdesc:ab907e8f599cf78b1f50900de498695ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push variant to stack. <br/></td></tr>
 <tr class="separator:ab907e8f599cf78b1f50900de498695ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a3980bbadca58126674623d2be695d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10a3980bbadca58126674623d2be695d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a10a3980bbadca58126674623d2be695d">PushLuaTable</a> (const char *tableName)</td></tr>
+<tr class="memdesc:a10a3980bbadca58126674623d2be695d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push Lua table to stack. When the specified table is not found then a nil is pushed instead. <br/></td></tr>
+<tr class="separator:a10a3980bbadca58126674623d2be695d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a1ca5f64ab9b320dc06b0022d70cb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4a1ca5f64ab9b320dc06b0022d70cb4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ac4a1ca5f64ab9b320dc06b0022d70cb4">PushLuaTable</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;tableName)</td></tr>
 <tr class="memdesc:ac4a1ca5f64ab9b320dc06b0022d70cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push Lua table to stack. When the specified table is not found then a nil is pushed instead. <br/></td></tr>
@@ -164,21 +172,17 @@ Private Attributes</h2></td></tr>
 lua_State *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a67495355cdfc9d3bae76bb0848e2d5ca">luaState_</a></td></tr>
 <tr class="memdesc:a67495355cdfc9d3bae76bb0848e2d5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua state. <br/></td></tr>
 <tr class="separator:a67495355cdfc9d3bae76bb0848e2d5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4d9250e11a35cd242bbb48fa0db0d97"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aa4d9250e11a35cd242bbb48fa0db0d97">functionRef_</a></td></tr>
-<tr class="memdesc:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function ref. <br/></td></tr>
-<tr class="separator:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6129e7cbb35dbd3801a65a70a5ab5508"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6129e7cbb35dbd3801a65a70a5ab5508"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#a6129e7cbb35dbd3801a65a70a5ab5508">needUnref_</a></td></tr>
-<tr class="memdesc:a6129e7cbb35dbd3801a65a70a5ab5508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Need unref. <br/></td></tr>
-<tr class="separator:a6129e7cbb35dbd3801a65a70a5ab5508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad116a56a179397125e7588972daeac54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad116a56a179397125e7588972daeac54"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#ad116a56a179397125e7588972daeac54">numArguments_</a></td></tr>
 <tr class="memdesc:ad116a56a179397125e7588972daeac54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of arguments being pushed so far. For internal use only. <br/></td></tr>
 <tr class="separator:ad116a56a179397125e7588972daeac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4d9250e11a35cd242bbb48fa0db0d97"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_lua_function.html#aa4d9250e11a35cd242bbb48fa0db0d97">functionRef_</a></td></tr>
+<tr class="memdesc:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua reference to function object. <br/></td></tr>
+<tr class="separator:aa4d9250e11a35cd242bbb48fa0db0d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Lua function. </p>
+<div class="textblock"><p>C++ representation of Lua function object. </p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/LuaScript/LuaFunction.h</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/LuaScript/LuaFunction.cpp</li>

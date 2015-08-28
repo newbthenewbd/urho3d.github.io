@@ -5,7 +5,7 @@
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_lua_script.html" title="Lua script subsystem." alt="" coords="1593,125,1732,155"/>
 <area shape="rect" id="node4" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="256,151,408,180"/>
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="1219,753,1347,783"/>
-<area shape="rect" id="node48" href="$class_urho3_d_1_1_lua_function.html" title="Lua function." alt="" coords="1205,92,1360,121"/>
+<area shape="rect" id="node48" href="$class_urho3_d_1_1_lua_function.html" title="C++ representation of Lua function object." alt="" coords="1205,92,1360,121"/>
 <area shape="rect" id="node6" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="5,61,141,91"/>
 <area shape="rect" id="node33" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::LuaScriptInstance \&gt;" alt="" coords="2192,266,2387,313"/>
 <area shape="rect" id="node11" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Object * \&gt;" alt="" coords="744,497,901,543"/>

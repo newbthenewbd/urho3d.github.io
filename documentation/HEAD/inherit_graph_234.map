@@ -31,7 +31,7 @@
 <area shape="rect" id="node67" href="$struct_urho3_d_1_1_collision_geometry_data.html" title="Base class for collision shape geometry data." alt="" coords="205,2027,432,2056"/>
 <area shape="rect" id="node75" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="255,2080,383,2109"/>
 <area shape="rect" id="node77" href="$class_urho3_d_1_1_font_face.html" title="Font face description." alt="" coords="251,2133,387,2163"/>
-<area shape="rect" id="node84" href="$class_urho3_d_1_1_lua_function.html" title="Lua function." alt="" coords="241,2187,396,2216"/>
+<area shape="rect" id="node84" href="$class_urho3_d_1_1_lua_function.html" title="C++ representation of Lua function object." alt="" coords="241,2187,396,2216"/>
 <area shape="rect" id="node86" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="259,1920,379,1949"/>
 <area shape="rect" id="node376" href="$class_urho3_d_1_1_object_factory.html" title="Base class for object factories." alt="" coords="236,2240,401,2269"/>
 <area shape="rect" id="node380" href="$class_urho3_d_1_1_pass.html" title="Material rendering pass, which defines shaders and render state." alt="" coords="265,2293,372,2323"/>
