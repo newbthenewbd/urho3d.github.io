@@ -137,10 +137,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a06423b2b66b8f5537a8ae5f8fca30049">SetFinishBackgroundResourcesMs</a> (int ms)</td></tr>
 <tr class="memdesc:a06423b2b66b8f5537a8ae5f8fca30049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how many milliseconds maximum per frame to spend on finishing background loaded resources. <br/></td></tr>
 <tr class="separator:a06423b2b66b8f5537a8ae5f8fca30049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8931e460a0dc606d1bfbb10702ec94be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8931e460a0dc606d1bfbb10702ec94be"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a8931e460a0dc606d1bfbb10702ec94be">SetResourceRouter</a> (<a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> *router)</td></tr>
-<tr class="memdesc:a8931e460a0dc606d1bfbb10702ec94be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the resource router object. By default there is none, so the routing process is skipped. <br/></td></tr>
-<tr class="separator:a8931e460a0dc606d1bfbb10702ec94be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbabe826ab808a583c70cc139f82b21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cbabe826ab808a583c70cc139f82b21"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a7cbabe826ab808a583c70cc139f82b21">AddResourceRouter</a> (<a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> *router, bool addAsFirst=false)</td></tr>
+<tr class="memdesc:a7cbabe826ab808a583c70cc139f82b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a resource router object. By default there is none, so the routing process is skipped. <br/></td></tr>
+<tr class="separator:a7cbabe826ab808a583c70cc139f82b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd46b28b1628d87cb4f0d60bd09568e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dd46b28b1628d87cb4f0d60bd09568e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a7dd46b28b1628d87cb4f0d60bd09568e">RemoveResourceRouter</a> (<a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> *router)</td></tr>
+<tr class="memdesc:a7dd46b28b1628d87cb4f0d60bd09568e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a resource router object. <br/></td></tr>
+<tr class="separator:a7dd46b28b1628d87cb4f0d60bd09568e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a8fddc0e1561115c557850f6751f76b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a8fddc0e1561115c557850f6751f76b"></a>
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_file.html">File</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a7a8fddc0e1561115c557850f6751f76b">GetFile</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name, bool sendEventOnFailure=true)</td></tr>
 <tr class="memdesc:a7a8fddc0e1561115c557850f6751f76b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open and return a file from the resource load paths or from inside a package file. If not found, use a fallback search with absolute path. Return null if fails. Can be called from outside the main thread. <br/></td></tr>
@@ -244,10 +248,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#ae5da5200c1a36a0e5e6c0091bc1f4644">GetFinishBackgroundResourcesMs</a> () const </td></tr>
 <tr class="memdesc:ae5da5200c1a36a0e5e6c0091bc1f4644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return how many milliseconds maximum to spend on finishing background loaded resources. <br/></td></tr>
 <tr class="separator:ae5da5200c1a36a0e5e6c0091bc1f4644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a982d46e5c01ac70d519fe4bb683a75e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a982d46e5c01ac70d519fe4bb683a75e0"></a>
-<a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a982d46e5c01ac70d519fe4bb683a75e0">GetResourceRouter</a> () const </td></tr>
-<tr class="memdesc:a982d46e5c01ac70d519fe4bb683a75e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the resource router. <br/></td></tr>
-<tr class="separator:a982d46e5c01ac70d519fe4bb683a75e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985c24b0278b2bcfa9085f67ede3442c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a985c24b0278b2bcfa9085f67ede3442c"></a>
+<a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a985c24b0278b2bcfa9085f67ede3442c">GetResourceRouter</a> (unsigned index) const </td></tr>
+<tr class="memdesc:a985c24b0278b2bcfa9085f67ede3442c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a resource router by index. <br/></td></tr>
+<tr class="separator:a985c24b0278b2bcfa9085f67ede3442c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b5f9755f4097677b19d6ffb9927c202"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b5f9755f4097677b19d6ffb9927c202"></a>
 <a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a6b5f9755f4097677b19d6ffb9927c202">GetPreferredResourceDir</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;path) const </td></tr>
 <tr class="memdesc:a6b5f9755f4097677b19d6ffb9927c202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return either the path itself or its parent, based on which of them has recognized resource subdirectories. <br/></td></tr>
@@ -465,10 +469,11 @@ Private Attributes</h2></td></tr>
 <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_background_loader.html">BackgroundLoader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#afe89c792f8587a4da5ef1e4c765bbe29">backgroundLoader_</a></td></tr>
 <tr class="memdesc:afe89c792f8587a4da5ef1e4c765bbe29"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_resource.html" title="Base class for resources.">Resource</a> background loader. <br/></td></tr>
 <tr class="separator:afe89c792f8587a4da5ef1e4c765bbe29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afca5f5cd8234433a291159f5e15c2b43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afca5f5cd8234433a291159f5e15c2b43"></a>
-<a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#afca5f5cd8234433a291159f5e15c2b43">resourceRouter_</a></td></tr>
-<tr class="memdesc:afca5f5cd8234433a291159f5e15c2b43"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_resource.html" title="Base class for resources.">Resource</a> router. <br/></td></tr>
-<tr class="separator:afca5f5cd8234433a291159f5e15c2b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0205840423951f62fc4aaebc9b247242"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0205840423951f62fc4aaebc9b247242"></a>
+<a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_urho3_d_1_1_shared_ptr.html">SharedPtr</a><br class="typebreak"/>
+&lt; <a class="el" href="class_urho3_d_1_1_resource_router.html">ResourceRouter</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a0205840423951f62fc4aaebc9b247242">resourceRouters_</a></td></tr>
+<tr class="memdesc:a0205840423951f62fc4aaebc9b247242"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_resource.html" title="Base class for resources.">Resource</a> routers. <br/></td></tr>
+<tr class="separator:a0205840423951f62fc4aaebc9b247242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dfcdd45c58adcb85922ba36000d97b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6dfcdd45c58adcb85922ba36000d97b5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a6dfcdd45c58adcb85922ba36000d97b5">autoReloadResources_</a></td></tr>
 <tr class="memdesc:a6dfcdd45c58adcb85922ba36000d97b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatic resource reloading flag. <br/></td></tr>
@@ -481,6 +486,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a5bf69cbb17aa18a4b17a3c28f41b3580">searchPackagesFirst_</a></td></tr>
 <tr class="memdesc:a5bf69cbb17aa18a4b17a3c28f41b3580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search priority flag. <br/></td></tr>
 <tr class="separator:a5bf69cbb17aa18a4b17a3c28f41b3580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa903df2d5687121884269ddcd84737da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa903df2d5687121884269ddcd84737da"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#aa903df2d5687121884269ddcd84737da">isRouting_</a></td></tr>
+<tr class="memdesc:aa903df2d5687121884269ddcd84737da"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_resource.html" title="Base class for resources.">Resource</a> routing flag to prevent endless recursion. <br/></td></tr>
+<tr class="separator:aa903df2d5687121884269ddcd84737da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0fc9fc5a62ecc0f0cfb6f1f09200ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e0fc9fc5a62ecc0f0cfb6f1f09200ea"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource_cache.html#a1e0fc9fc5a62ecc0f0cfb6f1f09200ea">finishBackgroundResourcesMs_</a></td></tr>
 <tr class="memdesc:a1e0fc9fc5a62ecc0f0cfb6f1f09200ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many milliseconds maximum per frame to spend on finishing background loaded resources. <br/></td></tr>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,4824,157,4853"/>
+<area shape="rect" id="node1" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,4859,157,4888"/>
 <area shape="rect" id="node3" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l bool \&gt;" alt="" coords="276,5,433,51"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l const Urho3D::SourceBatch2\lD * \&gt;" alt="" coords="249,75,460,139"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l float \&gt;" alt="" coords="276,162,433,209"/>
@@ -107,36 +107,37 @@
 <area shape="rect" id="node211" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Occlusion\lBuffer \&gt; \&gt;" alt="" coords="241,7427,468,7491"/>
 <area shape="rect" id="node213" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Package\lFile \&gt; \&gt;" alt="" coords="245,7515,464,7579"/>
 <area shape="rect" id="node215" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Pass \&gt; \&gt;" alt="" coords="243,7602,467,7649"/>
-<area shape="rect" id="node217" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::ShaderVariation \&gt; \&gt;" alt="" coords="205,7671,504,7718"/>
-<area shape="rect" id="node219" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Texture2D \&gt; \&gt;" alt="" coords="225,7741,484,7787"/>
-<area shape="rect" id="node221" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Tile2D \&gt; \&gt;" alt="" coords="237,7810,472,7857"/>
-<area shape="rect" id="node223" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::TileMap\lObject2D \&gt; \&gt;" alt="" coords="248,7880,461,7944"/>
-<area shape="rect" id="node225" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::UIElement \&gt; \&gt;" alt="" coords="224,7967,485,8014"/>
-<area shape="rect" id="node227" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::VertexBuffer \&gt; \&gt;" alt="" coords="217,8037,492,8083"/>
-<area shape="rect" id="node229" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Viewport \&gt; \&gt;" alt="" coords="229,8106,480,8153"/>
-<area shape="rect" id="node231" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; WorkerThread \&gt; \&gt;" alt="" coords="241,8175,468,8222"/>
-<area shape="rect" id="node233" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch \&gt;" alt="" coords="263,8245,447,8291"/>
-<area shape="rect" id="node235" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch2D \&gt;" alt="" coords="263,8314,447,8361"/>
-<area shape="rect" id="node237" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::String \&gt;" alt="" coords="263,8383,447,8430"/>
-<area shape="rect" id="node239" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TechniqueEntry \&gt;" alt="" coords="263,8453,447,8499"/>
-<area shape="rect" id="node241" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TextureFrame \&gt;" alt="" coords="263,8522,447,8569"/>
-<area shape="rect" id="node243" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TmxLayer2D * \&gt;" alt="" coords="263,8591,447,8638"/>
-<area shape="rect" id="node245" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::UIElement * \&gt;" alt="" coords="263,8661,447,8707"/>
-<area shape="rect" id="node247" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VAnimEventFrame \&gt;" alt="" coords="263,8730,447,8777"/>
-<area shape="rect" id="node249" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VAnimKeyFrame \&gt;" alt="" coords="263,8799,447,8846"/>
-<area shape="rect" id="node251" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Variant \&gt;" alt="" coords="263,8869,447,8915"/>
-<area shape="rect" id="node253" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector \&gt;" alt="" coords="263,8938,447,8985"/>
-<area shape="rect" id="node255" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector2 \&gt;" alt="" coords="263,9007,447,9054"/>
-<area shape="rect" id="node257" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector\&lt; Urho3D::SharedPtr\l\&lt; Urho3D::Geometry \&gt; \&gt; \&gt;" alt="" coords="252,9077,457,9141"/>
-<area shape="rect" id="node259" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vertex2D \&gt;" alt="" coords="263,9165,447,9211"/>
-<area shape="rect" id="node261" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VertexBufferDesc \&gt;" alt="" coords="263,9234,447,9281"/>
-<area shape="rect" id="node263" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Collision\lShape2D \&gt; \&gt;" alt="" coords="252,9304,457,9368"/>
-<area shape="rect" id="node265" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="225,9391,484,9438"/>
-<area shape="rect" id="node267" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Constraint2D \&gt; \&gt;" alt="" coords="221,9461,488,9507"/>
-<area shape="rect" id="node269" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Node \&gt; \&gt;" alt="" coords="247,9530,463,9577"/>
-<area shape="rect" id="node271" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::RigidBody2D \&gt; \&gt;" alt="" coords="224,9599,485,9646"/>
-<area shape="rect" id="node273" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::TerrainPatch \&gt; \&gt;" alt="" coords="225,9669,484,9715"/>
-<area shape="rect" id="node275" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::TileMapLayer2D \&gt; \&gt;" alt="" coords="213,9738,496,9785"/>
-<area shape="rect" id="node277" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::View \&gt; \&gt;" alt="" coords="249,9807,460,9854"/>
-<area shape="rect" id="node279" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Variant \&gt;" alt="" coords="257,9877,452,9907"/>
+<area shape="rect" id="node217" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Resource\lRouter \&gt; \&gt;" alt="" coords="243,7672,467,7736"/>
+<area shape="rect" id="node219" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::ShaderVariation \&gt; \&gt;" alt="" coords="205,7759,504,7806"/>
+<area shape="rect" id="node221" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Texture2D \&gt; \&gt;" alt="" coords="225,7829,484,7875"/>
+<area shape="rect" id="node223" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Tile2D \&gt; \&gt;" alt="" coords="237,7898,472,7945"/>
+<area shape="rect" id="node225" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::TileMap\lObject2D \&gt; \&gt;" alt="" coords="248,7968,461,8032"/>
+<area shape="rect" id="node227" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::UIElement \&gt; \&gt;" alt="" coords="224,8055,485,8102"/>
+<area shape="rect" id="node229" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::VertexBuffer \&gt; \&gt;" alt="" coords="217,8125,492,8171"/>
+<area shape="rect" id="node231" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::Viewport \&gt; \&gt;" alt="" coords="229,8194,480,8241"/>
+<area shape="rect" id="node233" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; WorkerThread \&gt; \&gt;" alt="" coords="241,8263,468,8310"/>
+<area shape="rect" id="node235" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch \&gt;" alt="" coords="263,8333,447,8379"/>
+<area shape="rect" id="node237" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SourceBatch2D \&gt;" alt="" coords="263,8402,447,8449"/>
+<area shape="rect" id="node239" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::String \&gt;" alt="" coords="263,8471,447,8518"/>
+<area shape="rect" id="node241" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TechniqueEntry \&gt;" alt="" coords="263,8541,447,8587"/>
+<area shape="rect" id="node243" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TextureFrame \&gt;" alt="" coords="263,8610,447,8657"/>
+<area shape="rect" id="node245" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TmxLayer2D * \&gt;" alt="" coords="263,8679,447,8726"/>
+<area shape="rect" id="node247" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::UIElement * \&gt;" alt="" coords="263,8749,447,8795"/>
+<area shape="rect" id="node249" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VAnimEventFrame \&gt;" alt="" coords="263,8818,447,8865"/>
+<area shape="rect" id="node251" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VAnimKeyFrame \&gt;" alt="" coords="263,8887,447,8934"/>
+<area shape="rect" id="node253" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Variant \&gt;" alt="" coords="263,8957,447,9003"/>
+<area shape="rect" id="node255" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector \&gt;" alt="" coords="263,9026,447,9073"/>
+<area shape="rect" id="node257" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector2 \&gt;" alt="" coords="263,9095,447,9142"/>
+<area shape="rect" id="node259" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vector\&lt; Urho3D::SharedPtr\l\&lt; Urho3D::Geometry \&gt; \&gt; \&gt;" alt="" coords="252,9165,457,9229"/>
+<area shape="rect" id="node261" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::Vertex2D \&gt;" alt="" coords="263,9253,447,9299"/>
+<area shape="rect" id="node263" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::VertexBufferDesc \&gt;" alt="" coords="263,9322,447,9369"/>
+<area shape="rect" id="node265" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Collision\lShape2D \&gt; \&gt;" alt="" coords="252,9392,457,9456"/>
+<area shape="rect" id="node267" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Component \&gt; \&gt;" alt="" coords="225,9479,484,9526"/>
+<area shape="rect" id="node269" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Constraint2D \&gt; \&gt;" alt="" coords="221,9549,488,9595"/>
+<area shape="rect" id="node271" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::Node \&gt; \&gt;" alt="" coords="247,9618,463,9665"/>
+<area shape="rect" id="node273" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::RigidBody2D \&gt; \&gt;" alt="" coords="224,9687,485,9734"/>
+<area shape="rect" id="node275" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::TerrainPatch \&gt; \&gt;" alt="" coords="225,9757,484,9803"/>
+<area shape="rect" id="node277" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::TileMapLayer2D \&gt; \&gt;" alt="" coords="213,9826,496,9873"/>
+<area shape="rect" id="node279" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::WeakPtr\&lt; Urho3D::View \&gt; \&gt;" alt="" coords="249,9895,460,9942"/>
+<area shape="rect" id="node281" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Variant \&gt;" alt="" coords="257,9965,452,9995"/>
 </map>

@@ -136,9 +136,9 @@ The script API</h2>
 <p>Check the automatically built <a class="el" href="_script_a_p_i.html">Scripting API</a> documentation for the exact function signatures. Note that the API documentation can be regenerated to the Urho3D log file by calling <a class="el" href="class_urho3_d_1_1_script.html#a2488dbf77a0855d4cf67e76e7d7f6fdd">DumpAPI()</a> function on the <a class="el" href="class_urho3_d_1_1_script.html" title="Scripting subsystem. Allows execution of AngelScript.">Script</a> subsystem or by using <a class="el" href="_tools.html#Tools_ScriptCompiler">ScriptCompiler tool</a>.</p>
 <h2><a class="anchor" id="Script_Bytecode"></a>
 Precompiling scripts to bytecode</h2>
-<p>Instead of compiling scripts from source on-the-fly during startup, they can also be precompiled to bytecode, then loaded. Use the <a class="el" href="_tools.html#Tools_ScriptCompiler">ScriptCompiler</a> utility for this. In this case the resource request has to be pointed to the compiled file, which by default has the .asc extension:</p>
-<div class="fragment"><div class="line">ScriptFile* file = GetSubsystem&lt;ResourceCache&gt;()-&gt;GetResource&lt;ScriptFile&gt;(<span class="stringliteral">&quot;Scripts/MyScript.asc&quot;</span>);</div>
-</div><!-- fragment --><h2><a class="anchor" id="Scripting_Limitations"></a>
+<p>Instead of compiling scripts from source on-the-fly during startup, they can also be precompiled to bytecode, then loaded. Use the <a class="el" href="_tools.html#Tools_ScriptCompiler">ScriptCompiler</a> utility for this.</p>
+<p>The <a class="el" href="class_urho3_d_1_1_script.html" title="Scripting subsystem. Allows execution of AngelScript.">Script</a> subsystem will automatically redirect script file resource requests (.as) to the compiled versions (.asc) if the .as file does not exist. Making a final build of a scripted application could therefore involve compiling all the scripts with ScriptCompiler, then deleting the original .as files from the build.</p>
+<h2><a class="anchor" id="Scripting_Limitations"></a>
 Limitations</h2>
 <p>There are some complexities of the scripting system one has to watch out for:</p>
 <ul>
