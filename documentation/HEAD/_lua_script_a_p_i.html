@@ -5056,18 +5056,24 @@ Classes</h2>
 <li>void AddControlPoint(Node* point, unsigned index = M_MAX_UNSIGNED)</li>
 <li>void RemoveControlPoint(Node* point)</li>
 <li>void ClearControlPoints()</li>
-<li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetPoint(float factor) const</li>
-<li>InterpolationMode GetInterpolationMode() const</li>
-<li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetPosition() const</li>
 <li>void SetInterpolationMode(InterpolationMode mode)</li>
 <li>void SetPosition(float factor)</li>
+<li>void SetControlledNode(Node* controlled)</li>
+<li>InterpolationMode GetInterpolationMode() const</li>
+<li>float GetSpeed() const</li>
+<li>float GetLength() const</li>
+<li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetPosition() const</li>
+<li>Node* GetControlledNode() const</li>
+<li><a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> GetPoint(float factor) const</li>
 <li>void Move(float timeStep)</li>
 <li>void Reset()</li>
 <li>bool IsFinished() const</li>
 </ul>
 <p>Properties:</p>
 <ul>
+<li>InterpolationMode interpolationMode</li>
 <li>float speed</li>
+<li>float length (readonly)</li>
 <li>Node* controlledNode</li>
 </ul>
 <p><a class="anchor" id="Class_Sprite"></a> </p>
