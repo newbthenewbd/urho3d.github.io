@@ -30,8 +30,8 @@ Module.expectedDataFileDownloads++;
                               Module['locateFile'](REMOTE_PACKAGE_BASE) :
                               ((Module['filePackagePrefixURL'] || '') + REMOTE_PACKAGE_BASE);
   
-      var REMOTE_PACKAGE_SIZE = 11577352;
-      var PACKAGE_UUID = 'b4b820e3-1f84-4c73-ba5b-f1f263d2a4a3';
+      var REMOTE_PACKAGE_SIZE = 11578159;
+      var PACKAGE_UUID = '70b7c23c-8ca1-4845-a6d5-c22e5e65a4ed';
     
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
@@ -120,7 +120,7 @@ Module.expectedDataFileDownloads++;
     };
 
       new DataRequest(0, 121277, 0, 0).open('GET', '/CoreData.pak');
-    new DataRequest(121277, 11577352, 0, 0).open('GET', '/Data.pak');
+    new DataRequest(121277, 11578159, 0, 0).open('GET', '/Data.pak');
 
       var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
       var IDB_RO = "readonly";
@@ -216,8 +216,9 @@ Module.expectedDataFileDownloads++;
       var byteArray = new Uint8Array(arrayBuffer);
       var curr;
       
-      // copy the entire loaded file into a spot in the heap. Files will refer to slices in that. They cannot be freed though.
-      var ptr = Module['_malloc'](byteArray.length);
+      // copy the entire loaded file into a spot in the heap. Files will refer to slices in that. They cannot be freed though
+      // (we may be allocating before malloc is ready, during startup).
+      var ptr = Module['getMemory'](byteArray.length);
       Module['HEAPU8'].set(byteArray, ptr);
       DataRequest.prototype.byteArray = Module['HEAPU8'].subarray(ptr, ptr+byteArray.length);
           DataRequest.prototype.requests["/CoreData.pak"].onload();
