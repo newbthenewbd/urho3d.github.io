@@ -93,11 +93,13 @@ Build options</h2>
 <tr>
 <th>Build Option </th><th>Value</th><th>Description </th></tr>
 <tr>
-<td>ANDROID </td><td>0</td><td>Configure project using Android cross-compiler toolchain (cmake_generic.bat and cmake_generic.sh only) </td></tr>
+<td>ANDROID </td><td>0</td><td>Configure project using Android cross-compiler toolchain (cmake_generic.bat and cmake_generic.sh only), cmake-gui users need to specify Android toolchain file for cross-compiling explicitly </td></tr>
 <tr>
-<td>RPI </td><td>0</td><td>Configure project using Raspberry Pi cross-compiler toolchain (cmake_generic.sh only) </td></tr>
+<td>RPI </td><td>0</td><td>Configure project using Raspberry Pi cross-compiler toolchain (cmake_generic.sh only), cmake-gui users need to specify RPI toolchain file for cross-compiling explicitly </td></tr>
 <tr>
-<td>WIN32 </td><td>0</td><td>Configure project using MinGW cross-compiler toolchain (cmake_generic.sh only); also applicable when cross-compiling 64-bit Windows platform </td></tr>
+<td>WIN32 </td><td>0</td><td>Configure project using MinGW (32-bit or 64-bit) cross-compiler toolchain (cmake_generic.sh only), cmake-gui users need to specify MinGW toolchain file for cross-compiling explicitly </td></tr>
+<tr>
+<td>EMSCRIPTEN </td><td>0</td><td>Configure project using Emscripten cross-compiler toolchain (cmake_generic.bat and cmake_generic.sh only), cmake-gui users need to specify Emscripten toolchain file for cross-compiling explicitly </td></tr>
 <tr>
 <td>URHO3D_C++11 </td><td>0</td><td>Enable C++11 standard </td></tr>
 <tr>
