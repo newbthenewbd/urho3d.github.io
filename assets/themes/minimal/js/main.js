@@ -64,8 +64,8 @@ $(document).ready(function() {
       var enable = id === 'dark';
       // Store current user selected theme to cookie before applying the filter for the selected theme
       Cookies.set('theme', id, {expires: 365});
-      // Firefox does not invert body's background color as Webkit does, so workaround it
-      if (filter === 'filter') $topElem.css('background-color', enable ? '#131313' : 'white');
+      // Firefox and Webkit now consistently do not invert body's background color, so need to flip the background manually
+      $topElem.css('background-color', enable ? '#131313' : 'white');
       // Invert luminance for top-level element which should be inherited by all the descendant elements
       $topElem.css(filter, enable ? 'invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%)' : 'none');
       // Revert luminance just for image and embedded iframe usually used for youtube videos
