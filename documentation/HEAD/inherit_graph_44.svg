@@ -10,10 +10,10 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="struct_urho3_d_1_1_attribute_trait_3_01float_01_4.html" target="_top" xlink:title="Float attribute trait.">
+<a xlink:href="struct_urho3_d_1_1_attribute_trait_3_01unsigned_01_4.html" target="_top" xlink:title="unsigned attribute trait.">
 <polygon fill="none" stroke="black" points="0.5,-0 0.5,-34 121.5,-34 121.5,-0 0.5,-0"/>
 <text text-anchor="start" x="8.5" y="-21" font-family="FreeSans" font-size="10.00">Urho3D::AttributeTrait</text>
-<text text-anchor="middle" x="61" y="-8" font-family="FreeSans" font-size="10.00">&lt; float &gt;</text>
+<text text-anchor="middle" x="61" y="-8" font-family="FreeSans" font-size="10.00">&lt; unsigned &gt;</text>
 </a>
 </g>
 </g>

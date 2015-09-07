@@ -7,5 +7,5 @@
 <area shape="rect" id="node8" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="125,160,277,189"/>
 <area shape="rect" id="node10" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="141,83,261,112"/>
 <area shape="rect" id="node12" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="125,5,277,35"/>
-<area shape="rect" id="node19" href="$class_urho3_d_1_1_animated_sprite2_d.html" title="Animated sprite component, it uses to play animation created by Spriter (http://www.brashmonkey.com/)." alt="" coords="205,624,403,653"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_animated_sprite2_d.html" title="Animated sprite component, it uses to play animation created by Spine (http://www.esotericsoftware.com) and Spriter (http://www.brashmonkey.com/)." alt="" coords="205,624,403,653"/>
 </map>

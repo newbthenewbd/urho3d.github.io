@@ -15,7 +15,7 @@
 </g>
 <!-- Node9 -->
 <g id="node17" class="node"><title>Node9</title>
-<a xlink:href="class_urho3_d_1_1_animated_sprite2_d.html" target="_top" xlink:title="Animated sprite component, it uses to play animation created by Spriter (http://www.brashmonkey.com/).">
+<a xlink:href="class_urho3_d_1_1_animated_sprite2_d.html" target="_top" xlink:title="Animated sprite component, it uses to play animation created by Spine (http://www.esotericsoftware.com) and Spriter (http://www.brashmonkey.com/).">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-21.5 148,-21.5 148,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="74" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::AnimatedSprite2D</text>
 </a>

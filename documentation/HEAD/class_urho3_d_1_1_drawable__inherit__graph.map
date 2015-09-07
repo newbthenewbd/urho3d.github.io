@@ -17,7 +17,7 @@
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_particle_emitter.html" title="Particle emitter component." alt="" coords="1417,5,1588,35"/>
 <area shape="rect" id="node23" href="$class_urho3_d_1_1_particle_emitter2_d.html" title="2D particle emitter component." alt="" coords="1408,139,1597,168"/>
 <area shape="rect" id="node25" href="$class_urho3_d_1_1_static_sprite2_d.html" title="Static sprite component." alt="" coords="1417,192,1588,221"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_animated_sprite2_d.html" title="Animated sprite component, it uses to play animation created by Spriter (http://www.brashmonkey.com/)." alt="" coords="1648,192,1845,221"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_animated_sprite2_d.html" title="Animated sprite component, it uses to play animation created by Spine (http://www.esotericsoftware.com) and Spriter (http://www.brashmonkey.com/)." alt="" coords="1648,192,1845,221"/>
 <area shape="rect" id="node35" href="$class_urho3_d_1_1_animated_model.html" title="Animated model component." alt="" coords="1413,272,1592,301"/>
 <area shape="rect" id="node37" href="$class_urho3_d_1_1_skybox.html" title="Static model component with fixed position in relation to the camera." alt="" coords="1440,325,1565,355"/>
 <area shape="rect" id="node39" href="$class_urho3_d_1_1_static_model_group.html" title="Renders several object instances while culling and receiving light as one unit. Can be used as a CPU&#45;..." alt="" coords="1407,379,1599,408"/>
