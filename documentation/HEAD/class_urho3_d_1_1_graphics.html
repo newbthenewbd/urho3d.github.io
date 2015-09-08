@@ -126,9 +126,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a3e7b555e97944dd99eef236499d73d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics.html#a3e7b555e97944dd99eef236499d73d7b">Clear</a> (unsigned flags, const <a class="el" href="class_urho3_d_1_1_color.html">Color</a> &amp;color=<a class="el" href="class_urho3_d_1_1_color.html">Color</a>(0.0f, 0.0f, 0.0f, 0.0f), float depth=1.0f, unsigned stencil=0)</td></tr>
 <tr class="memdesc:a3e7b555e97944dd99eef236499d73d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any or all of rendertarget, depth buffer and stencil buffer.  <a href="#a3e7b555e97944dd99eef236499d73d7b">More...</a><br/></td></tr>
 <tr class="separator:a3e7b555e97944dd99eef236499d73d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd08617bb78ea63930fed43edff8d3db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd08617bb78ea63930fed43edff8d3db"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics.html#abd08617bb78ea63930fed43edff8d3db">ResolveToTexture</a> (<a class="el" href="class_urho3_d_1_1_texture2_d.html">Texture2D</a> *destination, const <a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a> &amp;viewport)</td></tr>
-<tr class="memdesc:abd08617bb78ea63930fed43edff8d3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve multisampled backbuffer to a texture rendertarget. The texture's size should match the viewport size. <br/></td></tr>
+<tr class="memitem:abd08617bb78ea63930fed43edff8d3db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics.html#abd08617bb78ea63930fed43edff8d3db">ResolveToTexture</a> (<a class="el" href="class_urho3_d_1_1_texture2_d.html">Texture2D</a> *destination, const <a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a> &amp;viewport)</td></tr>
+<tr class="memdesc:abd08617bb78ea63930fed43edff8d3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve multisampled backbuffer to a texture rendertarget. The texture's size should match the viewport size.  <a href="#abd08617bb78ea63930fed43edff8d3db">More...</a><br/></td></tr>
 <tr class="separator:abd08617bb78ea63930fed43edff8d3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53af62ede0ca685ae4ad4e65898379a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53af62ede0ca685ae4ad4e65898379a0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics.html#a53af62ede0ca685ae4ad4e65898379a0">Draw</a> (PrimitiveType type, unsigned vertexStart, unsigned vertexCount)</td></tr>
@@ -2139,7 +2138,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clear any or all of rendertarget, depth buffer and stencil buffer. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>Any user-set scissor test will be lost </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Any user-set scissor test will be lost </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -2173,7 +2172,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Return supported multisampling levels. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Implement properly, if possible </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Implement properly, if possible </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -2187,6 +2186,43 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_graphics_a90d355b3dfe8646161038c4488e79298_icgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abd08617bb78ea63930fed43edff8d3db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Urho3D::Graphics::ResolveToTexture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_urho3_d_1_1_texture2_d.html">Texture2D</a> *&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_urho3_d_1_1_int_rect.html">IntRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>viewport</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resolve multisampled backbuffer to a texture rendertarget. The texture's size should match the viewport size. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>These rects are not used! Would need to work around copying less than a full viewport </dd></dl>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_graphics_abd08617bb78ea63930fed43edff8d3db_cgraph.svg" width="454" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2218,7 +2254,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Set shaders. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Causes overhead and string manipulation per drawcall </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Causes overhead and string manipulation per drawcall </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

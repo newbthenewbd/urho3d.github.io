@@ -1,0 +1,7 @@
+<map id="Urho3D::Graphics::ResolveToTexture" name="Urho3D::Graphics::ResolveToTexture">
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_texture2_d.html#a09f127d549e0e72be504269e91e43326" title="Return render surface." alt="" coords="272,5,421,51"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_texture.html#acfd4faedc2f8b67d4e704158cc4e8781" title="Return width." alt="" coords="252,75,441,104"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_texture.html#a1620a19d49cd5a72926a74b9b7205d7b" title="Return height." alt="" coords="248,128,445,157"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_g_p_u_object.html#a67142837fc5ed67f4b0bf7f97df2cb5d" title="Return Direct3D object." alt="" coords="269,181,424,227"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_texture.html#a2f053f59f1001c8c85c9382d07900211" title="Return texture format." alt="" coords="245,251,448,280"/>
+</map>
