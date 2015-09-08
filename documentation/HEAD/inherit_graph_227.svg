@@ -10,9 +10,9 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="class_urho3_d_1_1_string_hash.html" target="_top" xlink:title="32&#45;bit hash value for a string.">
+<a xlink:href="struct_urho3_d_1_1_spriter_1_1_file.html" target="_top" xlink:title="File.">
 <polygon fill="none" stroke="black" points="0.5,-0.5 0.5,-21.5 113.5,-21.5 113.5,-0.5 0.5,-0.5"/>
-<text text-anchor="middle" x="57" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::StringHash</text>
+<text text-anchor="middle" x="57" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::Spriter::File</text>
 </a>
 </g>
 </g>

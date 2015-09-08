@@ -1,0 +1,17 @@
+<map id="Urho3D::Spriter::SpriterInstance" name="Urho3D::Spriter::SpriterInstance">
+<area shape="rect" id="node2" href="$struct_urho3_d_1_1_spriter_1_1_entity.html" title="Entity." alt="" coords="735,109,900,139"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Animation * \&gt;" alt="" coords="209,93,433,139"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,260,157,289"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Character\lMap * \&gt;" alt="" coords="223,5,420,69"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::SpatialTimeline\lKey * \&gt;" alt="" coords="460,128,689,192"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Entity * \&gt;" alt="" coords="224,213,419,259"/>
+<area shape="rect" id="node22" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Folder * \&gt;" alt="" coords="223,282,420,329"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Ref * \&gt;" alt="" coords="232,446,411,493"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Timeline * \&gt;" alt="" coords="215,515,428,562"/>
+<area shape="rect" id="node37" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Spriter::Mainline\lKey * \&gt;" alt="" coords="228,585,415,649"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="263,393,380,423"/>
+<area shape="rect" id="node17" href="$struct_urho3_d_1_1_spriter_1_1_spriter_data.html" title="Spriter data." alt="" coords="716,300,919,329"/>
+<area shape="rect" id="node31" href="$struct_urho3_d_1_1_spriter_1_1_animation.html" title="Animation." alt="" coords="720,411,915,440"/>
+<area shape="rect" id="node26" href="$struct_urho3_d_1_1_spriter_1_1_mainline_key.html" title="Mainline key." alt="" coords="716,355,919,384"/>
+<area shape="rect" id="node40" href="$struct_urho3_d_1_1_spriter_1_1_spatial_info.html" title="Spatial info." alt="" coords="719,464,916,493"/>
+</map>
