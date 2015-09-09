@@ -67,7 +67,7 @@ Material textures</h2>
 </div><!-- fragment --><p>The sRGB flag controls both whether the texture should be sampled with sRGB to linear conversion, and if used as a rendertarget, pixels should be converted back to sRGB when writing to it. To control whether the backbuffer should use sRGB conversion on write, call <a class="el" href="class_urho3_d_1_1_graphics.html#af80c739184f6f4e7260a282ee4ace9a9">SetSRGB()</a> on the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> subsystem.</p>
 <h2><a class="anchor" id="Materials_CubeMapTextures"></a>
 Cube map textures</h2>
-<p>Using cube map textures requires an XML file to define the cube map face textures or layout. In this case the XML file <em>is</em> the texture resource name in material scripts or in LoadResource() calls.</p>
+<p>Using cube map textures requires an XML file to define the cube map face images, or a single image with layout. In this case the XML file <em>is</em> the texture resource name in material scripts or in LoadResource() calls.</p>
 <p>Individual face textures are defined in the XML like this: (see bin/Data/Textures/Skybox.xml for an example)</p>
 <div class="fragment"><div class="line">&lt;cubemap&gt;</div>
 <div class="line">    &lt;face name=<span class="stringliteral">&quot;PositiveX_TextureName&quot;</span> /&gt;</div>
@@ -82,6 +82,13 @@ Cube map textures</h2>
 <div class="line">    &lt;image name=<span class="stringliteral">&quot;TextureName&quot;</span> layout=<span class="stringliteral">&quot;horizontal|horizontalnvidia|horizontalcross|verticalcross|blender&quot;</span> /&gt;</div>
 <div class="line">&lt;/cubemap&gt;</div>
 </div><!-- fragment --><p>For the layout definitions, see <a href="http://www.cgtextures.com/content.php?action=tutorial&name=cubemaps">http://www.cgtextures.com/content.php?action=tutorial&amp;name=cubemaps</a> and <a href="http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Build_a_skybox">http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Build_a_skybox</a></p>
+<h2><a class="anchor" id="Materials_3DTextures"></a>
+3D textures</h2>
+<p>3D textures likewise require an XML file to describe how they should be loaded. The XML should contain either a "volume" or "colorlut" element, which defines the image to load with its "name" attribute. The "volume" mode requires that the image is in a format that supports 3D (volume) textures directly, for example DDS. The "colorlut" mode allows any format, and instead spreads out the Z slices of the volume image horizontally in a 2D image from the left to the right: for example LUTIdentity.png has 16 16x16 slices for a total image size 256x16.</p>
+<div class="fragment"><div class="line">&lt;texture3d&gt;</div>
+<div class="line">    &lt;colorlut name=<span class="stringliteral">&quot;LUTIdentity.png&quot;</span> /&gt;</div>
+<div class="line">&lt;/texture3d&gt;</div>
+</div><!-- fragment --><p>Using a 3D texture for color correction postprocess (see bin/Data/PostProcess/ColorCorrection.xml) requires the 3D texture to be assigned to the "volume" texture unit, so that the effect knows to load the texture as the correct type. The lookup for the corrected color happens by using the original color's red channel as the X coordinate, the green channel as the Y coordinate, and blue as the Z. Therefore the identity LUT's slices (which shouldn't transform the color at all) grow red from left to right and green from top to bottom, and finally the slices themselves turn blue from left to right.</p>
 <h2><a class="anchor" id="Materials_Techniques"></a>
 Techniques and passes</h2>
 <p>A technique definition looks like this:</p>
