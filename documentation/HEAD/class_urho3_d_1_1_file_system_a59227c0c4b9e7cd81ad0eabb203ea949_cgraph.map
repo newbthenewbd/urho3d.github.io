@@ -1,16 +1,16 @@
 <map id="Urho3D::FileSystem::ScanDirInternal" name="Urho3D::FileSystem::ScanDirInternal">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="448,347,616,376"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="448,215,616,244"/>
 <area shape="rect" id="node5" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="205,109,392,139"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_string.html#aed2d8d23da6f2403c7aaa20082036f88" title="Resize the string." alt="" coords="449,57,615,87"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="457,241,607,271"/>
-<area shape="rect" id="node16" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="208,216,389,245"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="457,400,607,429"/>
+<area shape="rect" id="node16" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="208,213,389,243"/>
 <area shape="rect" id="node18" href="$class_urho3_d_1_1_string.html#ac6f0b2fb0bce5afbeb088c7cb15abbe1" title="Clear the string." alt="" coords="220,5,377,35"/>
-<area shape="rect" id="node21" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="204,163,393,192"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="213,371,384,400"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html#ab02cf1796911cde042e4e02d9574c881" title="Return whether ends with a string." alt="" coords="208,424,389,453"/>
+<area shape="rect" id="node22" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="213,320,384,349"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="204,373,393,403"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_string.html#ab02cf1796911cde042e4e02d9574c881" title="Return whether ends with a string." alt="" coords="208,267,389,296"/>
 <area shape="rect" id="node32" href="$class_urho3_d_1_1_vector.html#a083b39861b996df82f811a9a4ebff109" title="Add an element at the end." alt="" coords="220,477,377,507"/>
 <area shape="rect" id="node34" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="216,531,381,560"/>
 <area shape="rect" id="node9" href="$class_urho3_d_1_1_string.html#a953822d6a39e507861ee02a24bb7996e" title="Copy chars from one buffer to another." alt="" coords="669,84,864,113"/>
 <area shape="rect" id="node12" href="$class_urho3_d_1_1_string.html#a6cbd21dcf8801df80b76acebc4dbbdd3" title="Construct empty." alt="" coords="451,161,613,191"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_string.html#a51df88f180228044fb35435b2b3e1f90" title="Return index to the last occurrence of a string, or NPOS if not found." alt="" coords="444,424,620,453"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_string.html#a51df88f180228044fb35435b2b3e1f90" title="Return index to the last occurrence of a string, or NPOS if not found." alt="" coords="444,268,620,297"/>
 </map>

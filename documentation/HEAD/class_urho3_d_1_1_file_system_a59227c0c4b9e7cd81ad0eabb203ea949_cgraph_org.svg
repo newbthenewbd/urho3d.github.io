@@ -10,21 +10,21 @@
 <title>Urho3D::FileSystem::ScanDirInternal</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-191 0.5,-225 111.5,-225 111.5,-191 0.5,-191"/>
-<text text-anchor="start" x="8.5" y="-212" font-family="FreeSans" font-size="10.00">Urho3D::FileSystem</text>
-<text text-anchor="middle" x="56" y="-199" font-family="FreeSans" font-size="10.00">::ScanDirInternal</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-192 0.5,-226 111.5,-226 111.5,-192 0.5,-192"/>
+<text text-anchor="start" x="8.5" y="-213" font-family="FreeSans" font-size="10.00">Urho3D::FileSystem</text>
+<text text-anchor="middle" x="56" y="-200" font-family="FreeSans" font-size="10.00">::ScanDirInternal</text>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
 <a xlink:href="class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" target="_top" xlink:title="Return length.">
-<polygon fill="none" stroke="black" points="331.5,-138.5 331.5,-159.5 458.5,-159.5 458.5,-138.5 331.5,-138.5"/>
-<text text-anchor="middle" x="395" y="-146.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Length</text>
+<polygon fill="none" stroke="black" points="331.5,-237.5 331.5,-258.5 458.5,-258.5 458.5,-237.5 331.5,-237.5"/>
+<text text-anchor="middle" x="395" y="-245.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Length</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M111.599,-198.323C169.814,-188.192 261.392,-172.253 324.612,-161.25"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="325.254,-164.691 334.505,-159.529 324.053,-157.795 325.254,-164.691"/>
+<path fill="none" stroke="midnightblue" d="M75.1135,-226.285C92.6346,-240.879 120.034,-260.687 148,-269 217.083,-289.536 301.479,-274.219 351.593,-261.167"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="352.7,-264.494 361.446,-258.514 350.88,-257.735 352.7,-264.494"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
@@ -35,8 +35,8 @@
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M67.2667,-225.053C82.8091,-247.234 112.92,-285.661 148,-307 151.554,-309.162 155.347,-311.096 159.263,-312.825"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="157.985,-316.083 168.572,-316.5 160.555,-309.572 157.985,-316.083"/>
+<path fill="none" stroke="midnightblue" d="M68.8268,-226.1C85.1351,-246.751 115.148,-281.289 148,-302 154.69,-306.217 162.18,-309.828 169.733,-312.886"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="168.685,-316.231 179.277,-316.467 171.144,-309.677 168.685,-316.231"/>
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
@@ -46,33 +46,33 @@
 </a>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge26" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M61.7402,-225.397C72.8817,-256.065 100.6,-319.135 148,-347 200.574,-377.906 270.686,-380.404 322.778,-376.482"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="323.278,-379.952 332.946,-375.618 322.686,-372.977 323.278,-379.952"/>
+<g id="edge22" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M61.7783,-226.275C72.9801,-256.728 100.79,-319.353 148,-347 200.625,-377.818 270.732,-380.326 322.809,-376.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="323.304,-379.9 332.974,-375.572 322.715,-372.925 323.304,-379.9"/>
 </g>
 <!-- Node7 -->
 <g id="node14" class="node"><title>Node7</title>
 <a xlink:href="class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" target="_top" xlink:title="Return index to the first occurrence of a string, or NPOS if not found.">
-<polygon fill="none" stroke="black" points="338.5,-217.5 338.5,-238.5 451.5,-238.5 451.5,-217.5 338.5,-217.5"/>
-<text text-anchor="middle" x="395" y="-225.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Find</text>
+<polygon fill="none" stroke="black" points="338.5,-98.5 338.5,-119.5 451.5,-119.5 451.5,-98.5 338.5,-98.5"/>
+<text text-anchor="middle" x="395" y="-106.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Find</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge14" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M111.599,-211.28C170.851,-214.776 264.664,-220.311 327.962,-224.045"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="328.05,-227.556 338.239,-224.651 328.462,-220.568 328.05,-227.556"/>
+<path fill="none" stroke="midnightblue" d="M65.4678,-191.907C79.7593,-168.098 109.332,-125.968 148,-109 209.294,-82.1027 287.672,-88.0062 339.512,-96.7105"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="339.056,-100.184 349.513,-98.4798 340.276,-93.2912 339.056,-100.184"/>
 </g>
 <!-- Node8 -->
 <g id="node16" class="node"><title>Node8</title>
 <a xlink:href="class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" target="_top" xlink:title="Return whether contains a specific occurrence of a string.">
-<polygon fill="none" stroke="black" points="152,-236.5 152,-257.5 288,-257.5 288,-236.5 152,-236.5"/>
-<text text-anchor="middle" x="220" y="-244.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Contains</text>
+<polygon fill="none" stroke="black" points="152,-238.5 152,-259.5 288,-259.5 288,-238.5 152,-238.5"/>
+<text text-anchor="middle" x="220" y="-246.5" font-family="FreeSans" font-size="10.00">Urho3D::String::Contains</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge16" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M111.523,-221.204C129.001,-225.36 148.277,-229.944 165.67,-234.08"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="165.128,-237.549 175.667,-236.457 166.748,-230.739 165.128,-237.549"/>
+<path fill="none" stroke="midnightblue" d="M111.523,-222.542C129.312,-226.881 148.962,-231.674 166.596,-235.975"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="166.172,-239.474 176.717,-238.443 167.831,-232.673 166.172,-239.474"/>
 </g>
 <!-- Node9 -->
 <g id="node18" class="node"><title>Node9</title>
@@ -83,44 +83,44 @@
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge18" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M60.5516,-225.074C70.5525,-259.367 97.6598,-337 148,-380 152.754,-384.061 158.206,-387.474 163.936,-390.341"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="162.549,-393.554 173.109,-394.41 165.388,-387.156 162.549,-393.554"/>
+<path fill="none" stroke="midnightblue" d="M60.6585,-226.238C70.7747,-260.465 97.9636,-337.365 148,-380 152.759,-384.055 158.214,-387.465 163.946,-390.329"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="162.56,-393.544 173.121,-394.396 165.397,-387.144 162.56,-393.544"/>
 </g>
 <!-- Node10 -->
-<g id="node21" class="node"><title>Node10</title>
-<a xlink:href="class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" target="_top" xlink:title="Return whether starts with a string.">
-<polygon fill="none" stroke="black" points="148.5,-276.5 148.5,-297.5 291.5,-297.5 291.5,-276.5 148.5,-276.5"/>
-<text text-anchor="middle" x="220" y="-284.5" font-family="FreeSans" font-size="10.00">Urho3D::String::StartsWith</text>
+<g id="node22" class="node"><title>Node10</title>
+<a xlink:href="class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" target="_top" xlink:title="Return the C string.">
+<polygon fill="none" stroke="black" points="155.5,-158.5 155.5,-179.5 284.5,-179.5 284.5,-158.5 155.5,-158.5"/>
+<text text-anchor="middle" x="220" y="-166.5" font-family="FreeSans" font-size="10.00">Urho3D::String::CString</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge22" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M78.3537,-225.053C96.3442,-238.089 122.712,-255.689 148,-267 153.107,-269.284 158.537,-271.367 164.035,-273.25"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="163.362,-276.709 173.953,-276.426 165.497,-270.043 163.362,-276.709"/>
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M111.523,-195.458C129.312,-191.119 148.962,-186.326 166.596,-182.025"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="167.831,-185.327 176.717,-179.557 166.172,-178.526 167.831,-185.327"/>
 </g>
 <!-- Node11 -->
-<g id="node25" class="node"><title>Node11</title>
-<a xlink:href="class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" target="_top" xlink:title="Return the C string.">
-<polygon fill="none" stroke="black" points="155.5,-120.5 155.5,-141.5 284.5,-141.5 284.5,-120.5 155.5,-120.5"/>
-<text text-anchor="middle" x="220" y="-128.5" font-family="FreeSans" font-size="10.00">Urho3D::String::CString</text>
+<g id="node24" class="node"><title>Node11</title>
+<a xlink:href="class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" target="_top" xlink:title="Return whether starts with a string.">
+<polygon fill="none" stroke="black" points="148.5,-118.5 148.5,-139.5 291.5,-139.5 291.5,-118.5 148.5,-118.5"/>
+<text text-anchor="middle" x="220" y="-126.5" font-family="FreeSans" font-size="10.00">Urho3D::String::StartsWith</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
-<g id="edge28" class="edge"><title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M83.1024,-190.965C101.078,-180.1 125.428,-166.197 148,-156 156.86,-151.997 166.566,-148.233 175.901,-144.899"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="177.144,-148.173 185.445,-141.59 174.85,-141.559 177.144,-148.173"/>
+<g id="edge26" class="edge"><title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M77.9404,-191.909C95.9127,-178.613 122.456,-160.543 148,-149 153.098,-146.696 158.522,-144.601 164.017,-142.709"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="165.481,-145.915 173.93,-139.524 163.339,-139.251 165.481,-145.915"/>
 </g>
 <!-- Node12 -->
 <g id="node27" class="node"><title>Node12</title>
 <a xlink:href="class_urho3_d_1_1_string.html#ab02cf1796911cde042e4e02d9574c881" target="_top" xlink:title="Return whether ends with a string.">
-<polygon fill="none" stroke="black" points="151.5,-80.5 151.5,-101.5 288.5,-101.5 288.5,-80.5 151.5,-80.5"/>
-<text text-anchor="middle" x="220" y="-88.5" font-family="FreeSans" font-size="10.00">Urho3D::String::EndsWith</text>
+<polygon fill="none" stroke="black" points="151.5,-198.5 151.5,-219.5 288.5,-219.5 288.5,-198.5 151.5,-198.5"/>
+<text text-anchor="middle" x="220" y="-206.5" font-family="FreeSans" font-size="10.00">Urho3D::String::EndsWith</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node12 -->
 <g id="edge30" class="edge"><title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M67.6177,-190.925C83.3263,-169.144 113.39,-131.812 148,-111 151.565,-108.856 155.366,-106.936 159.288,-105.217"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="160.577,-108.471 168.607,-101.559 158.02,-101.955 160.577,-108.471"/>
+<path fill="none" stroke="midnightblue" d="M111.523,-209C121.141,-209 131.303,-209 141.396,-209"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="141.444,-212.5 151.444,-209 141.444,-205.5 141.444,-212.5"/>
 </g>
 <!-- Node14 -->
 <g id="node32" class="node"><title>Node14</title>
@@ -131,8 +131,8 @@
 </g>
 <!-- Node1&#45;&gt;Node14 -->
 <g id="edge36" class="edge"><title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M62.7807,-190.809C75.1819,-161.632 104.326,-102.523 148,-71 150.548,-69.1612 153.258,-67.4912 156.077,-65.9747"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="157.8,-69.0329 165.384,-61.6346 154.842,-62.6887 157.8,-69.0329"/>
+<path fill="none" stroke="midnightblue" d="M63.5487,-191.694C76.6973,-163.491 106.425,-107.601 148,-76 153.45,-71.8576 159.638,-68.3685 166.042,-65.4378"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="167.608,-68.5782 175.52,-61.5324 164.941,-62.1061 167.608,-68.5782"/>
 </g>
 <!-- Node15 -->
 <g id="node34" class="node"><title>Node15</title>
@@ -143,8 +143,8 @@
 </g>
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge38" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M59.9623,-190.975C69.0905,-155.619 95.0012,-73.9634 148,-31 150.072,-29.3201 152.276,-27.7811 154.577,-26.3711"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="156.601,-29.2639 163.861,-21.5474 153.373,-23.0524 156.601,-29.2639"/>
+<path fill="none" stroke="midnightblue" d="M59.9326,-191.88C69.0047,-156.328 94.815,-74.2159 148,-31 150.07,-29.3177 152.273,-27.7767 154.572,-26.365"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156.596,-29.2573 163.852,-21.5365 153.365,-23.0476 156.596,-29.2573"/>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge6" class="edge"><title>Node3&#45;&gt;Node4</title>
@@ -185,27 +185,27 @@
 <path fill="none" stroke="midnightblue" d="M267.358,-394.446C289.049,-389.612 314.942,-383.841 337.721,-378.765"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="338.605,-382.154 347.605,-376.562 337.083,-375.321 338.605,-382.154"/>
 </g>
-<!-- Node10&#45;&gt;Node7 -->
-<g id="edge24" class="edge"><title>Node10&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M260.559,-276.43C270.87,-273.552 281.89,-270.311 292,-267 314.696,-259.568 339.763,-250.105 359.485,-242.361"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="360.976,-245.536 368.987,-238.602 358.4,-239.027 360.976,-245.536"/>
+<!-- Node11&#45;&gt;Node7 -->
+<g id="edge28" class="edge"><title>Node11&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M291.684,-120.808C303.852,-119.417 316.442,-117.978 328.47,-116.603"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="328.882,-120.079 338.419,-115.466 328.087,-113.125 328.882,-120.079"/>
 </g>
 <!-- Node12&#45;&gt;Node2 -->
 <g id="edge34" class="edge"><title>Node12&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M260.163,-101.525C270.582,-104.428 281.753,-107.693 292,-111 314.345,-118.212 339.035,-127.282 358.639,-134.752"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="357.514,-138.069 368.104,-138.385 360.022,-131.534 357.514,-138.069"/>
+<path fill="none" stroke="midnightblue" d="M267.358,-219.554C289.049,-224.388 314.942,-230.159 337.721,-235.235"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.083,-238.679 347.605,-237.438 338.605,-231.846 337.083,-238.679"/>
 </g>
 <!-- Node13 -->
 <g id="node29" class="node"><title>Node13</title>
 <a xlink:href="class_urho3_d_1_1_string.html#a51df88f180228044fb35435b2b3e1f90" target="_top" xlink:title="Return index to the last occurrence of a string, or NPOS if not found.">
-<polygon fill="none" stroke="black" points="328.5,-80.5 328.5,-101.5 461.5,-101.5 461.5,-80.5 328.5,-80.5"/>
-<text text-anchor="middle" x="395" y="-88.5" font-family="FreeSans" font-size="10.00">Urho3D::String::FindLast</text>
+<polygon fill="none" stroke="black" points="328.5,-197.5 328.5,-218.5 461.5,-218.5 461.5,-197.5 328.5,-197.5"/>
+<text text-anchor="middle" x="395" y="-205.5" font-family="FreeSans" font-size="10.00">Urho3D::String::FindLast</text>
 </a>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
 <g id="edge32" class="edge"><title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M288.662,-91C298.328,-91 308.315,-91 318.122,-91"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="318.255,-94.5001 328.255,-91 318.255,-87.5001 318.255,-94.5001"/>
+<path fill="none" stroke="midnightblue" d="M288.662,-208.608C298.328,-208.552 308.315,-208.495 318.122,-208.439"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="318.275,-211.939 328.255,-208.381 318.235,-204.939 318.275,-211.939"/>
 </g>
 </g>
 </svg>

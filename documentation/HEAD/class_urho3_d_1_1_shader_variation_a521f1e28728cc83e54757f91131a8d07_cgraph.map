@@ -1,26 +1,26 @@
 <map id="Urho3D::ShaderVariation::LoadByteCode" name="Urho3D::ShaderVariation::LoadByteCode">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_resource_cache.html#a94659e6c04c0bb9791019913b7866252" title="Return whether a file exists by name." alt="" coords="767,216,943,263"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_file_system.html#ab597bbe58fed7bbc825c8c01f5b2d60c" title="Returns the file&#39;s last modified time as seconds since 1.1.1970, or 0 if can not be accessed..." alt="" coords="1001,30,1164,76"/>
-<area shape="rect" id="node40" href="$class_urho3_d_1_1_resource_cache.html#a368d4a90b48e25ec5f245fda5e49bae3" title="Return full absolute file name of resource if possible." alt="" coords="767,134,943,180"/>
-<area shape="rect" id="node44" href="$class_urho3_d_1_1_resource_cache.html#a7a8fddc0e1561115c557850f6751f76b" title="Open and return a file from the resource load paths or from inside a package file. If not found, use a fallback search with absolute path. Return null if fails. Can be called from outside the main thread." alt="" coords="256,336,432,383"/>
-<area shape="rect" id="node62" href="$class_urho3_d_1_1_p_o_d_vector.html#a90931bab46c47be9f1989f4ec86bd487" title="Resize the vector." alt="" coords="267,406,421,452"/>
-<area shape="rect" id="node64" href="$class_urho3_d_1_1_shader_variation.html#a6da1356b18b052d0413ff106934103fc" title="Return full shader name." alt="" coords="253,475,435,522"/>
-<area shape="rect" id="node66" href="$class_urho3_d_1_1_shader_variation.html#ae0244988b02aaf541a0e6d38f01c4998" title="Calculate constant buffer sizes from parameters." alt="" coords="235,544,453,591"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_resource_cache.html#acaf617b205d693cd493febfc01c330a8" title="Remove unsupported constructs from the resource name to prevent ambiguity, and normalize absolute fil..." alt="" coords="992,468,1173,515"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_vector.html#a06762e9e70b9851f54a845555f28cd4b" title="Return size of vector." alt="" coords="1240,305,1395,334"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="1472,305,1637,334"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_file_system.html#a0372e5805f0266e27aae75dbe501733c" title="Check if a file exists." alt="" coords="1009,134,1156,180"/>
-<area shape="rect" id="node7" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="1468,464,1641,493"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_file_system.html#a5d93365af462341ea8029827581854a6" title="Return the program&#39;s directory. If it does not contain the Urho3D default CoreData and Data directori..." alt="" coords="1244,408,1391,455"/>
-<area shape="rect" id="node18" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="1223,201,1412,230"/>
-<area shape="rect" id="node20" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="1461,541,1648,570"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="1233,633,1401,662"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html#ad6a5f266f8164b6b1022f93a4e92eb92" title="Return string with whitespace trimmed from the beginning and the end." alt="" coords="1228,580,1407,609"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="1469,149,1640,178"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_file_system.html#a1e3cbbed618e7f98ce56c5fa8de9ac43" title="Check if a path is allowed to be accessed. If no paths are registered, all are allowed." alt="" coords="1244,80,1391,127"/>
-<area shape="rect" id="node48" href="$class_urho3_d_1_1_resource_cache.html#a5f04a4a638ce2b7d0c65576b69e39850" title="Search resource packages for file." alt="" coords="521,216,697,263"/>
-<area shape="rect" id="node51" href="$class_urho3_d_1_1_resource_cache.html#a60e44d787700bab6fc1ffa513e3216b7" title="Search FileSystem for file." alt="" coords="767,286,943,332"/>
-<area shape="rect" id="node56" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="503,612,716,641"/>
-<area shape="rect" id="node58" href="$class_urho3_d_1_1_object.html#ab8dbe9844094c04463def7df1fa650d5" title="Return a preallocated map for event data. Used for optimization to avoid constant re&#45;allocation of ev..." alt="" coords="516,336,703,383"/>
-<area shape="rect" id="node60" href="$class_urho3_d_1_1_object.html#a32020dbf77c196b9777eca479e8abb36" title="Send event to all subscribers." alt="" coords="511,457,708,486"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_resource_cache.html#a94659e6c04c0bb9791019913b7866252" title="Return whether a file exists by name." alt="" coords="767,407,943,454"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_file_system.html#ab597bbe58fed7bbc825c8c01f5b2d60c" title="Returns the file&#39;s last modified time as seconds since 1.1.1970, or 0 if can not be accessed..." alt="" coords="1236,602,1399,649"/>
+<area shape="rect" id="node39" href="$class_urho3_d_1_1_resource_cache.html#a368d4a90b48e25ec5f245fda5e49bae3" title="Return full absolute file name of resource if possible." alt="" coords="995,607,1171,654"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_resource_cache.html#a7a8fddc0e1561115c557850f6751f76b" title="Open and return a file from the resource load paths or from inside a package file. If not found, use a fallback search with absolute path. Return null if fails. Can be called from outside the main thread." alt="" coords="256,326,432,373"/>
+<area shape="rect" id="node61" href="$class_urho3_d_1_1_p_o_d_vector.html#a90931bab46c47be9f1989f4ec86bd487" title="Resize the vector." alt="" coords="267,727,421,774"/>
+<area shape="rect" id="node63" href="$class_urho3_d_1_1_shader_variation.html#a6da1356b18b052d0413ff106934103fc" title="Return full shader name." alt="" coords="253,797,435,843"/>
+<area shape="rect" id="node65" href="$class_urho3_d_1_1_shader_variation.html#ae0244988b02aaf541a0e6d38f01c4998" title="Calculate constant buffer sizes from parameters." alt="" coords="235,866,453,913"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_resource_cache.html#acaf617b205d693cd493febfc01c330a8" title="Remove unsupported constructs from the resource name to prevent ambiguity, and normalize absolute fil..." alt="" coords="992,153,1173,199"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_vector.html#a06762e9e70b9851f54a845555f28cd4b" title="Return size of vector." alt="" coords="1240,452,1395,481"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="1472,360,1637,389"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_file_system.html#a0372e5805f0266e27aae75dbe501733c" title="Check if a file exists." alt="" coords="1244,533,1391,579"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="1468,219,1641,248"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_file_system.html#a5d93365af462341ea8029827581854a6" title="Return the program&#39;s directory. If it does not contain the Urho3D default CoreData and Data directori..." alt="" coords="1244,266,1391,313"/>
+<area shape="rect" id="node18" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="1223,213,1412,243"/>
+<area shape="rect" id="node20" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="1461,84,1648,113"/>
+<area shape="rect" id="node22" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="1233,5,1401,35"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html#ad6a5f266f8164b6b1022f93a4e92eb92" title="Return string with whitespace trimmed from the beginning and the end." alt="" coords="1228,109,1407,139"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="1469,541,1640,571"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_file_system.html#a1e3cbbed618e7f98ce56c5fa8de9ac43" title="Check if a path is allowed to be accessed. If no paths are registered, all are allowed." alt="" coords="1481,598,1628,645"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_resource_cache.html#a5f04a4a638ce2b7d0c65576b69e39850" title="Search resource packages for file." alt="" coords="521,386,697,433"/>
+<area shape="rect" id="node50" href="$class_urho3_d_1_1_resource_cache.html#a60e44d787700bab6fc1ffa513e3216b7" title="Search FileSystem for file." alt="" coords="995,487,1171,534"/>
+<area shape="rect" id="node55" href="$class_urho3_d_1_1_thread.html#a591d469de804a63cbcca350b84f96670" title="Return whether is executing in the main thread." alt="" coords="503,456,716,485"/>
+<area shape="rect" id="node57" href="$class_urho3_d_1_1_object.html#ab8dbe9844094c04463def7df1fa650d5" title="Return a preallocated map for event data. Used for optimization to avoid constant re&#45;allocation of ev..." alt="" coords="516,213,703,259"/>
+<area shape="rect" id="node59" href="$class_urho3_d_1_1_object.html#a32020dbf77c196b9777eca479e8abb36" title="Send event to all subscribers." alt="" coords="511,283,708,312"/>
 </map>

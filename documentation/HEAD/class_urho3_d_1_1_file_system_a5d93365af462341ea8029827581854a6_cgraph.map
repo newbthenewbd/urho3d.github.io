@@ -1,17 +1,16 @@
 <map id="Urho3D::FileSystem::GetProgramDir" name="Urho3D::FileSystem::GetProgramDir">
 <area shape="rect" id="node3" href="$class_urho3_d_1_1_string.html#a69ac7aadaa628fc05fc96abde992fcdc" title="Return whether the string is empty." alt="" coords="208,5,373,35"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="437,57,608,87"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_string.html#a6b405eba451da6c0f216a8649adf79aa" title="Return the C string." alt="" coords="435,57,605,87"/>
 <area shape="rect" id="node7" href="$class_urho3_d_1_1_file_system.html#a575af6ad91fa461aca37622cfe928c85" title="Return the absolute current working directory." alt="" coords="217,109,364,155"/>
 <area shape="rect" id="node9" href="$class_urho3_d_1_1_file_system.html#a2cd013d75ee49cea693188f3471d228e" title="Check if a directory exists." alt="" coords="217,178,364,225"/>
-<area shape="rect" id="node34" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="204,248,377,277"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_file_system.html#a1e3cbbed618e7f98ce56c5fa8de9ac43" title="Check if a path is allowed to be accessed. If no paths are registered, all are allowed." alt="" coords="449,110,596,157"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_string.html#a6dffd447850e4d687096a79dafe8bdac" title="Return whether starts with a string." alt="" coords="428,180,617,209"/>
-<area shape="rect" id="node20" href="$class_urho3_d_1_1_string.html#a51df88f180228044fb35435b2b3e1f90" title="Return index to the last occurrence of a string, or NPOS if not found." alt="" coords="435,233,611,263"/>
-<area shape="rect" id="node22" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="429,287,616,316"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_string.html#af929252b4bd8cbd8dca97a116365c359" title="Append a string." alt="" coords="436,340,609,369"/>
-<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="667,119,848,148"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="683,176,832,205"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_string.html#aed2d8d23da6f2403c7aaa20082036f88" title="Resize the string." alt="" coords="675,235,840,264"/>
-<area shape="rect" id="node26" href="$class_urho3_d_1_1_string.html#a953822d6a39e507861ee02a24bb7996e" title="Copy chars from one buffer to another." alt="" coords="896,261,1091,291"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_string.html#a6cbd21dcf8801df80b76acebc4dbbdd3" title="Construct empty." alt="" coords="676,339,839,368"/>
+<area shape="rect" id="node32" href="$class_urho3_d_1_1_string.html#ab08b5f1f7cee23f3e14eebcb2f7f8d4e" title="Replace all occurrences of a character." alt="" coords="204,248,377,277"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_file_system.html#a1e3cbbed618e7f98ce56c5fa8de9ac43" title="Check if a path is allowed to be accessed. If no paths are registered, all are allowed." alt="" coords="447,110,593,157"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_string.html#a51df88f180228044fb35435b2b3e1f90" title="Return index to the last occurrence of a string, or NPOS if not found." alt="" coords="432,180,608,209"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_string.html#a11572e3c07f60de65ac5d0c1ca5b6ba3" title="Return length." alt="" coords="436,233,604,263"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_string.html#ade8095f1798d6e1d4ed03d43d9919611" title="Return a substring from position to end." alt="" coords="427,337,613,367"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_string.html#aed2d8d23da6f2403c7aaa20082036f88" title="Resize the string." alt="" coords="669,285,835,315"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_string.html#a3d2477d745f6e572795b77ac69075c5d" title="Return whether contains a specific occurrence of a string." alt="" coords="661,92,843,121"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_string.html#a7cb1eb905c5e4b88d8d281455d8d0caf" title="Return index to the first occurrence of a string, or NPOS if not found." alt="" coords="677,145,827,175"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_string.html#a953822d6a39e507861ee02a24bb7996e" title="Copy chars from one buffer to another." alt="" coords="891,312,1085,341"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_string.html#a6cbd21dcf8801df80b76acebc4dbbdd3" title="Construct empty." alt="" coords="671,389,833,419"/>
 </map>
