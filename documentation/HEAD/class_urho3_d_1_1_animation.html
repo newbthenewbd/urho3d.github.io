@@ -78,10 +78,29 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ac737330f6e82ee7af2cbdcc783eee99d">SetLength</a> (float length)</td></tr>
 <tr class="memdesc:ac737330f6e82ee7af2cbdcc783eee99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set animation length. <br/></td></tr>
 <tr class="separator:ac737330f6e82ee7af2cbdcc783eee99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd5f6d36755f06d0a2963fb4f671591c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd5f6d36755f06d0a2963fb4f671591c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#abd5f6d36755f06d0a2963fb4f671591c">SetTracks</a> (const <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt; &amp;tracks)</td></tr>
-<tr class="memdesc:abd5f6d36755f06d0a2963fb4f671591c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all animation tracks. <br/></td></tr>
-<tr class="separator:abd5f6d36755f06d0a2963fb4f671591c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa5e965cccdbc2cc8833b56de361d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a7aa5e965cccdbc2cc8833b56de361d00">CreateTrack</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name)</td></tr>
+<tr class="memdesc:a7aa5e965cccdbc2cc8833b56de361d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return a track by name. If track by same name already exists, returns the existing.  <a href="#a7aa5e965cccdbc2cc8833b56de361d00">More...</a><br/></td></tr>
+<tr class="separator:a7aa5e965cccdbc2cc8833b56de361d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bd62b63772babf271787154dadbe55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8bd62b63772babf271787154dadbe55"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ae8bd62b63772babf271787154dadbe55">RemoveTrack</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name)</td></tr>
+<tr class="memdesc:ae8bd62b63772babf271787154dadbe55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a track by name. Return true if was found and removed successfully. This is unsafe if the animation is currently used in playback. <br/></td></tr>
+<tr class="separator:ae8bd62b63772babf271787154dadbe55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9cabf41705ca73c73cbd507a6670cea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9cabf41705ca73c73cbd507a6670cea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#af9cabf41705ca73c73cbd507a6670cea">RemoveAllTracks</a> ()</td></tr>
+<tr class="memdesc:af9cabf41705ca73c73cbd507a6670cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all tracks. This is unsafe if the animation is currently used in playback. <br/></td></tr>
+<tr class="separator:af9cabf41705ca73c73cbd507a6670cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e051197851eed21e8118c835f97a19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1e051197851eed21e8118c835f97a19"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ad1e051197851eed21e8118c835f97a19">SetTracks</a> (const <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a>, <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt; &amp;tracks)</td></tr>
+<tr class="memdesc:ad1e051197851eed21e8118c835f97a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all animation tracks. <br/></td></tr>
+<tr class="separator:ad1e051197851eed21e8118c835f97a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037b1050f42cc78e7d541429e8f9f354"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a037b1050f42cc78e7d541429e8f9f354"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a037b1050f42cc78e7d541429e8f9f354">SetTrigger</a> (unsigned index, const <a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html">AnimationTriggerPoint</a> &amp;trigger)</td></tr>
+<tr class="memdesc:a037b1050f42cc78e7d541429e8f9f354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a trigger point at index. <br/></td></tr>
+<tr class="separator:a037b1050f42cc78e7d541429e8f9f354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c8918b0bbcd26ef8e23ea6a753b23e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4c8918b0bbcd26ef8e23ea6a753b23e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ae4c8918b0bbcd26ef8e23ea6a753b23e">AddTrigger</a> (const <a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html">AnimationTriggerPoint</a> &amp;trigger)</td></tr>
+<tr class="memdesc:ae4c8918b0bbcd26ef8e23ea6a753b23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a trigger point. <br/></td></tr>
+<tr class="separator:ae4c8918b0bbcd26ef8e23ea6a753b23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac066647471f44eedce4998bf57d727be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac066647471f44eedce4998bf57d727be"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ac066647471f44eedce4998bf57d727be">AddTrigger</a> (float time, bool timeIsNormalized, const <a class="el" href="class_urho3_d_1_1_variant.html">Variant</a> &amp;data)</td></tr>
 <tr class="memdesc:ac066647471f44eedce4998bf57d727be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a trigger point. <br/></td></tr>
@@ -110,26 +129,23 @@ const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;<
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#aebccbd8f509e69fb1d7c404a6a85bf30">GetLength</a> () const </td></tr>
 <tr class="memdesc:aebccbd8f509e69fb1d7c404a6a85bf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation length. <br/></td></tr>
 <tr class="separator:aebccbd8f509e69fb1d7c404a6a85bf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59ba0ec7340e3cbf88a2947eb4057a55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59ba0ec7340e3cbf88a2947eb4057a55"></a>
-const <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a59ba0ec7340e3cbf88a2947eb4057a55">GetTracks</a> () const </td></tr>
-<tr class="memdesc:a59ba0ec7340e3cbf88a2947eb4057a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all animation tracks. <br/></td></tr>
-<tr class="separator:a59ba0ec7340e3cbf88a2947eb4057a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43db196d0b9dec9d78bbd3650dfd1932"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43db196d0b9dec9d78bbd3650dfd1932"></a>
+const <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a>, <br class="typebreak"/>
+<a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a43db196d0b9dec9d78bbd3650dfd1932">GetTracks</a> () const </td></tr>
+<tr class="memdesc:a43db196d0b9dec9d78bbd3650dfd1932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all animation tracks. <br/></td></tr>
+<tr class="separator:a43db196d0b9dec9d78bbd3650dfd1932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0418971fada298aee7d56883ceb8275f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0418971fada298aee7d56883ceb8275f"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a0418971fada298aee7d56883ceb8275f">GetNumTracks</a> () const </td></tr>
 <tr class="memdesc:a0418971fada298aee7d56883ceb8275f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of animation tracks. <br/></td></tr>
 <tr class="separator:a0418971fada298aee7d56883ceb8275f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3d6a50099d951ee89ce0aec75345b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f3d6a50099d951ee89ce0aec75345b5"></a>
-const <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a7f3d6a50099d951ee89ce0aec75345b5">GetTrack</a> (unsigned index) const </td></tr>
-<tr class="memdesc:a7f3d6a50099d951ee89ce0aec75345b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation track by index. <br/></td></tr>
-<tr class="separator:a7f3d6a50099d951ee89ce0aec75345b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0accbed44a478ac0ea03f979efff14a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0accbed44a478ac0ea03f979efff14a2"></a>
-const <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a0accbed44a478ac0ea03f979efff14a2">GetTrack</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name) const </td></tr>
-<tr class="memdesc:a0accbed44a478ac0ea03f979efff14a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation track by bone name. <br/></td></tr>
-<tr class="separator:a0accbed44a478ac0ea03f979efff14a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a111201f34ac25cfe7dc4e8673a2e8146"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a111201f34ac25cfe7dc4e8673a2e8146"></a>
-const <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a111201f34ac25cfe7dc4e8673a2e8146">GetTrack</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> nameHash) const </td></tr>
-<tr class="memdesc:a111201f34ac25cfe7dc4e8673a2e8146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation track by bone name hash. <br/></td></tr>
-<tr class="separator:a111201f34ac25cfe7dc4e8673a2e8146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c231216cb45be02384e4da344c64dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6c231216cb45be02384e4da344c64dd"></a>
+<a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#aa6c231216cb45be02384e4da344c64dd">GetTrack</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name)</td></tr>
+<tr class="memdesc:aa6c231216cb45be02384e4da344c64dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation track by name. <br/></td></tr>
+<tr class="separator:aa6c231216cb45be02384e4da344c64dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ea03d55965573e8cea2046736791b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88ea03d55965573e8cea2046736791b0"></a>
+<a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a88ea03d55965573e8cea2046736791b0">GetTrack</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> nameHash)</td></tr>
+<tr class="memdesc:a88ea03d55965573e8cea2046736791b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return animation track by name hash. <br/></td></tr>
+<tr class="separator:a88ea03d55965573e8cea2046736791b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a816e0b981e09aabdb9ce9553cb938aac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a816e0b981e09aabdb9ce9553cb938aac"></a>
 const <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a><br class="typebreak"/>
 &lt; <a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html">AnimationTriggerPoint</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a816e0b981e09aabdb9ce9553cb938aac">GetTriggers</a> () const </td></tr>
@@ -139,6 +155,10 @@ const <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a><br class="ty
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a2fbdd03463b698a58773076f006e3a8c">GetNumTriggers</a> () const </td></tr>
 <tr class="memdesc:a2fbdd03463b698a58773076f006e3a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of animation trigger points. <br/></td></tr>
 <tr class="separator:a2fbdd03463b698a58773076f006e3a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c54c54e6ff2f5976119c54e280c4aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67c54c54e6ff2f5976119c54e280c4aa"></a>
+<a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html">AnimationTriggerPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a67c54c54e6ff2f5976119c54e280c4aa">GetTrigger</a> (unsigned index)</td></tr>
+<tr class="memdesc:a67c54c54e6ff2f5976119c54e280c4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a trigger point by index. <br/></td></tr>
+<tr class="separator:a67c54c54e6ff2f5976119c54e280c4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_urho3_d_1_1_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_urho3_d_1_1_resource')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_urho3_d_1_1_resource.html">Urho3D::Resource</a></td></tr>
 <tr class="memitem:ae3e1545370dec17a283705989a1cc682 inherit pub_methods_class_urho3_d_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3e1545370dec17a283705989a1cc682"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_resource.html#ae3e1545370dec17a283705989a1cc682">Resource</a> (<a class="el" href="class_urho3_d_1_1_context.html">Context</a> *context)</td></tr>
@@ -346,10 +366,11 @@ Private Attributes</h2></td></tr>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a3dd3e3d663c28f211ef1f2056e851945">length_</a></td></tr>
 <tr class="memdesc:a3dd3e3d663c28f211ef1f2056e851945"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_animation.html" title="Skeletal animation resource.">Animation</a> length. <br/></td></tr>
 <tr class="separator:a3dd3e3d663c28f211ef1f2056e851945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d62b74641280f490241059b216cd81"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3d62b74641280f490241059b216cd81"></a>
-<a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ab3d62b74641280f490241059b216cd81">tracks_</a></td></tr>
-<tr class="memdesc:ab3d62b74641280f490241059b216cd81"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_animation.html" title="Skeletal animation resource.">Animation</a> tracks. <br/></td></tr>
-<tr class="separator:ab3d62b74641280f490241059b216cd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab337bee2b4958199fea3b84b12d76cbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab337bee2b4958199fea3b84b12d76cbf"></a>
+<a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a>, <br class="typebreak"/>
+<a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#ab337bee2b4958199fea3b84b12d76cbf">tracks_</a></td></tr>
+<tr class="memdesc:ab337bee2b4958199fea3b84b12d76cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_animation.html" title="Skeletal animation resource.">Animation</a> tracks. <br/></td></tr>
+<tr class="separator:ab337bee2b4958199fea3b84b12d76cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322a337e36d722fd8a47b08f6a7bf34b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a322a337e36d722fd8a47b08f6a7bf34b"></a>
 <a class="el" href="class_urho3_d_1_1_vector.html">Vector</a>&lt; <a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html">AnimationTriggerPoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_animation.html#a322a337e36d722fd8a47b08f6a7bf34b">triggers_</a></td></tr>
 <tr class="memdesc:a322a337e36d722fd8a47b08f6a7bf34b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_animation.html" title="Skeletal animation resource.">Animation</a> trigger points. <br/></td></tr>
@@ -365,7 +386,43 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Skeletal animation resource. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7aa5e965cccdbc2cc8833b56de361d00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_urho3_d_1_1_animation_track.html">AnimationTrack</a> * Urho3D::Animation::CreateTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create and return a track by name. If track by same name already exists, returns the existing. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>When tracks / keyframes are created dynamically, memory use is not updated </dd></dl>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_animation_a7aa5e965cccdbc2cc8833b56de361d00_cgraph.svg" width="363" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_animation_a7aa5e965cccdbc2cc8833b56de361d00_icgraph.svg" width="363" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Animation.h</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Animation.cpp</li>
 </ul>

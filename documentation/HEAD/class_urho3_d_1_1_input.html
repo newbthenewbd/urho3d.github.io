@@ -640,8 +640,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Add screen joystick. </p>
 <p>Return the joystick instance ID when successful or negative on error. If layout file is not given, use the default screen joystick layout. If style file is not given, use the default style file from root <a class="el" href="class_urho3_d_1_1_u_i.html" title="UI subsystem. Manages the graphical user interface.">UI</a> element.</p>
 <p>This method should only be called in main thread. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>After a real joystick has been plugged in 1073741824 times, the ranges will overlap </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Axis emulation for screen joystick is not fully supported yet. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>After a real joystick has been plugged in 1073741824 times, the ranges will overlap </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>Axis emulation for screen joystick is not fully supported yet. </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -703,7 +703,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Clear input state. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>Check if resetting joystick state on input focus loss is even necessary </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>Check if resetting joystick state on input focus loss is even necessary </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -741,8 +741,8 @@ Here is the caller graph for this function:</div>
 <p>Set the mouse mode behaviour. MM_ABSOLUTE is the default behaviour, allowing the toggling of operating system cursor visibility and allowing the cursor to escape the window when visible. When the operating system cursor is invisible in absolute mouse mode, the mouse is confined to the window. If the operating system and <a class="el" href="class_urho3_d_1_1_u_i.html" title="UI subsystem. Manages the graphical user interface.">UI</a> cursors are both invisible, interaction with the Urho <a class="el" href="class_urho3_d_1_1_u_i.html" title="UI subsystem. Manages the graphical user interface.">UI</a> will be limited (eg: drag move / drag end events will not trigger). SetMouseMode(MM_ABSOLUTE) will call SetMouseGrabbed(false).</p>
 <p>MM_RELATIVE sets the operating system cursor to invisible and confines the cursor to the window. The operating system cursor cannot be set to be visible in this mode via <a class="el" href="class_urho3_d_1_1_input.html#a42f016907a65f849a98e0ad9c24d97ee" title="Set whether the operating system mouse cursor is visible. When not visible (default), is kept centered to prevent leaving the window. Mouse visibility event can be suppressed– this also recalls any unsuppressed SetMouseVisible which can be returned by ResetMouseVisible().">SetMouseVisible()</a>, however changes are tracked and will be restored when another mouse mode is set. When the virtual cursor is also invisible, <a class="el" href="class_urho3_d_1_1_u_i.html" title="UI subsystem. Manages the graphical user interface.">UI</a> interaction will still function as normal (eg: drag events will trigger). SetMouseMode(MM_RELATIVE) will call SetMouseGrabbed(true).</p>
 <p>MM_WRAP grabs the mouse from the operating system and confines the operating system cursor to the window, wrapping the cursor when it is near the edges. SetMouseMode(MM_WRAP) will call SetMouseGrabbed(true). </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>Use SDL_SetRelativeMouseMode() for MM_RELATIVE mode </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>When SDL 2.0.4 is integrated, use SDL_CaptureMouse() and global mouse functions for MM_WRAP mode. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Use SDL_SetRelativeMouseMode() for MM_RELATIVE mode </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>When SDL 2.0.4 is integrated, use SDL_CaptureMouse() and global mouse functions for MM_WRAP mode. </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
