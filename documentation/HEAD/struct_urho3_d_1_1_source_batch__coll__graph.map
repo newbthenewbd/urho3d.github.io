@@ -1,26 +1,26 @@
 <map id="Urho3D::SourceBatch" name="Urho3D::SourceBatch">
 <area shape="rect" id="node2" href="$class_urho3_d_1_1_geometry.html" title="Defines one or more vertex buffers, an index buffer and a draw range." alt="" coords="2380,193,2521,223"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="1187,109,1307,139"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_index_buffer.html" title="Hardware index buffer." alt="" coords="1629,105,1779,135"/>
-<area shape="rect" id="node39" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="1636,211,1772,240"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="1187,135,1307,164"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_index_buffer.html" title="Hardware index buffer." alt="" coords="1629,99,1779,128"/>
+<area shape="rect" id="node38" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="1636,211,1772,240"/>
 <area shape="rect" id="node6" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="276,67,428,96"/>
 <area shape="rect" id="node10" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="788,84,916,113"/>
 <area shape="rect" id="node8" href="$struct_urho3_d_1_1_ref_count.html" title="Reference count structure." alt="" coords="13,67,149,96"/>
-<area shape="rect" id="node19" href="$class_urho3_d_1_1_shared_array_ptr.html" title="Urho3D::SharedArrayPtr\l\&lt; unsigned char \&gt;" alt="" coords="1159,7,1335,54"/>
-<area shape="rect" id="node42" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::Scene \&gt;" alt="" coords="496,123,691,170"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_shared_array_ptr.html" title="Urho3D::SharedArrayPtr\l\&lt; unsigned char \&gt;" alt="" coords="1159,30,1335,77"/>
+<area shape="rect" id="node41" href="$class_urho3_d_1_1_weak_ptr.html" title="Urho3D::WeakPtr\&lt; Urho3D\l::Scene \&gt;" alt="" coords="496,123,691,170"/>
 <area shape="rect" id="node13" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l Urho3D::Object * \&gt;" alt="" coords="273,190,431,237"/>
 <area shape="rect" id="node15" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="5,292,157,321"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::VertexBuffer \&gt; \&gt;" alt="" coords="456,258,731,305"/>
-<area shape="rect" id="node32" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned \&gt;" alt="" coords="975,309,1132,355"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TechniqueEntry \&gt;" alt="" coords="1360,489,1544,535"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::VertexBuffer \&gt; \&gt;" alt="" coords="456,258,731,305"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_p_o_d_vector.html" title="Urho3D::PODVector\&lt;\l unsigned \&gt;" alt="" coords="975,309,1132,355"/>
+<area shape="rect" id="node48" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::TechniqueEntry \&gt;" alt="" coords="1360,489,1544,535"/>
 <area shape="rect" id="node17" href="$class_urho3_d_1_1_linked_list.html" title="Urho3D::LinkedList\l\&lt; Urho3D::EventHandler \&gt;" alt="" coords="755,137,949,183"/>
 <area shape="rect" id="node22" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::IndexBuffer \&gt;" alt="" coords="2069,90,2240,137"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Material \&gt;" alt="" coords="2373,386,2528,433"/>
-<area shape="rect" id="node37" href="$class_urho3_d_1_1_material.html" title="Describes how to render 3D geometries." alt="" coords="2089,501,2220,531"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lMaterialShaderParameter \&gt;" alt="" coords="1603,637,1805,701"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lSharedPtr\&lt; Urho3D::ShaderParameter\lAnimationInfo \&gt; \&gt;" alt="" coords="1569,725,1839,806"/>
-<area shape="rect" id="node52" href="$struct_urho3_d_1_1_bias_parameters.html" title="Shadow depth bias parameters." alt="" coords="1615,431,1793,460"/>
-<area shape="rect" id="node54" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Texture\lUnit, Urho3D::SharedPtr\l\&lt; Urho3D::Texture \&gt; \&gt;" alt="" coords="1604,484,1804,548"/>
-<area shape="rect" id="node56" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="1627,829,1781,875"/>
-<area shape="rect" id="node58" href="$class_urho3_d_1_1_matrix3x4.html" title="3x4 matrix for scene node transform calculations." alt="" coords="2380,515,2521,544"/>
+<area shape="rect" id="node34" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Material \&gt;" alt="" coords="2373,386,2528,433"/>
+<area shape="rect" id="node36" href="$class_urho3_d_1_1_material.html" title="Describes how to render 3D geometries." alt="" coords="2089,501,2220,531"/>
+<area shape="rect" id="node44" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lMaterialShaderParameter \&gt;" alt="" coords="1603,637,1805,701"/>
+<area shape="rect" id="node46" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::StringHash, Urho3D::\lSharedPtr\&lt; Urho3D::ShaderParameter\lAnimationInfo \&gt; \&gt;" alt="" coords="1569,725,1839,806"/>
+<area shape="rect" id="node51" href="$struct_urho3_d_1_1_bias_parameters.html" title="Shadow depth bias parameters." alt="" coords="1615,431,1793,460"/>
+<area shape="rect" id="node53" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Texture\lUnit, Urho3D::SharedPtr\l\&lt; Urho3D::Texture \&gt; \&gt;" alt="" coords="1604,484,1804,548"/>
+<area shape="rect" id="node55" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="1627,829,1781,875"/>
+<area shape="rect" id="node57" href="$class_urho3_d_1_1_matrix3x4.html" title="3x4 matrix for scene node transform calculations." alt="" coords="2380,515,2521,544"/>
 </map>

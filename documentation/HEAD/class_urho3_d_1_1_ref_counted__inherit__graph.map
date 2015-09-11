@@ -1,0 +1,25 @@
+<map id="Urho3D::RefCounted" name="Urho3D::RefCounted">
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_animation_state.html" title="Animation instance." alt="" coords="229,5,408,35"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_attribute_accessor.html" title="Abstract base class for invoking attribute accessors." alt="" coords="223,59,415,88"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_background_loader.html" title="Background loader of resources. Owned by the ResourceCache." alt="" coords="220,112,417,141"/>
+<area shape="rect" id="node9" href="$struct_urho3_d_1_1_collision_geometry_data.html" title="Base class for collision shape geometry data." alt="" coords="205,165,432,195"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_context.html" title="Urho3D execution context. Provides access to subsystems, object factories and attributes, and event receivers." alt="" coords="255,219,383,248"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_font_face.html" title="Font face description." alt="" coords="251,272,387,301"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_http_request.html" title="An HTTP connection with response data stream." alt="" coords="240,325,397,355"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_lua_function.html" title="C++ representation of Lua function object." alt="" coords="241,379,396,408"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="259,432,379,461"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_object_factory.html" title="Base class for object factories." alt="" coords="236,485,401,515"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_pass.html" title="Material rendering pass, which defines shaders and render state." alt="" coords="265,539,372,568"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_property_set2_d.html" title="Property set." alt="" coords="232,592,405,621"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_render_path.html" title="Rendering path definition." alt="" coords="244,645,393,675"/>
+<area shape="rect" id="node29" href="$class_urho3_d_1_1_render_surface.html" title="Color or depth&#45;stencil surface that can be rendered into." alt="" coords="233,699,404,728"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_shader_program.html" title="Linked shader program on the GPU." alt="" coords="229,752,408,781"/>
+<area shape="rect" id="node33" href="$class_urho3_d_1_1_shader_variation.html" title="Vertex or pixel shader on the GPU." alt="" coords="228,805,409,835"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_sound_stream.html" title="Base class for sound streams." alt="" coords="235,859,403,888"/>
+<area shape="rect" id="node37" href="$class_urho3_d_1_1_tile2_d.html" title="Tile define." alt="" coords="260,912,377,941"/>
+<area shape="rect" id="node39" href="$class_urho3_d_1_1_tile_map_object2_d.html" title="Tile map object." alt="" coords="225,965,412,995"/>
+<area shape="rect" id="node41" href="$class_urho3_d_1_1_tmx_layer2_d.html" title="Tmx layer." alt="" coords="240,1019,397,1048"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_value_animation_info.html" title="Base class for a value animation instance, which includes animation runtime information and updates t..." alt="" coords="217,1072,420,1101"/>
+<area shape="rect" id="node45" title="Worker thread managed by the work queue." alt="" coords="236,1125,401,1155"/>
+<area shape="rect" id="node47" href="$struct_urho3_d_1_1_work_item.html" title="Work queue item." alt="" coords="249,1179,388,1208"/>
+</map>

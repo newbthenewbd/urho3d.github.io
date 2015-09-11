@@ -69,15 +69,15 @@ group: HEAD
 </li>
 <li>data_
 : <a class="el" href="class_urho3_d_1_1_sound.html#a023e7b047fb84248e68da1a05cec3e87">Urho3D::Sound</a>
-, <a class="el" href="struct_urho3_d_1_1_index_buffer_desc.html#af05df2af4137882366079bafd10bd342">Urho3D::IndexBufferDesc</a>
+, <a class="el" href="struct_urho3_d_1_1_scratch_buffer.html#a51146f599cad381056cb947e5faea8ad">Urho3D::ScratchBuffer</a>
 , <a class="el" href="class_urho3_d_1_1_lua_file.html#aa5767b5e7acf1bc445bab67957eda5ec">Urho3D::LuaFile</a>
 , <a class="el" href="struct_urho3_d_1_1_animation_trigger_point.html#a976791babf69c44295927bef7f91ee85">Urho3D::AnimationTriggerPoint</a>
 , <a class="el" href="struct_urho3_d_1_1_compressed_level.html#a8009d0316a5ce58caf36ec4b64a13994">Urho3D::CompressedLevel</a>
 , <a class="el" href="class_urho3_d_1_1_image.html#a0518f86a683791afbfcfc27e63da3693">Urho3D::Image</a>
 , <a class="el" href="class_urho3_d_1_1_ogg_vorbis_sound_stream.html#a2e9e7ead9fd16576d4984b305c831305">Urho3D::OggVorbisSoundStream</a>
-, <a class="el" href="struct_urho3_d_1_1_scratch_buffer.html#aa1747ea1cfd3d7e52a36809e9ca6ec0d">Urho3D::ScratchBuffer</a>
-, <a class="el" href="struct_urho3_d_1_1_dirty_bits.html#ab3a6fb68c4506b7366cb5acfec83caf8">Urho3D::DirtyBits</a>
 , <a class="el" href="struct_urho3_d_1_1_vertex_buffer_desc.html#a98656db4245692ce8fd23625d14cb546">Urho3D::VertexBufferDesc</a>
+, <a class="el" href="struct_urho3_d_1_1_dirty_bits.html#ab3a6fb68c4506b7366cb5acfec83caf8">Urho3D::DirtyBits</a>
+, <a class="el" href="struct_urho3_d_1_1_index_buffer_desc.html#af05df2af4137882366079bafd10bd342">Urho3D::IndexBufferDesc</a>
 </li>
 <li>dataLost_
 : <a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ab6c82e62ca8b1098c4157acfe517c772">Urho3D::GPUObject</a>
@@ -122,12 +122,6 @@ group: HEAD
 <li>decoder_
 : <a class="el" href="class_urho3_d_1_1_ogg_vorbis_sound_stream.html#a5346741f7cbdefb5c9bc4adac38b5fc6">Urho3D::OggVorbisSoundStream</a>
 </li>
-<li>defaultDepthStencilView_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#afc6b1f5c4af029391de89fe58bfe7f59">Urho3D::GraphicsImpl</a>
-</li>
-<li>defaultDepthTexture_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#aa0e4a27b42a55f2ce23b165d0ada12a8">Urho3D::GraphicsImpl</a>
-</li>
 <li>defaultLightRamp_
 : <a class="el" href="class_urho3_d_1_1_renderer.html#a6684e5f700234f42f01a7dd62a227362">Urho3D::Renderer</a>
 </li>
@@ -139,9 +133,6 @@ group: HEAD
 </li>
 <li>defaultRenderPath_
 : <a class="el" href="class_urho3_d_1_1_renderer.html#a93b168441232f752b6ad7330d80c63d1">Urho3D::Renderer</a>
-</li>
-<li>defaultRenderTargetView_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#aaaa0c4175d039d7aea41c78f417fb6b7">Urho3D::GraphicsImpl</a>
 </li>
 <li>defaultScene_
 : <a class="el" href="class_urho3_d_1_1_script.html#a1f06ff1677dfc9ac07fc33c5d76a0091">Urho3D::Script</a>
@@ -237,23 +228,11 @@ group: HEAD
 <li>depthOnlyDummyTexture_
 : <a class="el" href="class_urho3_d_1_1_view.html#a7c328a039405071a2d3e2a0253061f9e">Urho3D::View</a>
 </li>
-<li>depthStateDirty_
-: <a class="el" href="class_urho3_d_1_1_graphics.html#af784c5c5a023ffeadad200fb18ccc930">Urho3D::Graphics</a>
-</li>
-<li>depthStateHash_
-: <a class="el" href="class_urho3_d_1_1_graphics.html#a6ea6ddf3425418db02eb0871d677038f">Urho3D::Graphics</a>
-</li>
-<li>depthStates_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#aef03207f24ade043db0313ee8c15da89">Urho3D::GraphicsImpl</a>
-</li>
 <li>depthStencil_
-: <a class="el" href="class_urho3_d_1_1_graphics.html#a00cb32717393f92be5fa32d3df21b556">Urho3D::Graphics</a>
+: <a class="el" href="class_urho3_d_1_1_graphics.html#a56f761bb13ddb1b80992c691a1b4bc4d">Urho3D::Graphics</a>
 </li>
 <li>depthStencilName_
 : <a class="el" href="struct_urho3_d_1_1_render_path_command.html#a25a3f9a721fbfe9230e3e7c88e17bb3a">Urho3D::RenderPathCommand</a>
-</li>
-<li>depthStencilView_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#ac60037fc1c376a5d51610a70ab43e9de">Urho3D::GraphicsImpl</a>
 </li>
 <li>depthTestMode_
 : <a class="el" href="class_urho3_d_1_1_graphics.html#a6588427bfabec9990f1d712d391ce891">Urho3D::Graphics</a>
@@ -287,12 +266,6 @@ group: HEAD
 <li>detailSampleMaxError_
 : <a class="el" href="class_urho3_d_1_1_navigation_mesh.html#aacd0f13dd214d28bdd32a9662963ef09">Urho3D::NavigationMesh</a>
 </li>
-<li>device_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#aa75629fc2839b6b08abc950a36d49153">Urho3D::GraphicsImpl</a>
-</li>
-<li>deviceContext_
-: <a class="el" href="class_urho3_d_1_1_graphics_impl.html#a0aa4cadd9d811cee23dd9de6119f7028">Urho3D::GraphicsImpl</a>
-</li>
 <li>deviceID_
 : <a class="el" href="class_urho3_d_1_1_audio.html#a83d3076e516b61f4a0711bbecf3e2fa8">Urho3D::Audio</a>
 </li>
@@ -315,16 +288,16 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_renderer.html#a59998b0e5210e4856f347e8b992579e8">Urho3D::Renderer</a>
 </li>
 <li>dirty_
-: <a class="el" href="class_urho3_d_1_1_node.html#a0829fa4da46e7e3c0391c641ab9ab840">Urho3D::Node</a>
+: <a class="el" href="class_urho3_d_1_1_spline_path.html#a553bbdbe7bd296d9c8cf213132c80630">Urho3D::SplinePath</a>
 , <a class="el" href="class_urho3_d_1_1_constant_buffer.html#a9dfd2e8a845eaf49cafba2fbd3cbc6a5">Urho3D::ConstantBuffer</a>
-, <a class="el" href="class_urho3_d_1_1_spline_path.html#a553bbdbe7bd296d9c8cf213132c80630">Urho3D::SplinePath</a>
+, <a class="el" href="class_urho3_d_1_1_node.html#a0829fa4da46e7e3c0391c641ab9ab840">Urho3D::Node</a>
 </li>
 <li>dirtyAttributes_
 : <a class="el" href="struct_urho3_d_1_1_component_replication_state.html#ac538ddba9d8c0b8d741bcaa7307faee7">Urho3D::ComponentReplicationState</a>
 , <a class="el" href="struct_urho3_d_1_1_node_replication_state.html#a2487c4ba319afe24782722317231100c">Urho3D::NodeReplicationState</a>
 </li>
 <li>dirtyConstantBuffers_
-: <a class="el" href="class_urho3_d_1_1_graphics.html#ace5e99383d38a7d4cea604459772944e">Urho3D::Graphics</a>
+: <a class="el" href="class_urho3_d_1_1_graphics.html#a0242eb8898e76a164836bccbcb291fc8">Urho3D::Graphics</a>
 </li>
 <li>dirtyNodes_
 : <a class="el" href="struct_urho3_d_1_1_scene_replication_state.html#adfea5210f71d22c9ce1308d297da8646">Urho3D::SceneReplicationState</a>
@@ -342,13 +315,13 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_console.html#ac26270fff2d1adbf2751851a50f25032">Urho3D::Console</a>
 </li>
 <li>distance_
-: <a class="el" href="struct_urho3_d_1_1_source_batch.html#a4d65f33f8c219673f22e0fa31773a2e3">Urho3D::SourceBatch</a>
-, <a class="el" href="struct_urho3_d_1_1_physics_raycast_result2_d.html#a71a7b114170c03ffe8a87291e5b90c06">Urho3D::PhysicsRaycastResult2D</a>
+: <a class="el" href="class_urho3_d_1_1_drawable.html#a786d899e2ebfd595ee15adc70d419175">Urho3D::Drawable</a>
 , <a class="el" href="struct_urho3_d_1_1_batch.html#ab67e488dbd06fb4ad5d4ca30a0c142b3">Urho3D::Batch</a>
 , <a class="el" href="struct_urho3_d_1_1_instance_data.html#a4df058d635b001f29bcfa5e197188bd1">Urho3D::InstanceData</a>
-, <a class="el" href="class_urho3_d_1_1_drawable.html#a786d899e2ebfd595ee15adc70d419175">Urho3D::Drawable</a>
+, <a class="el" href="struct_urho3_d_1_1_source_batch.html#a4d65f33f8c219673f22e0fa31773a2e3">Urho3D::SourceBatch</a>
 , <a class="el" href="struct_urho3_d_1_1_ray_query_result.html#a48ec7438ad7e3e4a4bb1a5b93582b8eb">Urho3D::RayQueryResult</a>
 , <a class="el" href="struct_urho3_d_1_1_physics_raycast_result.html#abcc01ca7bf8007086c033b4f25884a80">Urho3D::PhysicsRaycastResult</a>
+, <a class="el" href="struct_urho3_d_1_1_physics_raycast_result2_d.html#a71a7b114170c03ffe8a87291e5b90c06">Urho3D::PhysicsRaycastResult2D</a>
 </li>
 <li>distanceFactor_
 : <a class="el" href="class_urho3_d_1_1_network_priority.html#a7d63ec1b7dbd342920208e1cb3bdc738">Urho3D::NetworkPriority</a>
@@ -366,8 +339,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_area_allocator.html#a5ca78b3d9778a1851942f7748d4a55f7">Urho3D::AreaAllocator</a>
 </li>
 <li>DOWN
-: <a class="el" href="class_urho3_d_1_1_vector2.html#a1541c029c8c022345d6ce399bca07c84">Urho3D::Vector2</a>
-, <a class="el" href="class_urho3_d_1_1_vector3.html#aaa4fba572ffbf9344108a92e9818f1bd">Urho3D::Vector3</a>
+: <a class="el" href="class_urho3_d_1_1_vector3.html#aaa4fba572ffbf9344108a92e9818f1bd">Urho3D::Vector3</a>
+, <a class="el" href="class_urho3_d_1_1_vector2.html#a1541c029c8c022345d6ce399bca07c84">Urho3D::Vector2</a>
 </li>
 <li>down_
 : <a class="el" href="struct_urho3_d_1_1_hash_node_base.html#a1464f7a630346bcf0eb601b9019074d7">Urho3D::HashNodeBase</a>
@@ -379,9 +352,9 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_scroll_bar.html#a1431037892465b8bc595bec94733d4d7">Urho3D::ScrollBar</a>
 </li>
 <li>dragBeginCursor_
-: <a class="el" href="class_urho3_d_1_1_line_edit.html#a0981be71045859be67d4729c1af076f6">Urho3D::LineEdit</a>
-, <a class="el" href="class_urho3_d_1_1_window.html#a600cb8d8e0df8495804a310b5f4400c7">Urho3D::Window</a>
+: <a class="el" href="class_urho3_d_1_1_window.html#a600cb8d8e0df8495804a310b5f4400c7">Urho3D::Window</a>
 , <a class="el" href="class_urho3_d_1_1_slider.html#adf59c5c8455c37049d4930ed0041d130">Urho3D::Slider</a>
+, <a class="el" href="class_urho3_d_1_1_line_edit.html#a0981be71045859be67d4729c1af076f6">Urho3D::LineEdit</a>
 </li>
 <li>dragBeginDistance_
 : <a class="el" href="class_urho3_d_1_1_u_i.html#a54cd04e3d8cfdf0e201839d325c74a7f">Urho3D::UI</a>
@@ -393,8 +366,8 @@ group: HEAD
 : <a class="el" href="struct_urho3_d_1_1_u_i_1_1_drag_data.html#afb17dfd7a863d453345e43eee57fe090">Urho3D::UI::DragData</a>
 </li>
 <li>dragBeginPosition_
-: <a class="el" href="class_urho3_d_1_1_slider.html#af763e157badee6a9ee4fcd658a35209d">Urho3D::Slider</a>
-, <a class="el" href="class_urho3_d_1_1_window.html#aca28dd74eb6b86425771a6ab8aab2b0e">Urho3D::Window</a>
+: <a class="el" href="class_urho3_d_1_1_window.html#aca28dd74eb6b86425771a6ab8aab2b0e">Urho3D::Window</a>
+, <a class="el" href="class_urho3_d_1_1_slider.html#af763e157badee6a9ee4fcd658a35209d">Urho3D::Slider</a>
 </li>
 <li>dragBeginSize_
 : <a class="el" href="class_urho3_d_1_1_window.html#aaa4f39d7139702c2a8f8087a48a1bb18">Urho3D::Window</a>
@@ -436,8 +409,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_slider.html#a970525f9bbe5a697585e3642d84529ec">Urho3D::Slider</a>
 </li>
 <li>drawable_
-: <a class="el" href="struct_urho3_d_1_1_ray_query_result.html#aa6cf1605fa0dfc2017a57573afce1de8">Urho3D::RayQueryResult</a>
-, <a class="el" href="struct_urho3_d_1_1_octree_query_result.html#a1cef682d453f97408a5d9df36ce98595">Urho3D::OctreeQueryResult</a>
+: <a class="el" href="struct_urho3_d_1_1_octree_query_result.html#a1cef682d453f97408a5d9df36ce98595">Urho3D::OctreeQueryResult</a>
+, <a class="el" href="struct_urho3_d_1_1_ray_query_result.html#aa6cf1605fa0dfc2017a57573afce1de8">Urho3D::RayQueryResult</a>
 </li>
 <li>drawableFlags_
 : <a class="el" href="class_urho3_d_1_1_drawable.html#a8ba9d34f65b38b534f499f636834e694">Urho3D::Drawable</a>
@@ -482,8 +455,8 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_terrain.html#ac852c138c831ca40277731d5ae228204">Urho3D::Terrain</a>
 </li>
 <li>drawShadows_
-: <a class="el" href="class_urho3_d_1_1_view.html#aaa14f69c1f0181dfcede0dd19bd28759">Urho3D::View</a>
-, <a class="el" href="class_urho3_d_1_1_renderer.html#acb85a9c8df99589179ae59a8269b38bf">Urho3D::Renderer</a>
+: <a class="el" href="class_urho3_d_1_1_renderer.html#acb85a9c8df99589179ae59a8269b38bf">Urho3D::Renderer</a>
+, <a class="el" href="class_urho3_d_1_1_view.html#aaa14f69c1f0181dfcede0dd19bd28759">Urho3D::View</a>
 </li>
 <li>dummyColorFormat_
 : <a class="el" href="class_urho3_d_1_1_graphics.html#a15fb787df8df2724e7c37d8a93b22fe6">Urho3D::Graphics</a>
@@ -495,9 +468,9 @@ group: HEAD
 : <a class="el" href="class_urho3_d_1_1_graphics.html#abc0602cf35c263f0b582640cd00e8a64">Urho3D::Graphics</a>
 </li>
 <li>dynamic_
-: <a class="el" href="class_urho3_d_1_1_index_buffer.html#a7b727e3a9a2fd7d0a14a398fef765782">Urho3D::IndexBuffer</a>
+: <a class="el" href="class_urho3_d_1_1_vertex_buffer.html#a1696e26bf4ce0524e77a9f51a0da1676">Urho3D::VertexBuffer</a>
 , <a class="el" href="class_urho3_d_1_1_custom_geometry.html#a545439e64e55fa7efba01ef25f032367">Urho3D::CustomGeometry</a>
-, <a class="el" href="class_urho3_d_1_1_vertex_buffer.html#a1696e26bf4ce0524e77a9f51a0da1676">Urho3D::VertexBuffer</a>
+, <a class="el" href="class_urho3_d_1_1_index_buffer.html#a7b727e3a9a2fd7d0a14a398fef765782">Urho3D::IndexBuffer</a>
 </li>
 <li>dynamicInstancing_
 : <a class="el" href="class_urho3_d_1_1_renderer.html#ae39627e4cb9059d27df4c00ae872f3e5">Urho3D::Renderer</a>

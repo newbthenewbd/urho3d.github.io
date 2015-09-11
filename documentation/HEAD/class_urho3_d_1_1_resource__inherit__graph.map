@@ -18,8 +18,8 @@
 <area shape="rect" id="node39" href="$class_urho3_d_1_1_sprite_sheet2_d.html" title="Sprite sheet." alt="" coords="567,859,740,888"/>
 <area shape="rect" id="node41" href="$class_urho3_d_1_1_technique.html" title="Material technique. Consists of several passes." alt="" coords="583,912,724,941"/>
 <area shape="rect" id="node43" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="591,965,716,995"/>
-<area shape="rect" id="node46" href="$class_urho3_d_1_1_tmx_file2_d.html" title="Tile map file." alt="" coords="581,1019,725,1048"/>
-<area shape="rect" id="node48" href="$class_urho3_d_1_1_value_animation.html" title="Value animation class." alt="" coords="564,1072,743,1101"/>
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="205,565,325,595"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="5,565,157,595"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_tmx_file2_d.html" title="Tile map file." alt="" coords="581,1019,725,1048"/>
+<area shape="rect" id="node47" href="$class_urho3_d_1_1_value_animation.html" title="Value animation class." alt="" coords="564,1072,743,1101"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="205,539,325,568"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_ref_counted.html" title="Base class for intrusively reference&#45;counted objects. These are noncopyable and non&#45;assignable." alt="" coords="5,539,157,568"/>
 </map>

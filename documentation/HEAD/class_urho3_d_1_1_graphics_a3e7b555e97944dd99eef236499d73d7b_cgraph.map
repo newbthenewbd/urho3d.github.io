@@ -1,26 +1,26 @@
 <map id="Urho3D::Graphics::Clear" name="Urho3D::Graphics::Clear">
-<area shape="rect" id="node3" href="$class_urho3_d_1_1_graphics.html#a016c9d34850452e2e97a51f520d15443" title="Return rendertarget width and height." alt="" coords="520,5,731,51"/>
-<area shape="rect" id="node9" href="$class_urho3_d_1_1_graphics.html#a3dd369dc58e2db876d8d001ba24762a5" title="Process dirtied state before draw." alt="" coords="239,291,463,320"/>
-<area shape="rect" id="node23" href="$class_urho3_d_1_1_color.html#af4fe4462664d0de4722288e0bcc2b1cc" title="Return float data." alt="" coords="276,495,425,524"/>
-<area shape="rect" id="node25" href="$class_urho3_d_1_1_renderer.html#a887e9961f27af8db3298c0c0ba0e582c" title="Return quad geometry used in postprocessing." alt="" coords="251,547,451,594"/>
-<area shape="rect" id="node27" href="$class_urho3_d_1_1_graphics.html#a53afa24ee38576f0bd111117678a2df1" title="Set blending mode." alt="" coords="233,617,468,647"/>
-<area shape="rect" id="node29" href="$class_urho3_d_1_1_graphics.html#a491fe007ce9f8dce215ba00f5c27ff0d" title="Set color write on/off." alt="" coords="252,670,449,717"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_graphics.html#af002db3f0656638b5419e501597bf9db" title="Set hardware culling mode." alt="" coords="240,740,461,769"/>
-<area shape="rect" id="node33" href="$class_urho3_d_1_1_graphics.html#a8caad07fa70c69870bd1ebd33014b931" title="Set depth compare." alt="" coords="236,793,465,823"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_graphics.html#abce9b1421f7b2d1179659ca887171f2a" title="Set depth write on/off." alt="" coords="249,846,452,893"/>
-<area shape="rect" id="node37" href="$class_urho3_d_1_1_graphics.html#a616f0641be5b78abb3b4b3ef43cba042" title="Set polygon fill mode." alt="" coords="244,916,457,945"/>
-<area shape="rect" id="node39" href="$class_urho3_d_1_1_graphics.html#a27670beb9e90540f69da3d24da2d07bd" title="Set scissor test." alt="" coords="233,57,468,87"/>
-<area shape="rect" id="node42" href="$class_urho3_d_1_1_graphics.html#a11eb4f153875e95af56a4e1eaaea1d4b" title="Set stencil test." alt="" coords="235,969,467,999"/>
-<area shape="rect" id="node44" href="$class_urho3_d_1_1_graphics.html#a1f9ba79f344a68937947b6416685fe3a" title="Set shaders." alt="" coords="241,391,460,420"/>
-<area shape="rect" id="node47" href="$class_urho3_d_1_1_graphics.html#a4738d35a14589f7d2ff4946fd48b2381" title="Set shader float constants." alt="" coords="520,490,731,537"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_graphics.html#aad58413102b75b7916510245a9db175e" title="Return a shader variation by name and defines." alt="" coords="245,1023,456,1052"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_geometry.html#a4a7263e950743d3a59f18469766bfe19" title="Draw." alt="" coords="260,1076,441,1105"/>
-<area shape="rect" id="node54" href="$class_urho3_d_1_1_graphics.html#a0dbed204dd942895efd794eabd4bafdd" title="Clear remembered shader parameter sources." alt="" coords="229,1129,472,1175"/>
-<area shape="rect" id="node5" href="$class_urho3_d_1_1_render_surface.html#a1be67d97ab77b0d6f24776a3f75c5e6a" title="Return width." alt="" coords="780,63,951,110"/>
-<area shape="rect" id="node7" href="$class_urho3_d_1_1_render_surface.html#a3c0b5d48265c55fd1692924b9e45ce24" title="Return height." alt="" coords="780,249,951,295"/>
-<area shape="rect" id="node11" href="$class_urho3_d_1_1_render_surface.html#a95c7811a5d78b66288690a59e3bdcd20" title="Return Direct3D rendertarget or depth&#45;stencil view." alt="" coords="540,367,711,414"/>
-<area shape="rect" id="node15" href="$class_urho3_d_1_1_shader_variation.html#abc87c2b30ab7b5f5281314d99e1c2b1c" title="Return shader bytecode." alt="" coords="535,74,716,121"/>
-<area shape="rect" id="node17" href="$class_urho3_d_1_1_p_o_d_vector.html#a4fe0251ca70afca844721a4a44717c83" title="Return number of elements." alt="" coords="535,144,716,173"/>
-<area shape="rect" id="node19" href="$class_urho3_d_1_1_shader_variation.html#a16e7c3c6bc03e89400d89efe02031a20" title="Return vertex element mask." alt="" coords="535,197,716,243"/>
-<area shape="rect" id="node21" href="$class_urho3_d_1_1_hash_map.html#a9dc4e5c0ad1feb3eec2d2f1f1714698d" title="Return iterator to the pair with key, or end iterator if not found." alt="" coords="540,437,711,467"/>
+<area shape="rect" id="node3" href="$class_urho3_d_1_1_graphics.html#a3dd369dc58e2db876d8d001ba24762a5" title="Prepare for draw call. Update constant buffers and setup the FBO." alt="" coords="236,552,460,581"/>
+<area shape="rect" id="node7" href="$class_urho3_d_1_1_graphics.html#a016c9d34850452e2e97a51f520d15443" title="Return rendertarget width and height." alt="" coords="533,39,744,86"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_graphics.html#a491fe007ce9f8dce215ba00f5c27ff0d" title="Set color write on/off." alt="" coords="249,605,447,651"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_graphics.html#abce9b1421f7b2d1179659ca887171f2a" title="Set depth write on/off." alt="" coords="247,674,449,721"/>
+<area shape="rect" id="node48" href="$class_urho3_d_1_1_graphics.html#a27670beb9e90540f69da3d24da2d07bd" title="Set scissor test." alt="" coords="231,147,465,176"/>
+<area shape="rect" id="node53" href="$class_urho3_d_1_1_int_rect.html#ac268b351be57db860350147b5eb771ef" title="Return width." alt="" coords="556,163,721,192"/>
+<area shape="rect" id="node55" href="$class_urho3_d_1_1_int_rect.html#a69df34bbfeb4f2473fd1bb532e038770" title="Return height." alt="" coords="553,216,724,245"/>
+<area shape="rect" id="node5" href="$class_urho3_d_1_1_graphics.html#aecd0066098f01560de4784346ace7a2f" title="Bind a framebuffer using either extension or core functionality." alt="" coords="515,771,763,800"/>
+<area shape="rect" id="node13" href="$class_urho3_d_1_1_render_surface.html#a3a7c4f50c5887e1d74f30b6350a2619c" title="Return parent texture." alt="" coords="553,823,724,870"/>
+<area shape="rect" id="node15" href="$class_urho3_d_1_1_texture.html#a2f053f59f1001c8c85c9382d07900211" title="Return texture format." alt="" coords="537,893,740,923"/>
+<area shape="rect" id="node17" href="$class_urho3_d_1_1_graphics.html#a36e7c254c8eb1a1f977d150b0d7f6f6c" title="Create a framebuffer using either extension or core functionality." alt="" coords="545,946,732,993"/>
+<area shape="rect" id="node19" href="$class_urho3_d_1_1_texture.html#a0c6760bb91c25cb9b5387eb9cae27a50" title="Return whether parameters are dirty." alt="" coords="824,1034,1053,1081"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_graphics.html#a8b325a50b867fe7866389f94e8a8575a" title="Bind texture unit 0 for update. Called by Texture." alt="" coords="533,269,744,315"/>
+<area shape="rect" id="node23" href="$class_urho3_d_1_1_g_p_u_object.html#acc3aa11294b3d788965f299ca9bfb81c" title="Return the object&#39;s OpenGL handle." alt="" coords="861,329,1016,375"/>
+<area shape="rect" id="node25" href="$class_urho3_d_1_1_texture.html#a7eaf51cf81ac775bdc87e00ec1a47979" title="Update changed parameters to OpenGL. Called by Graphics when binding the texture." alt="" coords="812,677,1065,707"/>
+<area shape="rect" id="node27" href="$class_urho3_d_1_1_graphics.html#ab7a2098ed479f28acbd7b3549c5dc205" title="Set texture." alt="" coords="533,1016,744,1045"/>
+<area shape="rect" id="node32" href="$class_urho3_d_1_1_graphics.html#a28b21a66b16b34b87b453bae0205a0c6" title="Bind a framebuffer color attachment using either extension or core functionality." alt="" coords="537,439,740,486"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_render_surface.html#a5c60fb09e5a2dd4545148d5a06d57d4b" title="Return renderbuffer if created." alt="" coords="553,509,724,555"/>
+<area shape="rect" id="node37" href="$class_urho3_d_1_1_graphics.html#ae19c4b22ebcbf2242f462b2e330ad166" title="Bind a framebuffer depth attachment using either extension or core functionality." alt="" coords="533,578,744,625"/>
+<area shape="rect" id="node39" href="$class_urho3_d_1_1_graphics.html#a620884eac01f008636eda07edd907aa5" title="Bind a framebuffer stencil attachment using either extension or core functionality." alt="" coords="532,647,745,694"/>
+<area shape="rect" id="node41" href="$class_urho3_d_1_1_texture.html#af0adf78530abb05a692b52c0df297c9f" title="Return whether is using sRGB sampling and writing." alt="" coords="543,717,735,747"/>
+<area shape="rect" id="node9" href="$class_urho3_d_1_1_render_surface.html#a1be67d97ab77b0d6f24776a3f75c5e6a" title="Return width." alt="" coords="853,5,1024,51"/>
+<area shape="rect" id="node11" href="$class_urho3_d_1_1_render_surface.html#a3c0b5d48265c55fd1692924b9e45ce24" title="Return height." alt="" coords="853,74,1024,121"/>
+<area shape="rect" id="node51" href="$class_urho3_d_1_1_int_rect.html#a7d8747bfdd710559f3715160beac2872" title="Return size." alt="" coords="560,109,717,139"/>
 </map>

@@ -14,55 +14,40 @@
 <text text-anchor="middle" x="177" y="-66.5" font-family="FreeSans" font-size="10.00">Urho3D::Texture</text>
 </g>
 <!-- Node6 -->
-<g id="node13" class="node"><title>Node6</title>
+<g id="node11" class="node"><title>Node6</title>
 <a xlink:href="class_urho3_d_1_1_texture2_d.html" target="_top" xlink:title="2D texture resource.">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-21.5 106.5,-21.5 106.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="53" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::Texture2D</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge14" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M140.018,-54.4794C116.941,-44.2695 88.4187,-30.8386 70.3463,-21.6212"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="138.64,-57.6969 149.204,-58.4966 141.444,-51.2833 138.64,-57.6969"/>
-</g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M150.789,-53.9319C130.29,-43.7932 102.029,-30.6748 81.0685,-21.6212"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="149.377,-57.1393 159.885,-58.4966 152.517,-50.883 149.377,-57.1393"/>
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M145.372,-54.2064C123.618,-44.031 95.2384,-30.7567 75.7074,-21.6212"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="144.004,-57.4301 154.545,-58.4966 146.969,-51.0894 144.004,-57.4301"/>
 </g>
 <!-- Node7 -->
-<g id="node16" class="node"><title>Node7</title>
+<g id="node13" class="node"><title>Node7</title>
 <a xlink:href="class_urho3_d_1_1_texture3_d.html" target="_top" xlink:title="3D texture resource.">
 <polygon fill="none" stroke="black" points="123.5,-0.5 123.5,-21.5 230.5,-21.5 230.5,-0.5 123.5,-0.5"/>
 <text text-anchor="middle" x="177" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::Texture3D</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
-<g id="edge18" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M170.495,-48.1906C169.941,-39.1684 170.326,-28.9941 171.648,-21.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="167.043,-48.8143 171.636,-58.3619 174,-48.0341 167.043,-48.8143"/>
-</g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge20" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M183.505,-48.1906C184.059,-39.1684 183.674,-28.9941 182.352,-21.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="180,-48.0341 182.364,-58.3619 186.957,-48.8143 180,-48.0341"/>
+<g id="edge12" class="edge"><title>Node1&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M177,-48.1906C177,-39.1684 177,-28.9941 177,-21.5707"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="173.5,-48.3619 177,-58.3619 180.5,-48.3619 173.5,-48.3619"/>
 </g>
 <!-- Node8 -->
-<g id="node19" class="node"><title>Node8</title>
+<g id="node15" class="node"><title>Node8</title>
 <a xlink:href="class_urho3_d_1_1_texture_cube.html" target="_top" xlink:title="Cube texture resource.">
 <polygon fill="none" stroke="black" points="247.5,-0.5 247.5,-21.5 366.5,-21.5 366.5,-0.5 247.5,-0.5"/>
 <text text-anchor="middle" x="307" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::TextureCube</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge22" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M204.478,-54.0693C226.05,-43.9121 255.837,-30.7157 277.833,-21.6212"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="202.719,-51.0305 195.202,-58.4966 205.734,-57.3478 202.719,-51.0305"/>
-</g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge24" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M215.163,-54.6153C239.352,-44.3889 269.444,-30.8796 288.555,-21.6212"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="213.757,-51.4094 205.882,-58.4966 216.458,-57.8674 213.757,-51.4094"/>
+<g id="edge14" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M209.852,-54.3431C232.698,-44.1502 262.626,-30.7977 283.194,-21.6212"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="208.248,-51.2259 200.542,-58.4966 211.1,-57.6185 208.248,-51.2259"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -73,13 +58,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M128.11,-108.83C137.583,-99.2078 150.175,-87.7282 160.348,-79.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="125.322,-106.685 121.008,-116.362 130.415,-111.488 125.322,-106.685"/>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge10" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M139.74,-109.691C151.113,-99.8996 163.567,-87.973 171.052,-79.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="137.177,-107.271 131.736,-116.362 141.658,-112.648 137.177,-107.271"/>
+<path fill="none" stroke="midnightblue" d="M133.808,-109.405C144.217,-99.6683 156.806,-87.8914 165.7,-79.5707"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="131.283,-106.974 126.372,-116.362 136.066,-112.086 131.283,-106.974"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
@@ -114,13 +94,8 @@
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge8" class="edge"><title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M214.26,-109.691C202.887,-99.8996 190.433,-87.973 182.948,-79.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="212.342,-112.648 222.264,-116.362 216.823,-107.271 212.342,-112.648"/>
-</g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge12" class="edge"><title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M225.89,-108.83C216.417,-99.2078 203.825,-87.7282 193.652,-79.5707"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="223.585,-111.488 232.992,-116.362 228.678,-106.685 223.585,-111.488"/>
+<path fill="none" stroke="midnightblue" d="M220.192,-109.405C209.783,-99.6683 197.194,-87.8914 188.3,-79.5707"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="217.934,-112.086 227.628,-116.362 222.717,-106.974 217.934,-112.086"/>
 </g>
 </g>
 </svg>

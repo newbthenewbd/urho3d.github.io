@@ -1,26 +1,26 @@
 <map id="Urho3D::CheckBox" name="Urho3D::CheckBox">
-<area shape="rect" id="node2" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="1883,608,2045,637"/>
-<area shape="rect" id="node4" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="1585,608,1729,637"/>
-<area shape="rect" id="node6" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="1216,399,1368,428"/>
-<area shape="rect" id="node8" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="437,393,589,423"/>
-<area shape="rect" id="node10" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="5,361,125,391"/>
-<area shape="rect" id="node45" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="251,327,387,356"/>
-<area shape="rect" id="node12" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="615,500,881,564"/>
-<area shape="rect" id="node14" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="247,596,391,625"/>
-<area shape="rect" id="node18" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="655,587,841,634"/>
-<area shape="rect" id="node31" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; StringHash,\l Variant \&gt;" alt="" coords="907,635,1136,682"/>
-<area shape="rect" id="node16" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="647,430,849,477"/>
-<area shape="rect" id="node21" href="$class_urho3_d_1_1_int_rect.html" title="Two&#45;dimensional bounding rectangle with integer values." alt="" coords="1231,225,1353,255"/>
-<area shape="rect" id="node24" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::UIElement \&gt; \&gt;" alt="" coords="1161,763,1423,810"/>
-<area shape="rect" id="node26" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="672,759,824,788"/>
-<area shape="rect" id="node28" href="$class_urho3_d_1_1_vector2.html" title="Two&#45;dimensional vector." alt="" coords="1228,580,1356,609"/>
-<area shape="rect" id="node35" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="7,707,124,736"/>
-<area shape="rect" id="node38" href="$class_urho3_d_1_1_x_path_query.html" title="XPath query." alt="" coords="945,704,1097,733"/>
-<area shape="rect" id="node41" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="1215,329,1369,375"/>
-<area shape="rect" id="node43" href="$class_urho3_d_1_1_x_m_l_file.html" title="XML document resource." alt="" coords="685,327,811,356"/>
-<area shape="rect" id="node58" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="685,171,811,200"/>
-<area shape="rect" id="node49" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="1220,1004,1364,1033"/>
-<area shape="rect" id="node52" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="263,273,375,303"/>
-<area shape="rect" id="node56" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="1215,114,1369,161"/>
-<area shape="rect" id="node61" href="$class_urho3_d_1_1_g_p_u_object.html" title="Base class for GPU resources." alt="" coords="245,5,392,35"/>
+<area shape="rect" id="node2" href="$class_urho3_d_1_1_border_image.html" title="Image UI element with optional border." alt="" coords="1845,96,2008,125"/>
+<area shape="rect" id="node4" href="$class_urho3_d_1_1_u_i_element.html" title="Base class for UI elements." alt="" coords="1544,503,1688,532"/>
+<area shape="rect" id="node6" href="$class_urho3_d_1_1_animatable.html" title="Base class for animatable object, an animatable object can be set animation on it&#39;s attributes..." alt="" coords="1171,765,1323,795"/>
+<area shape="rect" id="node8" href="$class_urho3_d_1_1_serializable.html" title="Base class for objects with automatic serialization through attributes." alt="" coords="392,684,544,713"/>
+<area shape="rect" id="node10" href="$class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil..." alt="" coords="5,675,125,704"/>
+<area shape="rect" id="node45" href="$class_urho3_d_1_1_resource.html" title="Base class for resources." alt="" coords="228,569,364,599"/>
+<area shape="rect" id="node12" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; Urho3D\l::String, Urho3D::SharedPtr\l\&lt; Urho3D::AttributeAnimationInfo \&gt; \&gt;" alt="" coords="569,779,836,843"/>
+<area shape="rect" id="node14" href="$class_urho3_d_1_1_hash_base.html" title="Hash set/map base class." alt="" coords="224,796,368,825"/>
+<area shape="rect" id="node18" href="$class_urho3_d_1_1_hash_set.html" title="Urho3D::HashSet\&lt; const\l Urho3D::AttributeInfo * \&gt;" alt="" coords="609,866,796,913"/>
+<area shape="rect" id="node31" href="$class_urho3_d_1_1_hash_map.html" title="Urho3D::HashMap\&lt; StringHash,\l Variant \&gt;" alt="" coords="861,714,1091,761"/>
+<area shape="rect" id="node16" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::ObjectAnimation \&gt;" alt="" coords="601,935,804,982"/>
+<area shape="rect" id="node21" href="$class_urho3_d_1_1_int_rect.html" title="Two&#45;dimensional bounding rectangle with integer values." alt="" coords="1185,860,1308,889"/>
+<area shape="rect" id="node24" href="$class_urho3_d_1_1_vector.html" title="Urho3D::Vector\&lt; Urho3D\l::SharedPtr\&lt; Urho3D::UIElement \&gt; \&gt;" alt="" coords="1116,231,1377,278"/>
+<area shape="rect" id="node26" href="$class_urho3_d_1_1_vector_base.html" title="Vector base class." alt="" coords="627,520,779,549"/>
+<area shape="rect" id="node28" href="$class_urho3_d_1_1_vector2.html" title="Two&#45;dimensional vector." alt="" coords="1183,429,1311,459"/>
+<area shape="rect" id="node35" href="$class_urho3_d_1_1_string.html" title="String class." alt="" coords="7,569,124,599"/>
+<area shape="rect" id="node38" href="$class_urho3_d_1_1_x_path_query.html" title="XPath query." alt="" coords="900,631,1052,660"/>
+<area shape="rect" id="node41" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::XMLFile \&gt;" alt="" coords="1169,565,1324,611"/>
+<area shape="rect" id="node43" href="$class_urho3_d_1_1_x_m_l_file.html" title="XML document resource." alt="" coords="640,573,765,603"/>
+<area shape="rect" id="node58" href="$class_urho3_d_1_1_texture.html" title="Base class for texture resources." alt="" coords="1184,33,1309,63"/>
+<area shape="rect" id="node49" href="$class_urho3_d_1_1_int_vector2.html" title="Two&#45;dimensional vector with integer values." alt="" coords="1175,128,1319,157"/>
+<area shape="rect" id="node52" href="$class_urho3_d_1_1_color.html" title="RGBA color." alt="" coords="647,467,759,496"/>
+<area shape="rect" id="node56" href="$class_urho3_d_1_1_shared_ptr.html" title="Urho3D::SharedPtr\&lt;\l Urho3D::Texture \&gt;" alt="" coords="1539,5,1693,51"/>
+<area shape="rect" id="node61" href="$class_urho3_d_1_1_g_p_u_object.html" title="Base class for GPU resources." alt="" coords="629,33,776,63"/>
 </map>

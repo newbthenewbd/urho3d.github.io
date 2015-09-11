@@ -61,50 +61,14 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#ab949868b52108a8922670245906ee47a">~ConstantBuffer</a> ()</td></tr>
 <tr class="memdesc:ab949868b52108a8922670245906ee47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
 <tr class="separator:ab949868b52108a8922670245906ee47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445651a3cef3bc2aa97aa087fcd46cef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a445651a3cef3bc2aa97aa087fcd46cef"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a445651a3cef3bc2aa97aa087fcd46cef">Release</a> ()</td></tr>
-<tr class="memdesc:a445651a3cef3bc2aa97aa087fcd46cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release buffer. <br/></td></tr>
-<tr class="separator:a445651a3cef3bc2aa97aa087fcd46cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f6a0c6d99be9b1f43ada05e3758bb40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f6a0c6d99be9b1f43ada05e3758bb40"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a0f6a0c6d99be9b1f43ada05e3758bb40">SetSize</a> (unsigned size)</td></tr>
-<tr class="memdesc:a0f6a0c6d99be9b1f43ada05e3758bb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set size and create GPU-side buffer. Return true on success. <br/></td></tr>
-<tr class="separator:a0f6a0c6d99be9b1f43ada05e3758bb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a964b0e54b8c97bd86721b614f2b769"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a964b0e54b8c97bd86721b614f2b769"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a0a964b0e54b8c97bd86721b614f2b769">SetParameter</a> (unsigned offset, unsigned size, const void *data)</td></tr>
-<tr class="memdesc:a0a964b0e54b8c97bd86721b614f2b769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a generic parameter and mark buffer dirty. <br/></td></tr>
-<tr class="separator:a0a964b0e54b8c97bd86721b614f2b769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e4eaed4041edc40840bbe3a7e27aa9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0e4eaed4041edc40840bbe3a7e27aa9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#ad0e4eaed4041edc40840bbe3a7e27aa9">SetVector3ArrayParameter</a> (unsigned offset, unsigned rows, const void *data)</td></tr>
-<tr class="memdesc:ad0e4eaed4041edc40840bbe3a7e27aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a <a class="el" href="class_urho3_d_1_1_vector3.html" title="Three-dimensional vector.">Vector3</a> array parameter and mark buffer dirty. <br/></td></tr>
-<tr class="separator:ad0e4eaed4041edc40840bbe3a7e27aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749b5b53a62be1f11f41353d370242a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749b5b53a62be1f11f41353d370242a6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a749b5b53a62be1f11f41353d370242a6">Apply</a> ()</td></tr>
-<tr class="memdesc:a749b5b53a62be1f11f41353d370242a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply to GPU. <br/></td></tr>
-<tr class="separator:a749b5b53a62be1f11f41353d370242a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87846498ea8cf497d8adf425fa6a32f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87846498ea8cf497d8adf425fa6a32f3"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a87846498ea8cf497d8adf425fa6a32f3">GetSize</a> () const </td></tr>
-<tr class="memdesc:a87846498ea8cf497d8adf425fa6a32f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return size. <br/></td></tr>
-<tr class="separator:a87846498ea8cf497d8adf425fa6a32f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0945cead0ad3a4557db5936df4159ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0945cead0ad3a4557db5936df4159ac"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#ae0945cead0ad3a4557db5936df4159ac">IsDirty</a> () const </td></tr>
-<tr class="memdesc:ae0945cead0ad3a4557db5936df4159ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether has unapplied data. <br/></td></tr>
-<tr class="separator:ae0945cead0ad3a4557db5936df4159ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2298c42ed175345ec2b2b711810549b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2298c42ed175345ec2b2b711810549b7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a2298c42ed175345ec2b2b711810549b7">ConstantBuffer</a> (<a class="el" href="class_urho3_d_1_1_context.html">Context</a> *context)</td></tr>
-<tr class="memdesc:a2298c42ed175345ec2b2b711810549b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct. <br/></td></tr>
-<tr class="separator:a2298c42ed175345ec2b2b711810549b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a53b9a77a8c652e1c38c95ad4994f74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a53b9a77a8c652e1c38c95ad4994f74"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a4a53b9a77a8c652e1c38c95ad4994f74">~ConstantBuffer</a> ()</td></tr>
-<tr class="memdesc:a4a53b9a77a8c652e1c38c95ad4994f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
-<tr class="separator:a4a53b9a77a8c652e1c38c95ad4994f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a063b9ef224914e3342f5f10dc6b2b009"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a063b9ef224914e3342f5f10dc6b2b009"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a063b9ef224914e3342f5f10dc6b2b009">OnDeviceReset</a> ()</td></tr>
 <tr class="memdesc:a063b9ef224914e3342f5f10dc6b2b009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreate the GPU resource and restore data if applicable. <br/></td></tr>
 <tr class="separator:a063b9ef224914e3342f5f10dc6b2b009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53f850e1e82de90ecd02d90358253e7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53f850e1e82de90ecd02d90358253e7e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a53f850e1e82de90ecd02d90358253e7e">Release</a> ()</td></tr>
-<tr class="memdesc:a53f850e1e82de90ecd02d90358253e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the buffer. <br/></td></tr>
-<tr class="separator:a53f850e1e82de90ecd02d90358253e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445651a3cef3bc2aa97aa087fcd46cef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a445651a3cef3bc2aa97aa087fcd46cef"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a445651a3cef3bc2aa97aa087fcd46cef">Release</a> ()</td></tr>
+<tr class="memdesc:a445651a3cef3bc2aa97aa087fcd46cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the buffer. <br/></td></tr>
+<tr class="separator:a445651a3cef3bc2aa97aa087fcd46cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f6a0c6d99be9b1f43ada05e3758bb40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f6a0c6d99be9b1f43ada05e3758bb40"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a0f6a0c6d99be9b1f43ada05e3758bb40">SetSize</a> (unsigned size)</td></tr>
 <tr class="memdesc:a0f6a0c6d99be9b1f43ada05e3758bb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set size and create GPU-side buffer. Return true on success. <br/></td></tr>
@@ -266,36 +230,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a818ceaf4f9debc5f4233f2e265d0cf42"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a818ceaf4f9debc5f4233f2e265d0cf42">~GPUObject</a> ()</td></tr>
-<tr class="memdesc:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the graphics subsystem. <br/></td></tr>
+<tr class="memdesc:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a>. <br/></td></tr>
 <tr class="separator:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90de5fa07e164d6b5e95f832a0741088"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a90de5fa07e164d6b5e95f832a0741088">ClearDataLost</a> ()</td></tr>
-<tr class="memdesc:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the data lost flag. No-op on D3D11. <br/></td></tr>
-<tr class="separator:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0cc0adf6cc06940102d64be88b9d4b"></a>
-<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ada0cc0adf6cc06940102d64be88b9d4b">GetGraphics</a> () const </td></tr>
-<tr class="memdesc:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
-<tr class="separator:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67142837fc5ed67f4b0bf7f97df2cb5d"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a67142837fc5ed67f4b0bf7f97df2cb5d">GetGPUObject</a> () const </td></tr>
-<tr class="memdesc:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Direct3D object. <br/></td></tr>
-<tr class="separator:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcfd2ec12501214e6f78bb0ce2fee6d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#afcfd2ec12501214e6f78bb0ce2fee6d5">IsDataLost</a> () const </td></tr>
-<tr class="memdesc:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether data is lost due to device loss. Always false on D3D11. <br/></td></tr>
-<tr class="separator:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04fece8be486f0b627364667159d823c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a04fece8be486f0b627364667159d823c">HasPendingData</a> () const </td></tr>
-<tr class="memdesc:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether has pending data assigned while device was lost. Always false on D3D11. <br/></td></tr>
-<tr class="separator:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a403872d965887004f1021405870ff865"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a403872d965887004f1021405870ff865">GPUObject</a> (<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *graphics)</td></tr>
-<tr class="memdesc:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with graphics subsystem pointer. <br/></td></tr>
-<tr class="separator:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad23b82c85519c520437707ddd4b8097f"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ad23b82c85519c520437707ddd4b8097f">~GPUObject</a> ()</td></tr>
-<tr class="memdesc:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a>. <br/></td></tr>
-<tr class="separator:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a054b2b9d1ac58c3dc81866bb7db6761a inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a054b2b9d1ac58c3dc81866bb7db6761a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a054b2b9d1ac58c3dc81866bb7db6761a">OnDeviceLost</a> ()</td></tr>
 <tr class="memdesc:a054b2b9d1ac58c3dc81866bb7db6761a inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the GPU resource destroyed on context destruction. <br/></td></tr>
@@ -304,10 +240,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a90de5fa07e164d6b5e95f832a0741088">ClearDataLost</a> ()</td></tr>
 <tr class="memdesc:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the data lost flag. <br/></td></tr>
 <tr class="separator:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af37188ebe0986246a55aba96185b8497"></a>
-<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#af37188ebe0986246a55aba96185b8497">GetGraphics</a> () const </td></tr>
-<tr class="memdesc:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
-<tr class="separator:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0cc0adf6cc06940102d64be88b9d4b"></a>
+<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ada0cc0adf6cc06940102d64be88b9d4b">GetGraphics</a> () const </td></tr>
+<tr class="memdesc:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
+<tr class="separator:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc3aa11294b3d788965f299ca9bfb81c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc3aa11294b3d788965f299ca9bfb81c"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#acc3aa11294b3d788965f299ca9bfb81c">GetGPUObject</a> () const </td></tr>
 <tr class="memdesc:acc3aa11294b3d788965f299ca9bfb81c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object's OpenGL handle. <br/></td></tr>
@@ -326,16 +262,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a7536e5bb54dcc93a8de81e3ad65f169e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7536e5bb54dcc93a8de81e3ad65f169e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OBJECT</b> (<a class="el" href="class_urho3_d_1_1_constant_buffer.html">ConstantBuffer</a>)</td></tr>
 <tr class="separator:a7536e5bb54dcc93a8de81e3ad65f169e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7536e5bb54dcc93a8de81e3ad65f169e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7536e5bb54dcc93a8de81e3ad65f169e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OBJECT</b> (<a class="el" href="class_urho3_d_1_1_constant_buffer.html">ConstantBuffer</a>)</td></tr>
-<tr class="separator:a7536e5bb54dcc93a8de81e3ad65f169e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9ee67108cbd6af1affb5b8043323cfa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ee67108cbd6af1affb5b8043323cfa3"></a>
-<a class="el" href="class_urho3_d_1_1_shared_array_ptr.html">SharedArrayPtr</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a9ee67108cbd6af1affb5b8043323cfa3">shadowData_</a></td></tr>
-<tr class="memdesc:a9ee67108cbd6af1affb5b8043323cfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shadow data. <br/></td></tr>
-<tr class="separator:a9ee67108cbd6af1affb5b8043323cfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994a600ea267f2615e2e92df7f3896d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a994a600ea267f2615e2e92df7f3896d5"></a>
+<a class="el" href="class_urho3_d_1_1_shared_array_ptr.html">SharedArrayPtr</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a994a600ea267f2615e2e92df7f3896d5">shadowData_</a></td></tr>
+<tr class="memdesc:a994a600ea267f2615e2e92df7f3896d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shadow data. <br/></td></tr>
+<tr class="separator:a994a600ea267f2615e2e92df7f3896d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e1718df59ef2d45e23fd535e3078e75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e1718df59ef2d45e23fd535e3078e75"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_constant_buffer.html#a7e1718df59ef2d45e23fd535e3078e75">size_</a></td></tr>
 <tr class="memdesc:a7e1718df59ef2d45e23fd535e3078e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer byte size. <br/></td></tr>
@@ -353,14 +286,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a3a7df857ddaa8c3e218c3645152dc23d inherit pro_attribs_class_urho3_d_1_1_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execution context. <br/></td></tr>
 <tr class="separator:a3a7df857ddaa8c3e218c3645152dc23d inherit pro_attribs_class_urho3_d_1_1_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_urho3_d_1_1_g_p_u_object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_urho3_d_1_1_g_p_u_object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_urho3_d_1_1_g_p_u_object.html">Urho3D::GPUObject</a></td></tr>
-<tr class="memitem:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a613458723b14e89752573c6c21a96e7f"></a>
-<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a613458723b14e89752573c6c21a96e7f">graphics_</a></td></tr>
-<tr class="memdesc:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> subsystem. <br/></td></tr>
-<tr class="separator:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa16dc2934b3f528a5e7609be225abe1"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#afa16dc2934b3f528a5e7609be225abe1">object_</a></td></tr>
-<tr class="memdesc:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct3D object. <br/></td></tr>
-<tr class="separator:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf1a902885d2c3bac02f3f58e0e0f037"></a>
+<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#abf1a902885d2c3bac02f3f58e0e0f037">graphics_</a></td></tr>
+<tr class="memdesc:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> subsystem. <br/></td></tr>
+<tr class="separator:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a601debebd01ef73fa6f40c818232330e inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a601debebd01ef73fa6f40c818232330e"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a601debebd01ef73fa6f40c818232330e">object_</a></td></tr>
 <tr class="memdesc:a601debebd01ef73fa6f40c818232330e inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil...">Object</a> handle. <br/></td></tr>
@@ -377,9 +306,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hardware constant buffer. </p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11ConstantBuffer.h</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLConstantBuffer.h</li>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11ConstantBuffer.cpp</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLConstantBuffer.cpp</li>
 </ul>
 </div><!-- contents -->

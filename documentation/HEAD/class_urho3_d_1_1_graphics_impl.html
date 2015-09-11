@@ -34,39 +34,19 @@ group: HEAD
 </div><!--header-->
 <div class="contents">
 
-<p>Graphics implementation. Holds API-specific objects.  
+<p>Graphics subsystem implementation. Holds API-specific objects.  
  <a href="class_urho3_d_1_1_graphics_impl.html#details">More...</a></p>
 
 <p><code>#include &lt;OGLGraphicsImpl.h&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Urho3D::GraphicsImpl:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_graphics_impl__coll__graph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_graphics_impl__coll__graph.svg" width="511" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d9ca44f230629dad1691a8f06f13e83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d9ca44f230629dad1691a8f06f13e83"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a5d9ca44f230629dad1691a8f06f13e83">GraphicsImpl</a> ()</td></tr>
-<tr class="memdesc:a5d9ca44f230629dad1691a8f06f13e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct. <br/></td></tr>
-<tr class="separator:a5d9ca44f230629dad1691a8f06f13e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18934a80e121d09124d677dfa68bc866"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18934a80e121d09124d677dfa68bc866"></a>
-ID3D11Device *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a18934a80e121d09124d677dfa68bc866">GetDevice</a> () const </td></tr>
-<tr class="memdesc:a18934a80e121d09124d677dfa68bc866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Direct3D device. <br/></td></tr>
-<tr class="separator:a18934a80e121d09124d677dfa68bc866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ec86c6a50ab8ecbfb265a7414fca87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22ec86c6a50ab8ecbfb265a7414fca87"></a>
-ID3D11DeviceContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a22ec86c6a50ab8ecbfb265a7414fca87">GetDeviceContext</a> () const </td></tr>
-<tr class="memdesc:a22ec86c6a50ab8ecbfb265a7414fca87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Direct3D immediate device context. <br/></td></tr>
-<tr class="separator:a22ec86c6a50ab8ecbfb265a7414fca87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575eab3c43cf76d29cd5b684f3104b36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a575eab3c43cf76d29cd5b684f3104b36"></a>
-IDXGISwapChain *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a575eab3c43cf76d29cd5b684f3104b36">GetSwapChain</a> () const </td></tr>
-<tr class="memdesc:a575eab3c43cf76d29cd5b684f3104b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return swapchain. <br/></td></tr>
-<tr class="separator:a575eab3c43cf76d29cd5b684f3104b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1d076963965a3cd80c70564461e366"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a1d076963965a3cd80c70564461e366"></a>
-SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a2a1d076963965a3cd80c70564461e366">GetWindow</a> () const </td></tr>
-<tr class="memdesc:a2a1d076963965a3cd80c70564461e366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return window. <br/></td></tr>
-<tr class="separator:a2a1d076963965a3cd80c70564461e366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9ca44f230629dad1691a8f06f13e83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d9ca44f230629dad1691a8f06f13e83"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a5d9ca44f230629dad1691a8f06f13e83">GraphicsImpl</a> ()</td></tr>
 <tr class="memdesc:a5d9ca44f230629dad1691a8f06f13e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct. <br/></td></tr>
@@ -82,85 +62,10 @@ const SDL_GLContext &amp;&#160;</td><td class="memItemRight" valign="bottom"><a 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a3def2bd9d799b21264f4dac11726a241"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3def2bd9d799b21264f4dac11726a241"></a>
-SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a3def2bd9d799b21264f4dac11726a241">window_</a></td></tr>
-<tr class="memdesc:a3def2bd9d799b21264f4dac11726a241"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDL window. <br/></td></tr>
-<tr class="separator:a3def2bd9d799b21264f4dac11726a241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75629fc2839b6b08abc950a36d49153"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa75629fc2839b6b08abc950a36d49153"></a>
-ID3D11Device *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#aa75629fc2839b6b08abc950a36d49153">device_</a></td></tr>
-<tr class="memdesc:aa75629fc2839b6b08abc950a36d49153"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> device. <br/></td></tr>
-<tr class="separator:aa75629fc2839b6b08abc950a36d49153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aa4cadd9d811cee23dd9de6119f7028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aa4cadd9d811cee23dd9de6119f7028"></a>
-ID3D11DeviceContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a0aa4cadd9d811cee23dd9de6119f7028">deviceContext_</a></td></tr>
-<tr class="memdesc:a0aa4cadd9d811cee23dd9de6119f7028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediate device context. <br/></td></tr>
-<tr class="separator:a0aa4cadd9d811cee23dd9de6119f7028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3354edd391d1ae7478df83f842d9c80e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3354edd391d1ae7478df83f842d9c80e"></a>
-IDXGISwapChain *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a3354edd391d1ae7478df83f842d9c80e">swapChain_</a></td></tr>
-<tr class="memdesc:a3354edd391d1ae7478df83f842d9c80e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap chain. <br/></td></tr>
-<tr class="separator:a3354edd391d1ae7478df83f842d9c80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaa0c4175d039d7aea41c78f417fb6b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaaa0c4175d039d7aea41c78f417fb6b7"></a>
-ID3D11RenderTargetView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#aaaa0c4175d039d7aea41c78f417fb6b7">defaultRenderTargetView_</a></td></tr>
-<tr class="memdesc:aaaa0c4175d039d7aea41c78f417fb6b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default (backbuffer) rendertarget view. <br/></td></tr>
-<tr class="separator:aaaa0c4175d039d7aea41c78f417fb6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0e4a27b42a55f2ce23b165d0ada12a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0e4a27b42a55f2ce23b165d0ada12a8"></a>
-ID3D11Texture2D *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#aa0e4a27b42a55f2ce23b165d0ada12a8">defaultDepthTexture_</a></td></tr>
-<tr class="memdesc:aa0e4a27b42a55f2ce23b165d0ada12a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default depth-stencil texture. <br/></td></tr>
-<tr class="separator:aa0e4a27b42a55f2ce23b165d0ada12a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc6b1f5c4af029391de89fe58bfe7f59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc6b1f5c4af029391de89fe58bfe7f59"></a>
-ID3D11DepthStencilView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#afc6b1f5c4af029391de89fe58bfe7f59">defaultDepthStencilView_</a></td></tr>
-<tr class="memdesc:afc6b1f5c4af029391de89fe58bfe7f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default depth-stencil view. <br/></td></tr>
-<tr class="separator:afc6b1f5c4af029391de89fe58bfe7f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c3565e757aafc73dcf8f472da108103"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c3565e757aafc73dcf8f472da108103"></a>
-ID3D11RenderTargetView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a6c3565e757aafc73dcf8f472da108103">renderTargetViews_</a> [MAX_RENDERTARGETS]</td></tr>
-<tr class="memdesc:a6c3565e757aafc73dcf8f472da108103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current color rendertarget views. <br/></td></tr>
-<tr class="separator:a6c3565e757aafc73dcf8f472da108103"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60037fc1c376a5d51610a70ab43e9de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac60037fc1c376a5d51610a70ab43e9de"></a>
-ID3D11DepthStencilView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#ac60037fc1c376a5d51610a70ab43e9de">depthStencilView_</a></td></tr>
-<tr class="memdesc:ac60037fc1c376a5d51610a70ab43e9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current depth-stencil view. <br/></td></tr>
-<tr class="separator:ac60037fc1c376a5d51610a70ab43e9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25df9688f179790f665d067359f3f572"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25df9688f179790f665d067359f3f572"></a>
-<a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; unsigned, <br class="typebreak"/>
-ID3D11BlendState * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a25df9688f179790f665d067359f3f572">blendStates_</a></td></tr>
-<tr class="memdesc:a25df9688f179790f665d067359f3f572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Created blend state objects. <br/></td></tr>
-<tr class="separator:a25df9688f179790f665d067359f3f572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef03207f24ade043db0313ee8c15da89"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef03207f24ade043db0313ee8c15da89"></a>
-<a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; unsigned, <br class="typebreak"/>
-ID3D11DepthStencilState * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#aef03207f24ade043db0313ee8c15da89">depthStates_</a></td></tr>
-<tr class="memdesc:aef03207f24ade043db0313ee8c15da89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Created depth state objects. <br/></td></tr>
-<tr class="separator:aef03207f24ade043db0313ee8c15da89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37407e9717024d4d75495ce653179d39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37407e9717024d4d75495ce653179d39"></a>
-<a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; unsigned, <br class="typebreak"/>
-ID3D11RasterizerState * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a37407e9717024d4d75495ce653179d39">rasterizerStates_</a></td></tr>
-<tr class="memdesc:a37407e9717024d4d75495ce653179d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Created rasterizer state objects. <br/></td></tr>
-<tr class="separator:a37407e9717024d4d75495ce653179d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a280c64adfb92b334ba52d0d22210b9aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a280c64adfb92b334ba52d0d22210b9aa"></a>
-ID3D11Texture2D *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a280c64adfb92b334ba52d0d22210b9aa">resolveTexture_</a></td></tr>
-<tr class="memdesc:a280c64adfb92b334ba52d0d22210b9aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intermediate texture for multisampled screenshots and less than whole viewport multisampled resolve, created on demand. <br/></td></tr>
-<tr class="separator:a280c64adfb92b334ba52d0d22210b9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade98796276b061292a5a4cf8b67aabd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade98796276b061292a5a4cf8b67aabd6"></a>
-ID3D11ShaderResourceView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#ade98796276b061292a5a4cf8b67aabd6">shaderResourceViews_</a> [MAX_TEXTURE_UNITS]</td></tr>
-<tr class="memdesc:ade98796276b061292a5a4cf8b67aabd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound shader resource views. <br/></td></tr>
-<tr class="separator:ade98796276b061292a5a4cf8b67aabd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61984a8aeff3f12484bad75973809f30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61984a8aeff3f12484bad75973809f30"></a>
-ID3D11SamplerState *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a61984a8aeff3f12484bad75973809f30">samplers_</a> [MAX_TEXTURE_UNITS]</td></tr>
-<tr class="memdesc:a61984a8aeff3f12484bad75973809f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound sampler state objects. <br/></td></tr>
-<tr class="separator:a61984a8aeff3f12484bad75973809f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236c80225aebbad333453d0f726f2aa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a236c80225aebbad333453d0f726f2aa1"></a>
-ID3D11Buffer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a236c80225aebbad333453d0f726f2aa1">vertexBuffers_</a> [MAX_VERTEX_STREAMS]</td></tr>
-<tr class="memdesc:a236c80225aebbad333453d0f726f2aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound vertex buffers. <br/></td></tr>
-<tr class="separator:a236c80225aebbad333453d0f726f2aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060ed8b4f876395ecc9ea1e3bfa74133"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a060ed8b4f876395ecc9ea1e3bfa74133"></a>
-ID3D11Buffer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a060ed8b4f876395ecc9ea1e3bfa74133">constantBuffers_</a> [2][MAX_SHADER_PARAMETER_GROUPS]</td></tr>
-<tr class="memdesc:a060ed8b4f876395ecc9ea1e3bfa74133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound constant buffers. <br/></td></tr>
-<tr class="separator:a060ed8b4f876395ecc9ea1e3bfa74133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b4c5bd4b818a3fa74291fe7ef8d85b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62b4c5bd4b818a3fa74291fe7ef8d85b"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#a62b4c5bd4b818a3fa74291fe7ef8d85b">vertexSizes_</a> [MAX_VERTEX_STREAMS]</td></tr>
-<tr class="memdesc:a62b4c5bd4b818a3fa74291fe7ef8d85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex sizes per buffer. <br/></td></tr>
-<tr class="separator:a62b4c5bd4b818a3fa74291fe7ef8d85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac91ad40028ead49888c71d632aaee5f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac91ad40028ead49888c71d632aaee5f0"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#ac91ad40028ead49888c71d632aaee5f0">vertexOffsets_</a> [MAX_VERTEX_STREAMS]</td></tr>
-<tr class="memdesc:ac91ad40028ead49888c71d632aaee5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex stream offsets per buffer. <br/></td></tr>
-<tr class="separator:ac91ad40028ead49888c71d632aaee5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67ebfb1ac3c71dee287cd2672c4f2b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae67ebfb1ac3c71dee287cd2672c4f2b8"></a>
+SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#ae67ebfb1ac3c71dee287cd2672c4f2b8">window_</a></td></tr>
+<tr class="memdesc:ae67ebfb1ac3c71dee287cd2672c4f2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDL window. <br/></td></tr>
+<tr class="separator:ae67ebfb1ac3c71dee287cd2672c4f2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af774063b57fa547640653734de6cdee6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af774063b57fa547640653734de6cdee6"></a>
 SDL_GLContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_graphics_impl.html#af774063b57fa547640653734de6cdee6">context_</a></td></tr>
 <tr class="memdesc:af774063b57fa547640653734de6cdee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDL OpenGL context. <br/></td></tr>
@@ -209,17 +114,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a821fa6bcae46bbf01e1bdaf5a86a585d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a821fa6bcae46bbf01e1bdaf5a86a585d"></a>
+<tr class="memitem:ae5cfe0c0e0b06d536d5814bd1ff4818f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5cfe0c0e0b06d536d5814bd1ff4818f"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>Graphics</b></td></tr>
-<tr class="separator:a821fa6bcae46bbf01e1bdaf5a86a585d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae5cfe0c0e0b06d536d5814bd1ff4818f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Graphics implementation. Holds API-specific objects. </p>
-<p>Graphics subsystem implementation. Holds API-specific objects. </p>
+<div class="textblock"><p>Graphics subsystem implementation. Holds API-specific objects. </p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11GraphicsImpl.h</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLGraphicsImpl.h</li>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11GraphicsImpl.cpp</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLGraphicsImpl.cpp</li>
 </ul>
 </div><!-- contents -->

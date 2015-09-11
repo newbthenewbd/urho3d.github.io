@@ -10,7 +10,7 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<a xlink:href="class_urho3_d_1_1_graphics_impl.html" target="_top" xlink:title="Graphics implementation. Holds API&#45;specific objects.">
+<a xlink:href="class_urho3_d_1_1_graphics_impl.html" target="_top" xlink:title="Graphics subsystem implementation. Holds API&#45;specific objects.">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-21.5 122,-21.5 122,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="61" y="-8.5" font-family="FreeSans" font-size="10.00">Urho3D::GraphicsImpl</text>
 </a>

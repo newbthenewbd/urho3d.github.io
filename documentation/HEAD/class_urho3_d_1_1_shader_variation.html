@@ -26,7 +26,6 @@ group: HEAD
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_urho3_d_1_1_shader_variation-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -61,6 +60,10 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a1b95a63085d93c84c14941e66b22a174">~ShaderVariation</a> ()</td></tr>
 <tr class="memdesc:a1b95a63085d93c84c14941e66b22a174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
 <tr class="separator:a1b95a63085d93c84c14941e66b22a174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379e81b408ef1008032896a1a0f5df98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a379e81b408ef1008032896a1a0f5df98"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a379e81b408ef1008032896a1a0f5df98">OnDeviceLost</a> ()</td></tr>
+<tr class="memdesc:a379e81b408ef1008032896a1a0f5df98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the GPU resource destroyed on context destruction. <br/></td></tr>
+<tr class="separator:a379e81b408ef1008032896a1a0f5df98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad356475c4c1d8b88b3469cf7a6acef67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad356475c4c1d8b88b3469cf7a6acef67"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ad356475c4c1d8b88b3469cf7a6acef67">Release</a> ()</td></tr>
 <tr class="memdesc:ad356475c4c1d8b88b3469cf7a6acef67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the shader. <br/></td></tr>
@@ -81,83 +84,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_urho3_d_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#aab33e116bbdedb8ff3d21ff8730c0173">GetOwner</a> () const </td></tr>
 <tr class="memdesc:aab33e116bbdedb8ff3d21ff8730c0173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the owner resource. <br/></td></tr>
 <tr class="separator:aab33e116bbdedb8ff3d21ff8730c0173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace537c9d8b6db592db5520f4f40fdea7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace537c9d8b6db592db5520f4f40fdea7"></a>
-ShaderType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ace537c9d8b6db592db5520f4f40fdea7">GetShaderType</a> () const </td></tr>
-<tr class="memdesc:ace537c9d8b6db592db5520f4f40fdea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return shader type. <br/></td></tr>
-<tr class="separator:ace537c9d8b6db592db5520f4f40fdea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41d2cc01c0d9ad07dc0658927ab54ba8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41d2cc01c0d9ad07dc0658927ab54ba8"></a>
-const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a41d2cc01c0d9ad07dc0658927ab54ba8">GetName</a> () const </td></tr>
-<tr class="memdesc:a41d2cc01c0d9ad07dc0658927ab54ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return shader name. <br/></td></tr>
-<tr class="separator:a41d2cc01c0d9ad07dc0658927ab54ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6da1356b18b052d0413ff106934103fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6da1356b18b052d0413ff106934103fc"></a>
-<a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a6da1356b18b052d0413ff106934103fc">GetFullName</a> () const </td></tr>
-<tr class="memdesc:a6da1356b18b052d0413ff106934103fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return full shader name. <br/></td></tr>
-<tr class="separator:a6da1356b18b052d0413ff106934103fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d6449d10278b870248e2327c0a2c700"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d6449d10278b870248e2327c0a2c700"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a3d6449d10278b870248e2327c0a2c700">HasParameter</a> (<a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a> param) const </td></tr>
-<tr class="memdesc:a3d6449d10278b870248e2327c0a2c700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether uses a parameter. <br/></td></tr>
-<tr class="separator:a3d6449d10278b870248e2327c0a2c700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8982ae7da700e9001b6d04d782493dbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8982ae7da700e9001b6d04d782493dbb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a8982ae7da700e9001b6d04d782493dbb">HasTextureUnit</a> (TextureUnit unit) const </td></tr>
-<tr class="memdesc:a8982ae7da700e9001b6d04d782493dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether uses a texture unit (only for pixel shaders.) <br/></td></tr>
-<tr class="separator:a8982ae7da700e9001b6d04d782493dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4ba3f5ba669524394ad7e292831e386"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4ba3f5ba669524394ad7e292831e386"></a>
-const <a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a>, <br class="typebreak"/>
-<a class="el" href="struct_urho3_d_1_1_shader_parameter.html">ShaderParameter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ab4ba3f5ba669524394ad7e292831e386">GetParameters</a> () const </td></tr>
-<tr class="memdesc:ab4ba3f5ba669524394ad7e292831e386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all parameter definitions. <br/></td></tr>
-<tr class="separator:ab4ba3f5ba669524394ad7e292831e386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e7c3c6bc03e89400d89efe02031a20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16e7c3c6bc03e89400d89efe02031a20"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a16e7c3c6bc03e89400d89efe02031a20">GetElementMask</a> () const </td></tr>
-<tr class="memdesc:a16e7c3c6bc03e89400d89efe02031a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vertex element mask. <br/></td></tr>
-<tr class="separator:a16e7c3c6bc03e89400d89efe02031a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc87c2b30ab7b5f5281314d99e1c2b1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc87c2b30ab7b5f5281314d99e1c2b1c"></a>
-const <a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#abc87c2b30ab7b5f5281314d99e1c2b1c">GetByteCode</a> () const </td></tr>
-<tr class="memdesc:abc87c2b30ab7b5f5281314d99e1c2b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return shader bytecode. <br/></td></tr>
-<tr class="separator:abc87c2b30ab7b5f5281314d99e1c2b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7c7533a1d7a15d1c8e386718a2a3acb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7c7533a1d7a15d1c8e386718a2a3acb"></a>
-const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ab7c7533a1d7a15d1c8e386718a2a3acb">GetDefines</a> () const </td></tr>
-<tr class="memdesc:ab7c7533a1d7a15d1c8e386718a2a3acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return defines. <br/></td></tr>
-<tr class="separator:ab7c7533a1d7a15d1c8e386718a2a3acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5edd8bf851488e3320748be9d6dd0916"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5edd8bf851488e3320748be9d6dd0916"></a>
-const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a5edd8bf851488e3320748be9d6dd0916">GetCompilerOutput</a> () const </td></tr>
-<tr class="memdesc:a5edd8bf851488e3320748be9d6dd0916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return compile error/warning string. <br/></td></tr>
-<tr class="separator:a5edd8bf851488e3320748be9d6dd0916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d146bd2b2ce21f4842d59b178c2c1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3d146bd2b2ce21f4842d59b178c2c1d"></a>
-const unsigned *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ad3d146bd2b2ce21f4842d59b178c2c1d">GetConstantBufferSizes</a> () const </td></tr>
-<tr class="memdesc:ad3d146bd2b2ce21f4842d59b178c2c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return constant buffer data sizes. <br/></td></tr>
-<tr class="separator:ad3d146bd2b2ce21f4842d59b178c2c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55da24c2c821f46953dd4e946a676d21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55da24c2c821f46953dd4e946a676d21"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a55da24c2c821f46953dd4e946a676d21">ShaderVariation</a> (<a class="el" href="class_urho3_d_1_1_shader.html">Shader</a> *owner, ShaderType type)</td></tr>
-<tr class="memdesc:a55da24c2c821f46953dd4e946a676d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct. <br/></td></tr>
-<tr class="separator:a55da24c2c821f46953dd4e946a676d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf6497f39c9eda18df1e230f4fd2f958"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf6497f39c9eda18df1e230f4fd2f958"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#abf6497f39c9eda18df1e230f4fd2f958">~ShaderVariation</a> ()</td></tr>
-<tr class="memdesc:abf6497f39c9eda18df1e230f4fd2f958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. <br/></td></tr>
-<tr class="separator:abf6497f39c9eda18df1e230f4fd2f958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a379e81b408ef1008032896a1a0f5df98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a379e81b408ef1008032896a1a0f5df98"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a379e81b408ef1008032896a1a0f5df98">OnDeviceLost</a> ()</td></tr>
-<tr class="memdesc:a379e81b408ef1008032896a1a0f5df98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the GPU resource destroyed on context destruction. <br/></td></tr>
-<tr class="separator:a379e81b408ef1008032896a1a0f5df98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23df980fdcb5062e490de1c151ca373"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa23df980fdcb5062e490de1c151ca373"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#aa23df980fdcb5062e490de1c151ca373">Release</a> ()</td></tr>
-<tr class="memdesc:aa23df980fdcb5062e490de1c151ca373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the shader. <br/></td></tr>
-<tr class="separator:aa23df980fdcb5062e490de1c151ca373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a796302110897b35c3faf6c18208e289c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a796302110897b35c3faf6c18208e289c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a796302110897b35c3faf6c18208e289c">Create</a> ()</td></tr>
-<tr class="memdesc:a796302110897b35c3faf6c18208e289c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compile the shader. Return true if successful. <br/></td></tr>
-<tr class="separator:a796302110897b35c3faf6c18208e289c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a95c1cb7196757744cca86b915734d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a95c1cb7196757744cca86b915734d0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a0a95c1cb7196757744cca86b915734d0">SetName</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;name)</td></tr>
-<tr class="memdesc:a0a95c1cb7196757744cca86b915734d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set name. <br/></td></tr>
-<tr class="separator:a0a95c1cb7196757744cca86b915734d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fc30c33a6427a7eaa39f27b3507d386"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fc30c33a6427a7eaa39f27b3507d386"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a1fc30c33a6427a7eaa39f27b3507d386">SetDefines</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;defines)</td></tr>
-<tr class="memdesc:a1fc30c33a6427a7eaa39f27b3507d386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set defines. <br/></td></tr>
-<tr class="separator:a1fc30c33a6427a7eaa39f27b3507d386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24320a51605654b9f19274d5412caad5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24320a51605654b9f19274d5412caad5"></a>
-<a class="el" href="class_urho3_d_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a24320a51605654b9f19274d5412caad5">GetOwner</a> () const </td></tr>
-<tr class="memdesc:a24320a51605654b9f19274d5412caad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the owner resource. <br/></td></tr>
-<tr class="separator:a24320a51605654b9f19274d5412caad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace537c9d8b6db592db5520f4f40fdea7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace537c9d8b6db592db5520f4f40fdea7"></a>
 ShaderType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ace537c9d8b6db592db5520f4f40fdea7">GetShaderType</a> () const </td></tr>
 <tr class="memdesc:ace537c9d8b6db592db5520f4f40fdea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return shader type. <br/></td></tr>
@@ -214,36 +140,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a818ceaf4f9debc5f4233f2e265d0cf42"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a818ceaf4f9debc5f4233f2e265d0cf42">~GPUObject</a> ()</td></tr>
-<tr class="memdesc:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the graphics subsystem. <br/></td></tr>
+<tr class="memdesc:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a>. <br/></td></tr>
 <tr class="separator:a818ceaf4f9debc5f4233f2e265d0cf42 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90de5fa07e164d6b5e95f832a0741088"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a90de5fa07e164d6b5e95f832a0741088">ClearDataLost</a> ()</td></tr>
-<tr class="memdesc:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the data lost flag. No-op on D3D11. <br/></td></tr>
-<tr class="separator:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0cc0adf6cc06940102d64be88b9d4b"></a>
-<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ada0cc0adf6cc06940102d64be88b9d4b">GetGraphics</a> () const </td></tr>
-<tr class="memdesc:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
-<tr class="separator:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67142837fc5ed67f4b0bf7f97df2cb5d"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a67142837fc5ed67f4b0bf7f97df2cb5d">GetGPUObject</a> () const </td></tr>
-<tr class="memdesc:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Direct3D object. <br/></td></tr>
-<tr class="separator:a67142837fc5ed67f4b0bf7f97df2cb5d inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcfd2ec12501214e6f78bb0ce2fee6d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#afcfd2ec12501214e6f78bb0ce2fee6d5">IsDataLost</a> () const </td></tr>
-<tr class="memdesc:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether data is lost due to device loss. Always false on D3D11. <br/></td></tr>
-<tr class="separator:afcfd2ec12501214e6f78bb0ce2fee6d5 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04fece8be486f0b627364667159d823c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a04fece8be486f0b627364667159d823c">HasPendingData</a> () const </td></tr>
-<tr class="memdesc:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether has pending data assigned while device was lost. Always false on D3D11. <br/></td></tr>
-<tr class="separator:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a403872d965887004f1021405870ff865"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a403872d965887004f1021405870ff865">GPUObject</a> (<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *graphics)</td></tr>
-<tr class="memdesc:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with graphics subsystem pointer. <br/></td></tr>
-<tr class="separator:a403872d965887004f1021405870ff865 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad23b82c85519c520437707ddd4b8097f"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ad23b82c85519c520437707ddd4b8097f">~GPUObject</a> ()</td></tr>
-<tr class="memdesc:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct. Remove from the <a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a>. <br/></td></tr>
-<tr class="separator:ad23b82c85519c520437707ddd4b8097f inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18ab28f33620594506eeb2c5fe168106 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18ab28f33620594506eeb2c5fe168106"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a18ab28f33620594506eeb2c5fe168106">OnDeviceReset</a> ()</td></tr>
 <tr class="memdesc:a18ab28f33620594506eeb2c5fe168106 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreate the GPU resource and restore data if applicable. <br/></td></tr>
@@ -252,10 +150,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a90de5fa07e164d6b5e95f832a0741088">ClearDataLost</a> ()</td></tr>
 <tr class="memdesc:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the data lost flag. <br/></td></tr>
 <tr class="separator:a90de5fa07e164d6b5e95f832a0741088 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af37188ebe0986246a55aba96185b8497"></a>
-<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#af37188ebe0986246a55aba96185b8497">GetGraphics</a> () const </td></tr>
-<tr class="memdesc:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
-<tr class="separator:af37188ebe0986246a55aba96185b8497 inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0cc0adf6cc06940102d64be88b9d4b"></a>
+<a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#ada0cc0adf6cc06940102d64be88b9d4b">GetGraphics</a> () const </td></tr>
+<tr class="memdesc:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the graphics subsystem. <br/></td></tr>
+<tr class="separator:ada0cc0adf6cc06940102d64be88b9d4b inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc3aa11294b3d788965f299ca9bfb81c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc3aa11294b3d788965f299ca9bfb81c"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#acc3aa11294b3d788965f299ca9bfb81c">GetGPUObject</a> () const </td></tr>
 <tr class="memdesc:acc3aa11294b3d788965f299ca9bfb81c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object's OpenGL handle. <br/></td></tr>
@@ -269,59 +167,16 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether has pending data assigned while context was lost. <br/></td></tr>
 <tr class="separator:a04fece8be486f0b627364667159d823c inherit pub_methods_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a521f1e28728cc83e54757f91131a8d07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a521f1e28728cc83e54757f91131a8d07">LoadByteCode</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;binaryShaderName)</td></tr>
-<tr class="memdesc:a521f1e28728cc83e54757f91131a8d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load bytecode from a file. Return true if successful.  <a href="#a521f1e28728cc83e54757f91131a8d07">More...</a><br/></td></tr>
-<tr class="separator:a521f1e28728cc83e54757f91131a8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba1943001c9b78648ee27df03dfd1abf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba1943001c9b78648ee27df03dfd1abf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#aba1943001c9b78648ee27df03dfd1abf">Compile</a> ()</td></tr>
-<tr class="memdesc:aba1943001c9b78648ee27df03dfd1abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compile from source. Return true if successful. <br/></td></tr>
-<tr class="separator:aba1943001c9b78648ee27df03dfd1abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ca2e0ab6c1363475a81f4bcf594288"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09ca2e0ab6c1363475a81f4bcf594288"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a09ca2e0ab6c1363475a81f4bcf594288">ParseParameters</a> (unsigned char *bufData, unsigned bufSize)</td></tr>
-<tr class="memdesc:a09ca2e0ab6c1363475a81f4bcf594288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspect the constant parameters and input layout (if applicable) from the shader bytecode. <br/></td></tr>
-<tr class="separator:a09ca2e0ab6c1363475a81f4bcf594288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b73d61548e40e1554472b77873f6a8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b73d61548e40e1554472b77873f6a8d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a5b73d61548e40e1554472b77873f6a8d">SaveByteCode</a> (const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;binaryShaderName)</td></tr>
-<tr class="memdesc:a5b73d61548e40e1554472b77873f6a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save bytecode to a file. <br/></td></tr>
-<tr class="separator:a5b73d61548e40e1554472b77873f6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0244988b02aaf541a0e6d38f01c4998"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0244988b02aaf541a0e6d38f01c4998"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#ae0244988b02aaf541a0e6d38f01c4998">CalculateConstantBufferSizes</a> ()</td></tr>
-<tr class="memdesc:ae0244988b02aaf541a0e6d38f01c4998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate constant buffer sizes from parameters. <br/></td></tr>
-<tr class="separator:ae0244988b02aaf541a0e6d38f01c4998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a13c714bf45d0d3dfca30cbd3a47aa866"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13c714bf45d0d3dfca30cbd3a47aa866"></a>
-<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_shader.html">Shader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a13c714bf45d0d3dfca30cbd3a47aa866">owner_</a></td></tr>
-<tr class="memdesc:a13c714bf45d0d3dfca30cbd3a47aa866"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_shader.html" title="Shader resource consisting of several shader variations.">Shader</a> this variation belongs to. <br/></td></tr>
-<tr class="separator:a13c714bf45d0d3dfca30cbd3a47aa866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1084411c318e0ed359d5ba3b07467186"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1084411c318e0ed359d5ba3b07467186"></a>
+<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_shader.html">Shader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a1084411c318e0ed359d5ba3b07467186">owner_</a></td></tr>
+<tr class="memdesc:a1084411c318e0ed359d5ba3b07467186"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_shader.html" title="Shader resource consisting of several shader variations.">Shader</a> this variation belongs to. <br/></td></tr>
+<tr class="separator:a1084411c318e0ed359d5ba3b07467186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe27e4fc0536ebded28cb982a54f1271"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe27e4fc0536ebded28cb982a54f1271"></a>
 ShaderType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#afe27e4fc0536ebded28cb982a54f1271">type_</a></td></tr>
 <tr class="memdesc:afe27e4fc0536ebded28cb982a54f1271"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_shader.html" title="Shader resource consisting of several shader variations.">Shader</a> type. <br/></td></tr>
 <tr class="separator:afe27e4fc0536ebded28cb982a54f1271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17766b3fe79c69237ad56f895dbdcd49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17766b3fe79c69237ad56f895dbdcd49"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a17766b3fe79c69237ad56f895dbdcd49">elementMask_</a></td></tr>
-<tr class="memdesc:a17766b3fe79c69237ad56f895dbdcd49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex element mask for vertex shaders. Zero for pixel shaders. <br/></td></tr>
-<tr class="separator:a17766b3fe79c69237ad56f895dbdcd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a1f937da5366d8affba83d153513da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12a1f937da5366d8affba83d153513da"></a>
-<a class="el" href="class_urho3_d_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="class_urho3_d_1_1_string_hash.html">StringHash</a>, <br class="typebreak"/>
-<a class="el" href="struct_urho3_d_1_1_shader_parameter.html">ShaderParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a12a1f937da5366d8affba83d153513da">parameters_</a></td></tr>
-<tr class="memdesc:a12a1f937da5366d8affba83d153513da"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_shader.html" title="Shader resource consisting of several shader variations.">Shader</a> parameters. <br/></td></tr>
-<tr class="separator:a12a1f937da5366d8affba83d153513da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ddf237eec6a466651011e00901c50e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79ddf237eec6a466651011e00901c50e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a79ddf237eec6a466651011e00901c50e">useTextureUnit_</a> [MAX_TEXTURE_UNITS]</td></tr>
-<tr class="memdesc:a79ddf237eec6a466651011e00901c50e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_texture.html" title="Base class for texture resources.">Texture</a> unit use flags. <br/></td></tr>
-<tr class="separator:a79ddf237eec6a466651011e00901c50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f88163f4a5b0ed59ba3190e2782405e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f88163f4a5b0ed59ba3190e2782405e"></a>
-unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a8f88163f4a5b0ed59ba3190e2782405e">constantBufferSizes_</a> [MAX_SHADER_PARAMETER_GROUPS]</td></tr>
-<tr class="memdesc:a8f88163f4a5b0ed59ba3190e2782405e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant buffer sizes. 0 if a constant buffer slot is not in use. <br/></td></tr>
-<tr class="separator:a8f88163f4a5b0ed59ba3190e2782405e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82cecb350a6fd2f6d693be021dfce366"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82cecb350a6fd2f6d693be021dfce366"></a>
-<a class="el" href="class_urho3_d_1_1_p_o_d_vector.html">PODVector</a>&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a82cecb350a6fd2f6d693be021dfce366">byteCode_</a></td></tr>
-<tr class="memdesc:a82cecb350a6fd2f6d693be021dfce366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bytecode. Needed for inspecting the input signature and parameters. <br/></td></tr>
-<tr class="separator:a82cecb350a6fd2f6d693be021dfce366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39539980f94b4b1e25f0c99253abd52a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39539980f94b4b1e25f0c99253abd52a"></a>
 <a class="el" href="class_urho3_d_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_shader_variation.html#a39539980f94b4b1e25f0c99253abd52a">name_</a></td></tr>
 <tr class="memdesc:a39539980f94b4b1e25f0c99253abd52a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_shader.html" title="Shader resource consisting of several shader variations.">Shader</a> name. <br/></td></tr>
@@ -338,14 +193,10 @@ unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_urho3_d_1_1_g_p_u_object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_urho3_d_1_1_g_p_u_object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_urho3_d_1_1_g_p_u_object.html">Urho3D::GPUObject</a></td></tr>
-<tr class="memitem:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a613458723b14e89752573c6c21a96e7f"></a>
-<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a613458723b14e89752573c6c21a96e7f">graphics_</a></td></tr>
-<tr class="memdesc:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> subsystem. <br/></td></tr>
-<tr class="separator:a613458723b14e89752573c6c21a96e7f inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa16dc2934b3f528a5e7609be225abe1"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#afa16dc2934b3f528a5e7609be225abe1">object_</a></td></tr>
-<tr class="memdesc:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct3D object. <br/></td></tr>
-<tr class="separator:afa16dc2934b3f528a5e7609be225abe1 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf1a902885d2c3bac02f3f58e0e0f037"></a>
+<a class="el" href="class_urho3_d_1_1_weak_ptr.html">WeakPtr</a>&lt; <a class="el" href="class_urho3_d_1_1_graphics.html">Graphics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#abf1a902885d2c3bac02f3f58e0e0f037">graphics_</a></td></tr>
+<tr class="memdesc:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_graphics.html" title="Graphics subsystem. Manages the application window, rendering state and GPU resources.">Graphics</a> subsystem. <br/></td></tr>
+<tr class="separator:abf1a902885d2c3bac02f3f58e0e0f037 inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a601debebd01ef73fa6f40c818232330e inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a601debebd01ef73fa6f40c818232330e"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_urho3_d_1_1_g_p_u_object.html#a601debebd01ef73fa6f40c818232330e">object_</a></td></tr>
 <tr class="memdesc:a601debebd01ef73fa6f40c818232330e inherit pro_attribs_class_urho3_d_1_1_g_p_u_object"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_urho3_d_1_1_object.html" title="Base class for objects with type identification, subsystem access and event sending/receiving capabil...">Object</a> handle. <br/></td></tr>
@@ -361,54 +212,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Vertex or pixel shader on the GPU. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a521f1e28728cc83e54757f91131a8d07"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Urho3D::ShaderVariation::LoadByteCode </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_urho3_d_1_1_string.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>binaryShaderName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Load bytecode from a file. Return true if successful. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check that shader type and model match </dd></dl>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_shader_variation_a521f1e28728cc83e54757f91131a8d07_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_urho3_d_1_1_shader_variation_a521f1e28728cc83e54757f91131a8d07_icgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11ShaderVariation.h</li>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLShaderVariation.h</li>
-<li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/Direct3D11/D3D11ShaderVariation.cpp</li>
 <li>/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics/OpenGL/OGLShaderVariation.cpp</li>
 </ul>
 </div><!-- contents -->

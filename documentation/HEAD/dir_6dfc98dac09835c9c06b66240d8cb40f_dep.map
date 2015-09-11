@@ -1,6 +1,5 @@
 <map id="/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics" name="/home/travis/build/urho3d/Urho3D/Source/Urho3D/Graphics">
-<area shape="rect" id="node4" href="dir_3cbfd4187e947ff99ffa7b835c0ba5ea.html" title="Direct3D11" alt="" coords="133,65,227,113"/>
-<area shape="rect" id="node5" href="dir_7df80fb29bf95116b9f4d3eced00c446.html" title="OpenGL" alt="" coords="37,65,109,113"/>
-<area shape="rect" id="graph3" href="dir_6dfc98dac09835c9c06b66240d8cb40f.html" alt="" coords="27,55,339,124"/>
-<area shape="rect" id="graph2" href="dir_163ad3a3adbf5aaebf2e75b4f7f55731.html" title="Urho3D" alt="" coords="16,16,349,135"/>
+<area shape="rect" id="node4" href="dir_7df80fb29bf95116b9f4d3eced00c446.html" title="OpenGL" alt="" coords="37,65,109,113"/>
+<area shape="rect" id="graph3" href="dir_6dfc98dac09835c9c06b66240d8cb40f.html" alt="" coords="27,55,221,124"/>
+<area shape="rect" id="graph2" href="dir_163ad3a3adbf5aaebf2e75b4f7f55731.html" title="Urho3D" alt="" coords="16,16,232,135"/>
 </map>
