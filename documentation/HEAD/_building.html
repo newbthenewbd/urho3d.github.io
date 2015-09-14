@@ -31,6 +31,7 @@ group: HEAD
 <li class="level1"><a href="#Building_Library">Library build</a></li>
 <li class="level1"><a href="#Building_Docs">Documentation build</a></li>
 <li class="level1"><a href="#Building_Shaders">Compiling Direct3D shaders</a></li>
+<li class="level1"><a href="#Building_Clang_tools">Clang-tools build</a></li>
 <li class="level1"><a href="#Using_ccache">Using ccache</a></li>
 </ul>
 </div>
@@ -334,6 +335,10 @@ Documentation build</h2>
 Compiling Direct3D shaders</h2>
 <p>When building for Direct3D9 with the Windows 8 SDK (Visual Studio 2012+), copy d3dcompiler_46.dll from "C:\Program Files (x86)\Windows Kits\8.0\bin\x86" to build tree's "bin" directory so that Urho3D executables will run correctly. When building for Direct3D11, copy d3dcompiler_47.dll from "C:\Program Files (x86)\Windows Kits\8.1\bin\x86" to the "bin" directory. In both cases, if compiling Urho3D as 64-bit, copy from the "bin\x64" directory instead.</p>
 <p>OpenGL does not depend on a separate shader compiler DLL.</p>
+<h2><a class="anchor" id="Building_Clang_tools"></a>
+Clang-tools build</h2>
+<p>If "URHO3D_CLANG_TOOLS" build option is set then CMake would generate a special build tree for the purpose of developing the Clang-tools. Normal build targets won't work in this special build tree. Before doing this, the development software package of LLVM/Clang or Fastcomp/Clang (from Emscripten-SDK) must be already installed in the host system. If using Fastcomp/Clang and it is not installed in the system-wide installation location then use the FASTCOMP_CLANG_ROOT environment variable to point to the root path of this custom location (the root is the parent directory containing the bin, lib, include and share subdirectories).</p>
+<p>Check the Source/Clang-Tools/CMakeLists.txt to get the list of targets currently available or under development. See also <a href="https://github.com/urho3d/Urho3D/issues/887">https://github.com/urho3d/Urho3D/issues/887</a> to find out more about the current development plan and leave a comment there if you would like to help to contribute the development.</p>
 <h2><a class="anchor" id="Using_ccache"></a>
 Using ccache</h2>
 <p>ccache is a compiler cache software available on Linux and Mac OS X host systems. It speeds up the build by bypassing the actual compilation and reusing the result from previous compilation when the cache is hit. As such, this is optional in the build process. In order to enable ccache support and make it work correctly when building/using Urho3D library with GCC/Clang precompiled header enabled, the following environment variables must be set: </p>
