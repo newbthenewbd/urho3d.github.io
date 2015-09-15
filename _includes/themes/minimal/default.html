@@ -81,7 +81,7 @@ Copyright (c) 2014-2015 Yao Wei Tjong
         <div class="row">
           <div class="col-xs-6">
             <a href="https://scan.coverity.com/projects/{{ site.data.footer_info.coverity_scan.project_id }}" target="_blank"-->
-              <div><img src="https://img.shields.io/coverity/scan/{{ site.data.footer_info.coverity_scan.project_id }}.svg" title="Coverity scan" alt="Coverity Scan" /></div>
+    <div><img src="https://scan.coverity.com/projects/{{ site.data.footer_info.coverity_scan.project_id }}/badge.svg?branch=Coverity-Scan" title="Coverity scan" alt="Coverity Scan"/></div>
             </a>
             <div class="feed"><small>
               <a href="{{ BASE_PATH }}{{ site.JB.atom_path }}"><i class="fa fa-rss fa-lg"></i>ATOM</a>&nbsp;
@@ -98,7 +98,7 @@ Copyright (c) 2014-2015 Yao Wei Tjong
               <table>
                 {% for build_status in site.data.footer_info.build_statuses %}
                 <tr>
-                  <td><img src="https://img.shields.io/travis/{{ site.organization.name }}/{{ site.organization.project }}/{{ build_status.branch }}.svg" title="{{ build_status.platform }}" alt="{{ build_status.platform }}" /></td>
+                    <td><img src="https://api.travis-ci.org/{{ site.organization.name }}/{{ site.organization.project }}.png?branch={{ build_status.branch }}" title="{{ build_status.platform }}" alt="{{ build_status.platform }}" /></td>
                   <td>{% for icon in build_status.icons %}&nbsp;<i class="{{ icon }}"></i>{% endfor %}</td>
                 </tr>
                 {% endfor %}
