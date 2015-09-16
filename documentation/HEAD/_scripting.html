@@ -150,6 +150,7 @@ Limitations</h2>
 <ul>
 <li>If a <a class="el" href="class_urho3_d_1_1_script_file.html" title="Script file resource.">ScriptFile</a> resource is reloaded, all the script objects created from it will be destroyed, then recreated. They will lose any stored state as their constructors and Start() methods will be run again. This is rarely useful when running an actual game, but may be helpful during development.</li>
 </ul>
+<p>A global VariantMap, globalVars, can be accessed by all scripts to store shared data or to preserve data through script file reloads.</p>
 <h2><a class="anchor" id="Scripting_Modifications"></a>
 AngelScript modifications</h2>
 <p>The following changes have been made to AngelScript in Urho3D:</p>
