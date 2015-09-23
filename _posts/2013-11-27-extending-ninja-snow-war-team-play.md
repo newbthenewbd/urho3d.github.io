@@ -2,7 +2,7 @@
 layout: post
 title: "Extending Ninja Snow War (team play)"
 category: "showcases"
-tags: [FPS, NinjaSnowWar, network]
+tags: [unpublished game]
 ---
 {% include JB/setup %}
 
