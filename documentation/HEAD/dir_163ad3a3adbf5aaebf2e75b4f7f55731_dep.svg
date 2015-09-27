@@ -32,7 +32,7 @@
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1456;
+var viewWidth = 1472;
 var viewHeight = 113;
 var sectionId = 'dynsection-0';
 </script>
@@ -42,129 +42,129 @@ var sectionId = 'dynsection-0';
 <title>/home/travis/build/urho3d/Urho3D/Source/Urho3D</title>
 <g id="graph2" class="cluster"><title>clusterdir_b4bebb5def136ba09a41e844ccb8c5a2</title>
 <a xlink:href="dir_b4bebb5def136ba09a41e844ccb8c5a2.html" target="_top" xlink:title="Source">
-<polygon fill="#ddddee" stroke="black" points="8,-8 8,-97 1440,-97 1440,-8 8,-8"/>
-<text text-anchor="middle" x="724" y="-84" font-family="FreeSans" font-size="10.00">Source</text>
+<polygon fill="#ddddee" stroke="black" points="8,-8 8,-97 1456,-97 1456,-8 8,-8"/>
+<text text-anchor="middle" x="732" y="-84" font-family="FreeSans" font-size="10.00">Source</text>
 </a>
 </g>
 <g id="graph3" class="cluster"><title>clusterdir_163ad3a3adbf5aaebf2e75b4f7f55731</title>
 <a xlink:href="dir_163ad3a3adbf5aaebf2e75b4f7f55731.html" target="_top">
-<polygon fill="#eeeeff" stroke="black" points="16,-16 16,-68 1432,-68 1432,-16 16,-16"/>
+<polygon fill="#eeeeff" stroke="black" points="16,-16 16,-68 1448,-68 1448,-16 16,-16"/>
 </a>
 </g>
 <!-- dir_163ad3a3adbf5aaebf2e75b4f7f55731 -->
 <g id="node3" class="node"><title>dir_163ad3a3adbf5aaebf2e75b4f7f55731</title>
-<text text-anchor="middle" x="1397" y="-39.5" font-family="FreeSans" font-size="10.00">Urho3D</text>
+<text text-anchor="middle" x="1413" y="-39.5" font-family="FreeSans" font-size="10.00">Urho3D</text>
+</g>
+<!-- dir_0bed2ee75be0f64aa21c3750680c1f46 -->
+<g id="node4" class="node"><title>dir_0bed2ee75be0f64aa21c3750680c1f46</title>
+<a xlink:href="dir_0bed2ee75be0f64aa21c3750680c1f46.html" target="_top" xlink:title="AngelScript">
+<polygon fill="white" stroke="black" points="1368,-60 1298,-60 1298,-24 1368,-24 1368,-60"/>
+<text text-anchor="middle" x="1333" y="-39.5" font-family="FreeSans" font-size="10.00">AngelScript</text>
+</a>
 </g>
 <!-- dir_e93808d4870f1044e5b3ed95935d1b3b -->
-<g id="node4" class="node"><title>dir_e93808d4870f1044e5b3ed95935d1b3b</title>
+<g id="node5" class="node"><title>dir_e93808d4870f1044e5b3ed95935d1b3b</title>
 <a xlink:href="dir_e93808d4870f1044e5b3ed95935d1b3b.html" target="_top" xlink:title="Audio">
-<polygon fill="white" stroke="black" points="1352,-60 1298,-60 1298,-24 1352,-24 1352,-60"/>
-<text text-anchor="middle" x="1325" y="-39.5" font-family="FreeSans" font-size="10.00">Audio</text>
+<polygon fill="white" stroke="black" points="1280,-60 1226,-60 1226,-24 1280,-24 1280,-60"/>
+<text text-anchor="middle" x="1253" y="-39.5" font-family="FreeSans" font-size="10.00">Audio</text>
 </a>
 </g>
 <!-- dir_93a2e8aa934a227111ffcfa0c120615a -->
-<g id="node5" class="node"><title>dir_93a2e8aa934a227111ffcfa0c120615a</title>
+<g id="node6" class="node"><title>dir_93a2e8aa934a227111ffcfa0c120615a</title>
 <a xlink:href="dir_93a2e8aa934a227111ffcfa0c120615a.html" target="_top" xlink:title="Container">
-<polygon fill="white" stroke="black" points="1280,-60 1218,-60 1218,-24 1280,-24 1280,-60"/>
-<text text-anchor="middle" x="1249" y="-39.5" font-family="FreeSans" font-size="10.00">Container</text>
+<polygon fill="white" stroke="black" points="1208,-60 1146,-60 1146,-24 1208,-24 1208,-60"/>
+<text text-anchor="middle" x="1177" y="-39.5" font-family="FreeSans" font-size="10.00">Container</text>
 </a>
 </g>
 <!-- dir_ec2a09b4251b9c5f65fb7f7487b8091f -->
-<g id="node6" class="node"><title>dir_ec2a09b4251b9c5f65fb7f7487b8091f</title>
+<g id="node7" class="node"><title>dir_ec2a09b4251b9c5f65fb7f7487b8091f</title>
 <a xlink:href="dir_ec2a09b4251b9c5f65fb7f7487b8091f.html" target="_top" xlink:title="Core">
-<polygon fill="white" stroke="black" points="1200,-60 1146,-60 1146,-24 1200,-24 1200,-60"/>
-<text text-anchor="middle" x="1173" y="-39.5" font-family="FreeSans" font-size="10.00">Core</text>
+<polygon fill="white" stroke="black" points="1128,-60 1074,-60 1074,-24 1128,-24 1128,-60"/>
+<text text-anchor="middle" x="1101" y="-39.5" font-family="FreeSans" font-size="10.00">Core</text>
 </a>
 </g>
 <!-- dir_2d45557d578972b2140ac0169d416ebd -->
-<g id="node7" class="node"><title>dir_2d45557d578972b2140ac0169d416ebd</title>
+<g id="node8" class="node"><title>dir_2d45557d578972b2140ac0169d416ebd</title>
 <a xlink:href="dir_2d45557d578972b2140ac0169d416ebd.html" target="_top" xlink:title="Database">
-<polygon fill="white" stroke="red" points="1128,-60 1066,-60 1066,-24 1128,-24 1128,-60"/>
-<text text-anchor="middle" x="1097" y="-39.5" font-family="FreeSans" font-size="10.00">Database</text>
+<polygon fill="white" stroke="red" points="1056,-60 994,-60 994,-24 1056,-24 1056,-60"/>
+<text text-anchor="middle" x="1025" y="-39.5" font-family="FreeSans" font-size="10.00">Database</text>
 </a>
 </g>
 <!-- dir_3de084cecb8da4aa00cca0fb774f80e4 -->
-<g id="node8" class="node"><title>dir_3de084cecb8da4aa00cca0fb774f80e4</title>
+<g id="node9" class="node"><title>dir_3de084cecb8da4aa00cca0fb774f80e4</title>
 <a xlink:href="dir_3de084cecb8da4aa00cca0fb774f80e4.html" target="_top" xlink:title="Engine">
-<polygon fill="white" stroke="black" points="1048,-60 994,-60 994,-24 1048,-24 1048,-60"/>
-<text text-anchor="middle" x="1021" y="-39.5" font-family="FreeSans" font-size="10.00">Engine</text>
+<polygon fill="white" stroke="black" points="976,-60 922,-60 922,-24 976,-24 976,-60"/>
+<text text-anchor="middle" x="949" y="-39.5" font-family="FreeSans" font-size="10.00">Engine</text>
 </a>
 </g>
 <!-- dir_6dfc98dac09835c9c06b66240d8cb40f -->
-<g id="node9" class="node"><title>dir_6dfc98dac09835c9c06b66240d8cb40f</title>
+<g id="node10" class="node"><title>dir_6dfc98dac09835c9c06b66240d8cb40f</title>
 <a xlink:href="dir_6dfc98dac09835c9c06b66240d8cb40f.html" target="_top" xlink:title="Graphics">
-<polygon fill="white" stroke="red" points="976,-60 918,-60 918,-24 976,-24 976,-60"/>
-<text text-anchor="middle" x="947" y="-39.5" font-family="FreeSans" font-size="10.00">Graphics</text>
+<polygon fill="white" stroke="red" points="904,-60 846,-60 846,-24 904,-24 904,-60"/>
+<text text-anchor="middle" x="875" y="-39.5" font-family="FreeSans" font-size="10.00">Graphics</text>
 </a>
 </g>
 <!-- dir_d6344385837a4eee2e456f72ffda02d0 -->
-<g id="node10" class="node"><title>dir_d6344385837a4eee2e456f72ffda02d0</title>
+<g id="node11" class="node"><title>dir_d6344385837a4eee2e456f72ffda02d0</title>
 <a xlink:href="dir_d6344385837a4eee2e456f72ffda02d0.html" target="_top" xlink:title="Input">
-<polygon fill="white" stroke="black" points="900,-60 846,-60 846,-24 900,-24 900,-60"/>
-<text text-anchor="middle" x="873" y="-39.5" font-family="FreeSans" font-size="10.00">Input</text>
+<polygon fill="white" stroke="black" points="828,-60 774,-60 774,-24 828,-24 828,-60"/>
+<text text-anchor="middle" x="801" y="-39.5" font-family="FreeSans" font-size="10.00">Input</text>
 </a>
 </g>
 <!-- dir_e92b397fb08925a5e69311d9c2a48baf -->
-<g id="node11" class="node"><title>dir_e92b397fb08925a5e69311d9c2a48baf</title>
+<g id="node12" class="node"><title>dir_e92b397fb08925a5e69311d9c2a48baf</title>
 <a xlink:href="dir_e92b397fb08925a5e69311d9c2a48baf.html" target="_top" xlink:title="IO">
-<polygon fill="white" stroke="black" points="828,-60 774,-60 774,-24 828,-24 828,-60"/>
-<text text-anchor="middle" x="801" y="-39.5" font-family="FreeSans" font-size="10.00">IO</text>
+<polygon fill="white" stroke="black" points="756,-60 702,-60 702,-24 756,-24 756,-60"/>
+<text text-anchor="middle" x="729" y="-39.5" font-family="FreeSans" font-size="10.00">IO</text>
 </a>
 </g>
 <!-- dir_005d61c54d826b0bc71f16cc91fab966 -->
-<g id="node12" class="node"><title>dir_005d61c54d826b0bc71f16cc91fab966</title>
+<g id="node13" class="node"><title>dir_005d61c54d826b0bc71f16cc91fab966</title>
 <a xlink:href="dir_005d61c54d826b0bc71f16cc91fab966.html" target="_top" xlink:title="LuaScript">
-<polygon fill="white" stroke="black" points="756,-60 694,-60 694,-24 756,-24 756,-60"/>
-<text text-anchor="middle" x="725" y="-39.5" font-family="FreeSans" font-size="10.00">LuaScript</text>
+<polygon fill="white" stroke="black" points="684,-60 622,-60 622,-24 684,-24 684,-60"/>
+<text text-anchor="middle" x="653" y="-39.5" font-family="FreeSans" font-size="10.00">LuaScript</text>
 </a>
 </g>
 <!-- dir_eddc12a9628639dafa9f6842b4e71313 -->
-<g id="node13" class="node"><title>dir_eddc12a9628639dafa9f6842b4e71313</title>
+<g id="node14" class="node"><title>dir_eddc12a9628639dafa9f6842b4e71313</title>
 <a xlink:href="dir_eddc12a9628639dafa9f6842b4e71313.html" target="_top" xlink:title="Math">
-<polygon fill="white" stroke="black" points="676,-60 622,-60 622,-24 676,-24 676,-60"/>
-<text text-anchor="middle" x="649" y="-39.5" font-family="FreeSans" font-size="10.00">Math</text>
+<polygon fill="white" stroke="black" points="604,-60 550,-60 550,-24 604,-24 604,-60"/>
+<text text-anchor="middle" x="577" y="-39.5" font-family="FreeSans" font-size="10.00">Math</text>
 </a>
 </g>
 <!-- dir_a20b03cd7a3e51fc3ec87708a2914705 -->
-<g id="node14" class="node"><title>dir_a20b03cd7a3e51fc3ec87708a2914705</title>
+<g id="node15" class="node"><title>dir_a20b03cd7a3e51fc3ec87708a2914705</title>
 <a xlink:href="dir_a20b03cd7a3e51fc3ec87708a2914705.html" target="_top" xlink:title="Navigation">
-<polygon fill="white" stroke="black" points="604,-60 536,-60 536,-24 604,-24 604,-60"/>
-<text text-anchor="middle" x="570" y="-39.5" font-family="FreeSans" font-size="10.00">Navigation</text>
+<polygon fill="white" stroke="black" points="532,-60 464,-60 464,-24 532,-24 532,-60"/>
+<text text-anchor="middle" x="498" y="-39.5" font-family="FreeSans" font-size="10.00">Navigation</text>
 </a>
 </g>
 <!-- dir_6b8cd1d1965913535f7f738a82dad6a0 -->
-<g id="node15" class="node"><title>dir_6b8cd1d1965913535f7f738a82dad6a0</title>
+<g id="node16" class="node"><title>dir_6b8cd1d1965913535f7f738a82dad6a0</title>
 <a xlink:href="dir_6b8cd1d1965913535f7f738a82dad6a0.html" target="_top" xlink:title="Network">
-<polygon fill="white" stroke="black" points="518,-60 462,-60 462,-24 518,-24 518,-60"/>
-<text text-anchor="middle" x="490" y="-39.5" font-family="FreeSans" font-size="10.00">Network</text>
+<polygon fill="white" stroke="black" points="446,-60 390,-60 390,-24 446,-24 446,-60"/>
+<text text-anchor="middle" x="418" y="-39.5" font-family="FreeSans" font-size="10.00">Network</text>
 </a>
 </g>
 <!-- dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd -->
-<g id="node16" class="node"><title>dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd</title>
+<g id="node17" class="node"><title>dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd</title>
 <a xlink:href="dir_f777d5cacec9b3d6ef4a0b4d6a71bfdd.html" target="_top" xlink:title="Physics">
-<polygon fill="white" stroke="black" points="444,-60 390,-60 390,-24 444,-24 444,-60"/>
-<text text-anchor="middle" x="417" y="-39.5" font-family="FreeSans" font-size="10.00">Physics</text>
+<polygon fill="white" stroke="black" points="372,-60 318,-60 318,-24 372,-24 372,-60"/>
+<text text-anchor="middle" x="345" y="-39.5" font-family="FreeSans" font-size="10.00">Physics</text>
 </a>
 </g>
 <!-- dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6 -->
-<g id="node17" class="node"><title>dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6</title>
+<g id="node18" class="node"><title>dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6</title>
 <a xlink:href="dir_ae5b3f23cb9c1fdc22d4fe84a8e51bc6.html" target="_top" xlink:title="Resource">
-<polygon fill="white" stroke="black" points="372,-60 312,-60 312,-24 372,-24 372,-60"/>
-<text text-anchor="middle" x="342" y="-39.5" font-family="FreeSans" font-size="10.00">Resource</text>
+<polygon fill="white" stroke="black" points="300,-60 240,-60 240,-24 300,-24 300,-60"/>
+<text text-anchor="middle" x="270" y="-39.5" font-family="FreeSans" font-size="10.00">Resource</text>
 </a>
 </g>
 <!-- dir_b1bd8b3d7ce69022330e1487ffb78b3b -->
-<g id="node18" class="node"><title>dir_b1bd8b3d7ce69022330e1487ffb78b3b</title>
+<g id="node19" class="node"><title>dir_b1bd8b3d7ce69022330e1487ffb78b3b</title>
 <a xlink:href="dir_b1bd8b3d7ce69022330e1487ffb78b3b.html" target="_top" xlink:title="Scene">
-<polygon fill="white" stroke="black" points="294,-60 240,-60 240,-24 294,-24 294,-60"/>
-<text text-anchor="middle" x="267" y="-39.5" font-family="FreeSans" font-size="10.00">Scene</text>
-</a>
-</g>
-<!-- dir_ae1bbe1bfaa8b9914d1e21af1b13ed99 -->
-<g id="node19" class="node"><title>dir_ae1bbe1bfaa8b9914d1e21af1b13ed99</title>
-<a xlink:href="dir_ae1bbe1bfaa8b9914d1e21af1b13ed99.html" target="_top" xlink:title="Script">
 <polygon fill="white" stroke="black" points="222,-60 168,-60 168,-24 222,-24 222,-60"/>
-<text text-anchor="middle" x="195" y="-39.5" font-family="FreeSans" font-size="10.00">Script</text>
+<text text-anchor="middle" x="195" y="-39.5" font-family="FreeSans" font-size="10.00">Scene</text>
 </a>
 </g>
 <!-- dir_607f0d24434382d93ee3d3b372fa4c35 -->
